@@ -15,7 +15,7 @@ furnace.setFuel(<ImmersiveEngineering:stoneDecoration:3>, 32000);
 recipes.remove(<ImmersiveEngineering:mold>);
 recipes.addShaped(<ImmersiveEngineering:mold>, [[null, <ore:plateSteel>], [<ore:plateSteel>, null, <ore:plateSteel>], [null, <ore:plateSteel>]]);
 
-#Gear Crafting with MetalPress
+#remove Gear Crafting
 mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:140>);
 mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:139>);
 mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:138>);
@@ -117,6 +117,13 @@ recipes.removeShaped(<ThermalFoundation:material:35>, [[<ore:oreLead>, <Immersiv
 recipes.removeShaped(<TConstruct:materials:40>, [[<ore:oreAluminum>, <ImmersiveEngineering:tool>]]);
 recipes.removeShaped(<Mekanism:Dust:2>, [[<ore:oreOsmium>, <ImmersiveEngineering:tool>]]);
 recipes.removeShaped(<TConstruct:materials:39>, [[<ore:oreCobalt>, <ImmersiveEngineering:tool>]]);
+recipes.removeShaped(<Thaumcraft:ItemResource:6>, [[<ore:oreAmber>, <ImmersiveEngineering:tool>]]);
+recipes.removeShaped(<BiomesOPlenty:gems:1>, [[<ore:oreRuby>, <ImmersiveEngineering:tool>]]);
+recipes.removeShaped(<BiomesOPlenty:gems:3>, [[<ore:oreTopaz>, <ImmersiveEngineering:tool>]]);
+recipes.removeShaped(<BiomesOPlenty:gems:2>, [[<ore:orePeridot>, <ImmersiveEngineering:tool>]]);
+recipes.removeShaped(<BiomesOPlenty:gems:4>, [[<ore:oreTanzanite>, <ImmersiveEngineering:tool>]]);
+recipes.removeShaped(<BiomesOPlenty:gems:5>, [[<ore:oreMalachite>, <ImmersiveEngineering:tool>]]);
+recipes.removeShaped(<BiomesOPlenty:gems:6>, [[<ore:oreSapphire>, <ImmersiveEngineering:tool>]]);
 
 #Graphite Electrode
 vanilla.loot.removeChestLoot("ieVillageCrates", <ImmersiveEngineering:blueprint:2>);
