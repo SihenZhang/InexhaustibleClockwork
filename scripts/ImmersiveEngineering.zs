@@ -30,22 +30,7 @@ mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:13
 mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:129>);
 mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:128>);
 mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:13>);
-#mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:12>);
-#mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:material:140>, <ThermalFoundation:material:76>, <ImmersiveEngineering:mold:1>, 14400, 3);
-#mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:material:139>, <ThermalFoundation:material:75>, <ImmersiveEngineering:mold:1>, 14400, 3);
-#mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:material:138>, <ThermalFoundation:material:74>, <ImmersiveEngineering:mold:1>, 14400, 3);
-#mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:material:137>, <ThermalFoundation:material:73>, <ImmersiveEngineering:mold:1>, 14400, 3);
-#mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:material:136>, <ThermalFoundation:material:72>, <ImmersiveEngineering:mold:1>, 14400, 3);
-#mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:material:135>, <ThermalFoundation:material:71>, <ImmersiveEngineering:mold:1>, 14400, 3);
-#mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:material:134>, <ThermalFoundation:material:70>, <ImmersiveEngineering:mold:1>, 14400, 3);
-#mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:material:133>, <ThermalFoundation:material:69>, <ImmersiveEngineering:mold:1>, 14400, 3);
-#mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:material:132>, <ThermalFoundation:material:68>, <ImmersiveEngineering:mold:1>, 14400, 3);
-#mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:material:131>, <ThermalFoundation:material:67>, <ImmersiveEngineering:mold:1>, 14400, 3);
-#mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:material:130>, <ThermalFoundation:material:66>, <ImmersiveEngineering:mold:1>, 14400, 3);
-#mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:material:129>, <ThermalFoundation:material:65>, <ImmersiveEngineering:mold:1>, 14400, 3);
-#mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:material:128>, <ThermalFoundation:material:64>, <ImmersiveEngineering:mold:1>, 14400, 3);
-#mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:material:13>, <minecraft:gold_ingot>, <ImmersiveEngineering:mold:1>, 14400, 3);
-#mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:material:12>, <minecraft:iron_ingot>, <ImmersiveEngineering:mold:1>, 14400, 3);
+mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:12>);
 
 #remove plates from OreDict
 val plateIron = <ore:plateIron>;
