@@ -58,6 +58,7 @@ mod.addItem("aluminumDustTiny.js", "normal");
 mod.addItem("platinumDust.js", "normal");
 mod.addItem("platinumDustSmall.js", "normal");
 mod.addItem("platinumDustTiny.js", "normal");
+mod.addItem("osmiumDust.js", "normal");
 mod.addItem("osmiumDustSmall.js", "normal");
 mod.addItem("osmiumDustTiny.js", "normal");
 
