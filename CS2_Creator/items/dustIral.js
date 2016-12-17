@@ -1,14 +1,6 @@
-<<<<<<< HEAD
 name = "dustIral";
 addToCreative[0] = true;
 creativeTab = "materials";
 maxStack = 64;
 addToCreative[0] = true;
-=======
-name = "dustIral";
-addToCreative[0] = true;
-creativeTab = "materials";
-maxStack = 64;
-addToCreative[0] = true;
->>>>>>> origin/master
 textureFile[0] = "dustIral.png";
