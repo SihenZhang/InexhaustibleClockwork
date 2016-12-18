@@ -9,28 +9,14 @@ print("Initializing 'ImmersiveEngineering.zs'...");
 <ImmersiveEngineering:tool:3>.addTooltip(format.red("Some items in book may not reflect changed recipes. Refer to NEI!"));
 
 #Coal Coke Fix
-furnace.setFuel(<ImmersiveEngineering:stoneDecoration:3>, 32000);
+#furnace.setFuel(<ImmersiveEngineering:stoneDecoration:3>, 32000);
 
 #Mold Fix
-recipes.remove(<ImmersiveEngineering:mold>);
-recipes.addShaped(<ImmersiveEngineering:mold>, [[null, <ore:plateSteel>], [<ore:plateSteel>, null, <ore:plateSteel>], [null, <ore:plateSteel>]]);
+#recipes.remove(<ImmersiveEngineering:mold>);
+#recipes.addShaped(<ImmersiveEngineering:mold>, [[null, <ore:plateSteel>], [<ore:plateSteel>, null, <ore:plateSteel>], [null, <ore:plateSteel>]]);
 
 #remove Gear Crafting
-mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:140>);
-mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:139>);
-mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:138>);
-mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:137>);
-mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:136>);
-mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:135>);
-mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:134>);
-mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:133>);
-mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:132>);
-mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:131>);
-mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:130>);
-mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:129>);
-mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:128>);
-mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:13>);
-mods.immersiveengineering.MetalPress.removeRecipe(<ThermalFoundation:material:12>);
+mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mold:1>);
 
 #remove plates from OreDict
 val plateIron = <ore:plateIron>;
