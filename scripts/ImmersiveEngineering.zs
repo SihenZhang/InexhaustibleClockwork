@@ -9,11 +9,11 @@ print("Initializing 'ImmersiveEngineering.zs'...");
 <ImmersiveEngineering:tool:3>.addTooltip(format.red("Some items in book may not reflect changed recipes. Refer to NEI!"));
 
 #Coal Coke Fix
-#furnace.setFuel(<ImmersiveEngineering:stoneDecoration:3>, 32000);
+furnace.setFuel(<ImmersiveEngineering:stoneDecoration:3>, 32000);
 
 #Mold Fix
-#recipes.remove(<ImmersiveEngineering:mold>);
-#recipes.addShaped(<ImmersiveEngineering:mold>, [[null, <ore:plateSteel>], [<ore:plateSteel>, null, <ore:plateSteel>], [null, <ore:plateSteel>]]);
+recipes.remove(<ImmersiveEngineering:mold>);
+recipes.addShaped(<ImmersiveEngineering:mold>, [[null, <ore:plateSteel>], [<ore:plateSteel>, null, <ore:plateSteel>], [null, <ore:plateSteel>]]);
 
 #remove Gear Crafting
 mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mold:1>);
