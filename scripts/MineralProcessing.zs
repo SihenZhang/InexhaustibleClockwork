@@ -337,7 +337,7 @@ mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.rubble:5>);
 mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:5>);
 mods.railcraft.RockCrusher.removeRecipe(<ore:oreLead>);
 #add
-mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.chunks:5>, <ore:oreLead>, 20000, <Railcraft:dust:1>, 0.4);
+mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.chunks:5>, <ore:oreLead>, 20000, <Magneticraft:item.dustSulfur>, 0.4);
 mods.magneticraft.Crusher.addRecipe(<Magneticraft:item.chunks:5>, <Magneticraft:item.rubble:5> * 2, <Creator:leadDustSmall>, 0.4, <Magneticraft:item.dustSulfur> * 3, 0.6);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:5>, <Magneticraft:item.pebbles:5> * 3, <Creator:leadDustSmall>, 0.6, <Creator:silverDustTiny>, 0.15);
 mods.magneticraft.Sifter.addRecipe(<Magneticraft:item.pebbles:5>, <Mekanism:DirtyDust:6> * 3, <Magneticraft:item.dustSulfur>, 0.6);
@@ -352,6 +352,55 @@ mods.railcraft.BlastFurnace.addRecipe(<Mekanism:DirtyDust:6>, false, false, 300,
 mods.railcraft.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:12>, false, false, 280, <Creator:leadDustSmall>);
 mods.railcraft.BlastFurnace.addRecipe(<Mekanism:Shard:6>, false, false, 250, <Creator:leadDustSmall> * 4);
 mods.railcraft.BlastFurnace.addRecipe(<Mekanism:Crystal:6>, false, false, 250, <Creator:leadDustTiny> * 6);
+
+#Zinc
+#remove
+furnace.remove(<ore:ingotZinc>);
+mods.tconstruct.Smeltery.removeMelting(<ore:oreZinc>);
+mods.appeng.Grinder.removeRecipe(<ore:dustZinc>);
+recipes.removeShaped(<ore:ingotZinc>, [[<ore:oreZinc>, <ThermalFoundation:material:512>]]);
+mods.mekanism.Crusher.removeRecipe(<ore:dustDirtyZinc>, <*>);
+mods.mekanism.Enrichment.removeRecipe(<*>, <ore:dustZinc>);
+mods.mekanism.Purification.removeRecipe(<ore:clumpZinc>, <*>, <gas:oxygen>);
+mods.mekanism.chemical.Injection.removeRecipe(<ore:shardZinc>, <*>, <gas:hydrogenchloride>);
+mods.mekanism.chemical.Dissolution.removeRecipe(<gas:zinc>, <ore:oreZinc>);
+mods.mekanism.chemical.Crystallizer.removeRecipe(<ore:crystalZinc>, <gas:cleanZinc>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:oreZinc>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:chunkZinc>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:rubbleZinc>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:pebblesZinc>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:clusterZinc>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:dustZinc>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:denseoreZinc>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:crushedZinc>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<ore:oreZinc>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<ore:denseoreZinc>);
+mods.thermalexpansion.Smelter.removeRecipe(<*>, <ore:oreZinc>);
+mods.extraUtils.QED.removeRecipe(<ore:ingotZinc>);
+mods.immersiveengineering.Crusher.removeRecipe(<Magneticraft:item.dust:12>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<Magneticraft:item.ingotZinc>);
+mods.magneticraft.Crusher.removeRecipe(<Magneticraft:zinc_ore>);
+mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.ingotZinc>);
+mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.chunks:12>);
+mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.rubble:12>);
+mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:12>);
+mods.railcraft.RockCrusher.removeRecipe(<ore:oreZinc>);
+#add
+mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.chunks:12>, <ore:oreZinc>, 20000, <Creator:tinDustSmall>, 0.4);
+mods.magneticraft.Crusher.addRecipe(<Magneticraft:item.chunks:12>, <Magneticraft:item.rubble:12> * 2, <Creator:zincDustSmall>, 0.4, <Creator:tinDustSmall> * 3, 0.6);
+mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:12>, <Magneticraft:item.pebbles:12> * 3, <Creator:zincDustSmall>, 0.6, <Creator:copperDustTiny>, 0.15);
+mods.magneticraft.Sifter.addRecipe(<Magneticraft:item.pebbles:12>, <aobd:dustDirtyZinc> * 3, <Creator:tinDustSmall>, 0.6);
+mods.forestry.Centrifuge.addRecipe([<Creator:zincDust> % 100, <minecraft:dirt> % 5], <aobd:dustDirtyZinc>, 20);
+mods.thermalexpansion.Smelter.addRecipe(18000, <ExtraUtilities:cobblestone_compressed>, <Creator:zincDust> * 4, <aobd:shardZinc>, <Creator:zincDustTiny> * 2, 20);
+mods.mekanism.Purification.addRecipe(<aobd:shardZinc>, <gas:oxygen>, <aobd:crystalZinc> * 8);
+mods.mekanism.Crusher.addRecipe(<aobd:crystalZinc>, <Creator:zincDustSmall>);
+mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.chunks:12>, false, false, 400, <Creator:zincDustSmall> * 4);
+mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.rubble:12>, false, false, 350, <Creator:zincDustSmall> * 3);
+mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.pebbles:12>, false, false, 330, <Creator:zincDustSmall> * 2);
+mods.railcraft.BlastFurnace.addRecipe(<aobd:dustDirtyZinc>, false, false, 300, <Creator:zincDustSmall>);
+mods.railcraft.BlastFurnace.addRecipe(<Creator:zincDust>, false, false, 280, <Creator:zincDustSmall>);
+mods.railcraft.BlastFurnace.addRecipe(<aobd:shardZinc>, false, false, 250, <Creator:zincDustSmall> * 4);
+mods.railcraft.BlastFurnace.addRecipe(<aobd:crystalZinc>, false, false, 250, <Creator:zincDustTiny> * 6);
 
 #Tier 3
 
@@ -427,11 +476,11 @@ mods.mekanism.chemical.Dissolution.removeRecipe(<gas:aluminium>, <ore:oreAluminu
 mods.mekanism.chemical.Crystallizer.removeRecipe(<ore:crystalAluminium>, <gas:cleanAluminium>);
 mods.mekanism.Combiner.removeRecipe(<ore:oreAluminum>, <ImmersiveEngineering:metal:11>, <gas:liquidStone>);
 mods.thermalexpansion.Furnace.removeRecipe(<ore:oreAluminum>);
+mods.thermalexpansion.Furnace.removeRecipe(<ImmersiveEngineering:metal:11>);
 mods.thermalexpansion.Furnace.removeRecipe(<ore:chunkAluminium>);
 mods.thermalexpansion.Furnace.removeRecipe(<ore:rubbleAluminium>);
 mods.thermalexpansion.Furnace.removeRecipe(<ore:pebblesAluminium>);
 mods.thermalexpansion.Furnace.removeRecipe(<ore:clusterAluminium>);
-mods.thermalexpansion.Furnace.removeRecipe(<ore:dustAluminum>);
 mods.thermalexpansion.Furnace.removeRecipe(<ore:denseoreAluminium>);
 mods.thermalexpansion.Furnace.removeRecipe(<ore:crushedAluminium>);
 mods.thermalexpansion.Pulverizer.removeRecipe(<ore:oreAluminum>);
@@ -516,14 +565,104 @@ mods.railcraft.BlastFurnace.addRecipe(<Mekanism:DirtyDust:5>, false, false, 300,
 mods.railcraft.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:13>, false, false, 280, <Creator:platinumDustSmall>);
 mods.railcraft.BlastFurnace.addRecipe(<Mekanism:Crystal:5>, false, false, 250, <Creator:platinumDustTiny> * 6);
 
+#Tungsten
+#remove
+furnace.remove(<ore:ingotTungsten>);
+mods.tconstruct.Smeltery.removeMelting(<ore:oreTungsten>);
+mods.appeng.Grinder.removeRecipe(<ore:dustTungsten>);
+recipes.removeShaped(<ore:ingotTungsten>, [[<ore:oreTungsten>, <ThermalFoundation:material:512>]]);
+mods.mekanism.Crusher.removeRecipe(<ore:dustDirtyTungsten>, <*>);
+mods.mekanism.Enrichment.removeRecipe(<*>, <ore:dustTungsten>);
+mods.mekanism.Purification.removeRecipe(<ore:clumpTungsten>, <*>, <gas:oxygen>);
+mods.mekanism.chemical.Injection.removeRecipe(<ore:shardTungsten>, <*>, <gas:hydrogenchloride>);
+mods.mekanism.chemical.Dissolution.removeRecipe(<gas:tungsten>, <ore:oreTungsten>);
+mods.mekanism.chemical.Crystallizer.removeRecipe(<ore:crystalTungsten>, <gas:cleanTungsten>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:oreTungsten>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:chunkTungsten>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:rubbleTungsten>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:pebblesTungsten>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:clusterTungsten>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:dustTungsten>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:denseoreTungsten>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:crushedTungsten>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<ore:oreTungsten>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<ore:denseoreTungsten>);
+mods.thermalexpansion.Smelter.removeRecipe(<*>, <ore:oreTungsten>);
+mods.extraUtils.QED.removeRecipe(<ore:ingotTungsten>);
+mods.immersiveengineering.Crusher.removeRecipe(<Magneticraft:item.dust:4>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<Magneticraft:item.ingotTungsten>);
+mods.magneticraft.Crusher.removeRecipe(<Magneticraft:tungsten_ore>);
+mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.ingotTungsten>);
+mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.chunks:4>);
+mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.rubble:4>);
+mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:4>);
+mods.railcraft.RockCrusher.removeRecipe(<ore:oreTungsten>);
+mods.mekanism.chemical.Washer.removeRecipe(<gas:cleanTungsten>, <gas:tungsten>);
+#add
+mods.thermalexpansion.Smelter.addRecipe(35000, <ExtraUtilities:cobblestone_compressed>, <Magneticraft:tungsten_ore>, <Magneticraft:item.chunks:4>, <Creator:silverDustSmall> * 2, 20);
+mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.rubble:4> * 2, <Magneticraft:item.chunks:4>, 25000, <Creator:goldDustSmall>, 0.4);
+mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:4>, <Magneticraft:item.pebbles:4> * 3, <Creator:tungstenDustSmall>, 0.4, <Creator:goldDustTiny> * 3, 0.6);
+mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.pebbles:4>, <aobd:dustDirtyTungsten> * 3, <Creator:tungstenDustSmall>, 0.4, <Creator:silverDustTiny> * 3, 0.6);
+mods.forestry.Centrifuge.addRecipe([<Creator:tungstenDust> % 100, <minecraft:dirt> % 5], <aobd:dustDirtyTungsten>, 20);
+mods.mekanism.chemical.Oxidizer.addRecipe(<Creator:tungstenDust>, <gas:tungsten> * 750);
+mods.mekanism.chemical.Washer.addRecipe(<gas:tungsten> * 3, <gas:cleanTungsten> * 2);
+mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanTungsten> *250, <aobd:crystalTungsten>);
+mods.mekanism.Crusher.addRecipe(<aobd:crystalTungsten>, <Creator:tungstenDustSmall>);
+mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.chunks:4>, false, false, 400, <Creator:tungstenDustSmall> * 4);
+mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.rubble:4>, false, false, 350, <Creator:tungstenDustSmall> * 3);
+mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.pebbles:4>, false, false, 330, <Creator:tungstenDustSmall> * 2);
+mods.railcraft.BlastFurnace.addRecipe(<aobd:dustDirtyTungsten>, false, false, 300, <Creator:tungstenDustSmall>);
+mods.railcraft.BlastFurnace.addRecipe(<Creator:tungstenDust>, false, false, 280, <Creator:tungstenDustSmall>);
+mods.railcraft.BlastFurnace.addRecipe(<aobd:crystalTungsten>, false, false, 250, <Creator:tungstenDustTiny> * 6);
 
+#Tier 4
 
-
-
-
-
-
-
+#Osmium
+#remove
+furnace.remove(<ore:ingotOsmium>);
+mods.tconstruct.Smeltery.removeMelting(<ore:oreOsmium>);
+mods.appeng.Grinder.removeRecipe(<ore:dustOsmium>);
+recipes.removeShaped(<ore:ingotOsmium>, [[<ore:oreOsmium>, <ThermalFoundation:material:512>]]);
+mods.mekanism.Crusher.removeRecipe(<ore:dustDirtyOsmium>, <*>);
+mods.mekanism.Crusher.removeRecipe(<ore:dustOsmium>, <*>);
+mods.mekanism.Enrichment.removeRecipe(<*>, <ore:dustOsmium>);
+mods.mekanism.Purification.removeRecipe(<ore:clumpOsmium>, <*>, <gas:oxygen>);
+mods.mekanism.chemical.Injection.removeRecipe(<ore:shardOsmium>, <*>, <gas:hydrogenchloride>);
+mods.mekanism.chemical.Dissolution.removeRecipe(<gas:osmium>, <ore:oreOsmium>);
+mods.mekanism.chemical.Crystallizer.removeRecipe(<ore:crystalOsmium>, <gas:cleanOsmium>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:oreOsmium>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:clusterOsmium>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:dustOsmium>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:denseoreOsmium>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:crushedOsmium>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<ore:oreOsmium>);
+mods.thermalexpansion.Smelter.removeRecipe(<*>, <ore:oreOsmium>);
+mods.extraUtils.QED.removeRecipe(<ore:ingotOsmium>);
+mods.immersiveengineering.Crusher.removeRecipe(<Mekanism:Dust:2>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<Mekanism:Ingot:1>);
+mods.magneticraft.Crusher.removeRecipe(<Mekanism:OreBlock>);
+mods.magneticraft.Grinder.removeRecipe(<Mekanism:Ingot:1>);
+mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.chunks:16>);
+mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.rubble:16>);
+mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:16>);
+mods.railcraft.RockCrusher.removeRecipe(<ore:oreOsmium>);
+mods.mekanism.chemical.Washer.removeRecipe(<gas:cleanOsmium>, <gas:osmium>);
+#add
+mods.mekanism.Crusher.addRecipe(<Mekanism:OreBlock>, <Magneticraft:item.chunks:16>);
+mods.thermalexpansion.Pulverizer.addRecipe(50000, <Magneticraft:item.chunks:16>, <Magneticraft:item.rubble:16> * 2, <Creator:platinumDustSmall>, 25);
+mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.pebbles:16> * 3, <Magneticraft:item.rubble:16>, 40000, <Creator:ironDustSmall>, 0.4);
+mods.magneticraft.Crusher.addRecipe(<Magneticraft:item.pebbles:16>, <Mekanism:DirtyDust:2> * 3, <Creator:osmiumDustSmall>, 0.4, <Creator:platinumDustTiny> * 3, 0.6);
+mods.magneticraft.Sifter.addRecipe(<Mekanism:DirtyDust:2>, <Creator:osmiumDust>, <Creator:ironDustTiny>, 0.6);
+mods.thermalexpansion.Smelter.addRecipe(50000, <ExtraUtilities:cobblestone_compressed>, <Creator:osmiumDust> * 4, <Mekanism:Shard:2>, <Creator:ironDustSmall> * 2, 20);
+mods.mekanism.Purification.addRecipe(<Mekanism:Shard:2>, <gas:hydrogenchloride>, <Mekanism:Crystal:2> * 8);
+mods.thermalexpansion.Crucible.addRecipe(50000, <Mekanism:Crystal:2>, <liquid:osmium.molten> * 27);
+mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.chunks:16>, false, false, 400, <Creator:osmiumDustSmall> * 4);
+mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.rubble:16>, false, false, 350, <Creator:osmiumDustSmall> * 3);
+mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.pebbles:16>, false, false, 330, <Creator:osmiumDustSmall> * 2);
+mods.railcraft.BlastFurnace.addRecipe(<Mekanism:DirtyDust:2>, false, false, 300, <Creator:osmiumDustSmall>);
+mods.railcraft.BlastFurnace.addRecipe(<Creator:osmiumDust>, false, false, 280, <Creator:osmiumDustSmall>);
+mods.railcraft.BlastFurnace.addRecipe(<Mekanism:Shard:2>, false, false, 250, <Creator:osmiumDustSmall> * 4);
+mods.railcraft.BlastFurnace.addRecipe(<Mekanism:Crystal:2>, false, false, 250, <Creator:osmiumDustTiny> * 6);
 
 #Special
 
@@ -601,5 +740,50 @@ mods.buildcraft.AssemblyTable.addRecipe(<Magneticraft:item.rubble:11> * 2, 10000
 mods.buildcraft.AssemblyTable.addRecipe(<Magneticraft:item.pebbles:11> * 2, 100000, [<Magneticraft:item.rubble:11>]);
 mods.thermalexpansion.Pulverizer.addRecipe(100000, <Magneticraft:item.pebbles:11>, <TConstruct:materials:39>, <TConstruct:materials:38>, 1);
 mods.thermalexpansion.Crucible.addRecipe(500000, <TConstruct:materials:39>, <liquid:cobalt.molten> * 144);
+
+#Yellorium
+#remove
+furnace.remove(<ore:ingotYellorium>);
+mods.tconstruct.Smeltery.removeMelting(<ore:oreYellorium>);
+mods.tconstruct.Smeltery.removeMelting(<ore:crushedYellorium>);
+mods.appeng.Grinder.removeRecipe(<ore:dustYellorium>);
+recipes.removeShaped(<ore:ingotYellorium>, [[<ore:oreYellorium>, <ThermalFoundation:material:512>]]);
+mods.mekanism.Crusher.removeRecipe(<ore:dustDirtyYellorium>, <*>);
+mods.mekanism.Enrichment.removeRecipe(<*>, <ore:dustYellorium>);
+mods.mekanism.Purification.removeRecipe(<ore:clumpYellorium>, <*>, <gas:oxygen>);
+mods.mekanism.chemical.Injection.removeRecipe(<ore:shardYellorium>, <*>, <gas:hydrogenchloride>);
+mods.mekanism.chemical.Dissolution.removeRecipe(<gas:yellorium>, <ore:oreYellorium>);
+mods.mekanism.chemical.Crystallizer.removeRecipe(<ore:crystalYellorium>, <gas:cleanYellorium>);
+mods.mekanism.chemical.Washer.removeRecipe(<gas:cleanYellorium>, <gas:yellorium>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:oreYellorium>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:chunkYellorium>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:rubbleYellorium>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:pebblesYellorium>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:clusterYellorium>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:dustYellorium>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:denseoreYellorium>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:crushedYellorium>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<ore:oreYellorium>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<ore:denseoreYellorium>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<ore:oreUranium>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<ore:clusterUranium>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<ore:clusterYellorium>);
+mods.thermalexpansion.Smelter.removeRecipe(<*>, <ore:oreYellorium>);
+mods.extraUtils.QED.removeRecipe(<ore:ingotYellorium>);
+mods.immersiveengineering.Crusher.removeRecipe(<BigReactors:BRIngot:4>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<BigReactors:BRIngot>);
+mods.magneticraft.Crusher.removeRecipe(<BigReactors:YelloriteOre>);
+mods.magneticraft.Grinder.removeRecipe(<BigReactors:BRIngot>);
+mods.magneticraft.Grinder.removeRecipe(<aobd:chunkYellorium>);
+mods.magneticraft.Grinder.removeRecipe(<aobd:rubbleYellorium>);
+mods.magneticraft.Sifter.removeRecipe(<aobd:pebblesYellorium>);
+mods.railcraft.RockCrusher.removeRecipe(<ore:oreYellorium>);
+#add
+mods.mekanism.Crusher.addRecipe(<BigReactors:YelloriteOre>, <aobd:crushedYellorium>);
+mods.mekanism.Reaction.addRecipe(<aobd:crushedYellorium>, <liquid:water> * 1000, <gas:oxygen> * 100, <chisel:smashingrock>, <gas:yellorium> * 100, 200000, 400);
+mods.mekanism.chemical.Infuser.addRecipe(<gas:yellorium> * 100, <gas:sulfuricAcid> * 100, <gas:cleanYellorium> * 200);
+mods.mekanism.Reaction.addRecipe(<ThermalFoundation:material:512>, <liquid:sulfurousacid> * 5000, <gas:cleanYellorium> * 200, <Creator:uranium_dioxide>, <gas:water> * 1000, 300000, 1000);
+mods.mekanism.chemical.Injection.addRecipe(<Creator:uranium_dioxide>, <gas:hydrogenChloride>, <Creator:uranium_halide>);
+mods.thermalexpansion.Smelter.addRecipe(500000, <Creator:uranium_halide>, <TConstruct:materials:40>, <BigReactors:BRIngot:4>, <ImmersiveEngineering:metal:11>, 100);
 
 print("Initialized 'Mineral Processing.zs'");
