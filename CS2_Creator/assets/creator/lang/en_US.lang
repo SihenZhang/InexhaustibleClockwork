@@ -65,12 +65,11 @@ item.osmiumDustTiny0.name=Tiny Pile of Osmium Dust
 item.tungstenDust0.name=Tungsten Dust
 item.tungstenDustSmall0.name=Small Pile of Tungsten Dust
 item.tungstenDustTiny0.name=Tiny Pile of Tungsten Dust
-item.yelloriumDust0.name=Yellorium Dust
-item.yelloriumDustSmall0.name=Small Pile of Yellorium Dust
-item.yelloriumDustTiny0.name=Tiny Pile of Yellorium Dust
 item.zincDust0.name=Zinc Dust
 item.zincDustSmall0.name=Small Pile of Zinc Dust
 item.zincDustTiny0.name=Tiny Pile of Zinc Dust
+item.uranium_dioxide0.name=Uranium Dioxide
+item.uranium_halide0.name=Uranium Halide
 
 item.chamberElectrum0.name=Electrum Chamber
 item.chamberElectrumG0.name=Electrum Grinding Chamber

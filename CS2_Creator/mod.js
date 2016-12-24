@@ -64,12 +64,11 @@ mod.addItem("osmiumDustTiny.js", "normal");
 mod.addItem("tungstenDust.js", "normal");
 mod.addItem("tungstenDustSmall.js", "normal");
 mod.addItem("tungstenDustTiny.js", "normal");
-mod.addItem("yelloriumDust.js", "normal");
-mod.addItem("yelloriumDustSmall.js", "normal");
-mod.addItem("yelloriumDustTiny.js", "normal");
 mod.addItem("zincDust.js", "normal");
 mod.addItem("zincDustSmall.js", "normal");
 mod.addItem("zincDustTiny.js", "normal");
+mod.addItem("uranium_dioxide.js", "normal");
+mod.addItem("uranium_halide.js", "normal");
 
 mod.addItem("chamberElectrum.js","normal"); //chamber
 mod.addItem("chamberElectrumEH.js","normal");

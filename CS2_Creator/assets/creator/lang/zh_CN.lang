@@ -65,12 +65,11 @@ item.osmiumDustTiny0.name=极小撮锇粉
 item.tungstenDust0.name=钨粉
 item.tungstenDustSmall0.name=小撮钨粉
 item.tungstenDustTiny0.name=极小撮钨粉
-item.yelloriumDust0.name=黄铀粉
-item.yelloriumDustSmall0.name=小撮黄铀粉
-item.yelloriumDustTiny0.name=极小撮黄铀粉
 item.zincDust0.name=锌粉
 item.zincDustSmall0.name=小撮锌粉
 item.zincDustTiny0.name=极小撮锌粉
+item.uranium_dioxide0.name=二氧化铀
+item.uranium_halide0.name=卤化铀
 
 item.chamberElectrum0.name=琥珀金仓室
 item.chamberElectrumG0.name=琥珀金粉碎仓
