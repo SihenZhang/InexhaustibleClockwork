@@ -9,7 +9,7 @@ print("Initializing 'ImmersiveEngineering.zs'...");
 <ImmersiveEngineering:tool:3>.addTooltip(format.red("Some items in book may not reflect changed recipes. Refer to NEI!"));
 
 #Coal Coke Fix
-#furnace.setFuel(<ImmersiveEngineering:stoneDecoration:3>, 32000);
+furnace.setFuel(<ImmersiveEngineering:stoneDecoration:3>, 32000);
 
 #Mold Fix
 recipes.remove(<ImmersiveEngineering:mold>);
@@ -53,15 +53,15 @@ mods.immersiveengineering.MetalPress.removeRecipe(<ImmersiveEngineering:metal:35
 mods.immersiveengineering.MetalPress.removeRecipe(<ImmersiveEngineering:metal:36>);
 mods.immersiveengineering.MetalPress.removeRecipe(<ImmersiveEngineering:metal:37>);
 mods.immersiveengineering.MetalPress.removeRecipe(<ImmersiveEngineering:metal:38>);
-#NEI.hide(<ImmersiveEngineering:metal:38>);
-#NEI.hide(<ImmersiveEngineering:metal:37>);
-#NEI.hide(<ImmersiveEngineering:metal:36>);
-#NEI.hide(<ImmersiveEngineering:metal:35>);
-#NEI.hide(<ImmersiveEngineering:metal:34>);
-#NEI.hide(<ImmersiveEngineering:metal:33>);
-#NEI.hide(<ImmersiveEngineering:metal:32>);
-#NEI.hide(<ImmersiveEngineering:metal:31>);
-#NEI.hide(<ImmersiveEngineering:metal:30>);
+NEI.hide(<ImmersiveEngineering:metal:38>);
+NEI.hide(<ImmersiveEngineering:metal:37>);
+NEI.hide(<ImmersiveEngineering:metal:36>);
+NEI.hide(<ImmersiveEngineering:metal:35>);
+NEI.hide(<ImmersiveEngineering:metal:34>);
+NEI.hide(<ImmersiveEngineering:metal:33>);
+NEI.hide(<ImmersiveEngineering:metal:32>);
+NEI.hide(<ImmersiveEngineering:metal:31>);
+NEI.hide(<ImmersiveEngineering:metal:30>);
 <ImmersiveEngineering:metal:38>.addTooltip(format.red("This item has no recipe now!"));
 <ImmersiveEngineering:metal:37>.addTooltip(format.red("This item has no recipe at all!"));
 <ImmersiveEngineering:metal:36>.addTooltip(format.red("This item has no recipe now!"));
