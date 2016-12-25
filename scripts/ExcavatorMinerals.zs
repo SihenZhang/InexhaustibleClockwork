@@ -1,15 +1,15 @@
 #Name: ExcavatorMinerals.zs
 #Author: Prunoideae
 
-#mods.immersiveengineering.Excavator.removeMineral("Bauxite");
-#mods.immersiveengineering.Excavator.getMineral("Bauxite").removeOre("oreNickel");
+print("Initializing 'ExcavatorMinerals.zs'...");
+
 
 val wandCap = <ore:ironWandCap>;
 wandCap.add(<Thaumcraft:WandCap>); 
 mods.immersiveengineering.Excavator.removeMineral("Quarzite");
 
 #turn Coal vein into "ERROR" vein
-#mods.immersiveengineering.Excavator.getMineral("Coal").addOre("oreInfusedAir",0.1);
+mods.immersiveengineering.Excavator.getMineral("Coal").addOre("oreInfusedAir",0.1);
 mods.immersiveengineering.Excavator.getMineral("Coal").addOre("oreInfusedWater",0.1);
 mods.immersiveengineering.Excavator.getMineral("Coal").addOre("oreInfusedFire",0.1);
 mods.immersiveengineering.Excavator.getMineral("Coal").addOre("oreInfusedOrder",0.1);
@@ -22,6 +22,7 @@ mods.immersiveengineering.Excavator.getMineral("Coal").addOre("oreCinnabar",0.1)
 mods.immersiveengineering.Excavator.getMineral("Coal").removeOre("oreCoal");
 mods.immersiveengineering.Excavator.getMineral("Coal").removeOre("oreDiamond");
 mods.immersiveengineering.Excavator.getMineral("Coal").removeOre("oreEmerald");
+mods.immersiveengineering.Excavator.getMineral("Coal").removeOre("denseoreCoal");
 mods.immersiveengineering.Excavator.getMineral("Coal").addOre("stone",0.9);
 
 #fuck all the veins, i wanna have some stone
@@ -108,3 +109,5 @@ mods.immersiveengineering.Excavator.getMineral("Uranium").addOre("stoneGranite",
 mods.immersiveengineering.Excavator.getMineral("Uranium").addOre("stoneDiorite",1.1);
 mods.immersiveengineering.Excavator.getMineral("Uranium").addOre("stoneAndesite",1.1);
 mods.immersiveengineering.Excavator.getMineral("Uranium").addOre("limestone",1.1);
+
+print("Initialized 'ExcavatorMinerals.zs'");

@@ -1,7 +1,7 @@
-#Name: Mineral Processing.zs
+#Name: MineralProcessing.zs
 #Author: Si_hen
 
-print("Initializing 'Mineral Processing.zs'...");
+print("Initializing 'MineralProcessing.zs'...");
 
 #remove dust from OreDict
 <ore:dustIron>.remove(<ImmersiveEngineering:metal:8>);
@@ -476,7 +476,6 @@ mods.mekanism.chemical.Dissolution.removeRecipe(<gas:aluminium>, <ore:oreAluminu
 mods.mekanism.chemical.Crystallizer.removeRecipe(<ore:crystalAluminium>, <gas:cleanAluminium>);
 mods.mekanism.Combiner.removeRecipe(<ore:oreAluminum>, <ImmersiveEngineering:metal:11>, <gas:liquidStone>);
 mods.thermalexpansion.Furnace.removeRecipe(<ore:oreAluminum>);
-mods.thermalexpansion.Furnace.removeRecipe(<ImmersiveEngineering:metal:11>);
 mods.thermalexpansion.Furnace.removeRecipe(<ore:chunkAluminium>);
 mods.thermalexpansion.Furnace.removeRecipe(<ore:rubbleAluminium>);
 mods.thermalexpansion.Furnace.removeRecipe(<ore:pebblesAluminium>);
@@ -786,4 +785,4 @@ mods.mekanism.Reaction.addRecipe(<ThermalFoundation:material:512>, <liquid:sulfu
 mods.mekanism.chemical.Injection.addRecipe(<Creator:uranium_dioxide>, <gas:hydrogenChloride>, <Creator:uranium_halide>);
 mods.thermalexpansion.Smelter.addRecipe(500000, <Creator:uranium_halide>, <TConstruct:materials:40>, <BigReactors:BRIngot:4>, <ImmersiveEngineering:metal:11>, 100);
 
-print("Initialized 'Mineral Processing.zs'");
+print("Initialized 'MineralProcessing.zs'");
