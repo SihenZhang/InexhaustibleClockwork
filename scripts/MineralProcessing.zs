@@ -497,10 +497,10 @@ mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:13>);
 mods.railcraft.RockCrusher.removeRecipe(<ore:oreAluminium>);
 mods.mekanism.chemical.Washer.removeRecipe(<gas:cleanAluminium>, <gas:aluminium>);
 #add
-mods.thermalexpansion.Smelter.addRecipe(35000, <ExtraUtilities:cobblestone_compressed>, <TConstruct:SearedBrick:5>, <Magneticraft:item.chunks:13>, <Creator:ironDustSmall> * 2, 20);
+mods.thermalexpansion.Smelter.addRecipe(35000, <ExtraUtilities:cobblestone_compressed>, <TConstruct:SearedBrick:5>, <Magneticraft:item.chunks:13>, <Creator:osmiumDustSmall> * 2, 20);
 mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.rubble:13> * 2, <Magneticraft:item.chunks:13>, 25000, <Creator:tinDustSmall>, 0.4);
-mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:13>, <Magneticraft:item.pebbles:13> * 3, <Creator:aluminumDustSmall>, 0.4, <Creator:tinDustTiny> * 3, 0.6);
-mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.pebbles:13>, <aobd:dustDirtyAluminium> * 3, <Creator:aluminumDustSmall>, 0.4, <Creator:ironDustTiny> * 3, 0.6);
+mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:13>, <Magneticraft:item.pebbles:13> * 3, <Creator:aluminumDustSmall>, 0.4, <Creator:osmiumDustTiny> * 3, 0.6);
+mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.pebbles:13>, <aobd:dustDirtyAluminium> * 3, <Creator:aluminumDustSmall>, 0.4, <Creator:osmiumDustTiny> * 3, 0.6);
 mods.forestry.Centrifuge.addRecipe([<ImmersiveEngineering:metal:11> % 100, <minecraft:dirt> % 5], <aobd:dustDirtyAluminium>, 20);
 mods.mekanism.chemical.Oxidizer.addRecipe(<ImmersiveEngineering:metal:11>, <gas:aluminium> * 750);
 mods.mekanism.chemical.Washer.addRecipe(<gas:aluminium> * 3, <gas:cleanAluminium> * 2);
