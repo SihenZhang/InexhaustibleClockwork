@@ -655,7 +655,7 @@ mods.magneticraft.Crusher.addRecipe(<Magneticraft:item.pebbles:16>, <Mekanism:Di
 mods.magneticraft.Sifter.addRecipe(<Mekanism:DirtyDust:2>, <Creator:osmiumDust>, <Creator:ironDustTiny>, 0.6);
 mods.thermalexpansion.Smelter.addRecipe(50000, <ExtraUtilities:cobblestone_compressed>, <Creator:osmiumDust> * 4, <Mekanism:Shard:2>, <Creator:ironDustSmall> * 2, 20);
 mods.mekanism.Purification.addRecipe(<Mekanism:Shard:2>, <gas:hydrogenchloride>, <Mekanism:Crystal:2> * 8);
-mods.thermalexpansion.Crucible.addRecipe(50000, <Mekanism:Crystal:2>, <liquid:osmium.molten> * 27);
+mods.thermalexpansion.Crucible.addRecipe(50000, <Mekanism:Crystal:2>, <liquid:osmium> * 27);
 mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.chunks:16>, false, false, 400, <Creator:osmiumDustSmall> * 4);
 mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.rubble:16>, false, false, 350, <Creator:osmiumDustSmall> * 3);
 mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.pebbles:16>, false, false, 330, <Creator:osmiumDustSmall> * 2);
