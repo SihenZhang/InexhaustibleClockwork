@@ -3,10 +3,63 @@
 
 print("Initializing 'ExcavatorMinerals.zs'...");
 
-
 val wandCap = <ore:ironWandCap>;
 wandCap.add(<Thaumcraft:WandCap>); 
 mods.immersiveengineering.Excavator.removeMineral("Quarzite");
+
+#fix IE ores to TE ores
+val ferrous = <ore:TEferrous>;
+val silver = <ore:TEsilver>;
+val copper = <ore:TEcopper>;
+val alum = <ore:TEalum>;
+val lead = <ore:TElead>;
+
+ferrous.add(<ThermalFoundation:Ore:4>);
+silver.add(<ThermalFoundation:Ore:2>);
+copper.add(<ThermalFoundation:Ore:0>);
+alum.add(<TConstruct:SearedBrick:5>);
+lead.add(<ThermalFoundation:Ore:3>);
+
+#replace all IE ores
+mods.immersiveengineering.Excavator.getMineral("Bauxite").removeOre("oreAluminum");
+mods.immersiveengineering.Excavator.getMineral("Bauxite").addOre("TEalum",0.9);
+
+mods.immersiveengineering.Excavator.getMineral("Copper").removeOre("oreCopper");
+mods.immersiveengineering.Excavator.getMineral("Copper").removeOre("oreNickel");
+mods.immersiveengineering.Excavator.getMineral("Copper").addOre("TEcopper",0.7);
+mods.immersiveengineering.Excavator.getMineral("Copper").addOre("TEferrous",0.7);
+
+mods.immersiveengineering.Excavator.getMineral("Galena").removeOre("oreLead");
+mods.immersiveengineering.Excavator.getMineral("Galena").removeOre("oreSilver");
+mods.immersiveengineering.Excavator.getMineral("Galena").addOre("TElead",0.4);
+mods.immersiveengineering.Excavator.getMineral("Galena").addOre("TEsilver",0.4);
+
+mods.immersiveengineering.Excavator.getMineral("Gold").removeOre("oreCopper");
+mods.immersiveengineering.Excavator.getMineral("Gold").removeOre("oreNickel");
+mods.immersiveengineering.Excavator.getMineral("Gold").addOre("TEcopper",0.3);
+mods.immersiveengineering.Excavator.getMineral("Gold").addOre("TEferrous",0.1);
+
+mods.immersiveengineering.Excavator.getMineral("Iron").removeOre("oreNickel");
+mods.immersiveengineering.Excavator.getMineral("Iron").addOre("TEferrous",0.25);
+
+mods.immersiveengineering.Excavator.getMineral("Lead").removeOre("oreLead");
+mods.immersiveengineering.Excavator.getMineral("Lead").removeOre("oreSilver");
+mods.immersiveengineering.Excavator.getMineral("Lead").addOre("TElead",0.4);
+mods.immersiveengineering.Excavator.getMineral("Lead").addOre("TEsilver",0.4);
+
+mods.immersiveengineering.Excavator.getMineral("Nickel").removeOre("oreNickel");
+mods.immersiveengineering.Excavator.getMineral("Nickel").addOre("TEferrous",0.9);
+
+mods.immersiveengineering.Excavator.getMineral("Platinum").removeOre("oreNickel");
+mods.immersiveengineering.Excavator.getMineral("Platinum").addOre("TEferrous",0.3);
+
+mods.immersiveengineering.Excavator.getMineral("Silver").removeOre("oreLead");
+mods.immersiveengineering.Excavator.getMineral("Silver").removeOre("oreSilver");
+mods.immersiveengineering.Excavator.getMineral("Silver").addOre("TElead",0.4);
+mods.immersiveengineering.Excavator.getMineral("Silver").addOre("TEsilver",0.55);
+
+mods.immersiveengineering.Excavator.getMineral("Uranium").removeOre("oreLead");
+mods.immersiveengineering.Excavator.getMineral("Uranium").addOre("TElead",0.3);
 
 #turn Coal vein into "ERROR" vein
 mods.immersiveengineering.Excavator.getMineral("Coal").addOre("oreInfusedAir",0.1);

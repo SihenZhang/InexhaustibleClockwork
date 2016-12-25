@@ -48,4 +48,8 @@ furnace.remove(<TConstruct:materials:2>);
 mods.thermalexpansion.Furnace.removeRecipe(<TConstruct:CraftedSoil:1>);
 mods.railcraft.CokeOven.addRecipe(<TConstruct:materials:2>, <liquid:water> * 100, <TConstruct:CraftedSoil:1>, 1200);
 
+#cobalt & ardite
+recipes.remove(<TConstruct:materials:41>);
+mods.thermalexpansion.Smelter.addRecipe(18000, <TConstruct:materials:39>, <TConstruct:materials:38> , <TConstruct:materials:41>);
+
 print("Initialized 'TinkersConstruct.zs'");
