@@ -1,0 +1,133 @@
+{
+    "images":
+    {
+       
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 100,
+            "posY" : 24,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/button.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 100,
+            "posY" : 48,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/button.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 100,
+            "posY" : 72,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/button.png",
+            "action" : 
+            {
+                
+                "type" : "openGui",
+                "gui" : "mods"
+            
+            }
+        },
+
+        "Issues":
+        {
+            "text" : "Issues",
+            "posX" : 100,
+            "posY" : 96,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/button.png",
+            "action" : 
+            {
+                
+                "type" : "openLink",
+                "link" : "https://github.com/SihenZhang/InexhaustibleClockwork/issues"
+            
+            }
+        },
+    
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 100,
+            "posY" : 120,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/button.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 100,
+            "posY" : 144,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/button.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -50,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "background":
+        {
+            "image" : "custommainmenu:textures/background.png",
+            "mode" : "fill"
+        }
+    }
+}
