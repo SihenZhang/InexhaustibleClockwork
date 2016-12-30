@@ -65,14 +65,11 @@ recipes.remove(<Magneticraft:item.dustSulfur>);
 
 #machinehousing
 recipes.remove(<Magneticraft:machine_housing>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:machine_housing>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
-                                                                   [<ore:plateIron>, null, <ore:plateIron>], 
-                                                                   [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]], <liquid:iron.molten> * 576, 20);
+
 
 #pipe
 recipes.remove(<Magneticraft:item.iron_pipe>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:item.iron_pipe> * 2, [[<ore:plateInvar>, null, <ore:plateInvar>],
                                                                       [<ore:plateInvar>, null, <ore:plateInvar>], 
                                                                       [<ore:plateInvar>, null, <ore:plateInvar>]], <liquid:invar.molten> * 288, 20);
-
 print("Initialized 'Magneticraft.zs'");

@@ -7,13 +7,13 @@ print("Initializing 'Gendustry.zs'...");
 recipes.remove(<gendustry:IndustrialGrafter:*>);
 mods.forestry.Carpenter.addRecipe(<gendustry:IndustrialGrafter:100>.withTag({charge: 0}), [[null, <ThermalExpansion:augment:130>, <ore:blockDiamond>],
                                                                                           [null, <Forestry:grafter>, <ThermalExpansion:augment:130>], 
-                                                                                          [<ThermalExpansion:capacitor:4>, null, null]], <liquid:osmium.molten> * 288, 200);
+                                                                                          [<ThermalExpansion:capacitor:4>, null, null]], <liquid:osmium> * 288, 200);
 
 #industrial scoop
 recipes.remove(<gendustry:IndustrialScoop:*>);
 mods.forestry.Carpenter.addRecipe(<gendustry:IndustrialScoop:100>.withTag({charge: 0}), [[null, <ThermalExpansion:augment:130>, <ore:gemDiamond>],
                                                                                          [null, <Forestry:scoop>, <ThermalExpansion:augment:130>], 
-                                                                                         [<ThermalExpansion:capacitor:4>, null, null]], <liquid:osmium.molten> * 288, 200);
+                                                                                         [<ThermalExpansion:capacitor:4>, null, null]], <liquid:osmium> * 288, 200);
 
 #mutagen tank
 recipes.remove(<gendustry:MutagenTank>);

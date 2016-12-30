@@ -16,6 +16,7 @@ mod.addItem("LumiumPlate.js", "normal");
 mod.addItem("MithrilPlate.js", "normal");
 mod.addItem("NickelPlate.js", "normal");
 mod.addItem("ObsidianPlate.js", "normal");
+mod.addItem("OsmiumPlate.js", "normal");
 mod.addItem("PlatinumPlate.js", "normal");
 mod.addItem("SignalumPlate.js", "normal");
 mod.addItem("SilverPlate.js", "normal");
@@ -30,7 +31,9 @@ mod.addItem("compactLeadPlate.js", "normal");
 mod.addItem("compactNickelPlate.js", "normal");
 mod.addItem("compactSteelPlate.js", "normal");
 mod.addItem("compactTinPlate.js", "normal");
+mod.addItem("compactOsmiumPlate.js", "normal");
 mod.addItem("denseLeadPlate.js", "normal");
+mod.addItem("denseOsmiumPlate.js", "normal");
 mod.addItem("denseNickelPlate.js", "normal");
 mod.addItem("wireAluminum.js", "normal");
 mod.addItem("wireCopper.js", "normal");
@@ -69,6 +72,8 @@ mod.addItem("zincDustSmall.js", "normal");
 mod.addItem("zincDustTiny.js", "normal");
 mod.addItem("uranium_dioxide.js", "normal");
 mod.addItem("uranium_halide.js", "normal");
+
+
 
 mod.addItem("chamberElectrum.js","normal"); //chamber
 mod.addItem("chamberElectrumEH.js","normal");
