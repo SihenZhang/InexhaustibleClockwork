@@ -73,13 +73,9 @@ mod.addItem("zincDustTiny.js", "normal");
 mod.addItem("uranium_dioxide.js", "normal");
 mod.addItem("uranium_halide.js", "normal");
 
-
-
 mod.addItem("chamberElectrum.js","normal"); //chamber
 mod.addItem("chamberElectrumEH.js","normal");
 mod.addItem("chamberElectrumG.js","normal");
-mod.addItem("chamberInvar.js","normal");
-mod.addItem("chamberInvarG.js","normal");
 mod.addItem("chamberIron.js","normal");
 mod.addItem("chamberIronG.js","normal");
 mod.addItem("chamberOsmium.js","normal");
