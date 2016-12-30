@@ -20,6 +20,24 @@ mods.tconstruct.Smeltery.removeMelting(<ThermalFoundation:material:128>);
 mods.tconstruct.Smeltery.removeMelting(<ThermalFoundation:material:13>);
 mods.tconstruct.Smeltery.removeMelting(<ThermalFoundation:material:12>);
 
+#Remove Alloying
+mods.tconstruct.Smeltery.removeAlloy(<liquid:manyullyn.molten>);
+mods.tconstruct.Smeltery.removeAlloy(<liquid:bronze.molten>);
+mods.tconstruct.Smeltery.removeAlloy(<liquid:aluminumbrass.molten>);
+mods.tconstruct.Smeltery.removeAlloy(<liquid:alumite.molten>);
+mods.tconstruct.Smeltery.removeAlloy(<liquid:invar.molten>);
+mods.tconstruct.Smeltery.removeAlloy(<liquid:signalum.molten>);
+mods.tconstruct.Smeltery.removeAlloy(<liquid:enderium.molten>);
+mods.tconstruct.Smeltery.removeAlloy(<liquid:lumium.molten>);
+mods.tconstruct.Smeltery.removeAlloy(<liquid:electrum.molten>);
+recipes.removeShapeless(<ThermalFoundation:material:42>);
+recipes.removeShapeless(<ThermalFoundation:material:43>);
+recipes.removeShapeless(<ThermalFoundation:material:44>);
+
+#New Alloying
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:42>, <liquid:redstone> * 250);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:43>, <liquid:glowstone> * 250);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:44>, <liquid:ender> * 250);
 #Gear Crafting
 mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:140>, <liquid:enderium.molten> * 720, <BuildCraft|Core:woodenGearItem>, true, 200);
 mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:139>, <liquid:lumium.molten> * 720, <BuildCraft|Core:woodenGearItem>, true, 200);
@@ -40,7 +58,7 @@ mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:12>, <liquid:
 #remove book recipe
 recipes.removeShapeless(<minecraft:book>, [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:string>, <TConstruct:blankPattern>, <TConstruct:blankPattern>]);
 
-#flint -- encourage to use TConstruct Tools
+#flint -- it is encouraged to use TConstruct Tools
 recipes.addShapeless(<minecraft:flint>, [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]);
 
 #seared brick

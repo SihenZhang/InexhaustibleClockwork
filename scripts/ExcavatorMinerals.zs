@@ -60,6 +60,8 @@ mods.immersiveengineering.Excavator.getMineral("Silver").addOre("TEsilver",0.55)
 
 mods.immersiveengineering.Excavator.getMineral("Uranium").removeOre("oreLead");
 mods.immersiveengineering.Excavator.getMineral("Uranium").addOre("TElead",0.3);
+mods.immersiveengineering.Excavator.getMineral("Uranium").removeOre("oreUranium");
+mods.immersiveengineering.Excavator.getMineral("Uranium").addOre("oreYellorite",0.5);
 
 #turn Coal vein into "ERROR" vein
 mods.immersiveengineering.Excavator.getMineral("Coal").addOre("oreInfusedAir",0.1);
