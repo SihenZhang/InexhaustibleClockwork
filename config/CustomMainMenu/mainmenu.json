@@ -38,7 +38,7 @@
 
         "mods":
         {
-            "text" : "fml.menu.mods",
+            "text" : "Mods",
             "posX" : 100,
             "posY" : 72,
             "width" : 98,
