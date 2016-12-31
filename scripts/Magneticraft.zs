@@ -1,5 +1,5 @@
 #Name: Magneticraft.zs
-#Author: Si_hen
+#Author: Prunoideae & Si_hen
 
 import mods.nei.NEI;
 
@@ -62,16 +62,21 @@ NEI.hide(<Magneticraft:item.dust:23>);
 #remove sulfur from OreDict
 <ore:dustSulfur>.remove(<Magneticraft:item.dustSulfur>);
 recipes.remove(<Magneticraft:item.dustSulfur>);
+furnace.setFuel(<Magneticraft:item.dustSulfur>, 0);
+mods.mekanism.chemical.Oxidizer.removeRecipe(<gas:sulfurDioxideGas>, <Magneticraft:item.dustSulfur>);
 
 #machinehousing
 recipes.remove(<Magneticraft:machine_housing>);
-
+<Magneticraft:machine_housing>.addTooltip(format.red("We want to make parts unified."));
 
 #pipe
+recipes.remove(<Magneticraft:item.copper_pipe>);
 recipes.remove(<Magneticraft:item.iron_pipe>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:item.iron_pipe> * 6, [[<ore:plateInvar>, null, <ore:plateInvar>],
-                                                                      [<ore:plateInvar>, null, <ore:plateInvar>], 
-                                                                      [<ore:plateInvar>, null, <ore:plateInvar>]], <liquid:invar.molten> * 288, 20);
+mods.forestry.Carpenter.addRecipe(<Magneticraft:item.iron_pipe> * 3, [[<ore:plateInvar>, <BuildCraft|Transport:item.buildcraftPipe.pipefluidsstone>, <ore:plateInvar>],
+                                                                      [<ore:plateInvar>, <BuildCraft|Transport:item.buildcraftPipe.pipefluidsstone>, <ore:plateInvar>], 
+                                                                      [<ore:plateInvar>, <BuildCraft|Transport:item.buildcraftPipe.pipefluidsstone>, <ore:plateInvar>]], <liquid:invar.molten> * 288, 20);
+<Magneticraft:item.copper_pipe>.addTooltip(format.red("Copper is so cheap, isn't it?"));
+
 #crusher control
 recipes.remove (<Magneticraft:crusher_control>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:crusher_control> , [[<minecraft:piston>, null, <minecraft:piston>],
@@ -164,6 +169,7 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:item.heatcoil_iron> * 1 , [[<Cre
                                                                       [<Creator:wireSteel>, <Creator:wireSteel>, null], 
                                                                       [null, null, null]], <liquid:iron.molten> * 144, 40);
 recipes.remove(<Magneticraft:item.heatcoil_tungsten>);
+<Magneticraft:item.heatcoil_tungsten>.addTooltip(format.red("Oh my gosh! It is too hard to be blended into a coil!"));
 
 #wire
 recipes.remove(<Magneticraft:item.cable_low>);
@@ -178,6 +184,7 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:boiler> , [[<ore:plateIron>, <or
 recipes.remove(<Magneticraft:cooler>);
 recipes.addShaped (<Magneticraft:cooler>, [[null,<ore:plateIron>,null],[<ore:plateIron>,<Magneticraft:item.heat_cable>,<ore:plateIron>],[null,<ore:plateIron>,null]]);
 recipes.remove(<Magneticraft:fluid_hopper>);
+<Magneticraft:fluid_hopper>.addTooltip(format.red("To tell you the truth, it has BUG."));
 recipes.remove(<Magneticraft:mirror>);
 mods.railcraft.Rolling.addShaped(<Magneticraft:mirror>*2, [[<ore:plateIron>, <ore:blockGlass>, null], 
                                                         [<ore:plateIron>, <ore:blockGlass>, null],
@@ -196,6 +203,7 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:solar_tower_core> , [[<ore:plate
                                                                       [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]], <liquid:iron.molten> * 288, 500);
 #electrical age
 recipes.remove(<Magneticraft:solarpanel>);
+<Magneticraft:solarpanel>.addTooltip(format.red("Solar? No! It's too early!"));
 recipes.remove(<Magneticraft:item.battery_small>);
 recipes.remove(<Magneticraft:item.battery>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:item.battery_small> , [[null, <Magneticraft:item.cable_low>, null],
@@ -244,10 +252,6 @@ recipes.remove(<Magneticraft:kinetic_generator>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:kinetic_generator> , [[<ore:plateIron>, <Creator:motorDC>, <ore:plateIron>],
                                                                       [<Forestry:thermionicTubes:3>, <Creator:chamberIron>, <Forestry:thermionicTubes:3>], 
                                                                       [<ore:plateIron>, <Creator:generatorACSP>, <ore:plateIron>]], <liquid:iron.molten> * 288, 300);
-recipes.remove(<Magneticraft:pumpjack_1>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:pumpjack_1> , [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
-                                                                      [<Forestry:thermionicTubes:3>, <Creator:chamberIron>, <Forestry:thermionicTubes:3>], 
-                                                                      [<Magneticraft:item.cable_low>, <Creator:motorDC>, <Magneticraft:item.drill>]], <liquid:iron.molten> * 288, 200);
 recipes.remove(<Magneticraft:conveyor_low>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:conveyor_low>*32 , [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
                                                                       [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
@@ -264,9 +268,6 @@ recipes.remove(<Magneticraft:heat_sink>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:heat_sink> , [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>],
                                                                       [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], 
                                                                       [null,null,null]], <liquid:iron.molten> * 144, 75);
-recipes.remove(<Magneticraft:item.oil_prospector>);
-recipes.addShaped (<Magneticraft:item.oil_prospector>, [[<Magneticraft:item.battery_small>,null,null],[<Forestry:thermionicTubes>,null,null],[<ore:ingotIron>,null,null]]);
-
 recipes.remove(<Magneticraft:electric_switch>);
 recipes.addShaped (<Magneticraft:electric_switch>, [[null,<minecraft:lever>,null],[<Magneticraft:item.cable_low>,<Creator:chamberIron>,<Magneticraft:item.cable_low>],[null,null,null]]);
 
@@ -294,17 +295,52 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:item.chainsaw> , [[<ore:plateIro
 
 #those abandoned kids :\
 recipes.remove(<Magneticraft:item.motor>);
+<Magneticraft:item.motor>.addTooltip(format.red("We want to make parts unified."));
 recipes.remove(<Magneticraft:item.alternator>);
+<Magneticraft:item.alternator>.addTooltip(format.red("We want to make parts unified."));
 recipes.remove(<Magneticraft:item.copper_coil>);
+<Magneticraft:item.copper_coil>.addTooltip(format.red("We want to make parts unified."));
+<Magneticraft:item.magnet>.addTooltip(format.red("We want to make parts unified."));
+
 recipes.remove(<Magneticraft:item.ingotCarbide>);
+recipes.remove(<Magneticraft:block_carbide>);
+NEI.hide(<Magneticraft:item.ingotCarbide>);
+NEI.hide(<Magneticraft:block_carbide>);
 
 recipes.remove(<Magneticraft:windturbine>);
+<Magneticraft:windturbine>.addTooltip(format.red("Don't you think you're a little avaricious?"));
+recipes.remove(<Magneticraft:item.turbine_0>);
+<Magneticraft:item.turbine_0>.addTooltip(format.red("WindTurbine has disappeared, so it is useless."));
+recipes.remove(<Magneticraft:item.turbine_1>);
+<Magneticraft:item.turbine_1>.addTooltip(format.red("WindTurbine has disappeared, so it is useless."));
+recipes.remove(<Magneticraft:item.turbine_2>);
+<Magneticraft:item.turbine_2>.addTooltip(format.red("WindTurbine has disappeared, so it is useless."));
+recipes.remove(<Magneticraft:item.string_fabric>);
+NEI.hide(<Magneticraft:item.string_fabric>);
+recipes.remove(<Magneticraft:item.turbine_wing>);
+NEI.hide(<Magneticraft:item.turbine_wing>);
 recipes.remove(<Magneticraft:thermopile>);
+<Magneticraft:thermopile>.addTooltip(format.red("Infinity electricty? No way!"));
 recipes.remove(<Magneticraft:miner>);
 recipes.remove(<Magneticraft:crushing_table>);
+<Magneticraft:crushing_table>.addTooltip(format.red("You need machines, my friend, not your hands!"));
+recipes.remove(<Magneticraft:pumpjack_1>);
+<Magneticraft:pumpjack_1>.addTooltip(format.red("Why do you still want this? OilSource has disappeared."));
 recipes.remove(<Magneticraft:ShelvingUnit>);
+<Magneticraft:ShelvingUnit>.addTooltip(format.red("It has BUG!!! You know? BUG!!!"));
 recipes.remove(<Magneticraft:rf_alternator>);
+<Magneticraft:rf_alternator>.addTooltip(format.red("I don't want to generate electricty using RF!--Prunoideae"));
 recipes.remove(<Magneticraft:rc_alternator>);
+<Magneticraft:rc_alternator>.addTooltip(format.red("I don't want to generate electricty using RC Charge, either!--Prunoideae"));
+recipes.remove(<Magneticraft:item.oil_prospector>);
+<Magneticraft:item.oil_prospector>.addTooltip(format.red("Why do you still want this? OilSource has disappeared."));
 <Magneticraft:miner>.addTooltip(format.red("U want 2 use it? Use dat SLOWWWWW BC Quarry instead!"));
+
+NEI.hide(<Magneticraft:item.uranium_rod>);
+NEI.hide(<Magneticraft:item.thorium_rod>);
+NEI.hide(<Magneticraft:thorium_ore>);
+NEI.hide(<Magneticraft:uranium_ore>);
+NEI.hide(<Magneticraft:oil_source>);
+NEI.hide(<Magneticraft:oil_source_drained>);
 
 print("Initialized 'Magneticraft.zs'");
