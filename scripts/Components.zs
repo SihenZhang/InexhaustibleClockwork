@@ -66,7 +66,7 @@ mods.forestry.Carpenter.addRecipe(<Creator:chamberOsmiumEH>, [[<Creator:compactO
                                                           [<Creator:compactOsmiumPlate>, <Creator:compactOsmiumPlate>, <Creator:compactOsmiumPlate>]], <liquid:osmium> * 576, 320);
 #rotator and stator
 mods.forestry.Carpenter.addRecipe(<Creator:rotatorCCopper>, [[null, <Creator:coilCopper>, null],
-                                                          [<Creator:coilCopper>, <minecraft:iron_block>, <Creator:coilCopper>], 
+                                                          [<Creator:coilCopper>, <OpenBlocks:wrench>, <Creator:coilCopper>], 
                                                           [null, <Creator:coilCopper>, null]], <liquid:iron.molten> * 144, 10);
 mods.forestry.Carpenter.addRecipe(<Creator:rotatorMNico>, [[null, <Creator:magnetNico>, null],
                                                           [<Creator:magnetNico>, <ore:ingotNickel>, <Creator:magnetNico>], 
@@ -76,17 +76,20 @@ mods.forestry.Carpenter.addRecipe(<Creator:rotatorMIral>, [[null, <Creator:magne
                                                           [null, <Creator:magnetIral>, null]], <liquid:aluminum.molten> * 144, 30);
 
 #generators and motors
+mods.forestry.Carpenter.addRecipe(<Creator:generatorDCA>, [[<Creator:compactIronPlate>, <Creator:magnetIron>, <Creator:compactIronPlate>],
+                                                          [<Creator:commutator>, <Creator:rotatorCCopper>, <Creator:commutator>], 
+                                                          [<Creator:compactIronPlate>, <Creator:magnetIron>, <Creator:compactIronPlate>]], <liquid:iron.molten> * 288, 20);
 mods.forestry.Carpenter.addRecipe(<Creator:generatorDC>, [[<ore:plateIron>, <Creator:magnetIron>, <ore:plateIron>],
                                                           [<Creator:commutator>, <Creator:coilCopper>, <Creator:commutator>], 
                                                           [<ore:plateIron>, <Creator:magnetIron>, <ore:plateIron>]], <liquid:iron.molten> * 144, 20);
 mods.forestry.Carpenter.addRecipe(<Creator:generatorACSP>, [[<Creator:InvarPlate>, <Creator:excitingCoil>, <Creator:InvarPlate>],
                                                           [<Creator:coilSteel>, <Creator:rotatorMNico>, <Creator:coilSteel>], 
-                                                          [<Creator:InvarPlate>, <Creator:excitingCoil>, <Creator:InvarPlate>]], <liquid:invar.molten> * 144, 40);
+                                                          [<Creator:InvarPlate>, <Creator:excitingCoil>, <Creator:InvarPlate>]], <liquid:invar.molten> * 288, 40);
 mods.forestry.Carpenter.addRecipe(<Creator:generatorACTP>, [[<Creator:compactElectrumPlate>, <Creator:coilAluminum>, <Creator:compactElectrumPlate>],
                                                           [<Creator:magnetIral>, <Creator:rotatorMIral>, <Creator:magnetIral>], 
-                                                          [<Creator:coilAluminum>, <Creator:compactElectrumPlate>, <Creator:coilAluminum>]], <liquid:electrum.molten> * 144, 20);
+                                                          [<Creator:coilAluminum>, <Creator:compactElectrumPlate>, <Creator:coilAluminum>]], <liquid:electrum.molten> * 576, 80);
 
-recipes.addShapeless(<Creator:motorDC>,[<Creator:generatorDC>,<OpenBlocks:wrench>]);
+recipes.addShapeless(<Creator:motorDC>,[<Creator:generatorDC>,<ForgeMicroblock:stoneRod>]);
 recipes.addShapeless(<Creator:motorACSP>,[<Creator:generatorACSP>,<OpenBlocks:wrench>]);
 recipes.addShapeless(<Creator:motorACTPA>,[<Creator:generatorACTP>,<OpenBlocks:wrench>]);
 
