@@ -293,6 +293,28 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:item.chainsaw> , [[<ore:plateIro
                                                                       [<ore:plateIron>, <ore:plateIron>, <Forestry:thermionicTubes>], 
                                                                       [null,<Creator:motorDC>,<Magneticraft:item.battery_small>]], <liquid:iron.molten> * 288, 150);
 
+#remove things about Uranium & Thorium
+<ore:oreUranium>.remove(<Magneticraft:uranium_ore>);
+<ore:dustUranium>.remove(<Magneticraft:item.dust:7>);
+<ore:chunkUranium>.remove(<Magneticraft:item.chunks:7>);
+<ore:rubbleUranium>.remove(<Magneticraft:item.rubble:7>);
+<ore:pebblesUranium>.remove(<Magneticraft:item.pebbles:7>);
+mods.magneticraft.Crusher.removeRecipe(<Magneticraft:thorium_ore>);
+mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.chunks:8>);
+mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.rubble:8>);
+mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:8>);
+NEI.hide(<Magneticraft:item.dust:7>);
+NEI.hide(<Magneticraft:item.chunks:7>);
+NEI.hide(<Magneticraft:item.rubble:7>);
+NEI.hide(<Magneticraft:item.pebbles:7>);
+NEI.hide(<Magneticraft:item.dust:8>);
+NEI.hide(<Magneticraft:item.chunks:8>);
+NEI.hide(<Magneticraft:item.rubble:8>);
+NEI.hide(<Magneticraft:item.pebbles:8>);
+NEI.hide(<Magneticraft:thorium_ore>);
+NEI.hide(<Magneticraft:uranium_ore>);
+
+																	  
 #those abandoned kids :\
 recipes.remove(<Magneticraft:item.motor>);
 <Magneticraft:item.motor>.addTooltip(format.red("We want to make parts unified."));
@@ -336,11 +358,9 @@ recipes.remove(<Magneticraft:item.oil_prospector>);
 <Magneticraft:item.oil_prospector>.addTooltip(format.red("Why do you still want this? OilSource has disappeared."));
 <Magneticraft:miner>.addTooltip(format.red("U want 2 use it? Use dat SLOWWWWW BC Quarry instead!"));
 
-NEI.hide(<Magneticraft:item.uranium_rod>);
-NEI.hide(<Magneticraft:item.thorium_rod>);
-NEI.hide(<Magneticraft:thorium_ore>);
-NEI.hide(<Magneticraft:uranium_ore>);
 NEI.hide(<Magneticraft:oil_source>);
 NEI.hide(<Magneticraft:oil_source_drained>);
+NEI.hide(<Magneticraft:item.brass_pipe>);
+NEI.hide(<Magneticraft:item.optic_fiber>);
 
 print("Initialized 'Magneticraft.zs'");
