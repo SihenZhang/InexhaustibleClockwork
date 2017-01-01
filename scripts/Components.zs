@@ -89,8 +89,8 @@ mods.forestry.Carpenter.addRecipe(<Creator:generatorACTP>, [[<Creator:compactEle
                                                           [<Creator:magnetIral>, <Creator:rotatorMIral>, <Creator:magnetIral>], 
                                                           [<Creator:coilAluminum>, <Creator:compactElectrumPlate>, <Creator:coilAluminum>]], <liquid:electrum.molten> * 576, 80);
 
-recipes.addShapeless(<Creator:motorDC>,[<Creator:generatorDC>,<ForgeMicroblock:stoneRod>,<ore:gearTin>]);
-recipes.addShapeless(<Creator:motorACSP>,[<Creator:generatorACSP>,<OpenBlocks:wrench>,<ore:gearInvar>]);
-recipes.addShapeless(<Creator:motorACTPA>,[<Creator:generatorACTP>,<OpenBlocks:wrench>,<ore:gearElectrum>]);
+recipes.addShapeless(<Creator:motorDC>,[<Creator:generatorDC>,<ForgeMicroblock:stoneRod>]);
+recipes.addShapeless(<Creator:motorACSP>,[<Creator:generatorACSP>,<OpenBlocks:wrench>]);
+recipes.addShapeless(<Creator:motorACTPA>,[<Creator:generatorACTP>,<OpenBlocks:wrench>]);
 
 print("Initialized 'Components.zs'");
