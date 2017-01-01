@@ -324,8 +324,10 @@ recipes.remove(<Magneticraft:item.copper_coil>);
 <Magneticraft:item.copper_coil>.addTooltip(format.red("We want to make parts unified."));
 <Magneticraft:item.magnet>.addTooltip(format.red("We want to make parts unified."));
 
-recipes.removeShaped(<Magneticraft:item.ingotCarbide>, [[<minecraft:coal>, <minecraft:coal>, <minecraft:coal>], [<minecraft:coal>, <Magneticraft:item.ingotTungsten>, <minecraft:coal>], [<minecraft:coal>, <minecraft:coal>, <minecraft:coal>]]);
-mods.thermalexpansion.Smelter.addRecipe(50000, <Magneticraft:item.ingotTungsten>, <TConstruct:materials:16>, <Magneticraft:item.ingotCarbide>);
+recipes.remove(<Magneticraft:item.ingotCarbide>);
+recipes.remove(<Magneticraft:block_carbide>);
+NEI.hide(<Magneticraft:item.ingotCarbide>);
+NEI.hide(<Magneticraft:block_carbide>);
 
 recipes.remove(<Magneticraft:windturbine>);
 <Magneticraft:windturbine>.addTooltip(format.red("Don't you think you're a little avaricious?"));
