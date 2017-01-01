@@ -39,6 +39,7 @@ mod.addItem("wireAluminum.js", "normal");
 mod.addItem("wireCopper.js", "normal");
 mod.addItem("wireElectrum.js", "normal");
 mod.addItem("wireSteel.js", "normal");
+mod.addItem("wireGold.js", "normal");
 mod.addItem("dustIral.js", "normal");
 mod.addItem("dustTincosi.js", "normal");
 mod.addItem("dustHydratedRedstone.js", "normal");
