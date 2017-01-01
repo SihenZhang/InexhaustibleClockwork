@@ -107,6 +107,10 @@ mod.addItem("rotatorCCopper.js","normal"); //rotator
 mod.addItem("rotatorMIral.js","normal");
 mod.addItem("rotatorMNico.js","normal");
 
+mod.addItem("statorAluminum.js","normal"); //stator
+mod.addItem("statorElectrum.js","normal");
+mod.addItem("statorMIron.js","normal");
+
 mod.addItem("excitingCoil.js","normal");
 
 //blocks
