@@ -119,8 +119,8 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:sifter_control> , [[<Forestry:th
                                                                       [<Creator:motorDC>, <Magneticraft:refinery_gap>, <Creator:motorDC>]], <liquid:iron.molten> * 288, 300);
 #multiblocks
 recipes.remove(<Magneticraft:chasis>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:chasis> * 9 , [[<ore:plateIron>, <ore:stickIron>, <ore:plateIron>],
-                                                                      [<ore:stickIron>, null, <ore:stickIron>], 
+mods.forestry.Carpenter.addRecipe(<Magneticraft:chasis> * 18 , [[<ore:plateIron>, <ore:stickIron>, <ore:plateIron>],
+                                                                      [<ore:stickIron>, <ore:gearIron>, <ore:stickIron>], 
                                                                       [<ore:plateIron>, <ore:stickIron>, <ore:plateIron>]], <liquid:iron.molten> * 144, 150);
 recipes.remove(<Magneticraft:MB_EnergyIO>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:MB_EnergyIO> * 1 , [[<Magneticraft:item.cable_low>, null, null],
