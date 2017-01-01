@@ -386,10 +386,10 @@ mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.rubble:12>);
 mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:12>);
 mods.railcraft.RockCrusher.removeRecipe(<ore:oreZinc>);
 #add
-mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.chunks:12>, <ore:oreZinc>, 20000, <Creator:tinDustSmall>, 0.4);
-mods.magneticraft.Crusher.addRecipe(<Magneticraft:item.chunks:12>, <Magneticraft:item.rubble:12> * 2, <Creator:zincDustSmall>, 0.4, <Creator:tinDustSmall> * 3, 0.6);
+mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.chunks:12>, <ore:oreZinc>, 20000, <Creator:aluminumDustSmall>, 0.4);
+mods.magneticraft.Crusher.addRecipe(<Magneticraft:item.chunks:12>, <Magneticraft:item.rubble:12> * 2, <Creator:zincDustSmall>, 0.4, <Creator:aluminumDustSmall> * 3, 0.6);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:12>, <Magneticraft:item.pebbles:12> * 3, <Creator:zincDustSmall>, 0.6, <Creator:copperDustTiny>, 0.15);
-mods.magneticraft.Sifter.addRecipe(<Magneticraft:item.pebbles:12>, <aobd:dustDirtyZinc> * 3, <Creator:tinDustSmall>, 0.6);
+mods.magneticraft.Sifter.addRecipe(<Magneticraft:item.pebbles:12>, <aobd:dustDirtyZinc> * 3, <Creator:aluminumDustSmall>, 0.6);
 mods.forestry.Centrifuge.addRecipe([<Creator:zincDust> % 100, <minecraft:dirt> % 5], <aobd:dustDirtyZinc>, 20);
 mods.thermalexpansion.Smelter.addRecipe(18000, <ExtraUtilities:cobblestone_compressed>, <Creator:zincDust> * 4, <aobd:shardZinc>, <Creator:zincDustTiny> * 2, 20);
 mods.mekanism.Purification.addRecipe(<aobd:shardZinc>, <gas:oxygen>, <aobd:crystalZinc> * 8);
@@ -745,7 +745,6 @@ mods.thermalexpansion.Crucible.addRecipe(500000, <TConstruct:materials:39>, <liq
 furnace.remove(<ore:ingotYellorium>);
 mods.tconstruct.Smeltery.removeMelting(<ore:oreYellorium>);
 mods.tconstruct.Smeltery.removeMelting(<ore:crushedYellorium>);
-mods.tconstruct.Smeltery.removeMelting(<ore:clusterYellorium>);
 mods.appeng.Grinder.removeRecipe(<ore:dustYellorium>);
 recipes.removeShaped(<ore:ingotYellorium>, [[<ore:oreYellorium>, <ThermalFoundation:material:512>]]);
 mods.mekanism.Crusher.removeRecipe(<ore:dustDirtyYellorium>, <*>);
@@ -765,7 +764,8 @@ mods.thermalexpansion.Furnace.removeRecipe(<ore:denseoreYellorium>);
 mods.thermalexpansion.Furnace.removeRecipe(<ore:crushedYellorium>);
 mods.thermalexpansion.Pulverizer.removeRecipe(<ore:oreYellorium>);
 mods.thermalexpansion.Pulverizer.removeRecipe(<ore:denseoreYellorium>);
-mods.thermalexpansion.Pulverizer.removeRecipe(<Magneticraft:uranium_ore>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<ore:oreUranium>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<ore:clusterUranium>);
 mods.thermalexpansion.Pulverizer.removeRecipe(<ore:clusterYellorium>);
 mods.thermalexpansion.Smelter.removeRecipe(<*>, <ore:oreYellorium>);
 mods.extraUtils.QED.removeRecipe(<ore:ingotYellorium>);
@@ -779,16 +779,9 @@ mods.magneticraft.Sifter.removeRecipe(<aobd:pebblesYellorium>);
 mods.railcraft.RockCrusher.removeRecipe(<ore:oreYellorium>);
 #add
 mods.mekanism.Crusher.addRecipe(<BigReactors:YelloriteOre>, <aobd:crushedYellorium>);
-mods.forestry.Carpenter.addRecipe(<aobd:clumpYellorium>, [[<aobd:crushedYellorium>, null, null],
-                                                          [null, null, null], 
-                                                          [null, null, null]], <liquid:water> * 5000, 20);
-mods.forestry.Carpenter.addRecipe(<aobd:pebblesYellorium>, [[<aobd:clumpYellorium>, null, null],
-                                                            [null, null, null], 
-                                                            [null, null, null]], <liquid:sulfurousacid> * 5000, 20);
-mods.mekanism.chemical.Dissolution.addRecipe(<aobd:pebblesYellorium>, <gas:yellorium> * 100);
+mods.mekanism.Reaction.addRecipe(<aobd:crushedYellorium>, <liquid:water> * 1000, <gas:oxygen> * 100, <chisel:smashingrock>, <gas:yellorium> * 100, 200000, 400);
 mods.mekanism.chemical.Infuser.addRecipe(<gas:yellorium> * 100, <gas:sulfuricAcid> * 100, <gas:cleanYellorium> * 200);
-mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanYellorium> * 200, <aobd:crystalYellorium>);
-mods.buildcraft.AssemblyTable.addRecipe(<Creator:uranium_dioxide>, 999999, [<aobd:crystalYellorium>, <ThermalFoundation:material:512>]);
+mods.mekanism.Reaction.addRecipe(<ThermalFoundation:material:512>, <liquid:sulfurousacid> * 5000, <gas:cleanYellorium> * 200, <Creator:uranium_dioxide>, <gas:water> * 1000, 300000, 1000);
 mods.mekanism.chemical.Injection.addRecipe(<Creator:uranium_dioxide>, <gas:hydrogenChloride>, <Creator:uranium_halide>);
 mods.thermalexpansion.Smelter.addRecipe(500000, <Creator:uranium_halide>, <TConstruct:materials:40>, <BigReactors:BRIngot:4>, <ImmersiveEngineering:metal:11>, 100);
 

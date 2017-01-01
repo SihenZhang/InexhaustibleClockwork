@@ -129,6 +129,9 @@ recipes.addShaped(<ThermalFoundation:material:36>, [[<Creator:nickelDustSmall>, 
 recipes.addShaped(<Creator:nickelDustSmall>, [[<Creator:nickelDustTiny>, <Creator:nickelDustTiny>, <Creator:nickelDustTiny>], [<Creator:nickelDustTiny>, <Creator:nickelDustTiny>, <Creator:nickelDustTiny>], [<Creator:nickelDustTiny>, <Creator:nickelDustTiny>, <Creator:nickelDustTiny>]]);
 
 #wire
+mods.railcraft.Rolling.addShaped(<Creator:wireGold> * 6, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], 
+                                                              [<ore:plateGold>, null, <ore:plateGold>],
+                                                              [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
 mods.railcraft.Rolling.addShaped(<Creator:wireAluminum> * 6, [[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>], 
                                                               [<ore:plateAluminium>, null, <ore:plateAluminium>],
                                                               [<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
