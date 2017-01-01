@@ -764,8 +764,6 @@ mods.thermalexpansion.Furnace.removeRecipe(<ore:denseoreYellorium>);
 mods.thermalexpansion.Furnace.removeRecipe(<ore:crushedYellorium>);
 mods.thermalexpansion.Pulverizer.removeRecipe(<ore:oreYellorium>);
 mods.thermalexpansion.Pulverizer.removeRecipe(<ore:denseoreYellorium>);
-mods.thermalexpansion.Pulverizer.removeRecipe(<ore:oreUranium>);
-mods.thermalexpansion.Pulverizer.removeRecipe(<ore:clusterUranium>);
 mods.thermalexpansion.Pulverizer.removeRecipe(<ore:clusterYellorium>);
 mods.thermalexpansion.Smelter.removeRecipe(<*>, <ore:oreYellorium>);
 mods.extraUtils.QED.removeRecipe(<ore:ingotYellorium>);
