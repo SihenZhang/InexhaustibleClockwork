@@ -292,6 +292,9 @@ recipes.remove(<Magneticraft:item.chainsaw>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:item.chainsaw> , [[<ore:plateIron>, <ore:plateIron>, null],
                                                                       [<ore:plateIron>, <ore:plateIron>, <Forestry:thermionicTubes>], 
                                                                       [null,<Creator:motorDC>,<Magneticraft:item.battery_small>]], <liquid:iron.molten> * 288, 150);
+recipes.remove(<Magneticraft:item.stick_iron>);
+<ore:stickIron>.remove(<Magneticraft:item.stick_iron>);
+NEI.hide(<Magneticraft:item.stick_iron>);
 
 #remove things about Uranium & Thorium
 <ore:oreUranium>.remove(<Magneticraft:uranium_ore>);
