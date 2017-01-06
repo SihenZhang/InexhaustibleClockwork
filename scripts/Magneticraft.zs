@@ -84,7 +84,7 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:crusher_control> , [[<minecraft:
                                                                       [<ore:plateIron>, <Creator:motorDC>, <ore:plateIron>]], <liquid:iron.molten> * 288, 200);
 #grinder control
 recipes.remove (<Magneticraft:grinder_control>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:grinder_control> , [[<ore:plateIron>, <Forestry:thermionicTubes:3>, <ore:plateIron>],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:grinder_control> , [[<ore:plateIron>, <Mekanism:ControlCircuit>, <ore:plateIron>],
                                                                       [<minecraft:piston>, <Creator:chamberIronG>, <minecraft:piston>], 
                                                                       [<ore:plateIron>, <Creator:motorDC>, <ore:plateIron>]], <liquid:iron.molten> * 288, 250);
 #stirling generator control
@@ -99,7 +99,7 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:refinery_control> , [[<ore:plate
                                                                       [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]], <liquid:iron.molten> * 288, 150);
 #polymerizer control
 recipes.remove(<Magneticraft:polimerizer_control>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:polimerizer_control> , [[<ore:plateIron>, <Forestry:thermionicTubes:3>, <ore:plateIron>],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:polimerizer_control> , [[<ore:plateIron>, <Mekanism:ControlCircuit>, <ore:plateIron>],
                                                                       [<minecraft:glass_bottle>, <Creator:chamberIron>, <minecraft:glass_bottle>], 
                                                                       [<Creator:coilCopper>, <ore:plateIron>, <Creator:coilCopper>]], <liquid:iron.molten> * 288, 250);
 #turbine control
@@ -109,12 +109,12 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:turbine_control> , [[<ore:plateS
                                                                       [<ore:plateSteel>, <Railcraft:part.turbine.blade>, <ore:plateSteel>]], <liquid:steel.molten> * 288, 150);
 #oil distillery control
 recipes.remove(<Magneticraft:distillery_control>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:distillery_control> , [[<ore:plateIron>, <Forestry:thermionicTubes:3>, <ore:plateIron>],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:distillery_control> , [[<ore:plateIron>, <Mekanism:ControlCircuit>, <ore:plateIron>],
                                                                       [<Creator:coilCopper>, <Magneticraft:mg_tank>, <Creator:coilCopper>], 
                                                                       [<ore:plateIron>, <Creator:chamberIron>, <ore:plateIron>]], <liquid:iron.molten> * 288, 150);
 #sifter control
 recipes.remove(<Magneticraft:sifter_control>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:sifter_control> , [[<Forestry:thermionicTubes:3>, <Magneticraft:refinery_gap>, <Forestry:thermionicTubes:3>],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:sifter_control> , [[<Mekanism:ControlCircuit>, <Magneticraft:refinery_gap>, <Mekanism:ControlCircuit>],
                                                                       [<Magneticraft:inserter>, <Creator:chamberIron>, <Magneticraft:inserter>], 
                                                                       [<Creator:motorDC>, <Magneticraft:refinery_gap>, <Creator:motorDC>]], <liquid:iron.molten> * 288, 300);
 #multiblocks
@@ -157,7 +157,7 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:mb_controls> * 1 , [[<ore:plateI
 
 #electric furnace
 recipes.remove(<Magneticraft:electricfurnace>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:electricfurnace> , [[<ore:plateIron>, <Forestry:thermionicTubes:3>, <ore:plateIron>],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:electricfurnace> , [[<ore:plateIron>, <Mekanism:ControlCircuit>, <ore:plateIron>],
                                                                       [<ore:plateIron>, <Creator:chamberIron>, <ore:plateIron>], 
                                                                       [<ore:plateIron>, <Magneticraft:item.cable_low>, <ore:plateIron>]], <liquid:iron.molten> * 288, 100);
 recipes.remove(<Magneticraft:item.heatcoil_copper>);
@@ -250,7 +250,7 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:heater> , [[<ore:plateIron>, <Ma
                                                                       [<ore:plateIron>, <Magneticraft:item.heatcoil_iron>, <ore:plateIron>]], <liquid:iron.molten> * 288, 100);
 recipes.remove(<Magneticraft:kinetic_generator>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:kinetic_generator> , [[<ore:plateIron>, <Creator:motorDC>, <ore:plateIron>],
-                                                                      [<Forestry:thermionicTubes:3>, <Creator:chamberIron>, <Forestry:thermionicTubes:3>], 
+                                                                      [<Mekanism:ControlCircuit>, <Creator:chamberIron>, <Mekanism:ControlCircuit>], 
                                                                       [<ore:plateIron>, <Creator:generatorACSP>, <ore:plateIron>]], <liquid:iron.molten> * 288, 300);
 recipes.remove(<Magneticraft:conveyor_low>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:conveyor_low>*32 , [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],

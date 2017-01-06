@@ -93,4 +93,20 @@ recipes.addShapeless(<Creator:motorDC>,[<Creator:generatorDC>,<ForgeMicroblock:s
 recipes.addShapeless(<Creator:motorACSP>,[<Creator:generatorACSP>,<OpenBlocks:wrench>,<ore:gearInvar>]);
 recipes.addShapeless(<Creator:motorACTPA>,[<Creator:generatorACTP>,<OpenBlocks:wrench>,<ore:gearElectrum>]);
 
+#mekanism circuits (5 mb copper each circuit, HAYO!)
+mods.mekanism.Infuser.removeRecipe(<Mekanism:ControlCircuit>);
+mods.forestry.Carpenter.addRecipe(<Mekanism:ControlCircuit>, [[<ImmersiveEngineering:coil>, <ImmersiveEngineering:coil>, <ImmersiveEngineering:coil>],
+                                                          [<minecraft:redstone>, <ore:plateIron>, <minecraft:redstone>], 
+                                                          [<ImmersiveEngineering:coil>, <ImmersiveEngineering:coil>, <ImmersiveEngineering:coil>]], <liquid:copper.molten> * 5, 20);
+recipes.remove(<Mekanism:ControlCircuit:1>);
+mods.forestry.Carpenter.addRecipe(<Mekanism:ControlCircuit:1>, [[<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:redstone>],
+                                                          [<minecraft:dye:4>, <Mekanism:ControlCircuit>, <minecraft:dye:4>], 
+                                                          [<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:redstone>]], <liquid:copper.molten> * 5, 40);
+recipes.remove(<Mekanism:ControlCircuit:2>);
+mods.forestry.Carpenter.addRecipe(<Mekanism:ControlCircuit:2>, [[<ProjRed|Core:projectred.core.part:13>, <ProjRed|Core:projectred.core.part:14>, <ProjRed|Core:projectred.core.part:13>],
+                                                          [<ProjRed|Core:projectred.core.part:59>, <Mekanism:ControlCircuit:1>, <ProjRed|Core:projectred.core.part:59>], 
+                                                          [<ProjRed|Core:projectred.core.part:13>, <ProjRed|Core:projectred.core.part:14>, <ProjRed|Core:projectred.core.part:13>]], <liquid:copper.molten> * 5, 40);
+recipes.remove(<Mekanism:ControlCircuit:3>);
+mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:ControlCircuit:3>, 30000, [<Mekanism:ControlCircuit:2>, <Magneticraft:item.ingotCarbide>*8, <ThermalFoundation:material:69>]);
+
 print("Initialized 'Components.zs'");

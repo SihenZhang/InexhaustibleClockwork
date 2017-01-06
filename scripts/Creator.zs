@@ -45,6 +45,8 @@ mods.magneticraft.Polymerizer.addRecipe(<liquid:lava> * 1000, <minecraft:glowsto
 <ore:plateSignalum>.add(<Creator:SignalumPlate>);
 <ore:plateNickel>.add(<Creator:NickelPlate>);
 <ore:plateEnderium>.add(<Creator:EnderiumPlate>);
+<ore:plateOsmium>.add(<Creator:OsmiumPlate>);
+
 recipes.addShaped(<Creator:GoldPlate>, [[<Creator:IronHammer>.anyDamage().transformDamage()], [<ore:ingotGold>], [<ore:ingotGold>]]);
 mods.railcraft.Rolling.addShaped(<Creator:GoldPlate> * 4, [[<ore:ingotGold>, <ore:ingotGold>, null], 
                                                            [<ore:ingotGold>, <ore:ingotGold>, null],

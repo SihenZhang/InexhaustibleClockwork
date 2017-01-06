@@ -167,6 +167,16 @@ recipes.remove(<Natura:natura.pickaxe.netherquartz>);
 recipes.remove(<Natura:natura.axe.netherquartz>);
 recipes.remove(<Natura:natura.shovel.netherquartz>);
 recipes.remove(<Natura:natura.kama.netherquartz>);
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzAxe>);
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzHoe>);
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzSpade>);
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzPickaxe>);
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzSword>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzPickaxe>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzAxe>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzHoe>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzSpade>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzSword>);
 
 #vanilla tool nerfs
 <minecraft:iron_sword>.maxDamage = 1;
@@ -304,6 +314,7 @@ recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, <Creator:IronHammer>.an
 recipes.remove(<minecraft:cauldron>);
 recipes.addShaped(<minecraft:cauldron>, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <Creator:IronHammer>.anyDamage().transformDamage(), <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 furnace.remove(<minecraft:bread>);
+mods.thermalexpansion.Furnace.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:4>);
 mods.thermalexpansion.Furnace.removeRecipe(<harvestcraft:doughItem>);
 
 #chest nerfs
