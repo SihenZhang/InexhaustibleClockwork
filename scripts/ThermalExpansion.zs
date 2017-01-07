@@ -226,8 +226,20 @@ mods.forestry.Carpenter.addRecipe(<ThermalExpansion:material:3> , [[<minecraft:r
                                                                       [null,null , <minecraft:redstone>]], <liquid:lumium.molten> * 288, 300);
 
 #the taste of MAGIC
-mods.thermalexpansion.Smelter.addRecipe(18000, <ThermalFoundation:material:512> * 2, <ThermalFoundation:material:513> * 2, <ThermalFoundation:material:516>, <ThermalFoundation:material:516> , 10);
-mods.thermalexpansion.Crucible.addRecipe(300000, <ThermalFoundation:material:516>, <liquid:mana> * 1000);
+mods.thermalexpansion.Smelter.addRecipe(720000, <ThermalFoundation:material:512>, <ThermalFoundation:material:513> , <ThermalFoundation:material:516>*2, <ThermalFoundation:material:516> , 10);
+mods.thermalexpansion.Crucible.addRecipe(360000, <ThermalFoundation:material:516>, <liquid:mana> * 1000);
+
+#Replication
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material:32>, <ThermalFoundation:material:32>*2, <liquid:mana> * 10000);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material:33>, <ThermalFoundation:material:33>*2, <liquid:mana> * 10000);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material>, <ThermalFoundation:material>*2, <liquid:mana> * 10000);
+
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material:36>, <ThermalFoundation:material:36>*2, <liquid:mana> * 20000);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material:35>, <ThermalFoundation:material:35>*2, <liquid:mana> * 20000);
+
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material:1>, <ThermalFoundation:material:1>*2, <liquid:mana> * 30000);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material:34>, <ThermalFoundation:material:34>*2, <liquid:mana> * 30000);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material:37>, <ThermalFoundation:material:37>*2, <liquid:mana> * 10000);
 
 #those abandoned kids :<
 recipes.remove(<ThermalExpansion:capacitor:1>); #no! never before tier3!
@@ -244,5 +256,9 @@ recipes.remove (<ThermalExpansion:Strongbox:2>);
 recipes.remove (<ThermalExpansion:Strongbox:3>);
 recipes.remove (<ThermalExpansion:Strongbox:4>);
 recipes.remove (<ThermalExpansion:Tesseract>);
+recipes.remove (<ThermalExpansion:Tank:1>);
+recipes.remove (<ThermalExpansion:Tank:2>);
+recipes.remove (<ThermalExpansion:Tank:3>);
+recipes.remove (<ThermalExpansion:Tank:4>);
 
 print("Initialized 'ThermalExpansion.zs'");
