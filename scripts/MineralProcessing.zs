@@ -745,6 +745,7 @@ mods.thermalexpansion.Crucible.addRecipe(500000, <TConstruct:materials:39>, <liq
 furnace.remove(<ore:ingotYellorium>);
 mods.tconstruct.Smeltery.removeMelting(<ore:oreYellorium>);
 mods.tconstruct.Smeltery.removeMelting(<ore:crushedYellorium>);
+mods.tconstruct.Smeltery.removeMelting(<ore:clusterYellorium>);
 mods.appeng.Grinder.removeRecipe(<ore:dustYellorium>);
 recipes.removeShaped(<ore:ingotYellorium>, [[<ore:oreYellorium>, <ThermalFoundation:material:512>]]);
 mods.mekanism.Crusher.removeRecipe(<ore:dustDirtyYellorium>, <*>);
