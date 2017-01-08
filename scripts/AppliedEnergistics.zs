@@ -49,7 +49,7 @@ val lampQuartz = <appliedenergistics2:tile.BlockQuartzLamp>;
 glassQuartz.add(<appliedenergistics2:tile.BlockQuartzGlass>);
 glassQuartz.add(lampQuartz);
 recipes.remove(lampQuartz);
-recipes.addShaped(lampQuartz, [[<Creator:Sunnarium>, glassQuartz, <Creator:Sunnarium>]]);
+recipes.addShaped(lampQuartz, [[<Creator:Sunnarium>, <appliedenergistics2:tile.BlockQuartzGlass>, <Creator:Sunnarium>]]);
 
 #material
 val logProcessor = <appliedenergistics2:item.ItemMultiMaterial:22>;
@@ -61,7 +61,6 @@ val anniCore = <appliedenergistics2:item.ItemMultiMaterial:44>;
 val galCable = <appliedenergistics2:item.ItemMultiPart:16>;
 recipes.remove(pearlFluix);
 recipes.addShaped(pearlFluix, [[<ore:dustFluix>, <ore:crystalPureFluix>, <ore:dustFluix>], [<ore:crystalPureFluix>, <ore:pearlEnder>, <ore:crystalPureFluix>], [<ore:dustFluix>, <ore:crystalPureFluix>, <ore:dustFluix>]]);
-#recipes.remove(formCore);
 
 #silicon
 <ore:itemSilicon>.remove(<appliedenergistics2:item.ItemMultiMaterial:5>);
@@ -220,7 +219,19 @@ recipes.addShaped(<appliedenergistics2:item.ItemViewCell>, [[glassQuartz, <ore:d
 
 #storage cell
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:39>);
-recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:39>, [[lampQuartz, <ProjRed|Core:projectred.core.part:13>, lampQuartz], [<ProjRed|Core:projectred.core.part:59>, null, <ProjRed|Core:projectred.core.part:14>], [<Creator:compactSteelPlate>, <Creator:compactSteelPlate>, <Creator:compactSteelPlate>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:39>, [[lampQuartz, <ProjRed|Core:projectred.core.part:13>, lampQuartz], [<ProjRed|Core:projectred.core.part:59>, null, <ProjRed|Core:projectred.core.part:14>], [<StevesCarts:ModuleComponents:22>, <StevesCarts:ModuleComponents:22>, <StevesCarts:ModuleComponents:22>]]);
+recipes.remove(<extracells:storage.casing>);
+mods.forestry.Carpenter.addRecipe(<extracells:storage.casing>, [[<ore:blockGlassHardened>, <ore:dustFluix>, <ore:blockGlassHardened>],
+                                                                [<ore:dustFluix>, <appliedenergistics2:item.ItemMultiMaterial:39>, <ore:dustFluix>], 
+                                                                [<StevesCarts:ModuleComponents:49>, <StevesCarts:ModuleComponents:49>, <StevesCarts:ModuleComponents:49>]], <liquid:silver.molten> * 288, 200);
+recipes.remove(<extracells:storage.casing:1>);
+mods.forestry.Carpenter.addRecipe(<extracells:storage.casing:1>, [[<ore:blockGlassHardened>, <ore:dustFluix>, <ore:blockGlassHardened>],
+                                                                  [<ore:dustFluix>, <extracells:storage.casing>, <ore:dustFluix>], 
+                                                                  [<extracells:certustank>, <extracells:certustank>, <extracells:certustank>]], <liquid:silver.molten> * 288, 400);
+recipes.remove(<extracells:storage.casing:2>);
+mods.forestry.Carpenter.addRecipe(<extracells:storage.casing:2>, [[<ore:blockGlassHardenedIlluminated>, <ore:dustFluix>, <ore:blockGlassHardenedIlluminated>],
+                                                                  [<ore:dustFluix>, <extracells:storage.casing>, <ore:dustFluix>], 
+                                                                  [<Mekanism:GasTank>.withTag({tier: 3}), <Mekanism:GasTank>.withTag({tier: 3}), <Mekanism:GasTank>.withTag({tier: 3})]], <liquid:osmium> * 288, 600);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:35>);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:35>, [[<ore:dustElectrotine>, <appliedenergistics2:item.ItemMultiMaterial:10>, <ore:dustElectrotine>], [<appliedenergistics2:item.ItemMultiMaterial:10>, logProcessor, <appliedenergistics2:item.ItemMultiMaterial:10>], [<ore:dustElectrotine>, <appliedenergistics2:item.ItemMultiMaterial:10>, <ore:dustElectrotine>]]);
 recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.1k>);
@@ -245,11 +256,129 @@ recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.64k>);
 mods.forestry.Carpenter.addRecipe(<appliedenergistics2:item.ItemBasicStorageCell.64k>, [[<appliedenergistics2:item.ItemMultiMaterial:38>, calProcessor, <appliedenergistics2:item.ItemMultiMaterial:38>],
                                                                                        [engProcessor, <appliedenergistics2:item.ItemBasicStorageCell.4k>, logProcessor], 
                                                                                        [<appliedenergistics2:item.ItemMultiMaterial:38>, <ore:circuitAdvanced>, <appliedenergistics2:item.ItemMultiMaterial:38>]], <liquid:steel.molten> * 432, 600);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:32>);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:32>, [[<Creator:Sunnarium>, pearlFluix, <Creator:Sunnarium>], [pearlFluix, engProcessor, pearlFluix], [<Creator:Sunnarium>, pearlFluix, <Creator:Sunnarium>]]);
+recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>);
+mods.forestry.Carpenter.addRecipe(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>, [[<appliedenergistics2:item.ItemMultiMaterial:32>, calProcessor, <appliedenergistics2:item.ItemMultiMaterial:32>],
+                                                                                       [engProcessor, <extracells:storage.casing>, logProcessor], 
+                                                                                       [<appliedenergistics2:item.ItemMultiMaterial:32>, <ore:circuitElite>, <appliedenergistics2:item.ItemMultiMaterial:32>]], <liquid:steel.molten> * 1296, 1000);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:33>);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:33>, [[<Creator:Sunnarium>, <appliedenergistics2:item.ItemMultiMaterial:32>, <Creator:Sunnarium>], [<appliedenergistics2:item.ItemMultiMaterial:32>, engProcessor, <appliedenergistics2:item.ItemMultiMaterial:32>], [<Creator:Sunnarium>, <appliedenergistics2:item.ItemMultiMaterial:32>, <Creator:Sunnarium>]]);
+recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>);
+mods.forestry.Carpenter.addRecipe(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>, [[<appliedenergistics2:item.ItemMultiMaterial:33>, calProcessor, <appliedenergistics2:item.ItemMultiMaterial:33>],
+                                                                                       [engProcessor, <appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>, logProcessor], 
+                                                                                       [<appliedenergistics2:item.ItemMultiMaterial:33>, <ore:circuitElite>, <appliedenergistics2:item.ItemMultiMaterial:33>]], <liquid:steel.molten> * 1296, 1000);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:34>);
+mods.buildcraft.AssemblyTable.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:34>, 500000, [<Creator:Sunnarium> * 4, <appliedenergistics2:item.ItemMultiMaterial:33> * 4, engProcessor]);
+recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>);
+mods.buildcraft.AssemblyTable.addRecipe(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>, 1000000, [<appliedenergistics2:item.ItemMultiMaterial:34> * 4, <appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>, calProcessor, engProcessor, logProcessor, <Mekanism:ControlCircuit:3>]);
+recipes.remove(<extracells:storage.component>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.component>, 1000000, [<Creator:Sunnarium> * 4, <appliedenergistics2:item.ItemMultiMaterial:38> * 4, engProcessor * 4, <ProjRed|Core:projectred.core.part:59> * 4]);
+recipes.remove(<extracells:storage.physical>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.physical>, 2000000, [<extracells:storage.component> * 4, <appliedenergistics2:item.ItemBasicStorageCell.64k>, calProcessor, engProcessor, logProcessor, <Mekanism:ControlCircuit:3>]);
+recipes.remove(<extracells:storage.component:1>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.component:1>, 1500000, [<Creator:Sunnarium> * 4, <extracells:storage.component> * 4, engProcessor * 4, <ProjRed|Core:projectred.core.part:59> * 4]);
+recipes.remove(<extracells:storage.physical:1>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.physical:1>, 3000000, [<extracells:storage.component:1> * 4, <extracells:storage.physical>, calProcessor, engProcessor, logProcessor, <Mekanism:ControlCircuit:3> * 2]);
+recipes.remove(<extracells:storage.component:2>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.component:2>, 2000000, [<ProjRed|Core:projectred.core.part:14>, <extracells:storage.component:1> * 4, engProcessor * 4, <ProjRed|Core:projectred.core.part:59> * 4]);
+recipes.remove(<extracells:storage.physical:2>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.physical:2>, 4000000, [<extracells:storage.component:2> * 4, <extracells:storage.physical:1>, calProcessor * 2, engProcessor * 2, logProcessor * 2, <Mekanism:ControlCircuit:3> * 3]);
+recipes.remove(<extracells:storage.component:3>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.component:3>, 2500000, [<ProjRed|Core:projectred.core.part:14> * 2, <extracells:storage.component:1> * 4, engProcessor * 4, <ProjRed|Core:projectred.core.part:59> * 4]);
+recipes.remove(<extracells:storage.physical:3>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.physical:3>, 5000000, [<extracells:storage.component:3> * 4, <extracells:storage.physical:2>, calProcessor * 4, engProcessor * 4, logProcessor * 4, <Mekanism:ControlCircuit:3> * 4]);
+recipes.remove(<extracells:storage.physical:4>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.physical:4>, 500000, [<appliedenergistics2:item.ItemBasicStorageCell.16k>, <extracells:storage.casing>, <StorageDrawers:fullDrawers1>]);
+recipes.remove(<extracells:storage.component:4>);
+recipes.addShaped(<extracells:storage.component:4>, [[<ore:gemLapis>, <appliedenergistics2:item.ItemMultiMaterial:10>, <ore:gemLapis>], [<appliedenergistics2:item.ItemMultiMaterial:10>, logProcessor, <appliedenergistics2:item.ItemMultiMaterial:10>], [<ore:gemLapis>, <appliedenergistics2:item.ItemMultiMaterial:10>, <ore:gemLapis>]]);
+recipes.remove(<extracells:storage.fluid>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.fluid>, 500000, [<extracells:storage.component:4> * 4, <extracells:storage.casing>, calProcessor, engProcessor, logProcessor, <Mekanism:ControlCircuit:2>]);
+recipes.remove(<extracells:storage.component:5>);
+recipes.addShaped(<extracells:storage.component:5>, [[<ore:gemLapis>, calProcessor, <ore:gemLapis>], [<extracells:storage.component:4>, lampQuartz, <extracells:storage.component:4>], [<ore:gemLapis>, <extracells:storage.component:4>, <ore:gemLapis>]]);
+recipes.remove(<extracells:storage.fluid:1>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.fluid:1>, 1000000, [<extracells:storage.component:5> * 4, <extracells:storage.fluid>, calProcessor, engProcessor, logProcessor, <Mekanism:ControlCircuit:2>]);
+recipes.remove(<extracells:storage.component:6>);
+recipes.addShaped(<extracells:storage.component:6>, [[<ore:gemLapis>, engProcessor, <ore:gemLapis>], [<extracells:storage.component:5>, lampQuartz, <extracells:storage.component:5>], [<ore:gemLapis>, <extracells:storage.component:5>, <ore:gemLapis>]]);
+recipes.remove(<extracells:storage.fluid:2>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.fluid:2>, 1500000, [<extracells:storage.component:6> * 4, <extracells:storage.fluid:1>, calProcessor, engProcessor, logProcessor, <Mekanism:ControlCircuit:2>]);
+recipes.remove(<extracells:storage.component:7>);
+recipes.addShaped(<extracells:storage.component:7>, [[<ore:gemLapis>, engProcessor, <ore:gemLapis>], [<extracells:storage.component:6>, lampQuartz, <extracells:storage.component:6>], [<ore:gemLapis>, <extracells:storage.component:6>, <ore:gemLapis>]]);
+recipes.remove(<extracells:storage.fluid:3>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.fluid:3>, 2000000, [<extracells:storage.component:7> * 4, <extracells:storage.fluid:2>, calProcessor, engProcessor, logProcessor, <Mekanism:ControlCircuit:2>]);
+recipes.remove(<extracells:storage.component:8>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.component:8>, 1000000, [<minecraft:dye:4> * 4, <extracells:storage.component:7> * 4, engProcessor * 4, logProcessor * 4]);
+recipes.remove(<extracells:storage.fluid:4>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.fluid:4>, 2500000, [<extracells:storage.component:8> * 4, <extracells:storage.fluid:3>, calProcessor, engProcessor, logProcessor, <Mekanism:ControlCircuit:3>]);
+recipes.remove(<extracells:storage.component:9>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.component:9>, 1500000, [<minecraft:dye:4> * 4, <extracells:storage.component:8> * 4, engProcessor * 4, logProcessor * 4]);
+recipes.remove(<extracells:storage.fluid:5>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.fluid:5>, 3000000, [<extracells:storage.component:9> * 4, <extracells:storage.fluid:4>, calProcessor * 2, engProcessor * 2, logProcessor * 2, <Mekanism:ControlCircuit:3> * 2]);
+recipes.remove(<extracells:storage.component:10>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.component:10>, 2000000, [<minecraft:dye:4> * 4, <extracells:storage.component:9> * 4, engProcessor * 4, logProcessor * 4]);
+recipes.remove(<extracells:storage.fluid:6>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.fluid:6>, 3500000, [<extracells:storage.component:10> * 4, <extracells:storage.fluid:5>, calProcessor * 4, engProcessor * 4, logProcessor * 4, <Mekanism:ControlCircuit:3> * 4]);
+recipes.remove(<extracells:storage.component:11>);
+recipes.addShaped(<extracells:storage.component:11>, [[<ore:ingotOsmium>, <appliedenergistics2:item.ItemMultiMaterial:10>, <ore:ingotOsmium>], [<appliedenergistics2:item.ItemMultiMaterial:10>, logProcessor, <appliedenergistics2:item.ItemMultiMaterial:10>], [<ore:ingotOsmium>, <appliedenergistics2:item.ItemMultiMaterial:10>, <ore:ingotOsmium>]]);
+recipes.remove(<extracells:storage.gas>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.gas>, 500000, [<extracells:storage.component:11> * 4, <extracells:storage.casing>, calProcessor, engProcessor, logProcessor, <Mekanism:ControlCircuit:2>]);
+recipes.remove(<extracells:storage.component:12>);
+recipes.addShaped(<extracells:storage.component:12>, [[<ore:ingotOsmium>, calProcessor, <ore:ingotOsmium>], [<extracells:storage.component:11>, lampQuartz, <extracells:storage.component:11>], [<ore:ingotOsmium>, <extracells:storage.component:11>, <ore:ingotOsmium>]]);
+recipes.remove(<extracells:storage.gas:1>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.gas:1>, 1000000, [<extracells:storage.component:12> * 4, <extracells:storage.gas>, calProcessor, engProcessor, logProcessor, <Mekanism:ControlCircuit:2>]);
+recipes.remove(<extracells:storage.component:13>);
+recipes.addShaped(<extracells:storage.component:13>, [[<ore:ingotOsmium>, engProcessor, <ore:ingotOsmium>], [<extracells:storage.component:12>, lampQuartz, <extracells:storage.component:12>], [<ore:ingotOsmium>, <extracells:storage.component:12>, <ore:ingotOsmium>]]);
+recipes.remove(<extracells:storage.gas:2>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.gas:2>, 1500000, [<extracells:storage.component:13> * 4, <extracells:storage.gas:1>, calProcessor, engProcessor, logProcessor, <Mekanism:ControlCircuit:2>]);
+recipes.remove(<extracells:storage.component:14>);
+recipes.addShaped(<extracells:storage.component:14>, [[<ore:ingotOsmium>, engProcessor, <ore:ingotOsmium>], [<extracells:storage.component:13>, lampQuartz, <extracells:storage.component:13>], [<ore:ingotOsmium>, <extracells:storage.component:13>, <ore:ingotOsmium>]]);
+recipes.remove(<extracells:storage.gas:3>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.gas:3>, 2000000, [<extracells:storage.component:14> * 4, <extracells:storage.gas:2>, calProcessor, engProcessor, logProcessor, <Mekanism:ControlCircuit:2>]);
+recipes.remove(<extracells:storage.component:15>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.component:15>, 1000000, [<Mekanism:Ingot:1> * 4, <extracells:storage.component:14> * 4, engProcessor * 4, logProcessor * 4]);
+recipes.remove(<extracells:storage.gas:4>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.gas:4>, 2500000, [<extracells:storage.component:15> * 4, <extracells:storage.gas:3>, calProcessor, engProcessor, logProcessor, <Mekanism:ControlCircuit:3>]);
+recipes.remove(<extracells:storage.component:16>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.component:16>, 1500000, [<Mekanism:Ingot:1> * 4, <extracells:storage.component:15> * 4, engProcessor * 4, logProcessor * 4]);
+recipes.remove(<extracells:storage.gas:5>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.gas:5>, 3000000, [<extracells:storage.component:16> * 4, <extracells:storage.gas:4>, calProcessor * 2, engProcessor * 2, logProcessor * 2, <Mekanism:ControlCircuit:3> * 2]);
+recipes.remove(<extracells:storage.component:17>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.component:17>, 2000000, [<Mekanism:Ingot:1> * 4, <extracells:storage.component:16> * 4, engProcessor * 4, logProcessor * 4]);
+recipes.remove(<extracells:storage.gas:6>);
+mods.buildcraft.AssemblyTable.addRecipe(<extracells:storage.gas:6>, 3500000, [<extracells:storage.component:17> * 4, <extracells:storage.gas:5>, calProcessor * 4, engProcessor * 4, logProcessor * 4, <Mekanism:ControlCircuit:3> * 4]);
 
+#crystal seed
+recipes.remove(<appliedenergistics2:item.ItemCrystalSeed>);
+recipes.addShaped(<appliedenergistics2:item.ItemCrystalSeed> * 6, [[null, <ore:crystalChargedCertusQuartz>], [<ore:dustCertusQuartz>, <ore:sand>, <ore:dustCertusQuartz>], [null, <ore:crystalChargedCertusQuartz>]]);
+recipes.remove(<appliedenergistics2:item.ItemCrystalSeed:600>);
+recipes.addShaped(<appliedenergistics2:item.ItemCrystalSeed:600> * 6, [[null, <ore:crystalChargedCertusQuartz>], [<ore:dustQuartz>, <ore:sand>, <ore:dustQuartz>], [null, <ore:crystalChargedCertusQuartz>]]);
+recipes.remove(<appliedenergistics2:item.ItemCrystalSeed:1200>);
+recipes.addShaped(<appliedenergistics2:item.ItemCrystalSeed:1200> * 6, [[null, <ore:crystalChargedCertusQuartz>], [<ore:dustFluix>, <ore:sand>, <ore:dustFluix>], [null, <ore:crystalChargedCertusQuartz>]]);
 
+#color applicator
+recipes.remove(<appliedenergistics2:item.ToolColorApplicator>);
+recipes.addShaped(<appliedenergistics2:item.ToolColorApplicator>, [[formCore, <ore:ingotSteel>], [<ore:ingotSteel>, <appliedenergistics2:item.ItemMultiMaterial:36>], [null, null, <appliedenergistics2:tile.BlockEnergyCell>]]);
 
+#card
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:25>);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:25>, [[<ore:ingotElectrum>, <ore:ingotSteel>], [<ore:chipsetRed>, calProcessor, <ore:ingotSteel>], [<ore:ingotElectrum>, <ore:ingotSteel>]]);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:28>);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:28>, [[<ore:gemCrystalFlux>, <ore:ingotSteel>], [<ore:chipsetDiamond>, <appliedenergistics2:item.ItemMultiMaterial:25>, <ore:ingotSteel>], [<ore:gemCrystalFlux>, <ore:ingotSteel>]]);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:27>);
+mods.buildcraft.AssemblyTable.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:27>, 200000, [<appliedenergistics2:item.ItemMultiMaterial:25>, <minecraft:chest>]);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:53>);
+mods.buildcraft.AssemblyTable.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:53>, 200000, [<appliedenergistics2:item.ItemMultiMaterial:25>, <minecraft:crafting_table>]);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:26>);
+mods.buildcraft.AssemblyTable.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:26>, 200000, [<appliedenergistics2:item.ItemMultiMaterial:25>, <minecraft:redstone_torch>]);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:29>);
+mods.buildcraft.AssemblyTable.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:29>, 500000, [<appliedenergistics2:item.ItemMultiMaterial:28>, <minecraft:wool:*>]);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:31>);
+mods.buildcraft.AssemblyTable.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:31>, 500000, [<appliedenergistics2:item.ItemMultiMaterial:28>, <minecraft:redstone_torch>]);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:30>);
+mods.buildcraft.AssemblyTable.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:30>, 1000000, [<appliedenergistics2:item.ItemMultiMaterial:28>, <ThermalExpansion:augment:130> * 4]);
 
-
-
+#pattern
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:52>);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:52>, [[lampQuartz, <Creator:Sunnarium>, lampQuartz], [<Creator:Sunnarium>, <appliedenergistics2:item.ItemMultiMaterial:39>, <Creator:Sunnarium>], [<StevesCarts:ModuleComponents:49>, <StevesCarts:ModuleComponents:49>, <StevesCarts:ModuleComponents:49>]]);
 
 print("Initialized 'AppliedEnergistics.zs'");
