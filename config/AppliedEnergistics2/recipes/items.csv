@@ -3688,8 +3688,9 @@ BuildCraft|Core:engineBlock:2, 燃油引擎
 BuildCraft|Core:engineBlock:3, 创造引擎
 BuildCraft|Core:markerBlock, 地标
 BuildCraft|Core:pathMarkerBlock, 路径标
-BuildCraft|Transport:filteredBufferBlock, 过滤缓存器
-BuildCraft|Transport:pipeBlock, tile.pipeBlock.name
+BuildCraft|Energy:blockOil, 原油
+BuildCraft|Energy:blockFuel, 燃油
+BuildCraft|Energy:blockRedPlasma, tile.blockRedPlasma.name
 BuildCraft|Silicon:laserBlock, 镭射器
 BuildCraft|Silicon:laserTableBlock:0, 装配台
 BuildCraft|Silicon:laserTableBlock:1, 高级工作台
@@ -3698,17 +3699,6 @@ BuildCraft|Silicon:laserTableBlock:3, 充能台
 BuildCraft|Silicon:laserTableBlock:4, 编程台
 BuildCraft|Silicon:laserTableBlock:5, 压印台
 BuildCraft|Silicon:packagerBlock, 配方封包器
-BuildCraft|Energy:blockOil, 原油
-BuildCraft|Energy:blockFuel, 燃油
-BuildCraft|Energy:blockRedPlasma, tile.blockRedPlasma.name
-BuildCraft|Factory:miningWellBlock, 矿井
-BuildCraft|Factory:plainPipeBlock, 采矿管道
-BuildCraft|Factory:autoWorkbenchBlock, 自动合成台
-BuildCraft|Factory:tankBlock, 储罐
-BuildCraft|Factory:pumpBlock, 液泵
-BuildCraft|Factory:floodGateBlock, 液闸
-BuildCraft|Factory:refineryBlock, 精炼厂
-BuildCraft|Factory:blockHopper, 料斗
 BuildCraft|Builders:machineBlock, 采石场
 BuildCraft|Builders:fillerBlock, 填充机
 BuildCraft|Builders:frameBlock, 框架
@@ -3718,6 +3708,16 @@ BuildCraft|Builders:libraryBlock, 电子档案馆
 BuildCraft|Builders:constructionMarkerBlock, 建设标
 BuildCraft|Robotics:zonePlan, 区域规划机
 BuildCraft|Robotics:requester, 请求机
+BuildCraft|Transport:filteredBufferBlock, 过滤缓存器
+BuildCraft|Transport:pipeBlock, tile.pipeBlock.name
+BuildCraft|Factory:miningWellBlock, 矿井
+BuildCraft|Factory:plainPipeBlock, 采矿管道
+BuildCraft|Factory:autoWorkbenchBlock, 自动合成台
+BuildCraft|Factory:tankBlock, 储罐
+BuildCraft|Factory:pumpBlock, 液泵
+BuildCraft|Factory:floodGateBlock, 液闸
+BuildCraft|Factory:refineryBlock, 精炼厂
+BuildCraft|Factory:blockHopper, 料斗
 Railcraft:fluid.creosote, 杂酚油
 Railcraft:fluid.steam, 蒸汽
 Railcraft:residual.heat, 残余热量
@@ -5412,7 +5412,7 @@ extracells:vibrantchamberfluid, 流体谐振仓
 ExtraUtilities:chestMini, 迷你箱
 ExtraUtilities:chestFull, 微型箱
 ExtraUtilities:enderCollector, 末影收集器
-ExtraUtilities:endConstructor:0, QED(相当贵饰品Quite Expensive Decoration)
+ExtraUtilities:endConstructor:0, QED(量子纠缠设备Quantum Entanglement Device)
 ExtraUtilities:endConstructor:2, 末影潮汐水晶
 ExtraUtilities:endMarker, 末影路标
 ExtraUtilities:curtains, 黑幕布帘
@@ -7406,20 +7406,6 @@ AgriCraft:handRake:0, 木耙
 AgriCraft:handRake:1, 铁耙
 AgriCraft:clipper, 剪枝器
 AgriCraft:clipping, 接穗
-appliedenergistics2:item.ToolCertusQuartzAxe, 赛特斯石英斧
-appliedenergistics2:item.ToolCertusQuartzHoe, 赛特斯石英锄
-appliedenergistics2:item.ToolCertusQuartzSpade, 赛特斯石英锹
-appliedenergistics2:item.ToolCertusQuartzPickaxe, 赛特斯石英镐
-appliedenergistics2:item.ToolCertusQuartzSword, 赛特斯石英剑
-appliedenergistics2:item.ToolCertusQuartzWrench, 赛特斯石英扳手
-appliedenergistics2:item.ToolCertusQuartzCuttingKnife, 赛特斯石英切割刀
-appliedenergistics2:item.ToolNetherQuartzAxe, 下界石英斧
-appliedenergistics2:item.ToolNetherQuartzHoe, 下界石英锄
-appliedenergistics2:item.ToolNetherQuartzSpade, 下界石英锹
-appliedenergistics2:item.ToolNetherQuartzPickaxe, 下界石英镐
-appliedenergistics2:item.ToolNetherQuartzSword, 下界石英剑
-appliedenergistics2:item.ToolNetherQuartzWrench, 下界石英扳手
-appliedenergistics2:item.ToolNetherQuartzCuttingKnife, 下界石英切割刀
 appliedenergistics2:item.ToolEntropyManipulator, 熵变机械臂
 appliedenergistics2:item.ToolWirelessTerminal, 无线终端
 appliedenergistics2:item.ToolBiometricCard, 身份卡
@@ -9529,7 +9515,6 @@ appliedenergistics2:item.ItemMultiMaterial:46, 末影粉
 appliedenergistics2:item.ItemMultiMaterial:24, 工程处理器
 appliedenergistics2:item.ItemMultiMaterial:14, 工程压印模板
 appliedenergistics2:item.ItemMultiMaterial:17, 工程电路板
-appliedenergistics2:item.ItemMultiMaterial:4, 面粉
 appliedenergistics2:item.ItemMultiMaterial:7, 福鲁伊克斯水晶
 appliedenergistics2:item.ItemMultiMaterial:8, 福鲁伊克斯粉
 appliedenergistics2:item.ItemMultiMaterial:9, 福鲁伊克斯珍珠
@@ -9910,35 +9895,6 @@ Thaumcraft:ItemGirdleRunic:1, 冲击符文护盾腰带
 Thaumcraft:ItemAmuletVis:0, 魔力石
 Thaumcraft:ItemAmuletVis:1, 魔力存储护身符
 Thaumcraft:ItemGirdleHover:0, 奥法腰带
-Thaumcraft:ItemSpawnerEgg:0, 生成 红眼僵尸
-Thaumcraft:ItemSpawnerEgg:1, 生成 红眼僵尸巨人
-Thaumcraft:ItemSpawnerEgg:2, 生成 精灵
-Thaumcraft:ItemSpawnerEgg:3, 生成 九狱焱蝠
-Thaumcraft:ItemSpawnerEgg:4, 生成 岩精强盗
-Thaumcraft:ItemSpawnerEgg:5, 生成 心魔蜘蛛
-Thaumcraft:ItemSpawnerEgg:6, 生成 邪术守卫
-Thaumcraft:ItemSpawnerEgg:7, 生成 %s the %s
-Thaumcraft:ItemSpawnerEgg:8, 生成 血腥骑士
-Thaumcraft:ItemSpawnerEgg:9, 生成 血腥教徒
-Thaumcraft:ItemSpawnerEgg:10, 生成 %s血腥主教%s
-Thaumcraft:ItemSpawnerEgg:11, 生成 血腥传送门
-Thaumcraft:ItemSpawnerEgg:12, 生成 %s Eldritch Construct
-Thaumcraft:ItemSpawnerEgg:13, 生成 邪术爪牙
-Thaumcraft:ItemSpawnerEgg:14, 生成 行尸走肉
-Thaumcraft:ItemSpawnerEgg:15, 生成 神秘史莱姆
-Thaumcraft:ItemSpawnerEgg:16, 生成 腐化魔蛛
-Thaumcraft:ItemSpawnerEgg:17, 生成 腐化触手怪
-Thaumcraft:ItemSpawnerEgg:18, 生成 腐化触手
-Thaumcraft:ItemSpawnerEgg:19, 生成 腐化孢子
-Thaumcraft:ItemSpawnerEgg:20, 生成 腐化孢子巢穴
-Thaumcraft:ItemSpawnerEgg:21, 生成 腐化孢子群
-Thaumcraft:ItemSpawnerEgg:22, 生成 腐化鸡
-Thaumcraft:ItemSpawnerEgg:23, 生成 腐化牛
-Thaumcraft:ItemSpawnerEgg:24, 生成 腐化爬行者
-Thaumcraft:ItemSpawnerEgg:25, 生成 腐化猪
-Thaumcraft:ItemSpawnerEgg:26, 生成 腐化羊
-Thaumcraft:ItemSpawnerEgg:27, 生成 腐化村民
-Thaumcraft:ItemSpawnerEgg:28, 生成 巨型腐化触手
 Thaumcraft:ItemZombieBrain, 僵尸之脑
 Thaumcraft:ItemBathSalts, 净化浴盐
 Thaumcraft:ItemCrystalEssence:0, 晶化源质
@@ -11054,6 +11010,23 @@ BuildCraft|Core:ironGearItem, 铁齿轮
 BuildCraft|Core:goldGearItem, 金齿轮
 BuildCraft|Core:diamondGearItem, 钻石齿轮
 BuildCraft|Core:paintbrush, 颜料刷
+BuildCraft|Energy:bucketOil, 原油桶
+BuildCraft|Energy:bucketFuel, 燃油桶
+BuildCraft|Silicon:redstoneChipset:0, 红石芯片
+BuildCraft|Silicon:redstoneChipset:1, 铁质芯片
+BuildCraft|Silicon:redstoneChipset:2, 金质芯片
+BuildCraft|Silicon:redstoneChipset:3, 钻石芯片
+BuildCraft|Silicon:redstoneChipset:4, 脉冲芯片
+BuildCraft|Silicon:redstoneChipset:5, 石英芯片
+BuildCraft|Silicon:redstoneChipset:6, 红石比较芯片
+BuildCraft|Silicon:redstoneChipset:7, 绿宝石芯片
+BuildCraft|Silicon:package, 包
+BuildCraft|Silicon:redstoneCrystal, 红石晶体
+BuildCraft|Builders:templateItem, 模版
+BuildCraft|Builders:blueprintItem, 蓝图
+BuildCraft|Robotics:robot, 机器人
+BuildCraft|Robotics:robotStation, item.robotStation.name
+BuildCraft|Robotics:redstone_board, 红石板
 BuildCraft|Transport:pipeWaterproof, 管道密封剂
 BuildCraft|Transport:item.buildcraftPipe.pipeitemswood:0, 木质管道
 BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald:0, 绿宝石管道
@@ -11134,23 +11107,6 @@ BuildCraft|Transport:pipeLens:32, 透镜 (Clear)
 BuildCraft|Transport:pipeLens:33, 滤镜 (Clear)
 BuildCraft|Transport:pipePowerAdapter, item.pipePowerAdapter.name
 BuildCraft|Transport:gateCopier, 门设拷贝器
-BuildCraft|Silicon:redstoneChipset:0, 红石芯片
-BuildCraft|Silicon:redstoneChipset:1, 铁质芯片
-BuildCraft|Silicon:redstoneChipset:2, 金质芯片
-BuildCraft|Silicon:redstoneChipset:3, 钻石芯片
-BuildCraft|Silicon:redstoneChipset:4, 脉冲芯片
-BuildCraft|Silicon:redstoneChipset:5, 石英芯片
-BuildCraft|Silicon:redstoneChipset:6, 红石比较芯片
-BuildCraft|Silicon:redstoneChipset:7, 绿宝石芯片
-BuildCraft|Silicon:package, 包
-BuildCraft|Silicon:redstoneCrystal, 红石晶体
-BuildCraft|Energy:bucketOil, 原油桶
-BuildCraft|Energy:bucketFuel, 燃油桶
-BuildCraft|Builders:templateItem, 模版
-BuildCraft|Builders:blueprintItem, 蓝图
-BuildCraft|Robotics:robot, 机器人
-BuildCraft|Robotics:robotStation, item.robotStation.name
-BuildCraft|Robotics:redstone_board, 红石板
 BuildCraft|Compat:item.buildcraftPipe.pipeitemspropolis:0, 养蜂员管道
 Railcraft:fluid.creosote.bucket, 杂酚油桶
 Railcraft:fluid.creosote.bottle, 杂酚油瓶
@@ -11284,6 +11240,7 @@ Creator:LumiumPlate:0, 流明板
 Creator:MithrilPlate:0, 秘银板
 Creator:NickelPlate:0, 镍板
 Creator:ObsidianPlate:0, 黑曜石板
+Creator:OsmiumPlate:0, item.OsmiumPlate0.name
 Creator:PlatinumPlate:0, 铂板
 Creator:SignalumPlate:0, 信素板
 Creator:SilverPlate:0, 银板
@@ -11298,12 +11255,15 @@ Creator:compactLeadPlate:0, 厚制铅板
 Creator:compactNickelPlate:0, 厚制镍板
 Creator:compactSteelPlate:0, 厚制钢板
 Creator:compactTinPlate:0, 厚制锡板
+Creator:compactOsmiumPlate:0, item.compactOsmiumPlate0.name
 Creator:denseLeadPlate:0, 致密铅板
+Creator:denseOsmiumPlate:0, item.denseOsmiumPlate0.name
 Creator:denseNickelPlate:0, 致密镍板
 Creator:wireAluminum:0, 铝线
 Creator:wireCopper:0, 铜线
 Creator:wireElectrum:0, 琥珀金线
 Creator:wireSteel:0, 钢线
+Creator:wireGold:0, item.wireGold0.name
 Creator:dustIral:0, 埃罗粉
 Creator:dustTincosi:0, 庭可斯粉
 Creator:dustHydratedRedstone:0, 湿润红石粉
@@ -11340,8 +11300,6 @@ Creator:uranium_halide:0, 卤化铀
 Creator:chamberElectrum:0, 琥珀金仓室
 Creator:chamberElectrumEH:0, 琥珀金涡旋电流加热仓
 Creator:chamberElectrumG:0, 琥珀金粉碎仓
-Creator:chamberInvar:0, 因瓦合金仓室
-Creator:chamberInvarG:0, 因瓦合金粉碎仓
 Creator:chamberIron:0, 铁质仓室
 Creator:chamberIronG:0, 铁质粉碎仓
 Creator:chamberOsmium:0, 锇质仓室
@@ -14782,14 +14740,14 @@ thermsingul:Thermal Singularity:3, Lumium Singularity
 thermsingul:Thermal Singularity:4, Enderium Singularity
 um_tmodifiers:updateChecker, item.updateChecker.name
 zettaindustries:zettaindustries.fakeitem, item.null.name
+zettaindustries:SmartCard, Smart Card [WIP]
+zettaindustries:SmartCardTerminal, Smart Card Terminal [WIP]
 zettaindustries:backpack.creativeT1, item.null.name
 zettaindustries:backpack.creativeT2, item.null.name
 zettaindustries:backpack.engineeringT1, item.null.name
 zettaindustries:backpack.engineeringT2, item.null.name
 zettaindustries:backpack.opencomputersT1, item.null.name
 zettaindustries:backpack.opencomputersT2, item.null.name
-zettaindustries:SmartCard, Smart Card [WIP]
-zettaindustries:SmartCardTerminal, Smart Card Terminal [WIP]
 ForgeMicroblock:sawStone, 石手锯
 ForgeMicroblock:sawIron, 铁手锯
 ForgeMicroblock:sawDiamond, 钻石手锯
