@@ -1,0 +1,45 @@
+<ConfigSection>
+            <Substitute name='vnlaOverworldBlockSubstitute3' block='minecraft:stone'>
+                <Description>
+                    Replace vanilla-generated ore clusters.
+                </Description>
+                <Replaces block='minecraft:coal_ore' weight='1.0' />
+                <IfCondition condition=':= ?blockExists("minecraft:diamond_ore")'> <Replaces block='minecraft:diamond_ore' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("minecraft:emerald_ore")'> <Replaces block='minecraft:emerald_ore' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("minecraft:gold_ore")'> <Replaces block='minecraft:gold_ore' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("minecraft:iron_ore")'> <Replaces block='minecraft:iron_ore' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("minecraft:lapis_ore")'> <Replaces block='minecraft:lapis_ore' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("minecraft:redstone_ore")'> <Replaces block='minecraft:redstone_ore' weight='1.0' /> </IfCondition>
+                
+                <IfCondition condition=':= ?blockExists("appliedenergistics2:tile.OreQuartz")'> <Replaces block='appliedenergistics2:tile.OreQuartz' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("appliedenergistics2:tile.OreQuartzCharged")'> <Replaces block='appliedenergistics2:tile.OreQuartzCharged' weight='1.0' /> </IfCondition>
+				
+                <IfCondition condition=':= ?blockExists("ThermalFoundation:Ore")'> <Replaces block='ThermalFoundation:Ore' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("ThermalFoundation:Ore:1")'> <Replaces block='ThermalFoundation:Ore:1' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("ThermalFoundation:Ore:2")'> <Replaces block='ThermalFoundation:Ore:2' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("ThermalFoundation:Ore:3")'> <Replaces block='ThermalFoundation:Ore:3' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("ThermalFoundation:Ore:4")'> <Replaces block='ThermalFoundation:Ore:4' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("ThermalFoundation:Ore:5")'> <Replaces block='ThermalFoundation:Ore:5' weight='1.0' /> </IfCondition>
+				
+                <IfCondition condition=':= ?blockExists("BigReactors:YelloriteOre")'> <Replaces block='BigReactors:YelloriteOre' weight='1.0' /> </IfCondition>
+				
+                <IfCondition condition=':= ?blockExists("Magneticraft:salt_ore")'> <Replaces block='Magneticraft:salt_ore' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("Magneticraft:zinc_ore")'> <Replaces block='Magneticraft:zinc_ore' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("Magneticraft:tungsten_ore")'> <Replaces block='Magneticraft:tungsten_ore' weight='1.0' /> </IfCondition>
+				
+                <IfCondition condition=':= ?blockExists("Mekanism:OreBlock")'> <Replaces block='Mekanism:OreBlock' weight='1.0' /> </IfCondition>
+                
+                <IfCondition condition=':= ?blockExists("Railcraft:ore")'> <Replaces block='Railcraft:ore' weight='1.0' /> </IfCondition>
+				
+                <IfCondition condition=':= ?blockExists("TConstruct:SearedBrick:5")'> <Replaces block='TConstruct:SearedBrick:5' weight='1.0' /> </IfCondition>
+				
+				<IfCondition condition=':= ?blockExists("Thaumcraft:blockCustomOre")'> <Replaces block='Thaumcraft:blockCustomOre' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("Thaumcraft:blockCustomOre:1")'> <Replaces block='Thaumcraft:blockCustomOre:1' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("Thaumcraft:blockCustomOre:2")'> <Replaces block='Thaumcraft:blockCustomOre:2' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("Thaumcraft:blockCustomOre:3")'> <Replaces block='Thaumcraft:blockCustomOre:3' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("Thaumcraft:blockCustomOre:4")'> <Replaces block='Thaumcraft:blockCustomOre:4' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("Thaumcraft:blockCustomOre:5")'> <Replaces block='Thaumcraft:blockCustomOre:5' weight='1.0' /> </IfCondition>
+				<IfCondition condition=':= ?blockExists("Thaumcraft:blockCustomOre:6")'> <Replaces block='Thaumcraft:blockCustomOre:6' weight='1.0' /> </IfCondition>
+				<IfCondition condition=':= ?blockExists("Thaumcraft:blockCustomOre:7")'> <Replaces block='Thaumcraft:blockCustomOre:7' weight='1.0' /> </IfCondition>
+            </Substitute>
+</ConfigSection>
