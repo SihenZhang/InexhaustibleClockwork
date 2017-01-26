@@ -423,7 +423,7 @@
                     <Setting name='CloudThickness' avg=':= 1.1 * _default_' range=':= 1.1 * _default_'/>
                     <Setting name='OreVolumeNoiseCutoff' avg=':= 0.5 * _default_ ' range=':= 0.5 *_default_ ' type='normal' />
                     <BiomeType name='JUNGLE'/>
-                    <Veins name='CopperHintVeinsSwamp' block='ThermalFoundation:Ore:2' inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x407E8E97' drawBoundBox='false' boundBoxColor='0x407E8E97'>
+                    <Veins name='SilverHintVeinsSwamp' block='ThermalFoundation:Ore:2' inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x407E8E97' drawBoundBox='false' boundBoxColor='0x407E8E97'>
                         <Setting name='MotherlodeFrequency' avg=':= 1 * _default_' range=':= 1 * _default_'/> 
                     </Veins>                
                 </Cloud>
@@ -444,7 +444,7 @@
                     <Setting name='OreDensity' avg=':= 0.3 * _default_ ' range=':= 0.8 * _default_ ' type='normal' scaleTo='base' />
                     <Setting name='OreVolumeNoiseCutoff' avg=':= 0.7 * _default_ ' range=':= 0.7 * _default_ ' type='normal' />
                     <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
-                    <Veins name='UraniumHintVeins'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x402B8A9E' drawBoundBox='false' boundBoxColor='0x402B8A9E'>
+                    <Veins name='PlatinumHintVeins'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x402B8A9E' drawBoundBox='false' boundBoxColor='0x402B8A9E'>
                         <OreBlock block='ThermalFoundation:Ore:5' weight='1.0' />
                         <Setting name='MotherlodeFrequency' avg=':= 1 * _default_' range=':= 1 * _default_'/>
                     </Veins>
@@ -458,7 +458,7 @@
                     <Setting name='CloudThickness' avg=':= 1.1 * _default_' range=':= 1.1 * _default_'/>
                     <Setting name='OreVolumeNoiseCutoff' avg=':= 0.5 * _default_ ' range=':= 0.5 *_default_ ' type='normal' />
                     <BiomeType name="MUSHROOM"/>
-                    <Veins name='UraniumHintveinsMushroom' block='ThermalFoundation:Ore:5' inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x402B8A9E' drawBoundBox='false' boundBoxColor='0x402B8A9E'>
+                    <Veins name='PlatinumHintveinsMushroom' block='ThermalFoundation:Ore:5' inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x402B8A9E' drawBoundBox='false' boundBoxColor='0x402B8A9E'>
                         <Setting name='MotherlodeFrequency' avg=':= 1 * _default_' range=':= 1 * _default_'/> 
                     </Veins>
                 </Cloud>
