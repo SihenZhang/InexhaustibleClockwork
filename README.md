@@ -11,6 +11,7 @@
 | MinecraftForge | 10.13.4.1614 | Forge Development LLC | http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.7.10.html |
 | AgriCraft | 1.5.0 | InfinityRaider | https://minecraft.curseforge.com/projects/agricraft |
 | AOBD  | 2.9.2  | ganymedes01 | https://minecraft.curseforge.com/projects/another-one-bites-the-dust |
+| AOBD singularities | 1.0.4 | RCXcrafter | https://minecraft.curseforge.com/projects/aobd-singularities |
 | AppleCore | 1.3.2 | squeek502 | https://minecraft.curseforge.com/projects/applecore |
 | Applied Energistics2 | rv3-beta-6 | AlgorithmX2 | https://minecraft.curseforge.com/projects/applied-energistics-2 |
 | Avaritia | 1.11 | SpitefulFox | https://minecraft.curseforge.com/projects/avaritia |
