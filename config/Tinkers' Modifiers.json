@@ -1,0 +1,86 @@
+{
+	"clear":[],
+	"effects":"0 is diamond, 1 is emerald, 2 is redstone, 3 is piston, 4 is moss, 5 is some blue tinge, 6 is autosmelt and 7 is blaze",
+	"effectsP2":"8 is necrotic, 9 is potato, 10 is lapis, 11 is quartz, 12 is silky, 13 is beheading, 14 is smite, 15 is arthropods",
+	"effectsP3":"16 is reinforced, 17 is potato?, Don't go to 18",
+	"colours":"0 is black, 1 is dark blue, 2 is dark green, 3 is dark aqua, 4 is dark red, 5 is dark purple, 6 is gold, 7 is gray, 8 is dark gray and 9 is blue",
+	"coloursP2":"a is green, b is aqua, c is red, d is light purple, e is yellow and f is white",
+	"addModifiers":[
+		{
+			"class":"tconstruct.modifiers.tools.ModDurability",
+			"params":[
+				[
+					{
+						"item":"harvestcraft:frograwItem"
+						
+					},
+					{
+						"item":"Creator:wireCopper"
+					
+					}
+				],
+				18,
+				1,
+				0.2f,
+				7,
+				"长命百岁！",
+				"蛤？",
+				"§a"
+			]
+		},
+
+		{
+			"class":"org.abimon.mods.minecraft.tmodifiers.modifiers.ModChangeModifiers",
+			"params":[
+				[
+					{
+						"item":"Thaumcraft:ItemResource",
+						"damage":2
+					}
+				],
+				"神秘的",
+				1,
+				1
+			]
+		},
+		{
+			"class":"org.abimon.mods.minecraft.tmodifiers.modifiers.ModLore",
+			"params":[
+				[
+					{
+						"item":"Thaumcraft:ItemResource",
+						"damage":2
+					}
+				],
+				"神秘的",
+				"§d",
+				"神秘的"
+			]
+		},
+		
+		{
+			"class":"org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomHaste",
+			"params":[
+				6,
+				[
+					{
+						"item":"Thaumcraft:ItemShard",
+						"damage":5
+					},
+					{
+						"item":"Thaumcraft:blockCrystal",
+						"damage":5
+					}
+				],
+				[
+					1,
+					6
+				],
+				"§7混沌的",
+				50
+			]
+		}
+	],
+	"subModifiers":[
+	]
+}
