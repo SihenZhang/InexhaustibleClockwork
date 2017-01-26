@@ -503,7 +503,7 @@
         
         <ConfigSection>
                 <Cloud name='SaltCloud' inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60CED0BA' drawBoundBox='false' boundBoxColor='0x60CED0BA'>
-					<OreBlock block='Magneticraft:salt_ore' weight='0.6'>
+					<OreBlock block='Magneticraft:salt_ore' weight='0.6' />
                     <OreBlock block='Railcraft:ore:1' weight='0.25' />
                     <OreBlock block='Forestry:resources' weight='0.15' />
                     <BiomeType name='RIVER'  />
@@ -562,7 +562,7 @@
 
         <ConfigSection>
                 <Cloud name='TungstenCloud' inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60000000' drawBoundBox='false' boundBoxColor='0x60000000'>
-					<OreBlock block='Magneticraft:tungsten_ore' weight='0.8'>
+					<OreBlock block='Magneticraft:tungsten_ore' weight='0.8' />
                     <OreBlock block='TConstruct:Smeltery:4' weight='0.2' />
                     <BiomeType name='HOT'  />
 					<BiomeType name='DRY'  />
