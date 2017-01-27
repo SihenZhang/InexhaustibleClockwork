@@ -112,6 +112,10 @@ recipes.addShaped(<Creator:EnderiumPlate>, [[<Creator:IronHammer>.anyDamage().tr
 mods.railcraft.Rolling.addShaped(<Creator:EnderiumPlate> * 4, [[<ore:ingotEnderium>, <ore:ingotEnderium>, null], 
                                                                [<ore:ingotEnderium>, <ore:ingotEnderium>, null],
                                                                [null, null, null]]);
+recipes.addShaped(<Creator:OsmiumPlate>, [[<Creator:IronHammer>.anyDamage().transformDamage()], [<ore:ingotOsmium>], [<ore:ingotOsmium>]]);
+mods.railcraft.Rolling.addShaped(<Creator:OsmiumPlate> * 4, [[<ore:ingotOsmium>, <ore:ingotOsmium>, null], 
+                                                             [<ore:ingotOsmium>, <ore:ingotOsmium>, null],
+                                                             [null, null, null]]);
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactAluminumPlate>, <ore:plateAluminum>, <ImmersiveEngineering:mold>, 20000, 3);
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactBronzePlate>, <ore:plateBronze>, <ImmersiveEngineering:mold>, 20000, 3);
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactConstantanPlate>, <ore:plateConstantan>, <ImmersiveEngineering:mold>, 20000, 3);
@@ -123,7 +127,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactInvarPlate>, <ore
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactIronPlate>, <ore:plateIron>, <ImmersiveEngineering:mold>, 20000, 3);
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactLeadPlate>, <ore:plateLead>, <ImmersiveEngineering:mold>, 20000, 3);
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactLumiumPlate>, <ore:plateLumium>, <ImmersiveEngineering:mold>, 20000, 3);
-mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactMirthilPlate>, <ore:plateMirthil>, <ImmersiveEngineering:mold>, 20000, 3);
+mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactMithrilPlate>, <ore:plateMithril>, <ImmersiveEngineering:mold>, 20000, 3);
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactNickelPlate>, <ore:plateNickel>, <ImmersiveEngineering:mold>, 20000, 3);
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactObsidianPlate>, <ore:plateObsidian>, <ImmersiveEngineering:mold>, 20000, 3);
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactOsmiumPlate>, <ore:plateOsmium>, <ImmersiveEngineering:mold>, 20000, 3);
@@ -144,7 +148,7 @@ mods.mekanism.Compressor.addRecipe(<Creator:compactInvarPlate> * 3, <gas:liquidO
 mods.mekanism.Compressor.addRecipe(<Creator:compactIronPlate> * 3, <gas:liquidOsmium>, <Creator:denseIronPlate>);
 mods.mekanism.Compressor.addRecipe(<Creator:compactLeadPlate> * 3, <gas:liquidOsmium>, <Creator:denseLeadPlate>);
 mods.mekanism.Compressor.addRecipe(<Creator:compactLumiumPlate> * 3, <gas:liquidOsmium>, <Creator:denseLumiumPlate>);
-mods.mekanism.Compressor.addRecipe(<Creator:compactMirthilPlate> * 3, <gas:liquidOsmium>, <Creator:denseMirthilPlate>);
+mods.mekanism.Compressor.addRecipe(<Creator:compactMithrilPlate> * 3, <gas:liquidOsmium>, <Creator:denseMithrilPlate>);
 mods.mekanism.Compressor.addRecipe(<Creator:compactNickelPlate> * 3, <gas:liquidOsmium>, <Creator:denseNickelPlate>);
 mods.mekanism.Compressor.addRecipe(<Creator:compactObsidianPlate> * 3, <gas:liquidOsmium>, <Creator:denseObsidianPlate>);
 mods.mekanism.Compressor.addRecipe(<Creator:compactOsmiumPlate> * 3, <gas:liquidOsmium>, <Creator:denseOsmiumPlate>);
