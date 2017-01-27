@@ -4,9 +4,13 @@
 
 **InexhaustibleClockwork**是一个由**Si_hen**（项目所有者Owner）及**Prunoideae**（作者Author，设计师Designer）联合制作的**Minecraft整合包**。
 >本仓库仅提供**Mod列表，config，scripts，CS2，CS3，resources及releases**。
- 
+
+------
+
 ##声明
 >本整合包中使用的**Pam's HarvestCraft、Steve's Carts 2、Steve's Facotry Manager**的**本地化文件**来自于** @3TUSK 的 [TemporaryLocalization仓库](https://github.com/3TUSK/TemporaryLocalization/tree/1.7.10)**并且**[已经过本人授权](https://github.com/SihenZhang/InexhaustibleClockwork/blob/master/resources/PERMISSION.png)**。
+
+------
 
 ### Mod列表
 | 名称 | 当前版本 | 作者/团队 | 原帖/站/下载地址|
