@@ -41,4 +41,5 @@ mods.thaumcraft.Research.addInfusionPage("ATOMDISASM", <Mekanism:AtomicDisassemb
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:2>);
 mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <Thaumcraft:ItemResource:2>, <ThermalFoundation:material:70>, "praecantatio 4");
 mods.thaumcraft.Research.refreshResearchRecipe("THAUMIUM");
+
 print("Initialized 'Thaumcraft.zs'");
