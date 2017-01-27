@@ -8,7 +8,7 @@
 ------
 
 ##声明
->本整合包中所使用的**`Pam's HarvestCraft`、`Steve's Carts 2`及`Steve's Facotry Manager`**的**本地化文件**皆来自于 **@3TUSK 的 [TemporaryLocalization仓库](https://github.com/3TUSK/TemporaryLocalization/tree/1.7.10)** 并且 **[已经过本人授权](https://github.com/SihenZhang/InexhaustibleClockwork/blob/master/resources/PERMISSION.png)** 。
+>本整合包中所使用的**`Pam's HarvestCraft`、`Steve's Carts 2`及`Steve's Facotry Manager`**的**本地化文件**皆来自于 **[@3TUSK](https://github.com/3TUSK) 的 [TemporaryLocalization仓库](https://github.com/3TUSK/TemporaryLocalization/tree/1.7.10)** 并且 **[已经过本人授权](https://github.com/SihenZhang/InexhaustibleClockwork/blob/master/resources/PERMISSION.png)** 。
 
 ------
 
