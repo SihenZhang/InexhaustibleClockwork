@@ -135,7 +135,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactPlatinumPlate>, <
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactSignalumPlate>, <ore:plateSignalum>, <ImmersiveEngineering:mold>, 20000, 3);
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactSilverPlate>, <ore:plateSilver>, <ImmersiveEngineering:mold>, 20000, 3);
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactSteelPlate>, <ore:plateSteel>, <ImmersiveEngineering:mold>, 20000, 3);
-mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactTinPlate>, <ore:plateTin>, <ImmersiveEngineering:mold>, 20000, 3);
+mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactTinPlate>, <Railcraft:part.plate:2>, <ImmersiveEngineering:mold>, 20000, 3);
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactTungstenPlate>, <ore:plateTungsten>, <ImmersiveEngineering:mold>, 20000, 3);
 mods.mekanism.Compressor.addRecipe(<Creator:compactAluminumPlate> * 3, <gas:liquidOsmium>, <Creator:denseAluminumPlate>);
 mods.mekanism.Compressor.addRecipe(<Creator:compactBronzePlate> * 3, <gas:liquidOsmium>, <Creator:denseBronzePlate>);
