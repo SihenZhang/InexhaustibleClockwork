@@ -255,31 +255,6 @@ recipes.remove(<harvestcraft:hardenedleatherchestItem>);
 recipes.remove(<harvestcraft:hardenedleatherleggingsItem>);
 recipes.remove(<harvestcraft:hardenedleatherbootsItem>);
 
-#Custom Craftable armor pieces
-recipes.addShaped(<minecraft:diamond_boots>, [[<minecraft:diamond>, null, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:iron_boots>, <minecraft:diamond>]]);
-recipes.addShaped(<minecraft:diamond_leggings>, [[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:iron_leggings>, <minecraft:diamond>], [<minecraft:diamond>, null, <minecraft:diamond>]]);
-recipes.addShaped(<minecraft:diamond_chestplate>, [[<minecraft:diamond>, <minecraft:iron_chestplate>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
-recipes.addShaped(<minecraft:diamond_helmet>, [[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:iron_helmet>, <minecraft:diamond>]]);
-recipes.addShaped(<minecraft:golden_boots>, [[<ore:plateGold>, null, <ore:plateGold>], [<ore:plateGold>, <minecraft:iron_boots>, <ore:plateGold>]]);
-recipes.addShaped(<minecraft:golden_leggings>, [[<ore:plateGold>, <minecraft:iron_leggings>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
-recipes.addShaped(<minecraft:golden_chestplate>, [[<ore:plateGold>, <minecraft:iron_chestplate>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
-recipes.addShaped(<minecraft:golden_helmet>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], [<ore:plateGold>, <minecraft:iron_helmet>, <ore:plateGold>]]);
-recipes.addShaped(<Railcraft:armor.steel.helmet>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <minecraft:iron_helmet>, <ore:plateSteel>]]);
-recipes.addShaped(<Railcraft:armor.steel.plate>, [[<ore:plateSteel>, <minecraft:iron_chestplate>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
-recipes.addShaped(<Railcraft:armor.steel.plate>, [[<ore:plateSteel>, <minecraft:iron_chestplate>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
-recipes.addShaped(<Railcraft:armor.steel.legs>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <minecraft:iron_leggings>, <ore:plateSteel>], [<ore:plateSteel>, null, <ore:plateSteel>]]);
-recipes.addShaped(<Railcraft:armor.steel.boots>, [[<ore:plateSteel>, null, <ore:plateSteel>], [<ore:plateSteel>, <minecraft:iron_boots>, <ore:plateSteel>]]);
-recipes.addShaped(<minecraft:iron_boots>, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <minecraft:leather_boots>, <ore:plateIron>]]);
-recipes.addShaped(<minecraft:iron_leggings>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <minecraft:leather_leggings>, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>]]);
-recipes.addShaped(<minecraft:iron_chestplate>, [[<ore:plateIron>, <minecraft:leather_chestplate>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
-recipes.addShaped(<minecraft:iron_helmet>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <minecraft:leather_helmet>, <ore:plateIron>]]);
-recipes.addShaped(<minecraft:leather_boots>, [[<ore:itemLeather>, null, <ore:itemLeather>], [<ore:itemLeather>, null, <ore:itemLeather>], [<ore:itemRubber>, null, <ore:itemRubber>]]);
-recipes.addShaped(<minecraft:leather_boots>, [[<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>], [<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>], [<ore:itemRubber>, null, <ore:itemRubber>]]);
-recipes.addShaped(<ThermalFoundation:armor.helmetBronze>, [[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], [<ore:plateBronze>, <minecraft:iron_helmet>, <ore:plateBronze>]]);
-recipes.addShaped(<ThermalFoundation:armor.plateBronze>, [[<ore:plateBronze>, <minecraft:iron_chestplate>, <ore:plateBronze>], [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>]]);
-recipes.addShaped(<ThermalFoundation:armor.legsBronze>, [[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], [<ore:plateBronze>, <minecraft:iron_leggings>, <ore:plateBronze>], [<ore:plateBronze>, null, <ore:plateBronze>]]);
-recipes.addShaped(<ThermalFoundation:armor.bootsBronze>, [[<ore:plateBronze>, null, <ore:plateBronze>], [<ore:plateBronze>, <minecraft:iron_boots>, <ore:plateBronze>]]);
-
 #Remove Lava power
 recipes.remove(<ThermalExpansion:Dynamo:1>);
 
@@ -311,19 +286,30 @@ recipes.removeShaped(<minecraft:chest> * 4, [[<ore:logWood>, <ore:logWood>, <ore
 
 #tooltips
 <minecraft:golden_axe>.addTooltip(format.red("Used For Crafting Only!"));
-<minecraft:golden_shovel>.addTooltip(format.red("Used For Crafting Only!"));
-<minecraft:diamond_hoe>.addTooltip(format.red("Used For Crafting Only!"));
+<minecraft:golden_shovel>.addTooltip(format.red("Can NOT Get This Item Now!"));
 <minecraft:diamond_sword>.addTooltip(format.red("Used For Crafting Only!"));
 <minecraft:diamond_shovel>.addTooltip(format.red("Used For Crafting Only!"));
-<minecraft:diamond_axe>.addTooltip(format.red("Used For Crafting Only!"));
+<minecraft:diamond_axe>.addTooltip(format.red("Can NOT Get This Item Now!"));
 <minecraft:diamond_pickaxe>.addTooltip(format.red("Used For Crafting Only!"));
 <minecraft:golden_pickaxe>.addTooltip(format.red("Used For Crafting Only!"));
-<minecraft:iron_shovel>.addTooltip(format.red("Used For Crafting Only!"));
+<minecraft:iron_shovel>.addTooltip(format.red("Can NOT Get This Item Now!"));
 <minecraft:iron_axe>.addTooltip(format.red("Used For Crafting Only!"));
 <minecraft:iron_pickaxe>.addTooltip(format.red("Used For Crafting Only!"));
 <minecraft:iron_sword>.addTooltip(format.red("Used For Crafting Only!"));
 <minecraft:golden_sword>.addTooltip(format.red("Used For Crafting Only!"));
-<minecraft:golden_hoe>.addTooltip(format.red("Used For Crafting Only!"));
+<minecraft:wooden_sword>.addTooltip(format.red("Can NOT Get This Item Now!"));
+<minecraft:wooden_shovel>.addTooltip(format.red("Can NOT Get This Item Now!"));
+<minecraft:wooden_pickaxe>.addTooltip(format.red("Can NOT Get This Item Now!"));
+<minecraft:wooden_axe>.addTooltip(format.red("Can NOT Get This Item Now!"));
+<minecraft:wooden_hoe>.addTooltip(format.red("Can NOT Get This Item Now!"));
+<minecraft:stone_sword>.addTooltip(format.red("Can NOT Get This Item Now!"));
+<minecraft:stone_shovel>.addTooltip(format.red("Can NOT Get This Item Now!"));
+<minecraft:stone_pickaxe>.addTooltip(format.red("Can NOT Get This Item Now!"));
+<minecraft:stone_axe>.addTooltip(format.red("Can NOT Get This Item Now!"));
+<minecraft:stone_hoe>.addTooltip(format.red("Can NOT Get This Item Now!"));
+<minecraft:iron_hoe>.addTooltip(format.red("Can NOT Get This Item Now!"));
+<minecraft:golden_hoe>.addTooltip(format.red("Can NOT Get This Item Now!"));
+<minecraft:diamond_hoe>.addTooltip(format.red("Can NOT Get This Item Now!"));
 <Forestry:brokenBronzePickaxe>.addTooltip(format.red("Can NOT Get This Item Now!"));
 <Forestry:brokenBronzeShovel>.addTooltip(format.red("Can NOT Get This Item Now!"));
 <Forestry:bronzePickaxe>.addTooltip(format.red("Can NOT Craft This Item Now!"));

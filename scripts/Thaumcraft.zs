@@ -9,6 +9,11 @@ print("Initializing 'Thaumcraft.zs'...");
 #mods.thaumcraft.Research.addPage("TESTING", "derp.research_page.TESTING");
 #game.setLocalization("en_US", "derp.research_page.TESTING", "Since Prunoideae had manned the power of ModTweaker, a big disaster was about to come.");
 
+#iron gear
+<ore:gearIron>.remove(<thaumicenergistics:material:2>);
+<ore:thermalexpansion:machineIron>.remove(<thaumicenergistics:material:2>);
+mods.thaumcraft.Arcane.removeRecipe(<thaumicenergistics:material:2>);
+
 #Endertech Exchanger - after FOCUSTRADE
 recipes.remove(<EnderTech:endertech.exchanger:1>); #redstone
 recipes.remove(<EnderTech:endertech.exchanger:2>); #resonant

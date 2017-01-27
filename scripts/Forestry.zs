@@ -14,7 +14,7 @@ mods.forestry.Carpenter.addRecipe(<Forestry:impregnatedCasing>, [[<ore:logWood>,
                                                                  [<ore:logWood>, <ore:logWood>, <ore:logWood>]], <liquid:plantoil> * 250, 200);
 
 #tin electron tube
-recipes.addShaped(<Forestry:thermionicTubes:1>, [[null, <TConstruct:buckets:3>.transformReplace(<minecraft:bucket>)], [<minecraft:redstone>, <TConstruct:buckets:3>.transformReplace(<minecraft:bucket>), <minecraft:redstone>], [<TConstruct:buckets:3>.transformReplace(<minecraft:bucket>), <TConstruct:buckets:3>.transformReplace(<minecraft:bucket>), <TConstruct:buckets:3>.transformReplace(<minecraft:bucket>)]]);
+recipes.addShaped(<Forestry:thermionicTubes:1>, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>], [<minecraft:redstone>, <TConstruct:buckets:3>.transformReplace(<minecraft:bucket>), <minecraft:redstone>], [<Railcraft:part.plate:3>, <minecraft:glass>, <Railcraft:part.plate:3>]]);
 
 #engine
 recipes.remove(<Forestry:engine:1>);

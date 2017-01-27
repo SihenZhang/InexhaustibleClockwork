@@ -182,7 +182,10 @@ mods.railcraft.Rolling.addShaped(<Creator:wireSteel> * 6, [[<ore:plateSteel>, <o
                                                            [<ore:plateSteel>, null, <ore:plateSteel>],
                                                            [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 #Error Items
-recipes.addShaped(<Prunoideae:errorItem1>,[[<minecraft:apple>,<minecraft:cobblestone>,<minecraft:paper>],[<minecraft:golden_sword>,<minecraft:torch>,<minecraft:hopper>],[<minecraft:carpet:15>,<minecraft:leaves>,<minecraft:pumpkin>]]);
+recipes.addShaped(<Prunoideae:errorItem1>,[[<minecraft:apple>, <minecraft:cobblestone>, <minecraft:paper>],[<minecraft:golden_sword>, <minecraft:torch>, <minecraft:hopper>],[<minecraft:carpet:15>, <minecraft:leaves>, <minecraft:pumpkin>]]);
 NEI.hide(<Prunoideae:errorItem1>);
+
+#Log Igniter
+recipes.addShaped(<Prunoideae:logIgniter>, [[<minecraft:cobblestone>, <minecraft:stone_pressure_plate>, <minecraft:cobblestone>], [<minecraft:cobblestone>, <minecraft:iron_ingot>, <minecraft:cobblestone>], [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>]]);
 
 print("Initialized 'Creator.zs'");
