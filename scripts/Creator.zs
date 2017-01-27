@@ -1,6 +1,7 @@
 #Name: Creator.zs
 #Author: Si_hen
 
+import mods.nei.NEI;
 print("Initializing 'Creator.zs'...");
 
 #comples
@@ -146,5 +147,8 @@ mods.railcraft.Rolling.addShaped(<Creator:wireElectrum> * 6, [[<ore:plateElectru
 mods.railcraft.Rolling.addShaped(<Creator:wireSteel> * 6, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], 
                                                            [<ore:plateSteel>, null, <ore:plateSteel>],
                                                            [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+#Error Items
+recipes.addShaped(<Prunoideae:errorItem1>,[[<minecraft:apple>,<minecraft:cobblestone>,<minecraft:paper>],[<minecraft:golden_sword>,<minecraft:torch>,<minecraft:hopper>],[<minecraft:carpet:15>,<minecraft:leaves>,<minecraft:pumpkin>]]);
+NEI.hide(<Prunoideae:errorItem1>);
 
 print("Initialized 'Creator.zs'");

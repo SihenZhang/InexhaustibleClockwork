@@ -336,4 +336,5 @@ recipes.removeShaped(<minecraft:chest> * 4, [[<ore:logWood>, <ore:logWood>, <ore
 <Railcraft:tool.steel.shovel>.addTooltip(format.red("Used For Crafting Only!"));
 <Railcraft:tool.steel.hoe>.addTooltip(format.red("Used For Crafting Only!"));
 
+
 print("Initialized 'MinecraftGettingStarted.zs'");

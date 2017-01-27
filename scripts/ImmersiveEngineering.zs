@@ -269,10 +269,10 @@ mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalMultiblock>, [[<ore
 #squeezer and fermenter
 recipes.remove(<ImmersiveEngineering:metalMultiblock:2>);
 recipes.remove(<ImmersiveEngineering:metalMultiblock:3>);
-mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalMultiblock:2>, [[<Creator:compactInvarPlate>, <minecraft:piston>,<Creator:compactInvarPlate>], 
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalMultiblock:2>*2, [[<Creator:compactInvarPlate>, <minecraft:piston>,<Creator:compactInvarPlate>], 
 																			  [<ImmersiveEngineering:material:11>, <ore:dyeGreen>, <ImmersiveEngineering:material:11>], 
 																			  [<Creator:compactInvarPlate>, <minecraft:piston>, <Creator:compactInvarPlate>]], <liquid:invar.molten> * 144, 150);
-mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalMultiblock:3>, [[<Creator:compactInvarPlate>, <minecraft:glass_bottle>,<Creator:compactInvarPlate>], 
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalMultiblock:3>*2, [[<Creator:compactInvarPlate>, <minecraft:glass_bottle>,<Creator:compactInvarPlate>], 
 																			  [<ImmersiveEngineering:material:11>, <ore:dyeBlue>, <ImmersiveEngineering:material:11>], 
 																			  [<Creator:compactInvarPlate>, <minecraft:glass_bottle>, <Creator:compactInvarPlate>]], <liquid:invar.molten> * 144, 150);
 #we need to dig deeper
