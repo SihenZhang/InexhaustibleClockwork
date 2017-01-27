@@ -65,6 +65,10 @@ recipes.remove(<Magneticraft:item.dustSulfur>);
 furnace.setFuel(<Magneticraft:item.dustSulfur>, 0);
 mods.mekanism.chemical.Oxidizer.removeRecipe(<gas:sulfurDioxideGas>, <Magneticraft:item.dustSulfur>);
 
+#salt can make food
+<ore:foodSalt>.add(<Magneticraft:item.dustSalt>);
+<ore:itemSalt>.add(<Magneticraft:item.dustSalt>);
+
 #machinehousing
 recipes.remove(<Magneticraft:machine_housing>);
 <Magneticraft:machine_housing>.addTooltip(format.red("We want to make parts unified."));
