@@ -136,6 +136,9 @@ mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:GasTank>.withTag({tier:1 as by
 mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:GasTank>.withTag({tier:2 as byte}), 50000, [<Mekanism:GasTank>.withTag({tier:1 as byte}) *2,<Creator:compactOsmiumPlate>*4, <minecraft:redstone>*4]);
 mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:GasTank>.withTag({tier:3 as byte}), 50000, [<Mekanism:GasTank>.withTag({tier:2 as byte}) *2,<Creator:compactOsmiumPlate>*4, <minecraft:redstone>*4]);
 
+#Cable
+recipes.remove(<Mekanism:PartTransmitter>);
+recipes.addShaped(<Mekanism:PartTransmitter>, [[<Creator:compactSteelPlate>, <zettaindustries:blockwire>, <Creator:compactSteelPlate>]]);
 
 #Those abandoned kids :-O
 recipes.remove(<Mekanism:EnergyCube>);
