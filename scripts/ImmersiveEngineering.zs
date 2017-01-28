@@ -115,7 +115,7 @@ recipes.removeShaped(<BiomesOPlenty:gems:6>, [[<ore:oreSapphire>, <ImmersiveEngi
 vanilla.loot.removeChestLoot("ieVillageCrates", <ImmersiveEngineering:blueprint:2>);
 vanilla.loot.removeChestLoot("strongholdLibrary", <ImmersiveEngineering:blueprint:2>);
 vanilla.loot.removeChestLoot("villageBlacksmith", <ImmersiveEngineering:blueprint:2>);
-mods.immersiveengineering.Squeezer.addRecipe(<ImmersiveEngineering:graphiteElectrode>.withTag({graphDmg: 57600}), null, <ImmersiveEngineering:metal:20> * 6, 7200);
+mods.immersiveengineering.Squeezer.addRecipe(<ImmersiveEngineering:graphiteElectrode>, null, <ImmersiveEngineering:metal:20> * 6, 7200);
 
 #mechanical component
 recipes.remove(<ImmersiveEngineering:material:11>);

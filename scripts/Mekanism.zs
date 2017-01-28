@@ -2,6 +2,8 @@
 #Author: Si_hen & Amygdaloideae
 #Guess who?
 
+import mods.nei.NEI;
+
 print("Initializing 'Mekanism.zs'...");
 
 #remove Gunpowder recipes
@@ -10,6 +12,12 @@ mods.mekanism.Enrichment.removeRecipe(<ore:dustSaltpeter>);
 
 #remove Paper recipe
 recipes.removeShaped(<minecraft:paper>, [[<Mekanism:Sawdust>, <Mekanism:Sawdust>, <Mekanism:Sawdust>]]);
+
+#charcoal block
+recipes.remove(<Mekanism:BasicBlock:3>);
+furnace.setFuel(<Mekanism:BasicBlock:3>, 0);
+<ore:blockCharcoal>.remove(<Mekanism:BasicBlock:3>);
+NEI.hide(<Mekanism:BasicBlock:3>);
 
 #Machines
 

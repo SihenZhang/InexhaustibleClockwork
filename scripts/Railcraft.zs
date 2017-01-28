@@ -64,7 +64,6 @@ mods.railcraft.BlastFurnace.removeFuel(<Railcraft:firestone.refined:*>);
 mods.railcraft.BlastFurnace.removeFuel(<Railcraft:firestone.cracked:*>);
 mods.railcraft.BlastFurnace.addFuel(<minecraft:coal>);
 mods.railcraft.BlastFurnace.addFuel(<minecraft:coal_block>);
-mods.railcraft.BlastFurnace.addFuel(<zettaindustries:charcoalblock>);
 mods.railcraft.BlastFurnace.removeRecipe(<ore:ingotSteel>);
 mods.railcraft.BlastFurnace.removeRecipe(<ore:nuggetSteel>);
 mods.railcraft.BlastFurnace.removeRecipe(<ore:blockSteel>);
