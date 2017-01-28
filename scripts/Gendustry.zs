@@ -1,5 +1,5 @@
 #Name: Gendustry.zs
-#Author: Si_hen
+#Author: Prunoideae & Si_hen
 
 print("Initializing 'Gendustry.zs'...");
 

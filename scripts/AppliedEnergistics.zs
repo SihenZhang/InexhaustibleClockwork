@@ -1,5 +1,5 @@
 #Name: AppliedEnergistics.zs
-#Author: Si_hen
+#Author: Si_hen & Prunoideae
 
 print("Initializing 'AppliedEnergistics.zs'...");
 
@@ -264,4 +264,5 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:52>*8, [[glassQuar
 #glass cable
 recipes.remove(galCable);
 recipes.addShapeless(galCable*64,[<appliedenergistics2:item.ItemMultiPart:140>,fluix,fluix]);
+
 print("Initialized 'AppliedEnergistics.zs'");

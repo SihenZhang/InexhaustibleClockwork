@@ -1,5 +1,5 @@
 #Name: ImmersiveEngineering.zs
-#Author: Si_hen
+#Author: Prunoideae & Si_hen
 
 import mods.nei.NEI;
 

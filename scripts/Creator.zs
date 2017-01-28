@@ -1,5 +1,5 @@
 #Name: Creator.zs
-#Author: Si_hen
+#Author: Si_hen & Prunoideae
 
 import mods.nei.NEI;
 print("Initializing 'Creator.zs'...");
