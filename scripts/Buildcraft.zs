@@ -19,7 +19,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<BuildCraft|Silicon:laserBlock>, [[null,
 
 #AssemblyTable
 recipes.remove(<BuildCraft|Silicon:laserTableBlock>);
-recipes.addShaped(<BuildCraft|Silicon:laserTableBlock>, [[<Magneticraft:item.ingotTungsten>, <Mekanism:ControlCircuit:2>, <Magneticraft:item.ingotTungsten>], [<ore:gearDiamond>, <ThermalExpansion:Frame:1>, <Mekanism:MachineBlock2:15>], [<ore:blockObsidian>, <ore:blockObsidian>, <ore:blockObsidian>]]);
+recipes.addShaped(<BuildCraft|Silicon:laserTableBlock>, [[<Magneticraft:item.ingotTungsten>, <Mekanism:ControlCircuit:2>, <Magneticraft:item.ingotTungsten>], [<ore:gearDiamond>, <Creator:chamberElectrum>, <Forestry:thermionicTubes:5>], [<ore:blockObsidian>, <ore:blockObsidian>, <ore:blockObsidian>]]);
 
 #refinery
 recipes.remove(<BuildCraft|Factory:refineryBlock>);
