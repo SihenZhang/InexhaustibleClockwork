@@ -162,8 +162,28 @@ mods.mekanism.Compressor.addRecipe(<Creator:compactTungstenPlate> * 3, <gas:liqu
 #dust
 recipes.addShaped(<ThermalFoundation:material>, [[<Creator:ironDustSmall>, <Creator:ironDustSmall>], [<Creator:ironDustSmall>, <Creator:ironDustSmall>]]);
 recipes.addShaped(<Creator:ironDustSmall>, [[<Creator:ironDustTiny>, <Creator:ironDustTiny>, <Creator:ironDustTiny>], [<Creator:ironDustTiny>, <Creator:ironDustTiny>, <Creator:ironDustTiny>], [<Creator:ironDustTiny>, <Creator:ironDustTiny>, <Creator:ironDustTiny>]]);
+recipes.addShaped(<ThermalFoundation:material:1>, [[<Creator:goldDustSmall>, <Creator:goldDustSmall>], [<Creator:goldDustSmall>, <Creator:goldDustSmall>]]);
+recipes.addShaped(<Creator:goldDustSmall>, [[<Creator:goldDustTiny>, <Creator:goldDustTiny>, <Creator:goldDustTiny>], [<Creator:goldDustTiny>, <Creator:goldDustTiny>, <Creator:goldDustTiny>], [<Creator:goldDustTiny>, <Creator:goldDustTiny>, <Creator:goldDustTiny>]]);
+recipes.addShaped(<ThermalFoundation:material:32>, [[<Creator:copperDustSmall>, <Creator:copperDustSmall>], [<Creator:copperDustSmall>, <Creator:copperDustSmall>]]);
+recipes.addShaped(<Creator:copperDustSmall>, [[<Creator:copperDustTiny>, <Creator:copperDustTiny>, <Creator:copperDustTiny>], [<Creator:copperDustTiny>, <Creator:copperDustTiny>, <Creator:copperDustTiny>], [<Creator:copperDustTiny>, <Creator:copperDustTiny>, <Creator:copperDustTiny>]]);
+recipes.addShaped(<ThermalFoundation:material:33>, [[<Creator:tinDustSmall>, <Creator:tinDustSmall>], [<Creator:tinDustSmall>, <Creator:tinDustSmall>]]);
+recipes.addShaped(<Creator:tinDustSmall>, [[<Creator:tinDustTiny>, <Creator:tinDustTiny>, <Creator:tinDustTiny>], [<Creator:tinDustTiny>, <Creator:tinDustTiny>, <Creator:tinDustTiny>], [<Creator:tinDustTiny>, <Creator:tinDustTiny>, <Creator:tinDustTiny>]]);
+recipes.addShaped(<ThermalFoundation:material:34>, [[<Creator:silverDustSmall>, <Creator:silverDustSmall>], [<Creator:silverDustSmall>, <Creator:silverDustSmall>]]);
+recipes.addShaped(<Creator:silverDustSmall>, [[<Creator:silverDustTiny>, <Creator:silverDustTiny>, <Creator:silverDustTiny>], [<Creator:silverDustTiny>, <Creator:silverDustTiny>, <Creator:silverDustTiny>], [<Creator:silverDustTiny>, <Creator:silverDustTiny>, <Creator:silverDustTiny>]]);
+recipes.addShaped(<ThermalFoundation:material:35>, [[<Creator:leadDustSmall>, <Creator:leadDustSmall>], [<Creator:leadDustSmall>, <Creator:leadDustSmall>]]);
+recipes.addShaped(<Creator:leadDustSmall>, [[<Creator:leadDustTiny>, <Creator:leadDustTiny>, <Creator:leadDustTiny>], [<Creator:leadDustTiny>, <Creator:leadDustTiny>, <Creator:leadDustTiny>], [<Creator:leadDustTiny>, <Creator:leadDustTiny>, <Creator:leadDustTiny>]]);
 recipes.addShaped(<ThermalFoundation:material:36>, [[<Creator:nickelDustSmall>, <Creator:nickelDustSmall>], [<Creator:nickelDustSmall>, <Creator:nickelDustSmall>]]);
 recipes.addShaped(<Creator:nickelDustSmall>, [[<Creator:nickelDustTiny>, <Creator:nickelDustTiny>, <Creator:nickelDustTiny>], [<Creator:nickelDustTiny>, <Creator:nickelDustTiny>, <Creator:nickelDustTiny>], [<Creator:nickelDustTiny>, <Creator:nickelDustTiny>, <Creator:nickelDustTiny>]]);
+recipes.addShaped(<ThermalFoundation:material:37>, [[<Creator:platinumDustSmall>, <Creator:platinumDustSmall>], [<Creator:platinumDustSmall>, <Creator:platinumDustSmall>]]);
+recipes.addShaped(<Creator:platinumDustSmall>, [[<Creator:platinumDustTiny>, <Creator:platinumDustTiny>, <Creator:platinumDustTiny>], [<Creator:platinumDustTiny>, <Creator:platinumDustTiny>, <Creator:platinumDustTiny>], [<Creator:platinumDustTiny>, <Creator:platinumDustTiny>, <Creator:platinumDustTiny>]]);
+recipes.addShaped(<TConstruct:materials:40>, [[<Creator:aluminumDustSmall>, <Creator:aluminumDustSmall>], [<Creator:aluminumDustSmall>, <Creator:aluminumDustSmall>]]);
+recipes.addShaped(<Creator:aluminumDustSmall>, [[<Creator:aluminumDustTiny>, <Creator:aluminumDustTiny>, <Creator:aluminumDustTiny>], [<Creator:aluminumDustTiny>, <Creator:aluminumDustTiny>, <Creator:aluminumDustTiny>], [<Creator:aluminumDustTiny>, <Creator:aluminumDustTiny>, <Creator:aluminumDustTiny>]]);
+recipes.addShaped(<Mekanism:Dust:2>, [[<Creator:osmiumDustSmall>, <Creator:osmiumDustSmall>], [<Creator:osmiumDustSmall>, <Creator:osmiumDustSmall>]]);
+recipes.addShaped(<Creator:osmiumDustSmall>, [[<Creator:osmiumDustTiny>, <Creator:osmiumDustTiny>, <Creator:osmiumDustTiny>], [<Creator:osmiumDustTiny>, <Creator:osmiumDustTiny>, <Creator:osmiumDustTiny>], [<Creator:osmiumDustTiny>, <Creator:osmiumDustTiny>, <Creator:osmiumDustTiny>]]);
+recipes.addShaped(<Magneticraft:item.dust:4>, [[<Creator:tungstenDustSmall>, <Creator:tungstenDustSmall>], [<Creator:tungstenDustSmall>, <Creator:tungstenDustSmall>]]);
+recipes.addShaped(<Creator:tungstenDustSmall>, [[<Creator:tungstenDustTiny>, <Creator:tungstenDustTiny>, <Creator:tungstenDustTiny>], [<Creator:tungstenDustTiny>, <Creator:tungstenDustTiny>, <Creator:tungstenDustTiny>], [<Creator:tungstenDustTiny>, <Creator:tungstenDustTiny>, <Creator:tungstenDustTiny>]]);
+recipes.addShaped(<Magneticraft:item.dust:12>, [[<Creator:zincDustSmall>, <Creator:zincDustSmall>], [<Creator:zincDustSmall>, <Creator:zincDustSmall>]]);
+recipes.addShaped(<Creator:zincDustSmall>, [[<Creator:zincDustTiny>, <Creator:zincDustTiny>, <Creator:zincDustTiny>], [<Creator:zincDustTiny>, <Creator:zincDustTiny>, <Creator:zincDustTiny>], [<Creator:zincDustTiny>, <Creator:zincDustTiny>, <Creator:zincDustTiny>]]);
 
 #wire
 mods.railcraft.Rolling.addShaped(<Creator:wireGold> * 6, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], 
