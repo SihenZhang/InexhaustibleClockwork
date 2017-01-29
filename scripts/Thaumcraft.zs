@@ -9,11 +9,6 @@ print("Initializing 'Thaumcraft.zs'...");
 #mods.thaumcraft.Research.addPage("TESTING", "derp.research_page.TESTING");
 #game.setLocalization("en_US", "derp.research_page.TESTING", "Since Prunoideae had manned the power of ModTweaker, a big disaster was about to come.");
 
-#iron gear
-<ore:gearIron>.remove(<thaumicenergistics:material:2>);
-<ore:thermalexpansion:machineIron>.remove(<thaumicenergistics:material:2>);
-mods.thaumcraft.Arcane.removeRecipe(<thaumicenergistics:material:2>);
-
 #Endertech Exchanger - after FOCUSTRADE
 recipes.remove(<EnderTech:endertech.exchanger:1>); #redstone
 recipes.remove(<EnderTech:endertech.exchanger:2>); #resonant
@@ -116,3 +111,38 @@ mods.thaumcraft.Research.addPage("CHALK", "derp.research_page.CHALK2");
 mods.thaumcraft.Research.addPrereq("CHALK", "INFUSION");
 
 #Purified shard
+mods.thaumcraft.Research.addResearch("PUREORDO","EASTERN", "ordo 5, praecantatio 5, auram 5", -3,-3,4,<Prunoideae:shardOrdo>);
+mods.thaumcraft.Research.addResearch("PUREIGNIS","EASTERN", "ignis 5, praecantatio 5, auram 5", 0,4,4,<Prunoideae:shardIgnis>);
+mods.thaumcraft.Research.addResearch("PUREAQUA","EASTERN", "aqua 5, praecantatio 5, auram 5", 0,-4,4,<Prunoideae:shardAqua>);
+mods.thaumcraft.Research.addResearch("PUREPERDITIO","EASTERN", "perditio 5, praecantatio 5, auram 5", -3,3,4,<Prunoideae:shardPerditio>);
+mods.thaumcraft.Research.addResearch("PURETERRA","EASTERN", "terra 5, praecantatio 5, auram 5", 3,-3,4,<Prunoideae:shardTerra>);
+mods.thaumcraft.Research.addResearch("PUREAER","EASTERN", "aer 5, praecantatio 5, auram 5", 3,3,4,<Prunoideae:shardAer>);
+
+mods.thaumcraft.Research.addPage("PUREORDO","derp.research_page.PUREORDO");
+mods.thaumcraft.Research.addPage("PUREAER","derp.research_page.PUREAER");
+mods.thaumcraft.Research.addPage("PUREAQUA","derp.research_page.PUREAQUA");
+mods.thaumcraft.Research.addPage("PUREIGNIS","derp.research_page.PUREIGNIS");
+mods.thaumcraft.Research.addPage("PURETERRA","derp.research_page.PURETERRA");
+mods.thaumcraft.Research.addPage("PUREPERDITIO","derp.research_page.PUREPERDITIO");
+
+mods.thaumcraft.Crucible.addRecipe("PUREAER",<Prunoideae:shardAer>,<Thaumcraft:ItemEssence:1>.withTag({Aspects:[{amount: 8, key: "aer"}]}),"vitreus 1");
+mods.thaumcraft.Crucible.addRecipe("PUREAQUA",<Prunoideae:shardAqua>,<Thaumcraft:ItemEssence:1>.withTag({Aspects:[{amount: 8, key: "aqua"}]}),"vitreus 1");
+mods.thaumcraft.Crucible.addRecipe("PUREIGNIS",<Prunoideae:shardIgnis>,<Thaumcraft:ItemEssence:1>.withTag({Aspects:[{amount: 8, key: "ignis"}]}),"vitreus 1");
+mods.thaumcraft.Crucible.addRecipe("PUREORDO",<Prunoideae:shardOrdo>,<Thaumcraft:ItemEssence:1>.withTag({Aspects:[{amount: 8, key: "ordo"}]}),"vitreus 1");
+mods.thaumcraft.Crucible.addRecipe("PUREPERDITIO",<Prunoideae:shardPerditio>,<Thaumcraft:ItemEssence:1>.withTag({Aspects:[{amount: 8, key: "perditio"}]}),"vitreus 1");
+mods.thaumcraft.Crucible.addRecipe("PURETERRA",<Prunoideae:shardTerra>,<Thaumcraft:ItemEssence:1>.withTag({Aspects:[{amount: 8, key: "aer"}]}),"vitreus 1");
+
+mods.thaumcraft.Research.addCruciblePage("PUREAER",<Prunoideae:shardAer>);
+mods.thaumcraft.Research.addCruciblePage("PUREAQUA",<Prunoideae:shardAqua>);
+mods.thaumcraft.Research.addCruciblePage("PUREIGNIS",<Prunoideae:shardIgnis>);
+mods.thaumcraft.Research.addCruciblePage("PUREORDO",<Prunoideae:shardOrdo>);
+mods.thaumcraft.Research.addCruciblePage("PUREPERDITIO",<Prunoideae:shardPerditio>);
+mods.thaumcraft.Research.addCruciblePage("PURETERRA",<Prunoideae:shardTerra>);
+
+mods.thaumcraft.Research.addPrereq("PUREAER", "CHALK");
+mods.thaumcraft.Research.addPrereq("PUREAQUA", "CHALK");
+mods.thaumcraft.Research.addPrereq("PURETERRA", "CHALK");
+mods.thaumcraft.Research.addPrereq("PUREIGNIS", "CHALK");
+mods.thaumcraft.Research.addPrereq("PUREPERDITIO", "CHALK");
+mods.thaumcraft.Research.addPrereq("PUREORDO", "CHALK");
+
