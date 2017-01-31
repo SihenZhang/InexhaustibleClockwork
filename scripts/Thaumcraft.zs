@@ -9,11 +9,6 @@ print("Initializing 'Thaumcraft.zs'...");
 #mods.thaumcraft.Research.addPage("TESTING", "derp.research_page.TESTING");
 #game.setLocalization("en_US", "derp.research_page.TESTING", "Since Prunoideae had manned the power of ModTweaker, a big disaster was about to come.");
 
-#iron gear
-<ore:gearIron>.remove(<thaumicenergistics:material:2>);
-<ore:thermalexpansion:machineIron>.remove(<thaumicenergistics:material:2>);
-mods.thaumcraft.Arcane.removeRecipe(<thaumicenergistics:material:2>);
-
 #Endertech Exchanger - after FOCUSTRADE
 recipes.remove(<EnderTech:endertech.exchanger:1>); #redstone
 recipes.remove(<EnderTech:endertech.exchanger:2>); #resonant
@@ -151,3 +146,50 @@ mods.thaumcraft.Research.addPrereq("PUREIGNIS", "CHALK");
 mods.thaumcraft.Research.addPrereq("PUREPERDITIO", "CHALK");
 mods.thaumcraft.Research.addPrereq("PUREORDO", "CHALK");
 
+#Speed up magic
+mods.thaumcraft.Research.addResearch("SPEEDUP","EASTERN","aer 5, motus 5, praecantatio 5, ordo 5", 4,4,4,<Creator:symXun>);
+mods.thaumcraft.Research.addPage("SPEEDUP", "derp.research_page.SPEEDUP");
+mods.thaumcraft.Research.addPage("SPEEDUP", "derp.research_page.SPEEDUP1");
+mods.thaumcraft.Research.addPage("SPEEDUP", "derp.research_page.SPEEDUP2");
+mods.thaumcraft.Research.addPrereq("SPEEDUP", "PUREAER");
+mods.thaumcraft.Research.setConcealed("SPEEDUP", true);
+
+#Attack up magic
+mods.thaumcraft.Research.addResearch("ATKUP","EASTERN","perditio 5, telum 5, praecantatio 5, mortuus 5", -4,4,4,<Creator:symKun>);
+mods.thaumcraft.Research.addPage("ATKUP", "derp.research_page.ATKUP");
+mods.thaumcraft.Research.addPage("ATKUP", "derp.research_page.ATKUP1");
+mods.thaumcraft.Research.addPage("ATKUP", "derp.research_page.ATKUP2");
+mods.thaumcraft.Research.addPrereq("ATKUP", "PUREPERDITIO");
+mods.thaumcraft.Research.setConcealed("ATKUP", true);
+
+#Defense up magic
+mods.thaumcraft.Research.addResearch("DEFUP","EASTERN","terra 5, tutamen 5, praecantatio 5, metallum 5", 4,-4,4,<Creator:symGen>);
+mods.thaumcraft.Research.addPage("DEFUP", "derp.research_page.DEFUP");
+mods.thaumcraft.Research.addPage("DEFUP", "derp.research_page.DEFUP1");
+mods.thaumcraft.Research.addPage("DEFUP", "derp.research_page.DEFUP2");
+mods.thaumcraft.Research.addPrereq("DEFUP", "PURETERRA");
+mods.thaumcraft.Research.setConcealed("DEFUP", true);
+
+#Burning magic
+mods.thaumcraft.Research.addResearch("BURN","EASTERN","ignis 5, praecantatio 5, terminus 5, lux 5", 0,5,4,<Creator:symLi>);
+mods.thaumcraft.Research.addPage("BURN", "derp.research_page.BURN");
+mods.thaumcraft.Research.addPage("BURN", "derp.research_page.BURN1");
+mods.thaumcraft.Research.addPage("BURN", "derp.research_page.BURN2");
+mods.thaumcraft.Research.addPrereq("BURN", "PUREIGNIS");
+mods.thaumcraft.Research.setConcealed("BURN", true);
+
+#Slow down magic
+mods.thaumcraft.Research.addResearch("SPEEDDOWN","EASTERN", "aqua 5, praecantatio 5, gelum 5, vinculum 5", 0,-5,4,<Creator:symKan>);
+mods.thaumcraft.Research.addPage("SPEEDDOWN", "derp.research_page.SPEEDDOWN");
+mods.thaumcraft.Research.addPage("SPEEDDOWN", "derp.research_page.SPEEDDOWN1");
+mods.thaumcraft.Research.addPage("SPEEDDOWN", "derp.research_page.SPEEDDOWN2");
+mods.thaumcraft.Research.addPrereq("SPEEDDOWN", "PUREAQUA");
+mods.thaumcraft.Research.setConcealed("SPEEDDOWN", true);
+
+#Heal magic
+mods.thaumcraft.Research.addResearch("HEAL", "EASTERN", "ordo 5, praecantatio 5, sano 5, victus 5", -4,-4,4,<Creator:symQian>);
+mods.thaumcraft.Research.addPage("HEAL", "derp.research_page.HEAL");
+mods.thaumcraft.Research.addPage("HEAL", "derp.research_page.HEAL1");
+mods.thaumcraft.Research.addPage("HEAL", "derp.research_page.HEAL2");
+mods.thaumcraft.Research.addPrereq("HEAL", "PUREORDO");
+mods.thaumcraft.Research.setConcealed("HEAL", true);

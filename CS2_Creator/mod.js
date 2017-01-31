@@ -139,6 +139,15 @@ mod.addItem("rotatorMNico.js","normal");
 
 mod.addItem("excitingCoil.js","normal");
 
+mod.addItem("symZhen.js","normal"); //symbols
+mod.addItem("symGen.js","normal"); 
+mod.addItem("symLi.js","normal"); 
+mod.addItem("symDui.js","normal"); 
+mod.addItem("symKan.js","normal"); 
+mod.addItem("symXun.js","normal"); 
+mod.addItem("symQian.js","normal"); 
+mod.addItem("symKun.js","normal"); 
+
 //blocks
 mod.addBlock("eye.js","flat");
 mod.addBlock("qian.js","flat");

@@ -6,7 +6,7 @@ if (n==-1) player.sendMessage("错误：圆环不完整");
 function main(){
 	//4b offset, 3b 3b offset
 	var x = position.x;y = position.y;z = position.z;
-	var errM =["在南方四格处缺少刻画","在北方四格处缺少刻画","在东方四格处缺少刻画","在西方四格处缺少刻画","在东南方三格处缺少刻画","在西南方三格处缺少刻画","在东北方三格处缺少刻画","在西北方三格处缺少刻画"];
+	var errM =["在南方四格处缺少刻画","在北方四格处缺少刻画","在西方四格处缺少刻画","在东方四格处缺少刻画","在西南方三格处缺少刻画","在东南方三格处缺少刻画","在西北方三格处缺少刻画","在东北方三格处缺少刻画"];
 	var arrS = new Array(8);
 	arrS[0] = rIndex(world.getBlockName(x,y,z+4)); //S
 	arrS[1] = rIndex(world.getBlockName(x,y,z-4)); //N
@@ -25,6 +25,7 @@ function main(){
 	//combine all position
 	var strc = arrS.join("")+".js";
 	player.sendMessage(strc);
+	player.swingItem();
 	mod.loadScript(strc);
 }
 

@@ -173,11 +173,11 @@ tc.research_name.ROCKETSODA=火箭可乐
 tc.research_text.ROCKETSODA=[MT] 感受飞的滋味！
 derp.research_page.ROCKETSODA=快来尝尝Dr. Wondertainment 的最新 发明！ 这小小的一瓶可乐，内部蕴含着大量的Volatus与Aer魔力，只要喝上一瓶，就能让你体会到身轻如燕的感觉！ <BR><BR> 附加说明1:饮用时身体排出大量气体属正常现象，请使用者们不要在意 <BR><BR>附加说明2:Dr. Wondertainment 并不 对任何因过度饮用本品而带来的损失负责。
 
-tc.research_category.EASTERN=道术
-tc.research_name.CHALK=道术之始
+tc.research_category.EASTERN=气魔法
+tc.research_name.CHALK=气之始
 tc.research_text.CHALK=[MT×CS3] 引导万物之气
 derp.research_page.CHALK=神秘学一直认为世界由四十九种不同的要素交织在一起构成，但来自遥远东方的“道士”们却并不这样认为，他们认为世界由阴阳两种捉摸不透的“气”所组成，阴与阳的交织组成了四象、八卦，乃至整个世界......求实的神秘使们当然对此不屑一顾，但令人不解的是他们的确成功了，虽然有些地方略显粗糙，但他们似乎比我们更加有力地抓住了世界的本质。<BR><BR>经过长时间的学习与研究，你似乎摸索到了一些神秘学与道术之间的联系。 <BR><BR> 神秘学中的六种基础要素可利用阴阳二气学说进行一个简单的分类，Ignis、Aer、Ordo要素属阳，而Aqua、Terra、Perditio要素属阴，使用不同的基
-derp.research_page.CHALK1=础要素配合在一起，并用预先刻画好的法阵加以引导，你掌握了一种单纯依靠一根粉笔与几样物品就能创造出多种多样的新奇魔法。<BR><BR> 使用注魔法将六种碎片同一块平衡碎片结合在一起，你就能得到一根奇特的粉笔，其蕴含着许多的奥秘，特定的刻画能够引发空间中灵气的不寻常的流动，你猜测这可能会是一条将神秘学与道术结合为一的新路，但是由于六元素说和八卦说有部分的出入，这可能需要大量的研究以使用六种源质驱动法阵。
+derp.research_page.CHALK1=础要素配合在一起，并用预先刻画好的法阵加以引导，你掌握了一种单纯依靠一根粉笔与几样物品就能创造出多种多样效果的新奇魔法。<BR><BR> 使用注魔法将六种碎片同一块平衡碎片结合在一起，你就能得到一根奇特的粉笔，其蕴含着许多的奥秘，特定的刻画能够引发空间中灵气的不寻常的流动，你猜测这可能会是一条将神秘学与道术结合为一的新路，但是由于六元素说和八卦说有部分的出入，这可能需要大量的研究以使用六种源质驱动法阵。
 derp.research_page.CHALK2=奇特的是，不同于以往费尽九牛二虎之力才可能成功的注魔，这次注魔几乎没有花任何努力便成功了，也许，这就是顺应自然的好处吗？
 
 tc.research_name.PUREAER=浓缩的风之碎片制造
@@ -191,10 +191,10 @@ tc.research_name.PURETERRA=浓缩的地之碎片制造
 tc.research_text.PURETERRA=[MT×CS3] 艮其背，不获其身，行其庭，不见其人，无咎。
 
 tc.research_name.PUREORDO=浓缩的秩序碎片制造
-tc.research_text.PUREORDO=[MT×CS3] 君子终日乾乾，夕惕若厉，无咎。
+tc.research_text.PUREORDO=[MT×CS3] 元亨利贞。
 
 tc.research_name.PUREIGNIS=浓缩的火之碎片制造
-tc.research_text.PUREIGNIS=[MT×CS3] 黄离，元吉。
+tc.research_text.PUREIGNIS=[MT×CS3] 利贞。亨。畜牝牛吉。
 derp.research_page.PUREIGNIS=自然开采的火之碎片虽然凝聚着力量，但远不足以驱动改版的法阵。 <BR><BR>模仿着制造高纯赛特斯石英的原理，你试着将含有大量Ignis要素的安瓿投入含有Vitreus要素的坩埚当中，结果你得到了一种更加浓缩的元素碎片，而此内蕴含的能量足以驱动某几种法阵的运行了。
 
 tc.research_name.PUREPERDITIO=浓缩的混沌碎片制造
@@ -205,5 +205,40 @@ derp.research_page.PURETERRA=自然开采的地之碎片虽然凝聚着力量，
 derp.research_page.PUREAER=自然开采的风之碎片虽然凝聚着力量，但远不足以驱动改版的法阵。 <BR><BR>模仿着制造高纯赛特斯石英的原理，你试着将含有大量Aer要素的安瓿投入含有Vitreus要素的坩埚当中，结果你得到了一种更加浓缩的元素碎片，而此内蕴含的能量足以驱动某几种法阵的运行了。
 derp.research_page.PUREPERDITIO=自然开采的混沌碎片虽然凝聚着力量，但远不足以驱动改版的法阵。 <BR><BR>模仿着制造高纯赛特斯石英的原理，你试着将含有大量Perditio要素的安瓿投入含有Vitreus要素的坩埚当中，结果你得到了一种更加浓缩的元素碎片，而此内蕴含的能量足以驱动某几种法阵的运行了。
 
+tc.research_name.SPEEDUP=巽气入门
+tc.research_text.SPEEDUP=[MT×CS2] 进退，利武人之贞。
+derp.research_page.SPEEDUP=在进行初步的研究之后，你决定将你的理论化为现实。<BR><BR>巽属东南，代表着风，对普通的圆环进行修改，把艮替换为震，把原本的巽改为坎，再将四方改写为巽，就能将环境中的巽气聚集到能对周围生物产生效果的浓度。但是为了驱动法阵的运行，你还需要将一些特定的物品摆在八个圆环以及中间的阵眼之上。
+derp.research_page.SPEEDUP1=<IMG>creator:textures/items/111111.png:0:0:255:255:0.5</IMG>将一块浓缩的风之碎片扔在阵眼之上并对其右键以激活整个过程。
+derp.research_page.SPEEDUP2=
+
+tc.research_name.ATKUP=坤气入门
+tc.research_text.ATKUP=[MT×CS2] 龙战于野，其血玄黄。
+derp.research_page.ATKUP=在进行初步的研究之后，你决定将你的理论化为现实。 <BR><BR>坤属西南，代表着混沌与土，对普通的圆环进行修改，将西南、东南方改写为离，再将四方改写为坤，就能将环境中的坤气聚集到能对周围的生物产生效果的浓度。但是为了驱动法阵的运行，你还需要将一些特定的物品摆在八个圆环以及中间的阵眼之上。
+derp.research_page.ATKUP1=
+derp.research_page.ATKUP2=
+
+tc.research_name.DEFUP=艮气入门
+tc.research_text.DEFUP=[MT×CS2] 
+derp.research_page.DEFUP=在进行初步的研究之后，你决定将你的理论化为现实。 <BR><BR>艮属东北，代表着山岳与大地，在某种程度上同坤有联系。对普通的圆环进行修改，将原位的艮替换为离，
+derp.research_page.DEFUP1=
+derp.research_page.DEFUP2=
+
+tc.research_name.BURN=离气入门
+tc.research_text.BURN=[MT×CS2] 日昃之离，不鼓缶而歌，则大耋之嗟，凶。
+derp.research_page.BURN=在进行初步的研究之后，你决定将你的理论化为现实。 <BR><BR>离属正南，代表着火，对普通的圆环进行修改，简单地将四方改写为离，就能将环境中的离气聚集到能对周围的物体产生效果的浓度。但是为了驱动法阵的运行，你还需要将一些特定的物品摆在八个圆环以及中间的阵眼之上。
+derp.research_page.BURN1=
+derp.research_page.BURN2=
+
+tc.research_name.SPEEDDOWN=坎气入门
+tc.research_text.SPEEDDOWN=[MT×CS2] 习坎，入于坎，窞，凶。
+derp.research_page.SPEEDDOWN=在进行初步的研究之后，你决定将你的理论化为现实。 <BR><BR>坎属正北，代表着水与险阻，对普通的圆环进行修改，将东北的艮改为兑，再将西南的坤改为震，并将四方的刻画改写为坎，就能将环境中的坎气聚集到能堆周围物体产生效果的浓度。但是为了驱动法阵的运行，你还需要将一些特定的物品摆在八个圆环以及中间的阵眼之上。
+derp.research_page.SPEEDDOWN1=
+derp.research_page.SPEEDDOWN2=
+
+tc.research_name.HEAL=乾气入门
+tc.research_text.HEAL=[MT×CS2] 见龙在田，利见大人。
+derp.research_page.HEAL=在进行初步的研究之后，你决定将你的理论化为现实。 <BR><BR>乾属西北，代表着秩序与天，对普通的圆环进行修改，将西北的乾改为艮，再将四方改写为乾，就能将环境中的乾气聚集到能对周围的生物产生效果的浓度。但是为了驱动法阵的运行，你还需要将一些特定的物品摆在八个圆环以及中间的阵眼之上。
+derp.research_page.HEAL1=
+derp.research_page.HEAL2=
 
 derp.research_page.GIBBERISH=涓や釜澶嶅埗鍙夊湪缁堟鍖虹浉閬囪€屽仠姝㈠鍒讹紝澶嶅埗浣撹В浣擄紝鏈熼棿澶х害鏈変簲鍗佽嚦涓€鐧剧⒈鍩哄鏈澶嶅埗銆傚叾鍚庝袱鏉′翰浠ｉ摼瑙ｅ紑锛岄€氳繃淇鏂瑰紡濉ˉ绌虹己锛屾鏃朵袱鐜姸鏌撹壊浣撲簰鐩哥紶缁曪紝鎴愪负杩為攣浣撱€傛杩為攣浣撳湪缁嗚優鍒嗚鍓嶅繀椤昏В寮€锛屽惁鍒欏皢瀵艰嚧缁嗚優鍒嗚澶辫触锛岀粏鑳炲彲鑳藉洜姝ゆ浜°€備袱涓鍒跺弶鍦ㄧ粓姝㈠尯鐩搁亣鑰屽仠姝㈠鍒讹紝澶嶅埗浣撹В浣擄紝鏈熼棿澶х害鏈変簲鍗佽嚦涓€鐧剧⒈鍩哄鏈澶嶅埗銆傚叾鍚庝袱鏉′翰浠ｉ摼瑙ｅ紑锛岄€氳繃淇鏂瑰紡濉ˉ绌虹己锛屾鏃朵袱鐜姸鏌撹壊浣撲簰鐩哥紶缁曪紝鎴愪负杩為攣浣撱€傛杩為攣浣撳湪缁嗚優鍒嗚鍓嶅繀椤昏В寮€锛屽惁鍒欏皢瀵艰嚧缁嗚優鍒嗚澶辫触锛岀粏鑳炲彲鑳藉洜姝ゆ浜°€?
