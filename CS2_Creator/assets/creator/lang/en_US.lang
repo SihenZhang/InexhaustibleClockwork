@@ -142,15 +142,24 @@ item.statorAluminum0.name=Aluminum Coil Stator
 item.statorElectrum0.name=Electrum Coil Stator
 item.statorMIron0.name=Iron Magnet Stator
 
-tile.theeye1.name=The eye
-tile.qian1.name=Qian
-tile.kun1.name=Kun
-tile.dui1.name=Dui
-tile.xun1.name=Xun
-tile.kan1.name=Kan
-tile.li1.name=Li
-tile.zhen1.name=Zhen
-tile.gen1.name=Gen
+tile.theeye0.name=The eye
+tile.qian0.name=Qian
+tile.kun0.name=Kun
+tile.dui0.name=Dui
+tile.xun0.name=Xun
+tile.kan0.name=Kan
+tile.li0.name=Li
+tile.zhen0.name=Zhen
+tile.gen0.name=Gen
+
+item.symQian0=Qian
+item.symKun0=Kun
+item.symDui0=Dui
+item.symXun0=Xun
+item.symKan0=Kan
+item.symLi0=Li
+item.symZhen0=Zhen
+item.symGen0=Gen
 
 tc.research_name.ETEXCHANGER=Ender Exchanger
 tc.research_text.ETEXCH=[MT] Warning: Chronosphere activated!

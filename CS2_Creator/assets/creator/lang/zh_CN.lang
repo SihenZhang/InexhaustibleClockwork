@@ -142,15 +142,24 @@ item.statorAluminum0.name=铝线圈制定子
 item.statorElectrum0.name=琥珀金线圈制定子
 item.statorMIron0.name=铁永磁体制定子
 
-tile.theeye1.name=阵眼
-tile.qian1.name=乾
-tile.kun1.name=坤
-tile.dui1.name=兑
-tile.xun1.name=巽
-tile.kan1.name=坎
-tile.li1.name=离
-tile.zhen1.name=震
-tile.gen1.name=艮
+tile.theeye0.name=阵眼
+tile.qian0.name=乾
+tile.kun0.name=坤
+tile.dui0.name=兑
+tile.xun0.name=巽
+tile.kan0.name=坎
+tile.li0.name=离
+tile.zhen0.name=震
+tile.gen0.name=艮
+
+item.symQian0.name=乾
+item.symKun0.name=坤
+item.symDui0.name=兑
+item.symXun0.name=巽
+item.symKan0.name=坎
+item.symLi0.name=离
+item.symZhen0.name=震
+item.symGen0.name=艮
 
 tc.research_name.ETEXCHANGER=转换器
 tc.research_text.ETEXCHANGER=[MT] 警告：超时空传送仪已经激活！
