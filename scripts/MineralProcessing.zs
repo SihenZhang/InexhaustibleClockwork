@@ -51,10 +51,8 @@ mods.magneticraft.Grinder.removeRecipe(<minecraft:iron_ingot>);
 mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.chunks>);
 mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.rubble>);
 mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles>);
-mods.railcraft.RockCrusher.removeRecipe(<ore:oreIron>);
 #add
 mods.tconstruct.Smeltery.addMelting(<ore:oreIron>, <liquid:iron.molten> * 72, 600);
-mods.railcraft.RockCrusher.addRecipe(<minecraft:iron_ore>, false, false, [<aobd:crushedIron> * 1], [1]);
 mods.magneticraft.Crusher.addRecipe(<minecraft:iron_ore>, <Magneticraft:item.chunks>, <Creator:ironDustSmall>, 0.4, <Creator:nickelDustTiny> * 3, 0.6);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.chunks>, <Magneticraft:item.rubble> * 2, <Creator:ironDustSmall>, 0.6, <Magneticraft:item.dustSulfur>, 0.15);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble>, <Magneticraft:item.pebbles> * 3, <Creator:ironDustTiny> * 2, 0.675, <Creator:nickelDustSmall>, 0.05);
@@ -64,7 +62,7 @@ mods.forestry.Centrifuge.addRecipe([<ImmersiveEngineering:metal:8> % 100, <minec
 mods.thermalexpansion.Smelter.addRecipe(18000, <ExtraUtilities:cobblestone_compressed>, <ImmersiveEngineering:metal:8> * 4, <Mekanism:Shard>, <Creator:ironDustTiny> * 2, 20);
 mods.mekanism.chemical.Injection.addRecipe(<Mekanism:Shard>, <gas:hydrogenchloride>, <Mekanism:Crystal> * 8);
 mods.mekanism.Enrichment.addRecipe(<Mekanism:Crystal>, <Creator:ironDustSmall>);
-mods.railcraft.BlastFurnace.addRecipe(<aobd:crushedIron>, false, false, 400, <Creator:ironDustSmall> * 3);
+mods.railcraft.BlastFurnace.addRecipe(<aobd:crushedIron> * 2, false, false, 400, <Creator:ironDustSmall> * 3);
 mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.chunks>, false, false, 400, <Creator:ironDustSmall> * 4);
 mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.rubble>, false, false, 350, <Creator:ironDustSmall> * 3);
 mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.pebbles>, false, false, 330, <Creator:ironDustSmall> * 2);
@@ -109,10 +107,8 @@ mods.magneticraft.Grinder.removeRecipe(<ThermalFoundation:material:64>);
 mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.chunks:2>);
 mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.rubble:2>);
 mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:2>);
-mods.railcraft.RockCrusher.removeRecipe(<ore:oreCopper>);
 #add
 mods.tconstruct.Smeltery.addMelting(<ore:oreCopper>, <liquid:copper.molten> * 72, 550);
-mods.railcraft.RockCrusher.addRecipe(<ThermalFoundation:Ore>, false, false, [<aobd:crushedCopper> * 1], [1]);
 mods.magneticraft.Crusher.addRecipe(<ThermalFoundation:Ore>, <Magneticraft:item.chunks:2>, <Creator:copperDustSmall>, 0.4, <Creator:tinDustTiny> * 3, 0.6);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.chunks:2>, <Magneticraft:item.rubble:2> * 2, <Creator:copperDustSmall>, 0.6, <Magneticraft:item.dustSulfur>, 0.15);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:2>, <Magneticraft:item.pebbles:2> * 3, <Creator:copperDustTiny> * 2, 0.675, <Creator:tinDustSmall>, 0.05);
@@ -122,7 +118,7 @@ mods.forestry.Centrifuge.addRecipe([<ImmersiveEngineering:metal:10> % 100, <mine
 mods.thermalexpansion.Smelter.addRecipe(18000, <ExtraUtilities:cobblestone_compressed>, <ImmersiveEngineering:metal:10> * 4, <Mekanism:Shard:3>, <Creator:copperDustTiny> * 2, 20);
 mods.mekanism.chemical.Injection.addRecipe(<Mekanism:Shard:3>, <gas:hydrogenchloride>, <Mekanism:Crystal:3> * 8);
 mods.mekanism.Enrichment.addRecipe(<Mekanism:Crystal:3>, <Creator:copperDustSmall>);
-mods.railcraft.BlastFurnace.addRecipe(<aobd:crushedCopper>, false, false, 400, <Creator:copperDustSmall> * 3);
+mods.railcraft.BlastFurnace.addRecipe(<aobd:crushedCopper> * 2, false, false, 400, <Creator:copperDustSmall> * 3);
 mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.chunks:2>, false, false, 400, <Creator:copperDustSmall> * 4);
 mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.rubble:2>, false, false, 350, <Creator:copperDustSmall> * 3);
 mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.pebbles:2>, false, false, 330, <Creator:copperDustSmall> * 2);
@@ -167,10 +163,8 @@ mods.magneticraft.Grinder.removeRecipe(<ThermalFoundation:material:65>);
 mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.chunks:3>);
 mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.rubble:3>);
 mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:3>);
-mods.railcraft.RockCrusher.removeRecipe(<ore:oreTin>);
 #add
 mods.tconstruct.Smeltery.addMelting(<ore:oreTin>, <liquid:tin.molten> * 72, 400);
-mods.railcraft.RockCrusher.addRecipe(<ThermalFoundation:Ore:1>, false, false, [<aobd:crushedTin> * 1], [1]);
 mods.magneticraft.Crusher.addRecipe(<ThermalFoundation:Ore:1>, <Magneticraft:item.chunks:3>, <Creator:tinDustSmall>, 0.4, <Creator:copperDustTiny> * 3, 0.6);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.chunks:3>, <Magneticraft:item.rubble:3> * 2, <Creator:tinDustSmall>, 0.6, <Creator:tinDustTiny>, 0.15);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:3>, <Magneticraft:item.pebbles:3> * 3, <Creator:tinDustTiny> * 2, 0.675, <Creator:copperDustSmall>, 0.05);
@@ -180,7 +174,7 @@ mods.forestry.Centrifuge.addRecipe([<Mekanism:Dust:4> % 100, <minecraft:dirt> % 
 mods.thermalexpansion.Smelter.addRecipe(18000, <ExtraUtilities:cobblestone_compressed>, <Mekanism:Dust:4> * 4, <Mekanism:Shard:4>, <Creator:tinDustTiny> * 2, 20);
 mods.mekanism.chemical.Injection.addRecipe(<Mekanism:Shard:4>, <gas:hydrogenchloride>, <Mekanism:Crystal:4> * 8);
 mods.mekanism.Enrichment.addRecipe(<Mekanism:Crystal:4>, <Creator:tinDustSmall>);
-mods.railcraft.BlastFurnace.addRecipe(<aobd:crushedTin>, false, false, 400, <Creator:tinDustSmall> * 3);
+mods.railcraft.BlastFurnace.addRecipe(<aobd:crushedTin> * 2, false, false, 400, <Creator:tinDustSmall> * 3);
 mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.chunks:3>, false, false, 400, <Creator:tinDustSmall> * 4);
 mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.rubble:3>, false, false, 350, <Creator:tinDustSmall> * 3);
 mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.pebbles:3>, false, false, 330, <Creator:tinDustSmall> * 2);
