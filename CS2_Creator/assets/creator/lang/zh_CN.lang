@@ -187,8 +187,8 @@ tc.research_name.CHALK=气之始
 tc.research_text.CHALK=[MT×CS3] 引导万物之气
 derp.research_page.CHALK=神秘学一直认为世界由四十九种不同的要素交织在一起构成，但来自遥远东方的“道士”们却并不这样认为，他们认为世界由阴阳两种捉摸不透的“气”所组成，阴与阳的交织组成了四象、八卦，乃至整个世界......求实的神秘使们当然对此不屑一顾，但令人不解的是他们的确成功了，虽然有些地方略显粗糙，但他们似乎比我们更加有力地抓住了世界的本质。<BR><BR>经过长时间的学习与研究，你似乎摸索到了一些神秘学与道术之间的联系。 <BR><BR> 神秘学中的六种基础要素可利用阴阳二气学说进行一个简单的分类，Ignis、Aer、Ordo要素属阳，而Aqua、Terra、Perditio要素属阴，使用不同的基
 derp.research_page.CHALK1=础要素配合在一起，并用预先刻画好的法阵加以引导，你掌握了一种单纯依靠一根粉笔与几样物品就能创造出多种多样效果的新奇魔法。<BR><BR> 使用注魔法将六种碎片同一块平衡碎片结合在一起，你就能得到一根奇特的粉笔，其蕴含着许多的奥秘，特定的刻画能够引发空间中灵气的不寻常的流动，你猜测这可能会是一条将神秘学与道术结合为一的新路，但是由于六元素说和八卦说有部分的出入，这可能需要大量的研究以使用六种源质驱动法阵。
-derp.research_page.CHALK2=奇特的是，不同于以往费尽九牛二虎之力才可能成功的注魔，这次注魔几乎没有花任何努力便成功了，也许，这就是顺应自然的好处吗？
-
+derp.research_page.CHALK2=根据八卦学说，八个卦象分别有其对应的方位，乾属西北，坤属西南，兑属正西，震属正东，艮属东北，巽属东南，坎属正北，离属正南，用以模拟自然的气的运转。当然了，单纯只是模拟气的正常运转并不能对任何东西产生影响，不过修改普通的法阵可能会产生一些特殊的效果，当然，也可能是后果。
+derp.research_page.CHALK3=<IMG>creator:textures/items/normal.png:0:0:255:255:0.5</IMG>
 tc.research_name.PUREAER=浓缩的风之碎片制造
 tc.research_text.PUREAER=[MT×CS3] 小亨。利有攸往，利见大人。
 derp.research_page.PUREORDO=自然开采的秩序碎片虽然凝聚着力量，但远不足以驱动改版的法阵。 <BR><BR>模仿着制造高纯赛特斯石英的原理，你试着将含有大量Ordo要素的安瓿投入含有Vitreus要素的坩埚当中，结果你得到了一种更加浓缩的元素碎片，而此内蕴含的能量足以驱动某几种法阵的运行了。
@@ -218,36 +218,36 @@ tc.research_name.SPEEDUP=巽气入门
 tc.research_text.SPEEDUP=[MT×CS2] 进退，利武人之贞。
 derp.research_page.SPEEDUP=在进行初步的研究之后，你决定将你的理论化为现实。<BR><BR>巽属东南，代表着风，对普通的圆环进行修改，把艮替换为震，把原本的巽改为坎，再将四方改写为巽，就能将环境中的巽气聚集到能对周围生物产生效果的浓度。但是为了驱动法阵的运行，你还需要将一些特定的物品摆在八个圆环以及中间的阵眼之上。
 derp.research_page.SPEEDUP1=<IMG>creator:textures/items/111111.png:0:0:255:255:0.5</IMG>将一块浓缩的风之碎片扔在阵眼之上并对其右键以激活整个过程。
-derp.research_page.SPEEDUP2=
+derp.research_page.SPEEDUP2=激活阵眼之后，你感到健步如飞。但是手臂似乎变得轻飘飘的了......而且周围一些不该被影响的生物也被影响了，你可能需要对法阵进行一定程度上的改进。
 
 tc.research_name.ATKUP=坤气入门
 tc.research_text.ATKUP=[MT×CS2] 龙战于野，其血玄黄。
 derp.research_page.ATKUP=在进行初步的研究之后，你决定将你的理论化为现实。 <BR><BR>坤属西南，代表着混沌与土，对普通的圆环进行修改，将西南、东南方改写为离，再将四方改写为坤，就能将环境中的坤气聚集到能对周围的生物产生效果的浓度。但是为了驱动法阵的运行，你还需要将一些特定的物品摆在八个圆环以及中间的阵眼之上。
-derp.research_page.ATKUP1=
-derp.research_page.ATKUP2=
+derp.research_page.ATKUP1=<IMG>creator:textures/items/55.png:0:0:255:255:0.5</IMG>将一块浓缩的混沌碎片扔在阵眼上并对其右键以激活整个过程。
+derp.research_page.ATKUP2=激活阵眼之后，你感到力大无比。但是巨大的体能消耗带来的是经常性的饥饿感，而且僵尸们的攻击变得似乎更加猛烈了，这提示你可能需要对法阵进行一定程度上的改进。
 
 tc.research_name.DEFUP=艮气入门
 tc.research_text.DEFUP=[MT×CS2] 
 derp.research_page.DEFUP=在进行初步的研究之后，你决定将你的理论化为现实。 <BR><BR>艮属东北，代表着山岳与大地，在某种程度上同坤有联系。对普通的圆环进行修改，将原位的艮替换为离，
-derp.research_page.DEFUP1=
-derp.research_page.DEFUP2=
+derp.research_page.DEFUP1=<IMG>creator:textures/items/44.png:0:0:255:255:0.5</IMG>将一块浓缩的地之碎片扔在阵眼上并对其右键以激活整个过程。
+derp.research_page.DEFUP2=激活阵眼之后，你感到坚硬了许多。但是步伐也变得沉重了许多，你可能需要对法阵进行一定程度上的改进以消除负面影响。
 
 tc.research_name.BURN=离气入门
 tc.research_text.BURN=[MT×CS2] 日昃之离，不鼓缶而歌，则大耋之嗟，凶。
 derp.research_page.BURN=在进行初步的研究之后，你决定将你的理论化为现实。 <BR><BR>离属正南，代表着火，对普通的圆环进行修改，简单地将四方改写为离，就能将环境中的离气聚集到能对周围的物体产生效果的浓度。但是为了驱动法阵的运行，你还需要将一些特定的物品摆在八个圆环以及中间的阵眼之上。
-derp.research_page.BURN1=
-derp.research_page.BURN2=
+derp.research_page.BURN1=<IMG>creator:textures/items/33.png:0:0:255:255:0.5</IMG>将一块浓缩的火之碎片扔在阵眼上并对其右键以激活整个过程。
+derp.research_page.BURN2=掌控火的力量是一件很困难的事情，这点在你启动阵眼后有了深深的领会。这狂暴而强大的力量似乎是可以利用的，只是可能需要小小地改动以进行压制......
 
 tc.research_name.SPEEDDOWN=坎气入门
 tc.research_text.SPEEDDOWN=[MT×CS2] 习坎，入于坎，窞，凶。
 derp.research_page.SPEEDDOWN=在进行初步的研究之后，你决定将你的理论化为现实。 <BR><BR>坎属正北，代表着水与险阻，对普通的圆环进行修改，将东北的艮改为兑，再将西南的坤改为震，并将四方的刻画改写为坎，就能将环境中的坎气聚集到能堆周围物体产生效果的浓度。但是为了驱动法阵的运行，你还需要将一些特定的物品摆在八个圆环以及中间的阵眼之上。
-derp.research_page.SPEEDDOWN1=
-derp.research_page.SPEEDDOWN2=
+derp.research_page.SPEEDDOWN1=<IMG>creator:textures/items/22.png:0:0:255:255:0.5</IMG>将一块浓缩的水之碎片扔在阵眼上并对其右键以激活整个过程。
+derp.research_page.SPEEDDOWN2=嗯......这用来困住怪物是的确非常有效，但是你可能需要一些方法来让你从中脱身......
 
 tc.research_name.HEAL=乾气入门
 tc.research_text.HEAL=[MT×CS2] 见龙在田，利见大人。
 derp.research_page.HEAL=在进行初步的研究之后，你决定将你的理论化为现实。 <BR><BR>乾属西北，代表着秩序与天，对普通的圆环进行修改，将西北的乾改为艮，再将四方改写为乾，就能将环境中的乾气聚集到能对周围的生物产生效果的浓度。但是为了驱动法阵的运行，你还需要将一些特定的物品摆在八个圆环以及中间的阵眼之上。
-derp.research_page.HEAL1=
-derp.research_page.HEAL2=
+derp.research_page.HEAL1=<IMG>creator:textures/items/11.png:0:0:255:255:0.5</IMG>将一块浓缩的秩序碎片扔在阵眼上并对其右键以激活整个过程。
+derp.research_page.HEAL2=尽管启动法阵所需要的材料十分昂贵，但它带来的效果确实是物有所值的。你注意到在启动的时候亡灵生物似乎会受到大量的伤害，这可能指示着此类型的法阵的更多用途。
 
 derp.research_page.GIBBERISH=涓や釜澶嶅埗鍙夊湪缁堟鍖虹浉閬囪€屽仠姝㈠鍒讹紝澶嶅埗浣撹В浣擄紝鏈熼棿澶х害鏈変簲鍗佽嚦涓€鐧剧⒈鍩哄鏈澶嶅埗銆傚叾鍚庝袱鏉′翰浠ｉ摼瑙ｅ紑锛岄€氳繃淇鏂瑰紡濉ˉ绌虹己锛屾鏃朵袱鐜姸鏌撹壊浣撲簰鐩哥紶缁曪紝鎴愪负杩為攣浣撱€傛杩為攣浣撳湪缁嗚優鍒嗚鍓嶅繀椤昏В寮€锛屽惁鍒欏皢瀵艰嚧缁嗚優鍒嗚澶辫触锛岀粏鑳炲彲鑳藉洜姝ゆ浜°€備袱涓鍒跺弶鍦ㄧ粓姝㈠尯鐩搁亣鑰屽仠姝㈠鍒讹紝澶嶅埗浣撹В浣擄紝鏈熼棿澶х害鏈変簲鍗佽嚦涓€鐧剧⒈鍩哄鏈澶嶅埗銆傚叾鍚庝袱鏉′翰浠ｉ摼瑙ｅ紑锛岄€氳繃淇鏂瑰紡濉ˉ绌虹己锛屾鏃朵袱鐜姸鏌撹壊浣撲簰鐩哥紶缁曪紝鎴愪负杩為攣浣撱€傛杩為攣浣撳湪缁嗚優鍒嗚鍓嶅繀椤昏В寮€锛屽惁鍒欏皢瀵艰嚧缁嗚優鍒嗚澶辫触锛岀粏鑳炲彲鑳藉洜姝ゆ浜°€?

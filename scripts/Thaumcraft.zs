@@ -108,6 +108,7 @@ mods.thaumcraft.Research.addPage("CHALK", "derp.research_page.CHALK1");
 mods.thaumcraft.Infusion.addRecipe("CHALK", <Thaumcraft:ItemShard:6>,[<Thaumcraft:ItemShard:4>,<Thaumcraft:ItemShard:1>,<Thaumcraft:ItemShard>,<Thaumcraft:ItemShard:5>,<Thaumcraft:ItemShard:2>,<Thaumcraft:ItemShard:3>], "praecantatio 4", <Prunoideae:chalk>, 0);
 mods.thaumcraft.Research.addInfusionPage("CHALK",<Prunoideae:chalk>);
 mods.thaumcraft.Research.addPage("CHALK", "derp.research_page.CHALK2");
+mods.thaumcraft.Research.addPage("CHALK", "derp.research_page.CHALK3");
 mods.thaumcraft.Research.addPrereq("CHALK", "INFUSION");
 
 #Purified shard
