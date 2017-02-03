@@ -22,6 +22,7 @@ mods.thaumcraft.Infusion.addRecipe("ETEXCHANGER", <Thaumcraft:FocusTrade>, [<min
 mods.thaumcraft.Infusion.addRecipe("ETEXCHANGER", <EnderTech:endertech.exchanger:1>, [<minecraft:ender_eye>, <Mekanism:ControlCircuit:3>, <ThermalExpansion:capacitor:5>, <Mekanism:ControlCircuit:3>], "potentia 10, alienis 5", <EnderTech:endertech.exchanger:2>, 5);
 mods.thaumcraft.Research.addInfusionPage("ETEXCHANGER", <EnderTech:endertech.exchanger:1>);
 mods.thaumcraft.Research.addInfusionPage("ETEXCHANGER", <EnderTech:endertech.exchanger:2>);
+mods.thaumcraft.Research.addPrereq("ETEXCHANGER", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("ETEXCHANGER", true);
 
 #Atomic Disassembler - after all thaumcraft tools x-5 y0
@@ -37,6 +38,7 @@ mods.thaumcraft.Research.addPage("ATOMDISASM", "derp.research_page.ATOMDISASM");
 mods.thaumcraft.Research.addPage("ATOMDISASM", "derp.research_page.ATOMDISASM1");
 mods.thaumcraft.Infusion.addRecipe("ATOMDISASM", <ThermalExpansion:capacitor:5>,[<Thaumcraft:ItemPickaxeElemental>,<Mekanism:ControlCircuit:3>,<Magneticraft:item.electric_sword>,<Mekanism:ControlCircuit:3>,<Thaumcraft:ItemAxeElemental>,<Mekanism:ControlCircuit:3>,<Thaumcraft:ItemShovelElemental>,<Mekanism:ControlCircuit:3>,<Thaumcraft:ItemHoeElemental>,<Mekanism:ControlCircuit:3>], "perfodio 32, sensus 32, potentia 48, machina 32, instrumentum 32", <Mekanism:AtomicDisassembler>,8);
 mods.thaumcraft.Research.addInfusionPage("ATOMDISASM", <Mekanism:AtomicDisassembler>);
+mods.thaumcraft.Research.addPrereq("ATOMDISASM", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("ATOMDISASM", true);
 
 #Tweak of thaumium
@@ -85,18 +87,22 @@ mods.thaumcraft.Research.addCruciblePage("ROCKETSODA", <Prunoideae:rocketSoda>);
 mods.thaumcraft.Research.addPrereq("ROCKETSODA", "ALUMENTUM");
 mods.thaumcraft.Research.setConcealed("ROCKETSODA", true);
 
-#some aspect
-mods.thaumcraft.Aspects.set(<Prunoideae:blackLotus>, "herba 1, perditio 1, praecantatio 2");
-mods.thaumcraft.Aspects.add(<Thaumcraft:blockTaintFibres>, "praecantatio 1");
-mods.thaumcraft.Aspects.add(<Thaumcraft:blockTaintFibres:1>, "praecantatio 1");
-mods.thaumcraft.Aspects.add(<Thaumcraft:blockTaintFibres:3>, "praecantatio 1");
-mods.thaumcraft.Aspects.set(<Prunoideae:rocketSoda>, "ignis 2, motus 2, volatus 2, aer 2");
-
 #Extra Entropicprocessing
 mods.thaumcraft.Crucible.addRecipe("ENTROPICPROCESSING", <minecraft:dirt>, <minecraft:sapling>, "perditio 4");
 mods.thaumcraft.Research.addCruciblePage("ENTROPICPROCESSING", <minecraft:dirt>);
 mods.thaumcraft.Research.refreshResearchRecipe("ENTROPICPROCESSING");
 print("Initialized 'Thaumcraft.zs'");
+
+#Sacred oak sapling
+mods.thaumcraft.Research.addResearch("SACREDOAK", "ALCHEMY", "ordo 4, arbor 4, herba 4, praecantatio 4, victus 4", 2,-6,8,<BiomesOPlenty:colorizedSaplings>);
+mods.thaumcraft.Research.addPage("SACREDOAK", "derp.research_page.SACREDOAK");
+mods.thaumcraft.Infusion.addRecipe("SACREDOAK", <Thaumcraft:ItemResource:14>, [<Thaumcraft:ItemShard:4>, <Thaumcraft:blockTaintFibres:1>, <Thaumcraft:blockCustomPlant:1>, <Thaumcraft:blockCustomPlant>],"sano 32, victus 32, arbor 32, herba 32, ordo 32, lux 32, praecantatio 32" ,<BiomesOPlenty:colorizedSaplings>,6);
+mods.thaumcraft.Research.addInfusionPage("SACREDOAK", <BiomesOPlenty:colorizedSaplings>);
+mods.thaumcraft.Research.addPage("SACREDOAK","derp.research_page.SACREDOAK1");
+mods.thaumcraft.Research.addPrereq("SACREDOAK", "TAINTPLANT");
+mods.thaumcraft.Research.addPrereq("SACREDOAK", "SILVERWOOD");
+mods.thaumcraft.Research.addPrereq("SACREDOAK", "INFUSION");
+mods.thaumcraft.Research.setConcealed("SACREDOAK", true);
 
 #EASTERN MAGIC
 mods.thaumcraft.Research.addTab("EASTERN", "creator", "textures/items/taichi.png");
@@ -109,7 +115,7 @@ mods.thaumcraft.Infusion.addRecipe("CHALK", <Thaumcraft:ItemShard:6>,[<Thaumcraf
 mods.thaumcraft.Research.addInfusionPage("CHALK",<Prunoideae:chalk>);
 mods.thaumcraft.Research.addPage("CHALK", "derp.research_page.CHALK2");
 mods.thaumcraft.Research.addPage("CHALK", "derp.research_page.CHALK3");
-mods.thaumcraft.Research.addPrereq("CHALK", "INFUSION");
+mods.thaumcraft.Research.addPrereq("CHALK", "INFUSION", false);
 
 #Purified shard
 mods.thaumcraft.Research.addResearch("PUREORDO","EASTERN", "ordo 5, praecantatio 5, auram 5", -3,-3,4,<Prunoideae:shardOrdo>);
