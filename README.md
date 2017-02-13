@@ -18,7 +18,6 @@
 | MinecraftForge | 10.13.4.1614 | Forge Development LLC | http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.7.10.html |
 | AgriCraft | 1.5.0 | InfinityRaider | https://minecraft.curseforge.com/projects/agricraft |
 | AOBD  | 2.9.2  | ganymedes01 | https://minecraft.curseforge.com/projects/another-one-bites-the-dust |
-| AOBD singularities | 1.0.4 | RCXcrafter | https://minecraft.curseforge.com/projects/aobd-singularities |
 | AppleCore | 1.3.2 | squeek502 | https://minecraft.curseforge.com/projects/applecore |
 | Applied Energistics2 | rv3-beta-6 | AlgorithmX2 | https://minecraft.curseforge.com/projects/applied-energistics-2 |
 | Avaritia | 1.11 | SpitefulFox | https://minecraft.curseforge.com/projects/avaritia |
@@ -30,8 +29,8 @@
 | BiblioCraft: BiblioWoods Natura Edition | v1.5 | Nuchaz | https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-natura-edition |
 | Big Reactors | 0.4.3A | ErogenousBeef | https://minecraft.curseforge.com/projects/big-reactors |
 | Biomes O' Plenty | 2.1.0.2027 | Team Glitchfiend | https://minecraft.curseforge.com/projects/biomes-o-plenty |
-| BuildCraft | 7.1.19 | 	Team BuildCraft | http://mod-buildcraft.com |
-| BuildCraftCompat | 7.1.5 | Team BuildCraft | http://www.mod-buildcraft.com/pages/download.html |
+| BuildCraft | 7.1.20 | 	Team BuildCraft | http://mod-buildcraft.com |
+| BuildCraftCompat | 7.1.6 | Team BuildCraft | http://www.mod-buildcraft.com/pages/download.html |
 | Carpenter's Blocks | v3.3.8.1 | Syntaxial | https://minecraft.curseforge.com/projects/carpenters-blocks |
 | CartFixes | 0.1.0 | hilburn | https://minecraft.curseforge.com/projects/cartfixes |
 | Chisel | 2.9.5.11 | tterrag1098 | https://minecraft.curseforge.com/projects/chisel |
@@ -51,6 +50,7 @@
 | EnderCore | 0.2.0.39_beta | Team SleepyTrousers | https://minecraft.curseforge.com/projects/endercore |
 | EnderStorage | 1.4.7.37 | ChickenBones | http://chickenbones.net/Pages/links.html |
 | EnderTech | 0.3.2.405 | CarrotCodes | https://minecraft.curseforge.com/projects/endertech |
+| Eternal Singularity | 1.0.4 | KingWealthyturtle | https://minecraft.curseforge.com/projects/eternal-singularity |
 | ExtraCells2 | 2.3.14b197 | DrummerMC | https://minecraft.curseforge.com/projects/extracells2 |
 | ExtraTiC | 1.4.6 | JeanGlassmaker | https://minecraft.curseforge.com/projects/extratic |
 | Extra Utilities | 1.2.12 | RWTema | https://minecraft.curseforge.com/projects/extra-utilities |
@@ -94,6 +94,7 @@
 | Project Red - Compat | 4.7.0pre12.95 | Mr_TJP | http://projectredwiki.com/wiki/Main_Page |
 | Project Red - Integration | 4.7.0pre12.95 | Mr_TJP | http://projectredwiki.com/wiki/Main_Page |
 | Project Red - Lighting | 4.7.0pre12.95 | Mr_TJP | http://projectredwiki.com/wiki/Main_Page |
+| Project Red - World | 4.7.0pre12.95 | Mr_TJP | http://projectredwiki.com/wiki/Main_Page |
 | Railcraft | 9.12.2.0 | CovertJaguar | https://minecraft.curseforge.com/projects/railcraft |
 | Redstone Arsenal | 1.1.3B1-95 | Team CoFH | http://teamcofh.com/downloads |
 | Resource Loader | 1.3 | Lumien | https://minecraft.curseforge.com/projects/resource-loader |
@@ -119,8 +120,10 @@
 | Tinkers' Modifiers | 1.2.2 | UnderMybrella | https://minecraft.curseforge.com/projects/tinkers-modifiers |
 | Unicode Font Fixer | 1.1.12 | oldjunyi | https://minecraft.curseforge.com/projects/unicode-font-fixer |
 | UniDict | 2.9.2 | WanionCane | https://minecraft.curseforge.com/projects/unidict |
+| Universal Singularities | Version 8 | KingWealthyturtle | https://minecraft.curseforge.com/projects/universal-singularities |
 | Waila | 1.5.10 | ProfMobius | https://minecraft.curseforge.com/projects/waila |
 | Waila Harvestability | 1.1.6 | squeek502 | https://minecraft.curseforge.com/projects/waila-harvestability |
 | WAILA Plugins | 0.2.0-25 | tterrag1098 | https://minecraft.curseforge.com/projects/waila-plugins |
+| WanionLib | 1.5 | WanionCane | https://minecraft.curseforge.com/projects/wanionlib |
 | Wawla - What Are We Looking At | 1.0.5.120 | Darkhax |  https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at |
 | ZettaIndustries | 1.1-120 | bymarcin | https://zi.bymarcin.com/ |
