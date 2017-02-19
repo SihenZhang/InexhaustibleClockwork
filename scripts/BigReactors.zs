@@ -16,8 +16,7 @@ mods.mekanism.Compressor.addRecipe(<ImmersiveEngineering:metal:20> * 9, <gas:liq
 #Cyanite
 recipes.removeShapeless(<BigReactors:BRIngot:1>, [<BigReactors:BRIngot>, <minecraft:sand>]);
 furnace.remove(<BigReactors:BRIngot:1>);
-mods.thermalexpansion.Smelter.addRecipe(30000, <BigReactors:BRIngot>, <StevesCarts:ModuleComponents:22>, <BigReactors:BRIngot:1>);
-
+mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <BigReactors:BRIngot:5>);
 
 #reactor/turbine building materials
 recipes.remove(<BigReactors:YelloriumFuelRod>);
