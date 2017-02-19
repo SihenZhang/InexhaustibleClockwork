@@ -102,6 +102,25 @@ item.zincDustTiny0.name=极小撮锌粉
 item.uranium_dioxide0.name=二氧化铀
 item.uranium_halide0.name=卤化铀
 
+item.rawtofabbititem0.name=生素兔肉
+item.rawtofaconitem0.name=生素培根
+item.rawtofeakitem0.name=生素牛排
+item.rawtofeegitem0.name=生素鸡蛋
+item.rawtofenisonitem0.name=生素鹿肉
+item.rawtofickenitem0.name=生素鸡肉
+item.rawtofishitem0.name=生素鱼肉
+item.rawtofurkeyitem0.name=生素火鸡
+item.rawtofuttonitem0.name=生素羊肉
+item.cookedtofabbititem0.name=熟素兔肉
+item.cookedtofaconitem0.name=熟素培根
+item.cookedtofeakitem0.name=熟素牛排
+item.cookedtofeegitem0.name=熟素鸡蛋
+item.cookedtofenisonitem0.name=熟素鹿肉
+item.cookedtofickenitem0.name=熟素鸡肉
+item.cookedtofishitem0.name=熟素鱼肉
+item.cookedtofurkeyitem0.name=熟素火鸡
+item.cookedtofuttonitem0.name=熟素羊肉
+
 item.chamberElectrum0.name=琥珀金仓室
 item.chamberElectrumG0.name=琥珀金粉碎仓
 item.chamberElectrumEH0.name=琥珀金涡旋电流加热仓

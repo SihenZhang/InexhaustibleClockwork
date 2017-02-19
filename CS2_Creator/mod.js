@@ -104,6 +104,25 @@ mod.addItem("zincDustTiny.js", "normal");
 mod.addItem("uranium_dioxide.js", "normal");
 mod.addItem("uranium_halide.js", "normal");
 
+mod.addItem("rawtofabbititem.js", "food"); //food
+mod.addItem("rawtofaconitem.js", "food");
+mod.addItem("rawtofeakitem.js", "food");
+mod.addItem("rawtofeegitem.js", "food");
+mod.addItem("rawtofenisonitem.js", "food");
+mod.addItem("rawtofickenitem.js", "food");
+mod.addItem("rawtofishitem.js", "food");
+mod.addItem("rawtofurkeyitem.js", "food");
+mod.addItem("rawtofuttonitem.js", "food");
+mod.addItem("cookedtofabbititem.js", "food");
+mod.addItem("cookedtofaconitem.js", "food");
+mod.addItem("cookedtofeakitem.js", "food");
+mod.addItem("cookedtofeegitem.js", "food");
+mod.addItem("cookedtofenisonitem.js", "food");
+mod.addItem("cookedtofickenitem.js", "food");
+mod.addItem("cookedtofishitem.js", "food");
+mod.addItem("cookedtofurkeyitem.js", "food");
+mod.addItem("cookedtofuttonitem.js", "food");
+
 mod.addItem("chamberElectrum.js","normal"); //chamber
 mod.addItem("chamberElectrumEH.js","normal");
 mod.addItem("chamberElectrumG.js","normal");

@@ -102,6 +102,25 @@ item.zincDustTiny0.name=Tiny Pile of Zinc Dust
 item.uranium_dioxide0.name=Uranium Dioxide
 item.uranium_halide0.name=Uranium Halide
 
+item.rawtofabbititem0.name=Raw Tofabbit
+item.rawtofaconitem0.name=Raw Tofacon
+item.rawtofeakitem0.name=Raw Tofeak
+item.rawtofeegitem0.name=Raw Tofeeg
+item.rawtofenisonitem0.name=Raw Tofenison
+item.rawtofickenitem0.name=Raw Toficken
+item.rawtofishitem0.name=Raw Tofish
+item.rawtofurkeyitem0.name=Raw Tofurkey
+item.rawtofuttonitem0.name=Raw Tofutton
+item.cookedtofabbititem0.name=Cooked Tofabbit
+item.cookedtofaconitem0.name=Cooked Tofacon
+item.cookedtofeakitem0.name=Cooked Tofeak
+item.cookedtofeegitem0.name=Cooked Tofeeg
+item.cookedtofenisonitem0.name=Cooked Tofenison
+item.cookedtofickenitem0.name=Cooked Toficken
+item.cookedtofishitem0.name=Cooked Tofish
+item.cookedtofurkeyitem0.name=Cooked Tofurkey
+item.cookedtofuttonitem0.name=Cooked Tofutton
+
 item.chamberElectrum0.name=Electrum Chamber
 item.chamberElectrumG0.name=Electrum Grinding Chamber
 item.chamberElectrumEH0.name=Electrum Eddy-current Heating Chamber
