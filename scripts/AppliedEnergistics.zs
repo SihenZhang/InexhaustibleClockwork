@@ -73,15 +73,15 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<appliedenergistics2:item.ItemMul
 
 #compass
 recipes.remove(<appliedenergistics2:tile.BlockSkyCompass>);
-recipes.addShaped(<appliedenergistics2:tile.BlockSkyCompass>, [[null, <Creator:InvarPlate>], [<Railcraft:part.plate:1>, anycertusquartz, <Railcraft:part.plate:1>], [null, <Creator:InvarPlate>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockSkyCompass>, [[null, <ore:logWood>], [<Railcraft:part.plate:1>, anycertusquartz, <Railcraft:part.plate:1>], [null, <ore:logWood>]]);
 
 #inscriber
 recipes.remove(<appliedenergistics2:tile.BlockInscriber>);
-recipes.addShaped(<appliedenergistics2:tile.BlockInscriber>, [[<Creator:InvarPlate>, <minecraft:sticky_piston>, <Creator:InvarPlate>], [fluix, <ImmersiveEngineering:metalMultiblock:2>, <ore:circuitAdvanced>], [<Creator:InvarPlate>, <minecraft:sticky_piston>, <Creator:InvarPlate>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockInscriber>, [[<ore:logWood>, <minecraft:sticky_piston>, <ore:logWood>], [fluix, <ImmersiveEngineering:metalMultiblock:2>, <ore:circuitAdvanced>], [<ore:logWood>, <minecraft:sticky_piston>, <ore:logWood>]]);
 
 #charger
 recipes.remove(<appliedenergistics2:tile.BlockCharger>);
-recipes.addShaped(<appliedenergistics2:tile.BlockCharger>, [[<Creator:InvarPlate>, <ore:circuitAdvanced>, <Creator:InvarPlate>], [<Creator:InvarPlate>], [<Creator:InvarPlate>, fluix, <Creator:InvarPlate>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockCharger>, [[<ore:logWood>, <ore:circuitAdvanced>, <ore:logWood>], [<ore:logWood>], [<ore:logWood>, fluix, <ore:logWood>]]);
 
 #me chest
 recipes.remove(<appliedenergistics2:tile.BlockChest>);
@@ -89,7 +89,7 @@ recipes.addShaped(<appliedenergistics2:tile.BlockChest>, [[glassQuartz, <applied
 
 #energy acceptor
 recipes.remove(<appliedenergistics2:tile.BlockEnergyAcceptor>);
-recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>, [[<Creator:InvarPlate>, fluix, <Creator:InvarPlate>], [glassQuartz, <ore:circuitAdvanced>, glassQuartz], [<Creator:InvarPlate>, fluix, <Creator:InvarPlate>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>, [[<ore:logWood>, fluix, <ore:logWood>], [glassQuartz, <ore:circuitAdvanced>, glassQuartz], [<ore:logWood>, fluix, <ore:logWood>]]);
 
 #energy cells
 recipes.remove(<appliedenergistics2:tile.BlockEnergyCell>);
@@ -117,11 +117,11 @@ recipes.addShaped(<appliedenergistics2:tile.BlockQuantumLinkChamber>, [[lampQuar
 recipes.remove(<appliedenergistics2:tile.BlockSpatialPylon>);
 recipes.addShaped(<appliedenergistics2:tile.BlockSpatialPylon>, [[lampQuartz, glassQuartz, lampQuartz], [<ore:dustFluix>, <ore:crystalPureFluix>, <ore:dustFluix>], [lampQuartz, glassQuartz, lampQuartz]]);
 recipes.remove(<appliedenergistics2:tile.BlockSpatialIOPort>);
-recipes.addShaped(<appliedenergistics2:tile.BlockSpatialIOPort>, [[glassQuartz, glassQuartz, glassQuartz], [galCable, <appliedenergistics2:tile.BlockIOPort>, galCable], [<Creator:InvarPlate>, engProcessor, <Creator:InvarPlate>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockSpatialIOPort>, [[glassQuartz, glassQuartz, glassQuartz], [galCable, <appliedenergistics2:tile.BlockIOPort>, galCable], [<ore:logWood>, engProcessor, <ore:logWood>]]);
 
 #me drive
 recipes.remove(<appliedenergistics2:tile.BlockDrive>);
-recipes.addShaped(<appliedenergistics2:tile.BlockDrive>, [[<Creator:InvarPlate>, engProcessor, <Creator:InvarPlate>], [galCable, <appliedenergistics2:tile.BlockChest>, galCable], [<Creator:InvarPlate>, logProcessor, <Creator:InvarPlate>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockDrive>, [[<ore:logWood>, engProcessor, <ore:logWood>], [galCable, <appliedenergistics2:tile.BlockChest>, galCable], [<ore:logWood>, logProcessor, <ore:logWood>]]);
 
 #me interface
 recipes.remove(<appliedenergistics2:tile.BlockInterface>);
@@ -141,42 +141,42 @@ recipes.addShaped(<appliedenergistics2:tile.BlockCondenser>, [[<appliedenergisti
 
 #accelerator
 recipes.remove(<appliedenergistics2:tile.BlockQuartzGrowthAccelerator>);
-recipes.addShaped(<appliedenergistics2:tile.BlockQuartzGrowthAccelerator>, [[<Creator:InvarPlate>, galCable, <Creator:InvarPlate>], [glassQuartz, <appliedenergistics2:tile.BlockFluix>, glassQuartz], [<Creator:InvarPlate>, galCable, <Creator:InvarPlate>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockQuartzGrowthAccelerator>, [[<ore:logWood>, galCable, <ore:logWood>], [glassQuartz, <appliedenergistics2:tile.BlockFluix>, glassQuartz], [<ore:logWood>, galCable, <ore:logWood>]]);
 
 #crafting unit
 recipes.remove(<appliedenergistics2:tile.BlockCraftingUnit>);
-mods.forestry.Carpenter.addRecipe(<appliedenergistics2:tile.BlockCraftingUnit>*4, [[<Creator:InvarPlate>, calProcessor, <Creator:InvarPlate>],
+mods.forestry.Carpenter.addRecipe(<appliedenergistics2:tile.BlockCraftingUnit>*4, [[<ore:logWood>, calProcessor, <ore:logWood>],
                                                                                  [galCable, logProcessor, galCable], 
-                                                                                 [<Creator:InvarPlate>, calProcessor, <Creator:InvarPlate>]], <liquid:steel.molten> * 288, 60);
+                                                                                 [<ore:logWood>, calProcessor, <ore:logWood>]], <liquid:steel.molten> * 288, 60);
 recipes.remove(<appliedenergistics2:tile.BlockCraftingUnit:1>);
-mods.forestry.Carpenter.addRecipe(<appliedenergistics2:tile.BlockCraftingUnit:1>*4, [[<Creator:InvarPlate>, logProcessor, <Creator:InvarPlate>],
+mods.forestry.Carpenter.addRecipe(<appliedenergistics2:tile.BlockCraftingUnit:1>*4, [[<ore:logWood>, logProcessor, <ore:logWood>],
                                                                                    [calProcessor, <appliedenergistics2:tile.BlockCraftingUnit>, calProcessor], 
-                                                                                   [<Creator:InvarPlate>, logProcessor, <Creator:InvarPlate>]], <liquid:invar.molten> * 288, 20);
+                                                                                   [<ore:logWood>, logProcessor, <ore:logWood>]], <liquid:invar.molten> * 288, 20);
 recipes.remove(<appliedenergistics2:tile.BlockCraftingStorage>);
-mods.forestry.Carpenter.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage>*4, [[<Creator:InvarPlate>, calProcessor, <Creator:InvarPlate>],
+mods.forestry.Carpenter.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage>*4, [[<ore:logWood>, calProcessor, <ore:logWood>],
                                                                                     [<appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:tile.BlockCraftingUnit>, <ore:circuitAdvanced>], 
-                                                                                    [<Creator:InvarPlate>, calProcessor, <Creator:InvarPlate>]], <liquid:invar.molten> * 288, 150);
+                                                                                    [<ore:logWood>, calProcessor, <ore:logWood>]], <liquid:invar.molten> * 288, 150);
 recipes.remove(<appliedenergistics2:tile.BlockCraftingStorage:1>);
-mods.forestry.Carpenter.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage:1>*4, [[<Creator:InvarPlate>, calProcessor, <Creator:InvarPlate>],
+mods.forestry.Carpenter.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage:1>*4, [[<ore:logWood>, calProcessor, <ore:logWood>],
                                                                                     [<appliedenergistics2:item.ItemMultiMaterial:36>, <appliedenergistics2:tile.BlockCraftingUnit>, <ore:circuitAdvanced>], 
-                                                                                    [<Creator:InvarPlate>, calProcessor, <Creator:InvarPlate>]], <liquid:invar.molten> * 288, 150);
+                                                                                    [<ore:logWood>, calProcessor, <ore:logWood>]], <liquid:invar.molten> * 288, 150);
 recipes.remove(<appliedenergistics2:tile.BlockCraftingStorage:2>);
-mods.forestry.Carpenter.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage:2>*4, [[<Creator:InvarPlate>, calProcessor, <Creator:InvarPlate>],
+mods.forestry.Carpenter.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage:2>*4, [[<ore:logWood>, calProcessor, <ore:logWood>],
                                                                                     [<appliedenergistics2:item.ItemMultiMaterial:37>, <appliedenergistics2:tile.BlockCraftingUnit>, <ore:circuitAdvanced>], 
-                                                                                    [<Creator:InvarPlate>, calProcessor, <Creator:InvarPlate>]], <liquid:invar.molten> * 288, 150);
+                                                                                    [<ore:logWood>, calProcessor, <ore:logWood>]], <liquid:invar.molten> * 288, 150);
 recipes.remove(<appliedenergistics2:tile.BlockCraftingStorage:3>);
-mods.forestry.Carpenter.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage:3>*4, [[<Creator:InvarPlate>, calProcessor, <Creator:InvarPlate>],
+mods.forestry.Carpenter.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage:3>*4, [[<ore:logWood>, calProcessor, <ore:logWood>],
                                                                                     [<appliedenergistics2:item.ItemMultiMaterial:38>, <appliedenergistics2:tile.BlockCraftingUnit>, <ore:circuitAdvanced>], 
-                                                                                    [<Creator:InvarPlate>, calProcessor, <Creator:InvarPlate>]], <liquid:invar.molten> * 288, 150);
+                                                                                    [<ore:logWood>, calProcessor, <ore:logWood>]], <liquid:invar.molten> * 288, 150);
 
 																					recipes.remove(<appliedenergistics2:tile.BlockCraftingMonitor>);
 mods.forestry.Carpenter.addRecipe(<appliedenergistics2:tile.BlockCraftingMonitor>, [[<appliedenergistics2:tile.BlockCraftingUnit>, <appliedenergistics2:item.ItemMultiPart:400>, null],
                                                                                     [null, null, null], 
                                                                                     [null, null, null]], <liquid:steel.molten> * 144, 100);
 recipes.remove(<appliedenergistics2:tile.BlockMolecularAssembler>);
-mods.forestry.Carpenter.addRecipe(<appliedenergistics2:tile.BlockMolecularAssembler>, [[<Creator:InvarPlate>, lampQuartz, <Creator:InvarPlate>],
+mods.forestry.Carpenter.addRecipe(<appliedenergistics2:tile.BlockMolecularAssembler>, [[<ore:logWood>, lampQuartz, <ore:logWood>],
                                                                                        [anniCore, <ore:crafterWood>, formCore], 
-                                                                                       [<Creator:InvarPlate>, lampQuartz, <Creator:InvarPlate>]], <liquid:steel.molten> * 288, 100);
+                                                                                       [<ore:logWood>, lampQuartz, <ore:logWood>]], <liquid:steel.molten> * 288, 100);
 
 #manipulator
 recipes.remove(<appliedenergistics2:item.ToolEntropyManipulator>);
@@ -186,7 +186,7 @@ mods.forestry.Carpenter.addRecipe(<appliedenergistics2:item.ToolEntropyManipulat
 
 #wireless terminal
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:41>);
-recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:41>, [[null, pearlFluix], [<Creator:InvarPlate>, <appliedenergistics2:item.ItemMultiPart:140>, <Creator:InvarPlate>], [null, <Creator:InvarPlate>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:41>, [[null, pearlFluix], [<ore:logWood>, <appliedenergistics2:item.ItemMultiPart:140>, <ore:logWood>], [null, <ore:logWood>]]);
 recipes.remove(<appliedenergistics2:item.ToolWirelessTerminal>);
 mods.forestry.Carpenter.addRecipe(<appliedenergistics2:item.ToolWirelessTerminal>, [[null, <appliedenergistics2:item.ItemMultiMaterial:41>, null],
                                                                                     [engProcessor, <appliedenergistics2:item.ItemMultiPart:380>, logProcessor], 
@@ -216,11 +216,11 @@ recipes.addShaped(<appliedenergistics2:item.ToolNetworkTool>, [[<ThermalExpansio
 #view cell
 recipes.remove(<appliedenergistics2:item.ItemViewCell>);
 recipes.addShaped(<appliedenergistics2:item.ItemViewCell>, [[glassQuartz, <ore:dustRedstone>, glassQuartz], [<ore:dustRedstone>, <ore:anycertusquartz
->, <ore:dustRedstone>], [<Creator:InvarPlate>, <Creator:InvarPlate>, <Creator:InvarPlate>]]);
+>, <ore:dustRedstone>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 
 #storage cell
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:39>);
-recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:39>, [[glassQuartz, <ProjRed|Core:projectred.core.part:56>, glassQuartz], [<minecraft:redstone>, null, <minecraft:glowstone_dust>], [<Creator:InvarPlate>, <Creator:InvarPlate>, <Creator:InvarPlate>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:39>, [[glassQuartz, <ProjRed|Core:projectred.core.part:56>, glassQuartz], [<minecraft:redstone>, null, <minecraft:glowstone_dust>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:35>);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:35>, [[<ore:dustElectrotine>, <appliedenergistics2:item.ItemMultiMaterial:10>, <ore:dustElectrotine>], [<appliedenergistics2:item.ItemMultiMaterial:10>, logProcessor, <appliedenergistics2:item.ItemMultiMaterial:10>], [<ore:dustElectrotine>, <appliedenergistics2:item.ItemMultiMaterial:10>, <ore:dustElectrotine>]]);
