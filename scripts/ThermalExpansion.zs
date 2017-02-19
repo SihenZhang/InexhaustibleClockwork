@@ -9,6 +9,15 @@ recipes.remove(<ThermalExpansion:Frame:1>);
 recipes.remove(<ThermalExpansion:Frame:2>);
 recipes.remove(<ThermalExpansion:Frame:3>);
 
+#hardened glass
+mods.thermalexpansion.Smelter.removeRecipe(<ore:dustObsidian>, <ore:dustLead>);
+mods.thermalexpansion.Smelter.removeRecipe(<ore:dustObsidian>, <ore:ingotLead>);
+mods.tconstruct.Casting.removeBasinRecipe(<ThermalExpansion:Glass>);
+mods.thermalexpansion.Smelter.removeRecipe(<ore:dustObsidian>, <ore:dustLumium>);
+mods.thermalexpansion.Smelter.removeRecipe(<ore:dustObsidian>, <ore:ingotLumium>);
+mods.thermalexpansion.Smelter.addRecipe(4000, <ThermalFoundation:material:4> * 4, <appliedenergistics2:tile.BlockQuartzLamp>, <ThermalExpansion:Glass>);
+mods.thermalexpansion.Smelter.addRecipe(4000, <ThermalFoundation:material:43> * 4, <ThermalExpansion:Glass>, <ThermalExpansion:Glass:1>);
+
 #val magmaCrucible = <ThermalExpansion:Machine:4>.withTag({Level: 2 as byte});
 #basic machines
 
