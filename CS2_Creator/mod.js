@@ -7,6 +7,7 @@ mod.addItem("iaComplex.js", "normal");
 mod.addItem("tcsComplex.js", "normal");
 mod.addItem("ingotBloodedCobalt.js", "normal");
 mod.addItem("Sunnarium.js", "normal");
+mod.addItem("enderDiamond.js", "normal");
 mod.addItem("AluminumPlate.js", "normal");
 mod.addItem("BronzePlate.js", "normal");
 mod.addItem("ConstantanPlate.js", "normal");
