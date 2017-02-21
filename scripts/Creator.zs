@@ -4,7 +4,7 @@
 import mods.nei.NEI;
 print("Initializing 'Creator.zs'...");
 
-#comples
+#complex
 mods.railcraft.Rolling.addShaped(<Creator:ctComplex>, [[<ore:ingotCopper>, <ore:ingotCopper>, null], 
                                                        [<ore:ingotCopper>, <ore:ingotTin>, null],
                                                        [null, null, null]]);
@@ -28,6 +28,9 @@ recipes.addShaped(<Creator:IronWrench>, [[<ore:ingotIron>, <Creator:IronHammer>.
 
 #Sunnarium
 mods.magneticraft.Polymerizer.addRecipe(<liquid:lava> * 1000, <minecraft:glowstone_dust>, <Creator:Sunnarium>, 500);
+
+#Ender Diamond
+recipes.addShaped(<Creator:enderDiamond>, [[null, <minecraft:ender_pearl>], [<minecraft:ender_pearl>, <ore:gemDiamond>, <minecraft:ender_pearl>], [null, <minecraft:ender_pearl>]]);
 
 #Plates
 <ore:plateGold>.add(<Creator:GoldPlate>);

@@ -4,78 +4,89 @@
 print("Initializing 'ExtraUtilities.zs'...");
 
 #remove some generators
-recipes.remove(<ExtraUtilities:generator.64:10>);
-<ExtraUtilities:generator.64:10>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.64:9>);
-<ExtraUtilities:generator.64:9>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.64:8>);
-<ExtraUtilities:generator.64:8>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.64:7>);
-<ExtraUtilities:generator.64:7>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.64:6>);
-<ExtraUtilities:generator.64:6>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.64:5>);
-<ExtraUtilities:generator.64:5>.addTooltip(format.red("This machine has no recipe now!"));
+<ExtraUtilities:generator.64:9>.addTooltip(format.white("Useless Generator"));
 recipes.remove(<ExtraUtilities:generator.64:4>);
 <ExtraUtilities:generator.64:4>.addTooltip(format.red("This machine has no recipe now!"));
 recipes.remove(<ExtraUtilities:generator.64:3>);
 <ExtraUtilities:generator.64:3>.addTooltip(format.red("This machine has no recipe now!"));
 recipes.remove(<ExtraUtilities:generator.64:2>);
 <ExtraUtilities:generator.64:2>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.64:1>);
-<ExtraUtilities:generator.64:1>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.64>);
-<ExtraUtilities:generator.64>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.8:10>);
-<ExtraUtilities:generator.8:10>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.8:9>);
-<ExtraUtilities:generator.8:9>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.8:8>);
-<ExtraUtilities:generator.8:8>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.8:7>);
-<ExtraUtilities:generator.8:7>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.8:6>);
-<ExtraUtilities:generator.8:6>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.8:5>);
-<ExtraUtilities:generator.8:5>.addTooltip(format.red("This machine has no recipe now!"));
+
+<ExtraUtilities:generator.8:9>.addTooltip(format.white("Useless Generator"));
 recipes.remove(<ExtraUtilities:generator.8:4>);
 <ExtraUtilities:generator.8:4>.addTooltip(format.red("This machine has no recipe now!"));
 recipes.remove(<ExtraUtilities:generator.8:3>);
 <ExtraUtilities:generator.8:3>.addTooltip(format.red("This machine has no recipe now!"));
 recipes.remove(<ExtraUtilities:generator.8:2>);
 <ExtraUtilities:generator.8:2>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.8:1>);
-<ExtraUtilities:generator.8:1>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.8>);
-<ExtraUtilities:generator.8>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator:10>);
-<ExtraUtilities:generator:10>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator:9>);
-<ExtraUtilities:generator:9>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator:8>);
-<ExtraUtilities:generator:8>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator:7>);
-<ExtraUtilities:generator:7>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator:6>);
-<ExtraUtilities:generator:6>.addTooltip(format.red("This machine has no recipe now!"));
+
+<ExtraUtilities:generator:9>.addTooltip(format.white("Useless Generator"));
 recipes.remove(<ExtraUtilities:generator:4>);
 <ExtraUtilities:generator:4>.addTooltip(format.red("This machine has no recipe now!"));
 recipes.remove(<ExtraUtilities:generator:3>);
 <ExtraUtilities:generator:3>.addTooltip(format.red("This machine has no recipe now!"));
 recipes.remove(<ExtraUtilities:generator:2>);
 <ExtraUtilities:generator:2>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator:1>);
-<ExtraUtilities:generator:1>.addTooltip(format.red("This machine has no recipe now!"));
 
 #custom generators
-recipes.remove(<ExtraUtilities:generator:5>);
 recipes.remove(<ExtraUtilities:generator>);
-recipes.addShaped(<ExtraUtilities:generator:5>, [[<harvestcraft:firmtofuItem>, <harvestcraft:firmtofuItem>, <harvestcraft:firmtofuItem>], [<minecraft:furnace>, <minecraft:piston>, <minecraft:furnace>], [<ore:dustRedstone>, <ore:gearIron>, <ore:dustRedstone>]]);
-recipes.addShaped(<ExtraUtilities:generator>, [[<ore:blockCoal>, <BuildCraft|Core:engineBlock:1>, <ore:blockCoal>], [<BuildCraft|Core:engineBlock:1>, <Forestry:sturdyMachine>, <BuildCraft|Core:engineBlock:1>], [<ore:dustRedstone>, <BuildCraft|Core:engineBlock:1>, <ore:dustRedstone>]]);
+recipes.addShaped(<ExtraUtilities:generator>, [[<ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed:1>], [<ore:ingotRedAlloy>, <Forestry:sturdyMachine>, <ore:ingotRedAlloy>], [<Creator:coilCopper>, <BuildCraft|Core:engineBlock:1>, <Creator:coilCopper>]]);
+recipes.remove(<ExtraUtilities:generator:1>);
+recipes.addShaped(<ExtraUtilities:generator:1>, [[<ore:blockCoal>, <BuildCraft|Core:engineBlock:1>, <ore:blockCoal>], [<BuildCraft|Core:engineBlock:1>, <ExtraUtilities:generator>, <BuildCraft|Core:engineBlock:1>], [<ore:ingotRedAlloy>, <BuildCraft|Core:engineBlock:1>, <ore:ingotRedAlloy>]]);
+recipes.remove(<ExtraUtilities:generator:5>);
+recipes.addShaped(<ExtraUtilities:generator:5>, [[<harvestcraft:firmtofuItem>, <harvestcraft:firmtofuItem>, <harvestcraft:firmtofuItem>], [<minecraft:furnace>, <ExtraUtilities:generator:10>, <minecraft:furnace>], [<ore:ingotRedAlloy>, <ore:gearIron>, <ore:ingotRedAlloy>]]);
+recipes.remove(<ExtraUtilities:generator:6>);
+recipes.addShaped(<ExtraUtilities:generator:6>, [[<Creator:compactObsidianPlate>, <Creator:compactObsidianPlate>, <Creator:compactObsidianPlate>], [<Creator:compactObsidianPlate>, <minecraft:enchanting_table>, <Creator:compactObsidianPlate>], [<ore:ingotRedAlloy>, <ExtraUtilities:generator>, <ore:ingotRedAlloy>]]);
+recipes.remove(<ExtraUtilities:generator:7>);
+recipes.addShaped(<ExtraUtilities:generator:7>, [[<SolarExpansion:photovoltaicCell>, <SolarExpansion:photovoltaicCell>, <SolarExpansion:photovoltaicCell>], [<SolarExpansion:solarPanelHardened>, <ExtraUtilities:generator:1>, <SolarExpansion:solarPanelHardened>], [<ProjRed|Core:projectred.core.part:55>, <SolarExpansion:solarPanelHardened>, <ProjRed|Core:projectred.core.part:55>]]);
+recipes.remove(<ExtraUtilities:generator:8>);
+recipes.addShaped(<ExtraUtilities:generator:8>, [[<minecraft:tnt>, <minecraft:tnt>, <minecraft:tnt>], [<minecraft:tnt>, <ore:blockSignalum>, <minecraft:tnt>], [<ore:ingotRedAlloy>, <ExtraUtilities:generator>, <ore:ingotRedAlloy>]]);
+recipes.remove(<ExtraUtilities:generator:10>);
+recipes.addShaped(<ExtraUtilities:generator:10>, [[<Creator:compactGoldPlate>, <Creator:compactGoldPlate>, <Creator:compactGoldPlate>], [<Creator:compactGoldPlate>, <ExtraUtilities:generator:1>, <Creator:compactGoldPlate>], [<ProjRed|Core:projectred.core.part:55>, <ProjRed|Core:projectred.core.part:55>, <ProjRed|Core:projectred.core.part:55>]]);
+recipes.remove(<ExtraUtilities:generator:11>);
+recipes.addShaped(<ExtraUtilities:generator:11>, [[<minecraft:nether_star>, <minecraft:nether_star>, <minecraft:nether_star>], [<minecraft:skull:1>, <ExtraUtilities:decorativeBlock1:5>, <minecraft:skull:1>], [<StevesCarts:BlockMetalStorage:2>, <ExtraUtilities:generator:5>, <StevesCarts:BlockMetalStorage:2>]]);
+
+recipes.remove(<ExtraUtilities:generator.8>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8>, [[<ExtraUtilities:generator>, <ExtraUtilities:generator>, <ExtraUtilities:generator>], [<ExtraUtilities:generator>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator>], [<ExtraUtilities:generator>, <ExtraUtilities:generator>, <ExtraUtilities:generator>]]);
+recipes.remove(<ExtraUtilities:generator.8:1>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:1>, [[<ExtraUtilities:generator:1>, <ExtraUtilities:generator:1>, <ExtraUtilities:generator:1>], [<ExtraUtilities:generator:1>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:1>], [<ExtraUtilities:generator:1>, <ExtraUtilities:generator:1>, <ExtraUtilities:generator:1>]]);
+recipes.remove(<ExtraUtilities:generator.8:5>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:5>, [[<ExtraUtilities:generator:5>, <ExtraUtilities:generator:5>, <ExtraUtilities:generator:5>], [<ExtraUtilities:generator:5>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:5>], [<ExtraUtilities:generator:5>, <ExtraUtilities:generator:5>, <ExtraUtilities:generator:5>]]);
+recipes.remove(<ExtraUtilities:generator.8:6>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:6>, [[<ExtraUtilities:generator:6>, <ExtraUtilities:generator:6>, <ExtraUtilities:generator:6>], [<ExtraUtilities:generator:6>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:6>], [<ExtraUtilities:generator:6>, <ExtraUtilities:generator:6>, <ExtraUtilities:generator:6>]]);
+recipes.remove(<ExtraUtilities:generator.8:7>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:7>, [[<ExtraUtilities:generator:7>, <ExtraUtilities:generator:7>, <ExtraUtilities:generator:7>], [<ExtraUtilities:generator:7>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:7>], [<ExtraUtilities:generator:7>, <ExtraUtilities:generator:7>, <ExtraUtilities:generator:7>]]);
+recipes.remove(<ExtraUtilities:generator.8:8>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:8>, [[<ExtraUtilities:generator:8>, <ExtraUtilities:generator:8>, <ExtraUtilities:generator:8>], [<ExtraUtilities:generator:8>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:8>], [<ExtraUtilities:generator:8>, <ExtraUtilities:generator:8>, <ExtraUtilities:generator:8>]]);
+recipes.remove(<ExtraUtilities:generator.8:9>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:9>, [[<ExtraUtilities:generator:9>, <ExtraUtilities:generator:9>, <ExtraUtilities:generator:9>], [<ExtraUtilities:generator:9>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:9>], [<ExtraUtilities:generator:9>, <ExtraUtilities:generator:9>, <ExtraUtilities:generator:9>]]);
+recipes.remove(<ExtraUtilities:generator.8:10>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:10>, [[<ExtraUtilities:generator:10>, <ExtraUtilities:generator:10>, <ExtraUtilities:generator:10>], [<ExtraUtilities:generator:10>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:10>], [<ExtraUtilities:generator:10>, <ExtraUtilities:generator:10>, <ExtraUtilities:generator:10>]]);
+recipes.remove(<ExtraUtilities:generator.8:11>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:11>, [[<ExtraUtilities:generator:11>, <ExtraUtilities:generator:11>, <ExtraUtilities:generator:11>], [<ExtraUtilities:generator:11>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:11>], [<ExtraUtilities:generator:11>, <ExtraUtilities:generator:11>, <ExtraUtilities:generator:11>]]);
+
+recipes.remove(<ExtraUtilities:generator.64>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64>, [[<ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>], [<ExtraUtilities:generator.8>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8>], [<ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>]]);
+recipes.remove(<ExtraUtilities:generator.64:1>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:1>, [[<ExtraUtilities:generator.8:1>, <ExtraUtilities:generator.8:1>, <ExtraUtilities:generator.8:1>], [<ExtraUtilities:generator.8:1>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:1>], [<ExtraUtilities:generator.8:1>, <ExtraUtilities:generator.8:1>, <ExtraUtilities:generator.8:1>]]);
+recipes.remove(<ExtraUtilities:generator.64:5>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:5>, [[<ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>], [<ExtraUtilities:generator.8:5>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:5>], [<ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>]]);
+recipes.remove(<ExtraUtilities:generator.64:6>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:6>, [[<ExtraUtilities:generator.8:6>, <ExtraUtilities:generator.8:6>, <ExtraUtilities:generator.8:6>], [<ExtraUtilities:generator.8:6>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:6>], [<ExtraUtilities:generator.8:6>, <ExtraUtilities:generator.8:6>, <ExtraUtilities:generator.8:6>]]);
+recipes.remove(<ExtraUtilities:generator.64:7>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:7>, [[<ExtraUtilities:generator.8:7>, <ExtraUtilities:generator.8:7>, <ExtraUtilities:generator.8:7>], [<ExtraUtilities:generator.8:7>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:7>], [<ExtraUtilities:generator.8:7>, <ExtraUtilities:generator.8:7>, <ExtraUtilities:generator.8:7>]]);
+recipes.remove(<ExtraUtilities:generator.64:8>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:8>, [[<ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>], [<ExtraUtilities:generator.8:8>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:8>], [<ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>]]);
+recipes.remove(<ExtraUtilities:generator.64:9>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:9>, [[<ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>], [<ExtraUtilities:generator.8:9>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:9>], [<ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>]]);
+recipes.remove(<ExtraUtilities:generator.64:10>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:10>, [[<ExtraUtilities:generator.8:10>, <ExtraUtilities:generator.8:10>, <ExtraUtilities:generator.8:10>], [<ExtraUtilities:generator.8:10>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:10>], [<ExtraUtilities:generator.8:10>, <ExtraUtilities:generator.8:10>, <ExtraUtilities:generator.8:10>]]);
+recipes.remove(<ExtraUtilities:generator.64:11>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:11>, [[<ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>], [<ExtraUtilities:generator.8:11>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:11>], [<ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>]]);
 
 #remove deep dark portal
 recipes.remove(<ExtraUtilities:dark_portal>);
-<ExtraUtilities:dark_portal>.addTooltip(format.red("You can NOT to go to the Deep Dark now!"));
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:dark_portal>, [[<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:cobblestone_compressed:7>, <ExtraUtilities:bedrockiumIngot>], [<ExtraUtilities:cobblestone_compressed:7>, <minecraft:bedrock>, <ExtraUtilities:cobblestone_compressed:7>], [<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:cobblestone_compressed:7>, <ExtraUtilities:bedrockiumIngot>]]);
 
 #remove enderthermic pump
 recipes.remove(<ExtraUtilities:enderThermicPump>);
@@ -86,7 +97,10 @@ recipes.remove(<ExtraUtilities:enderQuarry>);
 <ExtraUtilities:enderQuarry>.addTooltip(format.red("Please use BC Quarry instead!"));
 
 #remove transfer node(energy)
-
+mods.extraUtils.QED.removeRecipe(<ExtraUtilities:extractor_base:12>);
+<ExtraUtilities:extractor_base:12>.addTooltip(format.red("You can't use this to transfer RF!"));
+mods.extraUtils.QED.removeRecipe(<ExtraUtilities:extractor_base:13>);
+<ExtraUtilities:extractor_base:13>.addTooltip(format.red("You can't use this to transfer RF!"));
 
 #drum
 recipes.remove(<ExtraUtilities:drum>);
@@ -114,7 +128,7 @@ recipes.removeShaped(<minecraft:nether_star>, [[<minecraft:skull:1>, <minecraft:
 
 #world interaction upgrade
 recipes.remove(<ExtraUtilities:nodeUpgrade:2>);
-recipes.addShaped(<ExtraUtilities:nodeUpgrade:2>, [[<minecraft:dye:4>, <ore:ingotIron>, <minecraft:dye:4>], [<ore:ingotIron>, <minecraft:diamond_pickaxe>, <ore:ingotIron>], [<minecraft:dye:4>, <ore:ingotIron>, <minecraft:dye:4>]]);
+recipes.addShaped(<ExtraUtilities:nodeUpgrade:2>, [[<minecraft:dye:4>, <ProjRed|Core:projectred.core.part:55>, <minecraft:dye:4>], [<ProjRed|Core:projectred.core.part:55>, <minecraft:diamond_pickaxe>, <ProjRed|Core:projectred.core.part:55>], [<minecraft:dye:4>, <ProjRed|Core:projectred.core.part:55>, <minecraft:dye:4>]]);
 
 #spikes
 recipes.remove(<ExtraUtilities:spike_base_gold>);
@@ -126,9 +140,35 @@ mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:spike_base_diamond>, [[null,
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:spike_base_gold>, [[null, <minecraft:golden_sword>, null], [<minecraft:golden_sword>, <ore:blockGold>, <minecraft:golden_sword>], [<ore:blockGold>, <ExtraUtilities:spike_base_wood>, <ore:blockGold>]]);
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:spike_base>, [[null, <minecraft:iron_sword>, null], [<minecraft:iron_sword>, <minecraft:iron_block>, <minecraft:iron_sword>], [<minecraft:iron_block>, <ExtraUtilities:spike_base_gold>, <minecraft:iron_block>]]);
 
-#ender flux crystal
-recipes.remove(<ExtraUtilities:endConstructor:2>);
-recipes.addShaped(<ExtraUtilities:endConstructor:2>, [[null, <ExtraUtilities:decorativeBlock1:12>, null], [<BuildCraft|Transport:pipeGate>, <ore:blockEnderObsidian>, <BuildCraft|Transport:pipeGate>], [<ore:blockEnderObsidian>, <ore:blockEnderObsidian>, <ore:blockEnderObsidian>]]);
+#bedrockium
+recipes.remove(<ExtraUtilities:bedrockiumIngot>);
+recipes.addShapeless(<ExtraUtilities:bedrockiumIngot> * 9, [<ExtraUtilities:block_bedrockium>]);
+recipes.addShaped(<minecraft:bedrock>, [[<ExtraUtilities:block_bedrockium>, <ExtraUtilities:block_bedrockium>, <ExtraUtilities:block_bedrockium>], [<ExtraUtilities:block_bedrockium>, <ExtraUtilities:block_bedrockium>, <ExtraUtilities:block_bedrockium>], [<ExtraUtilities:block_bedrockium>, <ExtraUtilities:block_bedrockium>, <ExtraUtilities:block_bedrockium>]]);
+
+#node
+recipes.remove(<ExtraUtilities:extractor_base>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:extractor_base>, [[null, <ExtraUtilities:pipes:*>], [<ore:ingotRedAlloy>, <Avaritia:Resource>, <ore:ingotRedAlloy>], [<Creator:enderDiamond>, <minecraft:chest>, <Creator:enderDiamond>]]);
+recipes.remove(<ExtraUtilities:extractor_base:6>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:extractor_base:6>, [[null, <ExtraUtilities:pipes:*>], [<ProjRed|Core:projectred.core.part:55>, <Avaritia:Resource>, <ProjRed|Core:projectred.core.part:55>], [<Creator:enderDiamond>, <BuildCraft|Factory:tankBlock>, <Creator:enderDiamond>]]);
+
+#pipes
+recipes.remove(<ExtraUtilities:pipes>);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:pipes>, [[<ore:blockGlass>, <minecraft:redstone_torch>, <ore:blockGlass>], [<BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsdiamond>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsgold>], [<minecraft:stone_slab>, <ore:gearGold>, <minecraft:stone_slab>]]);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:pipes>, [[<ore:blockGlass>, <minecraft:redstone_torch>, <ore:blockGlass>], [<BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsdiamond>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsgold>], [<minecraft:stone_slab>, <ore:chipsetGold>, <minecraft:stone_slab>]]);
+recipes.remove(<ExtraUtilities:pipes:8>);
+recipes.addShaped(<ExtraUtilities:pipes:8> * 2, [[<BuildCraft|Transport:item.buildcraftPipe.pipeitemsclay>, <ore:ingotGold>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsclay>], [<ExtraUtilities:pipes>, <ore:ingotGold>, <ExtraUtilities:pipes>], [<BuildCraft|Transport:item.buildcraftPipe.pipeitemsclay>, <ore:ingotGold>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsclay>]]);
+recipes.remove(<ExtraUtilities:pipes:10>);
+recipes.addShaped(<ExtraUtilities:pipes:10> * 2,[[<ExtraUtilities:pipes>, <ore:blockLapis>, <ExtraUtilities:pipes>]]);
+recipes.remove(<ExtraUtilities:pipes:11>);
+<ExtraUtilities:pipes:11>.addTooltip(format.red("You can't use this to transfer RF!"));
+recipes.remove(<ExtraUtilities:pipes:14>);
+<ExtraUtilities:pipes:14>.addTooltip(format.red("You can't use this to transfer RF!"));
+recipes.remove(<ExtraUtilities:pipes.1>);
+recipes.addShaped(<ExtraUtilities:pipes.1> * 2, [[<minecraft:stone_button>, <minecraft:stone_button>, <minecraft:stone_button>], [<ExtraUtilities:pipes>, <ore:gemLapis>, <ExtraUtilities:pipes>], [<minecraft:stone_button>, <minecraft:stone_button>, <minecraft:stone_button>]]);
+
+#matrix
+recipes.remove(<ExtraUtilities:decorativeBlock1:12>);
+recipes.addShaped(<ExtraUtilities:decorativeBlock1:12>, [[<ore:burntQuartz>, <Creator:enderDiamond>, <ore:burntQuartz>], [<Creator:enderDiamond>, <ExtraUtilities:decorativeBlock1:1>, <Creator:enderDiamond>], [<ore:burntQuartz>, <Creator:enderDiamond>, <ore:burntQuartz>]]);
 
 #magnum torch
 mods.extraUtils.QED.removeRecipe(<ExtraUtilities:magnumTorch>);

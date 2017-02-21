@@ -278,6 +278,10 @@ recipes.remove(<minecraft:bucket>);
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, <Creator:IronHammer>.anyDamage().transformDamage(), <ore:plateIron>], [null, <ore:plateIron>, null]]);
 recipes.remove(<minecraft:cauldron>);
 recipes.addShaped(<minecraft:cauldron>, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <Creator:IronHammer>.anyDamage().transformDamage(), <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.remove(<minecraft:piston>);
+recipes.addShaped(<minecraft:piston>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:cobblestone>, <ore:ingotIron>, <ore:cobblestone>], [<ore:cobblestone>, <ore:ingotRedAlloy>, <ore:cobblestone>]]);
+recipes.remove(<minecraft:tnt>);
+recipes.addShaped(<minecraft:tnt>, [[<ore:ingotSignalum>, <ore:dustGunpowder>, <ore:ingotSignalum>], [<ore:dustGunpowder>, <ore:ingotRedAlloy>, <ore:dustGunpowder>], [<ore:ingotSignalum>, <ore:dustGunpowder>, <ore:ingotSignalum>]]);
 furnace.remove(<minecraft:bread>);
 mods.thermalexpansion.Furnace.removeRecipe(<harvestcraft:doughItem>);
 
