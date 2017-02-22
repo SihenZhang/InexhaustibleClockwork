@@ -89,6 +89,7 @@
 | OpenBlocks | 1.5.1 | Team OpenMods | https://minecraft.curseforge.com/projects/openblocks |
 | OpenComputers | 1.6.1.11 | Sangar | https://minecraft.curseforge.com/projects/opencomputers |
 | OpenModsLib | 0.9.1 | Team OpenMods | https://minecraft.curseforge.com/projects/openmodslib |
+| PackGuard | 2.3.0d | CoolSquid | https://minecraft.curseforge.com/projects/packguard |
 | Pam's HarvestCraft | 1.7.10Lb | MatrexsVigil | https://minecraft.curseforge.com/projects/pams-harvestcraft |
 | Project Red - Base | 4.7.0pre12.95 | Mr_TJP | http://projectredwiki.com/wiki/Main_Page |
 | Project Red - Compat | 4.7.0pre12.95 | Mr_TJP | http://projectredwiki.com/wiki/Main_Page |
