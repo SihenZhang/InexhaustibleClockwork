@@ -215,6 +215,30 @@
             <Setting name='OreDensity' avg='1' range='0'/>
             <Setting name='OreRadiusMult' avg='1.0' range='0.1'/> 
             <ReplacesOre block='stone'/>
+            <ReplacesOre block='marble'/>
+            <ReplacesOre block='limestone'/>
+            <ReplacesOre block='gravel'/>
+            <ReplacesOre block='sandstone'/>
+            <ReplacesOre block='grass'/>
+            <ReplacesOre block='sand'/>
+            <ReplacesOre block='blockStainedHardenedClay'/>
+            <ReplacesOre block='blockPackedIce'/>
+            <ReplacesOre block='blockAndesite'/>
+            <ReplacesOre block='blockDiorite'/>
+            <ReplacesOre block='blockGranite'/>
+            <Replaces block='minecraft:dirt'/>
+            <Replaces block='minecraft:snow'/>
+            <Replaces block='BiomesOPlenty:originGrass'/>
+            <Replaces block='BiomesOPlenty:longGrass'/>
+            <Replaces block='BiomesOPlenty:newBopGrass'/>
+            <Replaces block='BiomesOPlenty:driedDirt'/>
+            <Replaces block='BiomesOPlenty:newBopDirt'/>
+            <Replaces block='BiomesOPlenty:hardDirt'/>
+            <Replaces block='BiomesOPlenty:ashStone'/>
+            <Replaces block='BiomesOPlenty:mud'/>
+            <Replaces block='BiomesOPlenty:rocks'/>
+            <Replaces block='BiomesOPlenty:hardIce'/>
+            <Replaces block='BiomesOPlenty:cragRock'/>
             <Biome name='.*'/>
         </VeinsPreset>
         
@@ -305,9 +329,30 @@
             <Setting name='OreDensity' avg='1' range='0'/>
             <Setting name='OreRadiusMult' avg='1.0' range='0'/> 
             <ReplacesOre block='stone'/>
+            <ReplacesOre block='marble'/>
+            <ReplacesOre block='limestone'/>
+            <ReplacesOre block='gravel'/>
+            <ReplacesOre block='sandstone'/>
+            <ReplacesOre block='grass'/>
+            <ReplacesOre block='sand'/>
+            <ReplacesOre block='blockStainedHardenedClay'/>
+            <ReplacesOre block='blockPackedIce'/>
+            <ReplacesOre block='blockAndesite'/>
+            <ReplacesOre block='blockDiorite'/>
+            <ReplacesOre block='blockGranite'/>
             <Replaces block='minecraft:dirt'/>
-            <Replaces block='minecraft:gravel'/>
-            <Replaces block='minecraft:sandstone'/>
+            <Replaces block='minecraft:snow'/>
+            <Replaces block='BiomesOPlenty:originGrass'/>
+            <Replaces block='BiomesOPlenty:longGrass'/>
+            <Replaces block='BiomesOPlenty:newBopGrass'/>
+            <Replaces block='BiomesOPlenty:driedDirt'/>
+            <Replaces block='BiomesOPlenty:newBopDirt'/>
+            <Replaces block='BiomesOPlenty:hardDirt'/>
+            <Replaces block='BiomesOPlenty:ashStone'/>
+            <Replaces block='BiomesOPlenty:mud'/>
+            <Replaces block='BiomesOPlenty:rocks'/>
+            <Replaces block='BiomesOPlenty:hardIce'/>
+            <Replaces block='BiomesOPlenty:cragRock'/>
             <Biome name='.*'/>
         </VeinsPreset>
         
@@ -359,6 +404,30 @@
             <Setting name='OreDensity' avg='0.04' range='0'/>
             <Setting name='OreRadiusMult' avg='1.0' range='0.1'/> 
             <ReplacesOre block='stone'/>
+            <ReplacesOre block='marble'/>
+            <ReplacesOre block='limestone'/>
+            <ReplacesOre block='gravel'/>
+            <ReplacesOre block='sandstone'/>
+            <ReplacesOre block='grass'/>
+            <ReplacesOre block='sand'/>
+            <ReplacesOre block='blockStainedHardenedClay'/>
+            <ReplacesOre block='blockPackedIce'/>
+            <ReplacesOre block='blockAndesite'/>
+            <ReplacesOre block='blockDiorite'/>
+            <ReplacesOre block='blockGranite'/>
+            <Replaces block='minecraft:dirt'/>
+            <Replaces block='minecraft:snow'/>
+            <Replaces block='BiomesOPlenty:originGrass'/>
+            <Replaces block='BiomesOPlenty:longGrass'/>
+            <Replaces block='BiomesOPlenty:newBopGrass'/>
+            <Replaces block='BiomesOPlenty:driedDirt'/>
+            <Replaces block='BiomesOPlenty:newBopDirt'/>
+            <Replaces block='BiomesOPlenty:hardDirt'/>
+            <Replaces block='BiomesOPlenty:ashStone'/>
+            <Replaces block='BiomesOPlenty:mud'/>
+            <Replaces block='BiomesOPlenty:rocks'/>
+            <Replaces block='BiomesOPlenty:hardIce'/>
+            <Replaces block='BiomesOPlenty:cragRock'/>
             <Biome name='.*'/>
         </VeinsPreset>         
 
@@ -383,6 +452,30 @@
             <Setting name='OreDensity' avg='0.1'/>
             <Setting name='OreVolumeNoiseCutoff' avg='0.5'/> 
             <ReplacesOre block='stone'/>
+            <ReplacesOre block='marble'/>
+            <ReplacesOre block='limestone'/>
+            <ReplacesOre block='gravel'/>
+            <ReplacesOre block='sandstone'/>
+            <ReplacesOre block='grass'/>
+            <ReplacesOre block='sand'/>
+            <ReplacesOre block='blockStainedHardenedClay'/>
+            <ReplacesOre block='blockPackedIce'/>
+            <ReplacesOre block='blockAndesite'/>
+            <ReplacesOre block='blockDiorite'/>
+            <ReplacesOre block='blockGranite'/>
+            <Replaces block='minecraft:dirt'/>
+            <Replaces block='minecraft:snow'/>
+            <Replaces block='BiomesOPlenty:originGrass'/>
+            <Replaces block='BiomesOPlenty:longGrass'/>
+            <Replaces block='BiomesOPlenty:newBopGrass'/>
+            <Replaces block='BiomesOPlenty:driedDirt'/>
+            <Replaces block='BiomesOPlenty:newBopDirt'/>
+            <Replaces block='BiomesOPlenty:hardDirt'/>
+            <Replaces block='BiomesOPlenty:ashStone'/>
+            <Replaces block='BiomesOPlenty:mud'/>
+            <Replaces block='BiomesOPlenty:rocks'/>
+            <Replaces block='BiomesOPlenty:hardIce'/>
+            <Replaces block='BiomesOPlenty:cragRock'/>
             <Biome name='.*'/>
         </CloudPreset>
 
@@ -409,9 +502,9 @@
     <!-- ******************** Import Standard Configs ********************** -->
 	
 	<OptionalImport file='modules/custom/Chisel2.xml'/>
+    <OptionalImport file='modules/custom/InexOreGen.xml'/>
     <OptionalImport file='modules/custom/MinecraftSpecialRules.xml'/>
     <OptionalImport file='modules/custom/oreremoval.xml'/>
-    <OptionalImport file='modules/custom/overworld.xml'/>
 	
     <!-- Gregtech checks for other ores' oredict values.  Uncomment the
 	 the following to have it override custom configurations -->
