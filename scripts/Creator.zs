@@ -26,6 +26,11 @@ recipes.addShaped(<Creator:IronHammer>, [[null, <ore:ingotIron>, <ore:ingotIron>
 recipes.addShaped(<Creator:IronHammer>, [[<ore:ingotIron>, <ore:ingotIron>, null], [<ore:ingotIron>, <ore:ingotIron>, <ore:treatedStick>], [<ore:ingotIron>, <ore:ingotIron>, null]]);
 recipes.addShaped(<Creator:IronWrench>, [[<ore:ingotIron>, <Creator:IronHammer>.anyDamage().transformDamage(), <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [null, <ore:ingotIron>]]);
 
+#nether star fragment
+mods.forestry.Carpenter.addRecipe(<minecraft:nether_star>, [[<Creator:nether_star_fragment>, <Creator:nether_star_fragment>, null],
+                                                            [<Creator:nether_star_fragment>, <Creator:nether_star_fragment>, null], 
+                                                            [null, null, null]], <liquid:lava> * 4000, 40);
+
 #Sunnarium
 mods.magneticraft.Polymerizer.addRecipe(<liquid:lava> * 1000, <minecraft:glowstone_dust>, <Creator:Sunnarium>, 500);
 

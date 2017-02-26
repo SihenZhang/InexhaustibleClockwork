@@ -5,6 +5,7 @@ mod.addItem("IronWrench.js", "sword");
 mod.addItem("ctComplex.js", "normal");
 mod.addItem("iaComplex.js", "normal");
 mod.addItem("tcsComplex.js", "normal");
+mod.addItem("nether_star_fragment.js", "normal");
 mod.addItem("ingotBloodedCobalt.js", "normal");
 mod.addItem("Sunnarium.js", "normal");
 mod.addItem("enderDiamond.js", "normal");
