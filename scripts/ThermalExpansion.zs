@@ -9,15 +9,6 @@ recipes.remove(<ThermalExpansion:Frame:1>);
 recipes.remove(<ThermalExpansion:Frame:2>);
 recipes.remove(<ThermalExpansion:Frame:3>);
 
-#hardened glass
-mods.thermalexpansion.Smelter.removeRecipe(<ore:dustObsidian>, <ore:dustLead>);
-mods.thermalexpansion.Smelter.removeRecipe(<ore:dustObsidian>, <ore:ingotLead>);
-mods.tconstruct.Casting.removeBasinRecipe(<ThermalExpansion:Glass>);
-mods.thermalexpansion.Smelter.removeRecipe(<ore:dustObsidian>, <ore:dustLumium>);
-mods.thermalexpansion.Smelter.removeRecipe(<ore:dustObsidian>, <ore:ingotLumium>);
-mods.thermalexpansion.Smelter.addRecipe(4000, <ThermalFoundation:material:4> * 4, <appliedenergistics2:tile.BlockQuartzLamp>, <ThermalExpansion:Glass>);
-mods.thermalexpansion.Smelter.addRecipe(4000, <ThermalFoundation:material:43> * 4, <ThermalExpansion:Glass>, <ThermalExpansion:Glass:1>);
-
 #val magmaCrucible = <ThermalExpansion:Machine:4>.withTag({Level: 2 as byte});
 #basic machines
 
@@ -235,21 +226,23 @@ mods.forestry.Carpenter.addRecipe(<ThermalExpansion:material:3> , [[<minecraft:r
                                                                       [null,null , <minecraft:redstone>]], <liquid:lumium.molten> * 288, 300);
 
 #the taste of MAGIC
-mods.thermalexpansion.Smelter.addRecipe(720000, <ThermalFoundation:material:512>, <ThermalFoundation:material:513> , <ThermalFoundation:material:516>*2, <ThermalFoundation:material:516> , 10);
-mods.thermalexpansion.Crucible.addRecipe(360000, <ThermalFoundation:material:516>, <liquid:mana> * 1000);
+mods.thermalexpansion.Smelter.addRecipe(120000, <ThermalFoundation:material:512>, <ThermalFoundation:material:513> , <ThermalFoundation:material:516>*2, <ThermalFoundation:material:516> , 10);
+mods.thermalexpansion.Crucible.addRecipe(1000000, <ThermalFoundation:material:516>, <liquid:mana> * 1000);
 
 #Replication
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material:32>, <ThermalFoundation:material:32>*2, <liquid:mana> * 10000);
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material:33>, <ThermalFoundation:material:33>*2, <liquid:mana> * 10000);
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material>, <ThermalFoundation:material>*2, <liquid:mana> * 10000);
+mods.thermalexpansion.Transposer.addFillRecipe(120000, <ThermalFoundation:material:32>, <ThermalFoundation:material:32>*2, <liquid:mana> * 10000);
+mods.thermalexpansion.Transposer.addFillRecipe(120000, <ThermalFoundation:material:33>, <ThermalFoundation:material:33>*2, <liquid:mana> * 10000);
+mods.thermalexpansion.Transposer.addFillRecipe(120000, <ThermalFoundation:material>, <ThermalFoundation:material>*2, <liquid:mana> * 10000);
 
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material:36>, <ThermalFoundation:material:36>*2, <liquid:mana> * 20000);
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material:35>, <ThermalFoundation:material:35>*2, <liquid:mana> * 20000);
+mods.thermalexpansion.Transposer.addFillRecipe(120000, <ThermalFoundation:material:36>, <ThermalFoundation:material:36>*2, <liquid:mana> * 20000);
+mods.thermalexpansion.Transposer.addFillRecipe(120000, <ThermalFoundation:material:35>, <ThermalFoundation:material:35>*2, <liquid:mana> * 20000);
 
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material:1>, <ThermalFoundation:material:1>*2, <liquid:mana> * 30000);
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material:34>, <ThermalFoundation:material:34>*2, <liquid:mana> * 30000);
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <ThermalFoundation:material:37>, <ThermalFoundation:material:37>*2, <liquid:mana> * 10000);
+mods.thermalexpansion.Transposer.addFillRecipe(120000, <ThermalFoundation:material:1>, <ThermalFoundation:material:1>*2, <liquid:mana> * 30000);
+mods.thermalexpansion.Transposer.addFillRecipe(120000, <ThermalFoundation:material:34>, <ThermalFoundation:material:34>*2, <liquid:mana> * 30000);
+mods.thermalexpansion.Transposer.addFillRecipe(120000, <ThermalFoundation:material:37>, <ThermalFoundation:material:37>*4, <liquid:mana> * 10000);
 
+#HOP -> Diamond
+mods.thermalexpansion.Smelter.addRecipe(120000, <ImmersiveEngineering:metal:20>*8, <Magneticraft:item.dustdiamond>, <minecraft:diamond>*2);
 #those abandoned kids :<
 recipes.remove(<ThermalExpansion:capacitor:1>); #no! never before tier3!
 recipes.remove (<ThermalExpansion:Machine:8>);

@@ -236,13 +236,13 @@ mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:4>*2, [[
                                                                        [<ore:plateCopper>, <Magneticraft:heat_sink>, <ore:plateCopper>], 
                                                                        [<ore:plateSteel>, <ore:plateCopper>,<ore:plateSteel>]], <liquid:steel.molten> * 144, 80);
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:5>*2, [[<ore:plateSteel>, <ImmersiveEngineering:material:12>,<ore:plateSteel>],
-                                                                       [<minecraft:piston>, <ore:ingotInvar>,<minecraft:piston>], 
+                                                                       [<minecraft:piston>, <ore:plateInvar>,<minecraft:piston>], 
                                                                        [<ore:plateSteel> , <ImmersiveEngineering:material:12> ,<ore:plateSteel>]], <liquid:steel.molten> * 144, 80);
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:6>*2, [[<ore:plateSteel>, <ore:plateSteel>,<ore:plateSteel>],
                                                                        [<ImmersiveEngineering:coil:1>, <Creator:generatorACSP>, <ImmersiveEngineering:coil:1>], 
                                                                        [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]], <liquid:steel.molten> * 72, 80);
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:7>*2, [[<ore:plateInvar>, <ImmersiveEngineering:material:11>,<ore:plateInvar>], 
-																			  [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], 
+																			  [<ore:plateCopper>, <Creator:compactInvarPlate>, <ore:plateCopper>], 
 																			  [<ore:plateInvar>, <ImmersiveEngineering:material:11>, <ore:plateInvar>]], <liquid:invar.molten> * 144, 80);
 #shit metal blocks
 recipes.remove(<ImmersiveEngineering:metalDecoration:10>); 

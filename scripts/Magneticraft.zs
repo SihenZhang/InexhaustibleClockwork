@@ -212,10 +212,10 @@ recipes.remove(<Magneticraft:item.battery_small>);
 recipes.remove(<Magneticraft:item.battery>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:item.battery_small> , [[null, <Magneticraft:item.cable_low>, null],
                                                                       [<ore:plateBronze>, null, <ore:plateBronze>], 
-                                                                      [null, <ore:plateBronze>, null]], <liquid:sulfurousacid> * 125, 20);
+                                                                      [null, <ore:plateBronze>, null]], <liquid:sulfurousacid> * 500, 20);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:item.battery> , [[<ore:plateBronze>, <Magneticraft:item.cable_low>, <ore:plateBronze>],
                                                                       [<ore:plateBronze>, null, <ore:plateBronze>], 
-                                                                      [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>]], <liquid:sulfurousacid> * 1000, 20);
+                                                                      [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>]], <liquid:sulfurousacid> * 4000, 20);
 recipes.remove(<Magneticraft:transformer_lm>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:transformer_lm> , [[null, <Creator:coilCopper>, null],
                                                                       [<Magneticraft:item.cable_low>, <Creator:coilCopper>, <Magneticraft:item.cable_medium>], 
@@ -296,7 +296,7 @@ recipes.remove(<Magneticraft:item.chainsaw>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:item.chainsaw> , [[<ore:plateIron>, <ore:plateIron>, null],
                                                                       [<ore:plateIron>, <ore:plateIron>, <Forestry:thermionicTubes>], 
                                                                       [null,<Creator:motorDC>,<Magneticraft:item.battery_small>]], <liquid:iron.molten> * 288, 150);
-
+recipes.addShaped(<ThermalFoundation:material:16>,[[<Magneticraft:item.dustSulfur>,<Magneticraft:item.dustSulfur>],[<Magneticraft:item.dustSulfur>,<Magneticraft:item.dustSulfur>]]);
 #remove things about Uranium & Thorium
 <ore:oreUranium>.remove(<Magneticraft:uranium_ore>);
 <ore:dustUranium>.remove(<Magneticraft:item.dust:7>);
