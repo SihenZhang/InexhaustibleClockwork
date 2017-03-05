@@ -112,7 +112,7 @@ mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:2>);
 mods.railcraft.RockCrusher.removeRecipe(<ore:oreCopper>);
 #add
 mods.tconstruct.Smeltery.addMelting(<ore:oreCopper>, <liquid:copper.molten> * 72, 550);
-mods.railcraft.RockCrusher.addRecipe(<ThermalFoundation:Ore>, false, false, [<aobd:crushedCopper> * 1], [1]);
+mods.railcraft.RockCrusher.addRecipe(<ThermalFoundation:Ore>, true, false, [<aobd:crushedCopper> * 1], [1]);
 mods.magneticraft.Crusher.addRecipe(<ThermalFoundation:Ore>, <Magneticraft:item.chunks:2>, <Creator:copperDustSmall>, 0.4, <Creator:tinDustTiny> * 3, 0.6);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.chunks:2>, <Magneticraft:item.rubble:2> * 2, <Creator:copperDustSmall>, 0.6, <Magneticraft:item.dustSulfur>, 0.15);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:2>, <Magneticraft:item.pebbles:2> * 3, <Creator:copperDustTiny> * 2, 0.675, <Creator:tinDustSmall>, 0.05);
@@ -170,7 +170,7 @@ mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:3>);
 mods.railcraft.RockCrusher.removeRecipe(<ore:oreTin>);
 #add
 mods.tconstruct.Smeltery.addMelting(<ore:oreTin>, <liquid:tin.molten> * 72, 400);
-mods.railcraft.RockCrusher.addRecipe(<ThermalFoundation:Ore:1>, false, false, [<aobd:crushedTin> * 1], [1]);
+mods.railcraft.RockCrusher.addRecipe(<ThermalFoundation:Ore:1>, true, false, [<aobd:crushedTin> * 1], [1]);
 mods.magneticraft.Crusher.addRecipe(<ThermalFoundation:Ore:1>, <Magneticraft:item.chunks:3>, <Creator:tinDustSmall>, 0.4, <Creator:copperDustTiny> * 3, 0.6);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.chunks:3>, <Magneticraft:item.rubble:3> * 2, <Creator:tinDustSmall>, 0.6, <Creator:tinDustTiny>, 0.15);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:3>, <Magneticraft:item.pebbles:3> * 3, <Creator:tinDustTiny> * 2, 0.675, <Creator:copperDustSmall>, 0.05);
