@@ -38,6 +38,8 @@ recipes.removeShapeless(<ThermalFoundation:material:44>);
 mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:42>, <liquid:redstone> * 250);
 mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:43>, <liquid:glowstone> * 250);
 mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:44>, <liquid:ender> * 250);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustIral>, <TConstruct:materials:15>, <liquid:obsidian.molten> * 250);
+
 #Gear Crafting
 mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:140>, <liquid:enderium.molten> * 720, <BuildCraft|Core:woodenGearItem>, true, 200);
 mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:139>, <liquid:lumium.molten> * 720, <BuildCraft|Core:woodenGearItem>, true, 200);
@@ -99,5 +101,8 @@ mods.railcraft.CokeOven.addRecipe(<TConstruct:materials:2>, <liquid:water> * 100
 #cobalt & ardite
 recipes.remove(<TConstruct:materials:41>);
 mods.thermalexpansion.Smelter.addRecipe(18000, <TConstruct:materials:39>, <TConstruct:materials:38> , <TConstruct:materials:41>);
+
+#Electrontine Meltdown
+mods.thermalexpansion.Crucible.addRecipe(5000, <ProjRed|Core:projectred.core.part:56>, <liquid:new fantasy> * 100);
 
 print("Initialized 'TinkersConstruct.zs'");

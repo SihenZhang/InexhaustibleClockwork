@@ -297,6 +297,15 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:item.chainsaw> , [[<ore:plateIro
                                                                       [<ore:plateIron>, <ore:plateIron>, <Forestry:thermionicTubes>], 
                                                                       [null,<Creator:motorDC>,<Magneticraft:item.battery_small>]], <liquid:iron.molten> * 288, 150);
 recipes.addShaped(<ThermalFoundation:material:16>,[[<Magneticraft:item.dustSulfur>,<Magneticraft:item.dustSulfur>],[<Magneticraft:item.dustSulfur>,<Magneticraft:item.dustSulfur>]]);
+
+#Electontine Manufactory
+mods.magneticraft.OilDistillery.addRecipe(<liquid:redstone> , <liquid:deeper fantasy>, 400);
+mods.magneticraft.Refinery.addRecipe(<liquid:deeper fantasy> * 10, <liquid:redstone> * 8, <liquid:new fantasy> * 1, <liquid:lava> * 1);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <ProjRed|Core:projectred.core.part:56>, <ProjRed|Core:projectred.core.part:56>*2, <liquid:new fantasy> * 100);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <minecraft:iron_ingot>, <ProjRed|Core:projectred.core.part:57>, <liquid:new fantasy> * 600);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <ProjRed|Core:projectred.core.part:12>, <ProjRed|Core:projectred.core.part:58>, <liquid:new fantasy> * 600);
+
+
 #remove things about Uranium & Thorium
 <ore:oreUranium>.remove(<Magneticraft:uranium_ore>);
 <ore:dustUranium>.remove(<Magneticraft:item.dust:7>);
