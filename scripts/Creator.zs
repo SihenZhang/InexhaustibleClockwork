@@ -209,6 +209,65 @@ mods.railcraft.Rolling.addShaped(<Creator:wireElectrum> * 6, [[<ore:plateElectru
 mods.railcraft.Rolling.addShaped(<Creator:wireSteel> * 6, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], 
                                                            [<ore:plateSteel>, null, <ore:plateSteel>],
                                                            [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+														   
+#alloy
+recipes.addShaped(<Creator:blockAlloy>, [[<Creator:itemAlloy>, <Creator:itemAlloy>, <Creator:itemAlloy>], [<Creator:itemAlloy>, <Creator:itemAlloy>, <Creator:itemAlloy>], [<Creator:itemAlloy>, <Creator:itemAlloy>, <Creator:itemAlloy>]]);
+recipes.addShapeless(<Creator:itemAlloy> * 9, [<Creator:blockAlloy>]);
+mods.thermalexpansion.Smelter.addRecipe(6000, <Mekanism:OtherDust:1>, <ProjRed|Core:projectred.core.part:12>, <Creator:itemAlloy>);
+mods.thermalexpansion.Smelter.addRecipe(6000, <TConstruct:materials:16>, <ProjRed|Core:projectred.core.part:12>, <Creator:itemAlloy>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy>, <ore:ingotIron>, null, 100, 512, [<ore:dustCoal>, <ProjRed|Core:projectred.core.part:12>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy>, <ore:dustIron>, null, 100, 512, [<ore:dustCoal>, <ProjRed|Core:projectred.core.part:12>], "Alloying");
+
+recipes.addShaped(<Creator:blockAlloy:1>, [[<Creator:itemAlloy:1>, <Creator:itemAlloy:1>, <Creator:itemAlloy:1>], [<Creator:itemAlloy:1>, <Creator:itemAlloy:1>, <Creator:itemAlloy:1>], [<Creator:itemAlloy:1>, <Creator:itemAlloy:1>, <Creator:itemAlloy:1>]]);
+recipes.addShapeless(<Creator:itemAlloy:1> * 9, [<Creator:blockAlloy:1>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:1>, <ore:ingotGold>, null, 200, 512, [<ore:dustRedstone>, <Creator:Sunnarium>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:1>, <ore:dustGold>, null, 200, 512, [<ore:dustRedstone>, <Creator:Sunnarium>], "Alloying");
+
+recipes.addShaped(<Creator:blockAlloy:2>, [[<Creator:itemAlloy:2>, <Creator:itemAlloy:2>, <Creator:itemAlloy:2>], [<Creator:itemAlloy:2>, <Creator:itemAlloy:2>, <Creator:itemAlloy:2>], [<Creator:itemAlloy:2>, <Creator:itemAlloy:2>, <Creator:itemAlloy:2>]]);
+recipes.addShapeless(<Creator:itemAlloy:2> * 9, [<Creator:blockAlloy:2>]);
+mods.thermalexpansion.Smelter.addRecipe(15000, <Creator:itemAlloy:1>, <appliedenergistics2:item.ItemMultiMaterial:46>, <Creator:itemAlloy:2>);
+
+recipes.addShaped(<Creator:blockAlloy:3>, [[<Creator:itemAlloy:3>, <Creator:itemAlloy:3>, <Creator:itemAlloy:3>], [<Creator:itemAlloy:3>, <Creator:itemAlloy:3>, <Creator:itemAlloy:3>], [<Creator:itemAlloy:3>, <Creator:itemAlloy:3>, <Creator:itemAlloy:3>]]);
+recipes.addShapeless(<Creator:itemAlloy:3> * 9, [<Creator:blockAlloy:3>]);
+mods.mekanism.Infuser.addRecipe("OBSIDIAN", 20, <Magneticraft:item.ingotCarbide>, <Creator:itemAlloy:3>);
+
+recipes.addShaped(<Creator:blockAlloy:4>, [[<Creator:itemAlloy:4>, <Creator:itemAlloy:4>, <Creator:itemAlloy:4>], [<Creator:itemAlloy:4>, <Creator:itemAlloy:4>, <Creator:itemAlloy:4>], [<Creator:itemAlloy:4>, <Creator:itemAlloy:4>, <Creator:itemAlloy:4>]]);
+recipes.addShapeless(<Creator:itemAlloy:4> * 9, [<Creator:blockAlloy:4>]);
+mods.thermalexpansion.Smelter.addRecipe(6000, <minecraft:gold_ingot>, <minecraft:soul_sand>, <Creator:itemAlloy:4>);
+
+recipes.addShaped(<Creator:blockAlloy:5>, [[<Creator:itemAlloy:5>, <Creator:itemAlloy:5>, <Creator:itemAlloy:5>], [<Creator:itemAlloy:5>, <Creator:itemAlloy:5>, <Creator:itemAlloy:5>], [<Creator:itemAlloy:5>, <Creator:itemAlloy:5>, <Creator:itemAlloy:5>]]);
+recipes.addShapeless(<Creator:itemAlloy:5> * 9, [<Creator:blockAlloy:5>]);
+mods.thermalexpansion.Smelter.addRecipe(10000, <Creator:itemAlloy:4>, <ThermalFoundation:material:516>, <Creator:itemAlloy:5>);
+
+recipes.addShaped(<Creator:blockAlloy:6>, [[<Creator:itemAlloy:6>, <Creator:itemAlloy:6>, <Creator:itemAlloy:6>], [<Creator:itemAlloy:6>, <Creator:itemAlloy:6>, <Creator:itemAlloy:6>], [<Creator:itemAlloy:6>, <Creator:itemAlloy:6>, <Creator:itemAlloy:6>]]);
+recipes.addShapeless(<Creator:itemAlloy:6> * 9, [<Creator:blockAlloy:6>]);
+mods.mekanism.Infuser.addRecipe("DIAMOND", 10, <minecraft:gold_ingot>, <Creator:itemAlloy:6>);
+
+recipes.addShaped(<Creator:blockAlloy:7>, [[<Creator:itemAlloy:7>, <Creator:itemAlloy:7>, <Creator:itemAlloy:7>], [<Creator:itemAlloy:7>, <Creator:itemAlloy:7>, <Creator:itemAlloy:7>], [<Creator:itemAlloy:7>, <Creator:itemAlloy:7>, <Creator:itemAlloy:7>]]);
+recipes.addShapeless(<Creator:itemAlloy:7> * 9, [<Creator:blockAlloy:7>]);
+mods.mekanism.Infuser.addRecipe("DIAMOND", 10, <ThermalFoundation:material:66>, <Creator:itemAlloy:7>);
+
+recipes.addShaped(<Creator:blockAlloy:8>, [[<Creator:itemAlloy:8>, <Creator:itemAlloy:8>, <Creator:itemAlloy:8>], [<Creator:itemAlloy:8>, <Creator:itemAlloy:8>, <Creator:itemAlloy:8>], [<Creator:itemAlloy:8>, <Creator:itemAlloy:8>, <Creator:itemAlloy:8>]]);
+recipes.addShapeless(<Creator:itemAlloy:8> * 9, [<Creator:blockAlloy:8>]);
+mods.thaumcraft.Crucible.addRecipe("VOIDMETAL", <Creator:itemAlloy:8>, <Thaumcraft:ItemResource:16>, "spiritus 4, alienis 2");
+mods.thaumcraft.Research.addCruciblePage("VOIDMETAL", <Creator:itemAlloy:8>);
+
+recipes.addShaped(<Creator:blockAlloy:9>, [[<Creator:itemAlloy:9>, <Creator:itemAlloy:9>, <Creator:itemAlloy:9>], [<Creator:itemAlloy:9>, <Creator:itemAlloy:9>, <Creator:itemAlloy:9>], [<Creator:itemAlloy:9>, <Creator:itemAlloy:9>, <Creator:itemAlloy:9>]]);
+recipes.addShapeless(<Creator:itemAlloy:9> * 9, [<Creator:blockAlloy:9>]);
+mods.thermalexpansion.Smelter.addRecipe(8000, <Creator:itemAlloy:8>, <ThermalFoundation:material:69>, <Creator:itemAlloy:9>);
+
+recipes.addShaped(<Creator:blockAlloy:10>, [[<Creator:itemAlloy:10>, <Creator:itemAlloy:10>, <Creator:itemAlloy:10>], [<Creator:itemAlloy:10>, <Creator:itemAlloy:10>, <Creator:itemAlloy:10>], [<Creator:itemAlloy:10>, <Creator:itemAlloy:10>, <Creator:itemAlloy:10>]]);
+recipes.addShapeless(<Creator:itemAlloy:10> * 9, [<Creator:blockAlloy:10>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:10>, <Thaumcraft:ItemResource:2>, null, 200, 512, [<ore:dustElectrotine>, <ore:dustGold>], "Alloying");
+
+recipes.addShaped(<Creator:blockAlloy:11>, [[<Creator:itemAlloy:11>, <Creator:itemAlloy:11>, <Creator:itemAlloy:11>], [<Creator:itemAlloy:11>, <Creator:itemAlloy:11>, <Creator:itemAlloy:11>], [<Creator:itemAlloy:11>, <Creator:itemAlloy:11>, <Creator:itemAlloy:11>]]);
+recipes.addShapeless(<Creator:itemAlloy:11> * 9, [<Creator:blockAlloy:11>]);
+mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Creator:itemAlloy:11>, <ThermalFoundation:material:70>, "tenebrae 4, perditio 2");
+
+recipes.addShaped(<Creator:blockAlloy:12>, [[<Creator:itemAlloy:12>, <Creator:itemAlloy:12>, <Creator:itemAlloy:12>], [<Creator:itemAlloy:12>, <Creator:itemAlloy:12>, <Creator:itemAlloy:12>], [<Creator:itemAlloy:12>, <Creator:itemAlloy:12>, <Creator:itemAlloy:12>]]);
+recipes.addShapeless(<Creator:itemAlloy:12> * 9, [<Creator:blockAlloy:12>]);
+mods.thermalexpansion.Smelter.addRecipe(20000, <Creator:itemAlloy:10>, <Creator:itemAlloy:11>, <Creator:itemAlloy:12>);
+
 #Error Items
 recipes.addShaped(<Prunoideae:errorItem1>,[[<minecraft:apple>, <minecraft:cobblestone>, <minecraft:paper>],[<minecraft:golden_sword>, <minecraft:torch>, <minecraft:hopper>],[<minecraft:carpet:15>, <minecraft:leaves>, <minecraft:pumpkin>]]);
 NEI.hide(<Prunoideae:errorItem1>);
