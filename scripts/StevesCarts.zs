@@ -10,8 +10,6 @@ recipes.remove(<StevesCarts:ModuleComponents:18>);
 recipes.addShaped(<StevesCarts:ModuleComponents:18> * 2, [[<ore:obsidian>, <ProjRed|Core:projectred.core.part:56>, <ore:obsidian>], [<ProjRed|Core:projectred.core.part:56>, <ore:gemDiamond>, <ProjRed|Core:projectred.core.part:56>], [<ore:obsidian>, <ProjRed|Core:projectred.core.part:56>, <ore:obsidian>]]);
 recipes.remove(<StevesCarts:ModuleComponents:21>);
 recipes.addShaped(<StevesCarts:ModuleComponents:21> * 5, [[<ore:ingotSteel>, <StevesCarts:ModuleComponents:20>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>] ,[<StevesCarts:ModuleComponents:19>, <StevesCarts:ModuleComponents:19>, <StevesCarts:ModuleComponents:19>]]);
-recipes.remove(<StevesCarts:ModuleComponents:46>);
-recipes.addShaped(<StevesCarts:ModuleComponents:46> * 2, [[<ProjRed|Core:projectred.core.part:14>, <ore:blockDiamond>, <ProjRed|Core:projectred.core.part:14>], [<StevesCarts:ModuleComponents:45>, <Creator:enderDiamond>, <StevesCarts:ModuleComponents:45>], [<StevesCarts:ModuleComponents:21>, <StevesCarts:ModuleComponents:45>, <StevesCarts:ModuleComponents:21>]]);
 recipes.remove(<StevesCarts:ModuleComponents:44>);
 recipes.addShaped(<StevesCarts:ModuleComponents:44>, [[<SolarExpansion:photovoltaicCell>, <SolarExpansion:photovoltaicCell>, <SolarExpansion:photovoltaicCell>], [<ProjRed|Core:projectred.core.part:59>, <ProjRed|Core:projectred.core.part:59>, <ProjRed|Core:projectred.core.part:59>], [<ProjRed|Core:projectred.core.part:55>, <ProjRed|Core:projectred.core.part:55>, <ProjRed|Core:projectred.core.part:55>]]);
 recipes.remove(<StevesCarts:ModuleComponents:58>);
@@ -35,6 +33,13 @@ recipes.addShaped(<StevesCarts:BlockCartAssembler>, [[<Creator:enderDiamond>, <C
 recipes.remove(<StevesCarts:BlockAdvDetector>);
 recipes.addShaped(<StevesCarts:BlockAdvDetector>, [[<ore:ingotSteel>, <minecraft:stone_pressure_plate>, <ore:ingotSteel>], [<ore:ingotSteel>, <minecraft:detector_rail>, <ore:ingotSteel>], [<ore:ingotSteel>, <minecraft:stone_pressure_plate>, <ore:ingotSteel>]]);
 
+#Galgadorian
+recipes.remove(<StevesCarts:ModuleComponents:46>);
+recipes.addShaped(<StevesCarts:ModuleComponents:46> * 3, [[<ProjRed|Core:projectred.core.part:14>, <ore:blockDiamond>, <ProjRed|Core:projectred.core.part:14>], [<StevesCarts:ModuleComponents:45>, <ore:ingotDarkSteel>, <StevesCarts:ModuleComponents:45>], [<StevesCarts:ModuleComponents:21>, <StevesCarts:ModuleComponents:45>, <StevesCarts:ModuleComponents:21>]]);
+furnace.remove(<StevesCarts:ModuleComponents:49>);
 
+#glass o'magic
+recipes.remove(<StevesCarts:ModuleComponents:5>);
+mods.thaumcraft.Crucible.addRecipe("ASPECTS", <StevesCarts:ModuleComponents:5>, <minecraft:glass:*>, "praecantatio 4");
 
 print("Initialized 'StevesCarts.zs'");

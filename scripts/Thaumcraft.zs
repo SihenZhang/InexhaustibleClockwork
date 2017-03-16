@@ -66,6 +66,11 @@ mods.thaumcraft.Research.addCruciblePage("SILVERWOOD", <Thaumcraft:blockCustomPl
 mods.thaumcraft.Research.addPrereq("SILVERWOOD", "GREATWOOD", false);
 mods.thaumcraft.Research.setConcealed("SILVERWOOD", true);
 
+#Tweak of Thaumometer
+recipes.remove(<Thaumcraft:ItemThaumometer>);
+recipes.addShaped(<Thaumcraft:ItemThaumometer>, [[<Creator:itemAlloy:5>, <ore:materialAspectShard>, <Creator:itemAlloy:5>], [<Creator:itemAlloy:6>, <StevesCarts:ModuleComponents:5>, <Creator:itemAlloy:6>], [<Creator:itemAlloy:12>, <ore:materialAspectShard>, <Creator:itemAlloy:12>]]);
+mods.thaumcraft.Research.refreshResearchRecipe("THAUMOMETER");
+
 #Taint maker
 mods.thaumcraft.Research.addResearch("TAINTPLANT","ALCHEMY","praecantatio 4, perditio 2, arbor 2, herba 2", 1, -4, 4, <Thaumcraft:blockTaintFibres>);
 mods.thaumcraft.Research.addPage("TAINTPLANT", "derp.research_page.TAINTPLANT");
