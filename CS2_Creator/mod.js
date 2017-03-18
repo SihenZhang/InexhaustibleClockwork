@@ -10,6 +10,7 @@ mod.addItem("itemAlloy.js", "normal");
 mod.addBlock("blockAlloy.js", "normal");
 mod.addItem("Sunnarium.js", "normal");
 mod.addItem("enderDiamond.js", "normal");
+mod.addItem("itemCrystal.js", "normal");
 
 mod.addItem("gearEnergized.js", "normal");
 mod.addItem("gearVibrant.js", "normal");

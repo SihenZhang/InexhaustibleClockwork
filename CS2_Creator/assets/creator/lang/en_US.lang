@@ -18,8 +18,14 @@ item.itemAlloy9.name=Amordrine Ingot
 item.itemAlloy10.name=Alduorite Ingot
 item.itemAlloy11.name=Ceruclase Ingot
 item.itemAlloy12.name=Inolashite Ingot
+item.itemAlloy13.name=Vibrantium Ingot
 item.Sunnarium0.name=Sunnarium
 item.enderDiamond0.name=Ender Diamond
+item.itemCrystal0.name=Pulsating Crystal
+item.itemCrystal1.name=Vibrant Crystal
+item.itemCrystal2.name=Ender Crystal
+item.itemCrystal3.name=Enticing Crystal
+
 item.gearEnergized0.name=Energetic Alloy Gear
 item.gearVibrant0.name=Vibrant Alloy Gear
 
