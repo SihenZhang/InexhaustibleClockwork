@@ -170,6 +170,14 @@ recipes.addShaped(<ExtraUtilities:pipes.1> * 2, [[<minecraft:stone_button>, <min
 recipes.remove(<ExtraUtilities:decorativeBlock1:12>);
 recipes.addShaped(<ExtraUtilities:decorativeBlock1:12>, [[<ore:burntQuartz>, <Creator:enderDiamond>, <ore:burntQuartz>], [<Creator:enderDiamond>, <ExtraUtilities:decorativeBlock1:1>, <Creator:enderDiamond>], [<ore:burntQuartz>, <Creator:enderDiamond>, <ore:burntQuartz>]]);
 
+#ender flux crystal
+recipes.remove(<ExtraUtilities:endConstructor:2>);
+recipes.addShaped(<ExtraUtilities:endConstructor:2>, [[null, <ExtraUtilities:decorativeBlock1:12>, null], [<Creator:itemAlloy:2>, <ore:blockEnderObsidian>, <Creator:itemAlloy:2>], [<ore:blockEnderObsidian>, <ore:blockEnderObsidian>, <ore:blockEnderObsidian>]]);
+
+#qed
+recipes.remove(<ExtraUtilities:endConstructor>);
+recipes.addShaped(<ExtraUtilities:endConstructor>, [[<ore:blockEnderObsidian>, <ore:pearlEnderEye>, <ore:blockEnderObsidian>], [<Redstonic:capacitor>, <ExtraUtilities:decorativeBlock1:12>, <Redstonic:capacitor>], [<ore:blockEnderObsidian>, <ore:chipsetRed>, <ore:blockEnderObsidian>]]);
+
 #magnum torch
 mods.extraUtils.QED.removeRecipe(<ExtraUtilities:magnumTorch>);
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:magnumTorch>, [[<minecraft:potion:8229>, <ExtraUtilities:chandelier>, <minecraft:potion:8225>], [<ExtraUtilities:chandelier>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:chandelier>], [<ExtraUtilities:chandelier>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:chandelier>]]);

@@ -1,4 +1,4 @@
-﻿//item
+//item
 item.IronHammer0.name=铁锤
 item.IronWrench0.name=铁扳手
 item.ctComplex0.name=铜锡复合体
@@ -20,6 +20,9 @@ item.itemAlloy11.name=暗影秘银锭
 item.itemAlloy12.name=暗影秘银蓝金锭
 item.Sunnarium0.name=阳光化合物
 item.enderDiamond0.name=末影钻石
+item.gearEnergized0.name=充能合金齿轮
+item.gearVibrant0.name=脉冲合金齿轮
+
 item.AluminumPlate0.name=铝板
 item.BronzePlate0.name=青铜板
 item.ConstantanPlate0.name=康铜板
@@ -36,6 +39,11 @@ item.SignalumPlate0.name=信素板
 item.SilverPlate0.name=银板
 item.TungstenPlate0.name=钨板
 item.OsmiumPlate0.name=锇板
+item.ElectricalSteelPlate0.name=磁钢板
+item.EnergeticAlloyPlate0.name=充能合金板
+item.PhasedGoldPlate0.name=脉冲合金板
+item.DarkSteelPlate0.name=玄钢板
+
 item.compactAluminumPlate0.name=厚制铝板
 item.compactBronzePlate0.name=厚制青铜板
 item.compactConstantanPlate0.name=厚制康铜板
@@ -57,6 +65,11 @@ item.compactSilverPlate0.name=厚制银板
 item.compactSteelPlate0.name=厚制钢板
 item.compactTinPlate0.name=厚制锡板
 item.compactTungstenPlate0.name=厚制钨板
+item.compactElectricalSteelPlate0.name=厚制磁钢板
+item.compactEnergeticAlloyPlate0.name=厚制充能合金板
+item.compactPhasedGoldPlate0.name=厚制脉冲合金板
+item.compactDarkSteelPlate0.name=厚制玄钢板
+
 item.denseAluminumPlate0.name=致密铝板
 item.denseBronzePlate0.name=致密青铜板
 item.denseConstantanPlate0.name=致密康铜板
@@ -78,10 +91,17 @@ item.denseSilverPlate0.name=致密银板
 item.denseSteelPlate0.name=致密钢板
 item.denseTinPlate0.name=致密锡板
 item.denseTungstenPlate0.name=致密钨板
+item.denseElectricalSteelPlate0.name=致密磁钢板
+item.denseEnergeticAlloyPlate0.name=致密充能合金板
+item.densePhasedGoldPlate0.name=致密脉冲合金板
+item.denseDarkSteelPlate0.name=致密玄钢板
+
 item.wireAluminum0.name=铝线
 item.wireCopper0.name=铜线
 item.wireElectrum0.name=琥珀金线
+item.wireGold0.name=金线
 item.wireSteel0.name=钢线
+
 item.dustIral0.name=埃罗粉
 item.dustTincosi0.name=庭可斯粉
 item.dustHydratedRedstone0.name=湿润红石粉

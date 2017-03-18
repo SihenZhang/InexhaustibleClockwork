@@ -10,6 +10,10 @@ mod.addItem("itemAlloy.js", "normal");
 mod.addBlock("blockAlloy.js", "normal");
 mod.addItem("Sunnarium.js", "normal");
 mod.addItem("enderDiamond.js", "normal");
+
+mod.addItem("gearEnergized.js", "normal");
+mod.addItem("gearVibrant.js", "normal");
+
 mod.addItem("AluminumPlate.js", "normal");
 mod.addItem("BronzePlate.js", "normal");
 mod.addItem("ConstantanPlate.js", "normal");
@@ -26,6 +30,11 @@ mod.addItem("PlatinumPlate.js", "normal");
 mod.addItem("SignalumPlate.js", "normal");
 mod.addItem("SilverPlate.js", "normal");
 mod.addItem("TungstenPlate.js", "normal");
+mod.addItem("ElectricalSteelPlate.js", "normal");
+mod.addItem("EnergeticAlloyPlate.js", "normal");
+mod.addItem("PhasedGoldPlate.js", "normal");
+mod.addItem("DarkSteelPlate.js", "normal");
+
 mod.addItem("compactAluminumPlate.js", "normal");
 mod.addItem("compactBronzePlate.js", "normal");
 mod.addItem("compactConstantanPlate.js", "normal");
@@ -47,6 +56,11 @@ mod.addItem("compactSilverPlate.js", "normal");
 mod.addItem("compactSteelPlate.js", "normal");
 mod.addItem("compactTinPlate.js", "normal");
 mod.addItem("compactTungstenPlate.js", "normal");
+mod.addItem("compactElectricalSteelPlate.js", "normal");
+mod.addItem("compactEnergeticAlloyPlate.js", "normal");
+mod.addItem("compactPhasedGoldPlate.js", "normal");
+mod.addItem("compactDarkSteelPlate.js", "normal");
+
 mod.addItem("denseAluminumPlate.js", "normal");
 mod.addItem("denseBronzePlate.js", "normal");
 mod.addItem("denseConstantanPlate.js", "normal");
@@ -68,6 +82,11 @@ mod.addItem("denseSilverPlate.js", "normal");
 mod.addItem("denseSteelPlate.js", "normal");
 mod.addItem("denseTinPlate.js", "normal");
 mod.addItem("denseTungstenPlate.js", "normal");
+mod.addItem("denseElectricalSteelPlate.js", "normal");
+mod.addItem("denseEnergeticAlloyPlate.js", "normal");
+mod.addItem("densePhasedGoldPlate.js", "normal");
+mod.addItem("denseDarkSteelPlate.js", "normal");
+
 mod.addItem("wireAluminum.js", "normal");
 mod.addItem("wireCopper.js", "normal");
 mod.addItem("wireElectrum.js", "normal");

@@ -19,7 +19,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<BuildCraft|Silicon:laserBlock>, [[null,
 
 #AssemblyTable
 recipes.remove(<BuildCraft|Silicon:laserTableBlock>);
-mods.extraUtils.QED.addShapedRecipe(<BuildCraft|Silicon:laserTableBlock>, [[<ProjRed|Core:projectred.core.part:55>, <ore:gemRuby>, <ProjRed|Core:projectred.core.part:55>], [<ore:gearDiamond>, <Mekanism:ControlCircuit:2>, <Forestry:thermionicTubes:5>], [<Magneticraft:item.ingotTungsten>, <IronChest:BlockIronChest>, <Magneticraft:item.ingotTungsten>]]);
+recipes.addShaped(<BuildCraft|Silicon:laserTableBlock>, [[<ProjRed|Core:projectred.core.part:55>, <ore:gemRuby>, <ProjRed|Core:projectred.core.part:55>], [<ore:gearDiamond>, <Mekanism:ControlCircuit:2>, <Forestry:thermionicTubes:5>], [<Magneticraft:item.ingotTungsten>, <IronChest:BlockIronChest>, <Magneticraft:item.ingotTungsten>]]);
 
 #refinery
 recipes.remove(<BuildCraft|Factory:refineryBlock>);

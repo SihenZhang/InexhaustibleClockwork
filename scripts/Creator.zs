@@ -55,6 +55,11 @@ recipes.addShaped(<Creator:enderDiamond>, [[null, <minecraft:ender_pearl>], [<mi
 <ore:plateNickel>.add(<Creator:NickelPlate>);
 <ore:plateEnderium>.add(<Creator:EnderiumPlate>);
 <ore:plateOsmium>.add(<Creator:OsmiumPlate>);
+<ore:plateElectricalSteel>.add(<Creator:ElectricalSteelPlate>);
+<ore:plateEnergeticAlloy>.add(<Creator:EnergeticAlloyPlate>);
+<ore:platePhasedGold>.add(<Creator:PhasedGoldPlate>);
+<ore:plateVibrantAlloy>.add(<Creator:PhasedGoldPlate>);
+<ore:plateDarkSteel>.add(<Creator:DarkSteelPlate>);
 
 recipes.addShaped(<Creator:GoldPlate>, [[<Creator:IronHammer>.anyDamage().transformDamage()], [<ore:ingotGold>], [<ore:ingotGold>]]);
 mods.railcraft.Rolling.addShaped(<Creator:GoldPlate> * 4, [[<ore:ingotGold>, <ore:ingotGold>, null], 
@@ -124,6 +129,23 @@ recipes.addShaped(<Creator:OsmiumPlate>, [[<Creator:IronHammer>.anyDamage().tran
 mods.railcraft.Rolling.addShaped(<Creator:OsmiumPlate> * 4, [[<ore:ingotOsmium>, <ore:ingotOsmium>, null], 
                                                              [<ore:ingotOsmium>, <ore:ingotOsmium>, null],
                                                              [null, null, null]]);
+recipes.addShaped(<Creator:ElectricalSteelPlate>, [[<Creator:IronHammer>.anyDamage().transformDamage()], [<ore:ingotElectricalSteel>], [<ore:ingotElectricalSteel>]]);
+mods.railcraft.Rolling.addShaped(<Creator:ElectricalSteelPlate> * 4, [[<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, null], 
+                                                                      [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, null],
+                                                                      [null, null, null]]);
+recipes.addShaped(<Creator:EnergeticAlloyPlate>, [[<Creator:IronHammer>.anyDamage().transformDamage()], [<ore:ingotEnergeticAlloy>], [<ore:ingotEnergeticAlloy>]]);
+mods.railcraft.Rolling.addShaped(<Creator:EnergeticAlloyPlate> * 4, [[<ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>, null], 
+                                                                     [<ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>, null],
+                                                                     [null, null, null]]);
+recipes.addShaped(<Creator:PhasedGoldPlate>, [[<Creator:IronHammer>.anyDamage().transformDamage()], [<ore:ingotPhasedGold>], [<ore:ingotPhasedGold>]]);
+mods.railcraft.Rolling.addShaped(<Creator:PhasedGoldPlate> * 4, [[<ore:ingotPhasedGold>, <ore:ingotPhasedGold>, null], 
+                                                                 [<ore:ingotPhasedGold>, <ore:ingotPhasedGold>, null],
+                                                                 [null, null, null]]);
+recipes.addShaped(<Creator:DarkSteelPlate>, [[<Creator:IronHammer>.anyDamage().transformDamage()], [<ore:ingotDarkSteel>], [<ore:ingotDarkSteel>]]);
+mods.railcraft.Rolling.addShaped(<Creator:DarkSteelPlate> * 4, [[<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, null], 
+                                                                [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, null],
+                                                                [null, null, null]]);
+
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactAluminumPlate>, <ore:plateAluminum>, <ImmersiveEngineering:mold>, 20000, 3);
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactBronzePlate>, <ore:plateBronze>, <ImmersiveEngineering:mold>, 20000, 3);
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactConstantanPlate>, <ore:plateConstantan>, <ImmersiveEngineering:mold>, 20000, 3);
@@ -145,6 +167,11 @@ mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactSilverPlate>, <or
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactSteelPlate>, <ore:plateSteel>, <ImmersiveEngineering:mold>, 20000, 3);
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactTinPlate>, <Railcraft:part.plate:2>, <ImmersiveEngineering:mold>, 20000, 3);
 mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactTungstenPlate>, <ore:plateTungsten>, <ImmersiveEngineering:mold>, 20000, 3);
+mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactElectricalSteelPlate>, <ore:plateElectricalSteel>, <ImmersiveEngineering:mold>, 20000, 3);
+mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactEnergeticAlloyPlate>, <ore:plateEnergeticAlloy>, <ImmersiveEngineering:mold>, 20000, 3);
+mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactPhasedGoldPlate>, <ore:platePhasedGold>, <ImmersiveEngineering:mold>, 20000, 3);
+mods.immersiveengineering.MetalPress.addRecipe(<Creator:compactDarkSteelPlate>, <ore:plateDarkSteel>, <ImmersiveEngineering:mold>, 20000, 3);
+
 mods.mekanism.Compressor.addRecipe(<Creator:compactAluminumPlate> * 3, <gas:liquidOsmium>, <Creator:denseAluminumPlate>);
 mods.mekanism.Compressor.addRecipe(<Creator:compactBronzePlate> * 3, <gas:liquidOsmium>, <Creator:denseBronzePlate>);
 mods.mekanism.Compressor.addRecipe(<Creator:compactConstantanPlate> * 3, <gas:liquidOsmium>, <Creator:denseConstantanPlate>);
@@ -166,6 +193,10 @@ mods.mekanism.Compressor.addRecipe(<Creator:compactSilverPlate> * 3, <gas:liquid
 mods.mekanism.Compressor.addRecipe(<Creator:compactSteelPlate> * 3, <gas:liquidOsmium>, <Creator:denseSteelPlate>);
 mods.mekanism.Compressor.addRecipe(<Creator:compactTinPlate> * 3, <gas:liquidOsmium>, <Creator:denseTinPlate>);
 mods.mekanism.Compressor.addRecipe(<Creator:compactTungstenPlate> * 3, <gas:liquidOsmium>, <Creator:denseTungstenPlate>);
+mods.mekanism.Compressor.addRecipe(<Creator:compactElectricalSteelPlate> * 3, <gas:liquidOsmium>, <Creator:denseElectricalSteelPlate>);
+mods.mekanism.Compressor.addRecipe(<Creator:compactEnergeticAlloyPlate> * 3, <gas:liquidOsmium>, <Creator:denseEnergeticAlloyPlate>);
+mods.mekanism.Compressor.addRecipe(<Creator:compactPhasedGoldPlate> * 3, <gas:liquidOsmium>, <Creator:densePhasedGoldPlate>);
+mods.mekanism.Compressor.addRecipe(<Creator:compactDarkSteelPlate> * 3, <gas:liquidOsmium>, <Creator:denseDarkSteelPlate>);
 
 #dust
 recipes.addShaped(<ThermalFoundation:material>, [[<Creator:ironDustSmall>, <Creator:ironDustSmall>], [<Creator:ironDustSmall>, <Creator:ironDustSmall>]]);
@@ -220,12 +251,12 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy>, <ore:dustIro
 
 recipes.addShaped(<Creator:blockAlloy:1>, [[<Creator:itemAlloy:1>, <Creator:itemAlloy:1>, <Creator:itemAlloy:1>], [<Creator:itemAlloy:1>, <Creator:itemAlloy:1>, <Creator:itemAlloy:1>], [<Creator:itemAlloy:1>, <Creator:itemAlloy:1>, <Creator:itemAlloy:1>]]);
 recipes.addShapeless(<Creator:itemAlloy:1> * 9, [<Creator:blockAlloy:1>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:1>, <ore:ingotGold>, null, 200, 512, [<ore:dustRedstone>, <Creator:Sunnarium>], "Alloying");
-mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:1>, <ore:dustGold>, null, 200, 512, [<ore:dustRedstone>, <Creator:Sunnarium>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:1>, <ore:ingotElectrum>, null, 200, 512, [<ore:dustRedstone>, <Creator:Sunnarium>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:1>, <ore:dustElectrum>, null, 200, 512, [<ore:dustRedstone>, <Creator:Sunnarium>], "Alloying");
 
 recipes.addShaped(<Creator:blockAlloy:2>, [[<Creator:itemAlloy:2>, <Creator:itemAlloy:2>, <Creator:itemAlloy:2>], [<Creator:itemAlloy:2>, <Creator:itemAlloy:2>, <Creator:itemAlloy:2>], [<Creator:itemAlloy:2>, <Creator:itemAlloy:2>, <Creator:itemAlloy:2>]]);
 recipes.addShapeless(<Creator:itemAlloy:2> * 9, [<Creator:blockAlloy:2>]);
-mods.thermalexpansion.Smelter.addRecipe(15000, <Creator:itemAlloy:1>, <appliedenergistics2:item.ItemMultiMaterial:46>, <Creator:itemAlloy:2>);
+mods.thermalexpansion.Smelter.addRecipe(15000, <Creator:itemAlloy:1>, <ThermalFoundation:material:76>, <Creator:itemAlloy:2>);
 
 recipes.addShaped(<Creator:blockAlloy:3>, [[<Creator:itemAlloy:3>, <Creator:itemAlloy:3>, <Creator:itemAlloy:3>], [<Creator:itemAlloy:3>, <Creator:itemAlloy:3>, <Creator:itemAlloy:3>], [<Creator:itemAlloy:3>, <Creator:itemAlloy:3>, <Creator:itemAlloy:3>]]);
 recipes.addShapeless(<Creator:itemAlloy:3> * 9, [<Creator:blockAlloy:3>]);
@@ -241,10 +272,12 @@ mods.thermalexpansion.Smelter.addRecipe(10000, <Creator:itemAlloy:4>, <ThermalFo
 
 recipes.addShaped(<Creator:blockAlloy:6>, [[<Creator:itemAlloy:6>, <Creator:itemAlloy:6>, <Creator:itemAlloy:6>], [<Creator:itemAlloy:6>, <Creator:itemAlloy:6>, <Creator:itemAlloy:6>], [<Creator:itemAlloy:6>, <Creator:itemAlloy:6>, <Creator:itemAlloy:6>]]);
 recipes.addShapeless(<Creator:itemAlloy:6> * 9, [<Creator:blockAlloy:6>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:6>, <ore:ingotGold>, null, 200, 512, [<ore:dustDiamond>, <ore:dustDiamond>], "Alloying");
 mods.mekanism.Infuser.addRecipe("DIAMOND", 10, <minecraft:gold_ingot>, <Creator:itemAlloy:6>);
 
 recipes.addShaped(<Creator:blockAlloy:7>, [[<Creator:itemAlloy:7>, <Creator:itemAlloy:7>, <Creator:itemAlloy:7>], [<Creator:itemAlloy:7>, <Creator:itemAlloy:7>, <Creator:itemAlloy:7>], [<Creator:itemAlloy:7>, <Creator:itemAlloy:7>, <Creator:itemAlloy:7>]]);
 recipes.addShapeless(<Creator:itemAlloy:7> * 9, [<Creator:blockAlloy:7>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:7>, <ore:ingotSilver>, null, 200, 512, [<ore:dustDiamond>, <ore:dustDiamond>], "Alloying");
 mods.mekanism.Infuser.addRecipe("DIAMOND", 10, <ThermalFoundation:material:66>, <Creator:itemAlloy:7>);
 
 recipes.addShaped(<Creator:blockAlloy:8>, [[<Creator:itemAlloy:8>, <Creator:itemAlloy:8>, <Creator:itemAlloy:8>], [<Creator:itemAlloy:8>, <Creator:itemAlloy:8>, <Creator:itemAlloy:8>], [<Creator:itemAlloy:8>, <Creator:itemAlloy:8>, <Creator:itemAlloy:8>]]);

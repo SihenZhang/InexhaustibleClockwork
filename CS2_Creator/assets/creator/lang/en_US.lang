@@ -1,4 +1,4 @@
-﻿//item
+//item
 item.IronHammer0.name=Iron Hammer
 item.IronWrench0.name=Iron Wrench
 item.ctComplex0.name=Copper Tin Complex
@@ -20,6 +20,9 @@ item.itemAlloy11.name=Ceruclase Ingot
 item.itemAlloy12.name=Inolashite Ingot
 item.Sunnarium0.name=Sunnarium
 item.enderDiamond0.name=Ender Diamond
+item.gearEnergized0.name=Energetic Alloy Gear
+item.gearVibrant0.name=Vibrant Alloy Gear
+
 item.AluminumPlate0.name=Aluminum Plate
 item.BronzePlate0.name=Bronze Plate
 item.ConstantanPlate0.name=Constantan Plate
@@ -36,6 +39,11 @@ item.SignalumPlate0.name=Signalum Plate
 item.SilverPlate0.name=Silver Plate
 item.TungstenPlate0.name=Tungsten Plate
 item.OsmiumPlate0.name=Osmium Plate
+item.ElectricalSteelPlate0.name=Electrical Steel Plate
+item.EnergeticAlloyPlate0.name=Energetic Alloy Plate
+item.PhasedGoldPlate0.name=Vibrant Alloy Plate
+item.DarkSteelPlate0.name=Dark Steel Plate
+
 item.compactAluminumPlate0.name=Compact Aluminum Plate
 item.compactBronzePlate0.name=Compact Bronze Plate
 item.compactConstantanPlate0.name=Compact Constantan Plate
@@ -57,6 +65,11 @@ item.compactSilverPlate0.name=Compact Silver Plate
 item.compactSteelPlate0.name=Compact Steel Plate
 item.compactTinPlate0.name=Compact Tin Plate
 item.compactTungstenPlate0.name=Compact Tungsten Plate
+item.compactElectricalSteelPlate0.name=Compact Electrical Steel Plate
+item.compactEnergeticAlloyPlate0.name=Compact Energetic Alloy Plate
+item.compactPhasedGoldPlate0.name=Compact Vibrant Alloy Plate
+item.compactDarkSteelPlate0.name=Compact Dark Steel Plate
+
 item.denseAluminumPlate0.name=Dense Aluminum Plate
 item.denseBronzePlate0.name=Dense Bronze Plate
 item.denseConstantanPlate0.name=Dense Constantan Plate
@@ -78,10 +91,17 @@ item.denseSilverPlate0.name=Dense Silver Plate
 item.denseSteelPlate0.name=Dense Steel Plate
 item.denseTinPlate0.name=Dense Tin Plate
 item.denseTungstenPlate0.name=Dense Tungsten Plate
+item.denseElectricalSteelPlate0.name=Dense Electrical Steel Plate
+item.denseEnergeticAlloyPlate0.name=Dense Energetic Alloy Plate
+item.densePhasedGoldPlate0.name=Dense Vibrant Alloy Plate
+item.denseDarkSteelPlate0.name=Dense Dark Steel Plate
+
 item.wireAluminum0.name=Aluminum Wire
 item.wireCopper0.name=Copper Wire
 item.wireElectrum0.name=Electrum Wire
+item.wireGold0.name=Gold Wire
 item.wireSteel0.name=Steel Wire
+
 item.dustIral0.name=Iral Dust
 item.dustTincosi0.name=Tincosi Dust
 item.dustHydratedRedstone0.name=Hydrated Redstone Dust
