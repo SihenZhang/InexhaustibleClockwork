@@ -72,6 +72,11 @@ recipes.remove(<ThermalExpansion:Machine:10>);
 mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:10> , [[<Creator:compactElectrumPlate>, <ThermalExpansion:Frame:4> , <Creator:compactElectrumPlate>],
                                                                       [<ThermalExpansion:material:2>, <Creator:chamberElectrum>, <ThermalExpansion:material:2>], 
                                                                       [<Mekanism:ControlCircuit:2>, <ThermalExpansion:material:1>, <Mekanism:ControlCircuit:2>]], <liquid:electrum.molten> * 288, 300);
+#Poor organic infuser
+recipes.remove(<ThermalExpansion:Machine:11>);
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:11> , [[<Creator:compactElectrumPlate>, <ThermalExpansion:material:3> , <Creator:compactElectrumPlate>],
+                                                                      [<Magneticraft:mg_tank>, <Creator:chamberElectrum>, <Forestry:soil>], 
+                                                                      [<Mekanism:ControlCircuit:2>, <ThermalExpansion:material:1>, <Mekanism:ControlCircuit:2>]], <liquid:electrum.molten> * 288, 300);
 #devices
 
 #autonomous activator
@@ -99,6 +104,7 @@ recipes.remove(<ThermalExpansion:Device:6>);
 mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Device:6> , [[<ore:plateElectrum>, <minecraft:hopper> , <ore:plateElectrum>],
                                                                       [<ore:plateElectrum>, <ThermalExpansion:material>, <ore:plateElectrum>], 
                                                                       [null,null,null]], <liquid:electrum.molten> * 288, 300);
+
 #generators
 
 #vote gaben for president, and there will be no ww3.
@@ -178,6 +184,7 @@ mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine:6>.withTag({Le
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine:7>.withTag({Level: 1 as byte}), 50000, [<ThermalExpansion:Machine:7>, <Creator:compactInvarPlate> *4]);
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine:9>.withTag({Level: 1 as byte}), 50000, [<ThermalExpansion:Machine:9>, <Creator:compactInvarPlate> *4]);
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine:10>.withTag({Level: 1 as byte}), 50000, [<ThermalExpansion:Machine:10>, <Creator:compactInvarPlate> *4]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine:11>.withTag({Level: 1 as byte}), 50000, [<ThermalExpansion:Machine:11>, <Creator:compactInvarPlate> *4]);
 
 #redstone
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine>.withTag({Level: 2 as byte}), 80000, [<ThermalExpansion:Machine>.withTag({Level: 1 as byte}), <ThermalFoundation:material:138>*2, <Creator:SignalumPlate>*4, <Mekanism:ControlCircuit:2>*4, <ThermalExpansion:Glass>*4]);
@@ -190,6 +197,7 @@ mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine:6>.withTag({Le
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine:7>.withTag({Level: 2 as byte}), 80000, [<ThermalExpansion:Machine:7>.withTag({Level: 1 as byte}), <ThermalFoundation:material:138>*2, <Creator:SignalumPlate>*4, <Mekanism:ControlCircuit:2>*4, <ThermalExpansion:Glass>*4]);
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine:9>.withTag({Level: 2 as byte}), 80000, [<ThermalExpansion:Machine:9>.withTag({Level: 1 as byte}), <ThermalFoundation:material:138>*2, <Creator:SignalumPlate>*4, <Mekanism:ControlCircuit:2>*4, <ThermalExpansion:Glass>*4]);
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine:10>.withTag({Level: 2 as byte}), 80000, [<ThermalExpansion:Machine:10>.withTag({Level: 1 as byte}), <ThermalFoundation:material:138>*2, <Creator:SignalumPlate>*4, <Mekanism:ControlCircuit:2>*4, <ThermalExpansion:Glass>*4]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine:11>.withTag({Level: 2 as byte}), 80000, [<ThermalExpansion:Machine:11>.withTag({Level: 1 as byte}), <ThermalFoundation:material:138>*2, <Creator:SignalumPlate>*4, <Mekanism:ControlCircuit:2>*4, <ThermalExpansion:Glass>*4]);
 
 #resonant
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine>.withTag({Level: 3 as byte}), 110000, [<ThermalExpansion:Machine>.withTag({Level: 2 as byte}), <ThermalFoundation:material:140>*2, <Creator:EnderiumPlate>*4, <BuildCraft|Silicon:redstoneChipset:4>]);
@@ -202,6 +210,7 @@ mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine:6>.withTag({Le
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine:7>.withTag({Level: 3 as byte}), 110000, [<ThermalExpansion:Machine:7>.withTag({Level: 2 as byte}), <ThermalFoundation:material:140>*2, <Creator:EnderiumPlate>*4, <BuildCraft|Silicon:redstoneChipset:4>]);
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine:9>.withTag({Level: 3 as byte}), 110000, [<ThermalExpansion:Machine:9>.withTag({Level: 2 as byte}), <ThermalFoundation:material:140>*2, <Creator:EnderiumPlate>*4, <BuildCraft|Silicon:redstoneChipset:4>]);
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine:10>.withTag({Level: 3 as byte}), 110000, [<ThermalExpansion:Machine:10>.withTag({Level: 2 as byte}), <ThermalFoundation:material:140>*2, <Creator:EnderiumPlate>*4, <BuildCraft|Silicon:redstoneChipset:4>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Machine:11>.withTag({Level: 3 as byte}), 110000, [<ThermalExpansion:Machine:11>.withTag({Level: 2 as byte}), <ThermalFoundation:material:140>*2, <Creator:EnderiumPlate>*4, <BuildCraft|Silicon:redstoneChipset:4>]);
 
 #some machine upgrades
 recipes.remove(<ThermalExpansion:augment:49>);
@@ -255,8 +264,6 @@ mods.thermalexpansion.Smelter.addRecipe(120000, <ImmersiveEngineering:metal:20>*
 #those abandoned kids :<
 recipes.remove(<ThermalExpansion:capacitor:1>); #no! never before tier3!
 recipes.remove (<ThermalExpansion:Machine:8>);
-recipes.remove (<ThermalExpansion:Machine:11>);
-recipes.remove (<ThermalExpansion:augment:256>);
 recipes.remove (<ThermalExpansion:material:16>);
 recipes.remove (<ThermalExpansion:satchel:1>);
 recipes.remove (<ThermalExpansion:satchel:2>);
