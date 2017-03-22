@@ -1,6 +1,5 @@
 name = "symXun";
-addToCreative[0] = true;
+addToCreative[0] = false;
 creativeTab = "materials";
 maxStack = 64;
-addToCreative[0] = true;
 textureFile[0] = "symXun.png";
