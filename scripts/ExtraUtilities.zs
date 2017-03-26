@@ -176,7 +176,7 @@ recipes.addShaped(<ExtraUtilities:endConstructor:2>, [[null, <ExtraUtilities:dec
 
 #qed
 recipes.remove(<ExtraUtilities:endConstructor>);
-recipes.addShaped(<ExtraUtilities:endConstructor>, [[<ore:blockEnderObsidian>, <ore:pearlEnderEye>, <ore:blockEnderObsidian>], [<Redstonic:capacitor>, <ExtraUtilities:decorativeBlock1:12>, <Redstonic:capacitor>], [<ore:blockEnderObsidian>, <ore:chipsetRed>, <ore:blockEnderObsidian>]]);
+recipes.addShaped(<ExtraUtilities:endConstructor>, [[<ore:blockEnderObsidian>, <ore:pearlEnderEye>, <ore:blockEnderObsidian>], [<Forestry:thermionicTubes:12>, <ExtraUtilities:decorativeBlock1:12>, <Forestry:thermionicTubes:12>], [<ore:blockEnderObsidian>, <ore:chipsetPulsating>, <ore:blockEnderObsidian>]]);
 
 #magnum torch
 mods.extraUtils.QED.removeRecipe(<ExtraUtilities:magnumTorch>);

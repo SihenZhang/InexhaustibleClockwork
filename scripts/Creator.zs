@@ -291,7 +291,7 @@ mods.thermalexpansion.Smelter.addRecipe(8000, <Creator:itemAlloy:8>, <ThermalFou
 
 recipes.addShaped(<Creator:blockAlloy:10>, [[<Creator:itemAlloy:10>, <Creator:itemAlloy:10>, <Creator:itemAlloy:10>], [<Creator:itemAlloy:10>, <Creator:itemAlloy:10>, <Creator:itemAlloy:10>], [<Creator:itemAlloy:10>, <Creator:itemAlloy:10>, <Creator:itemAlloy:10>]]);
 recipes.addShapeless(<Creator:itemAlloy:10> * 9, [<Creator:blockAlloy:10>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:10>, <Thaumcraft:ItemResource:2>, null, 200, 512, [<ore:dustElectrotine>, <ore:dustGold>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:10>, <Thaumcraft:ItemResource:2>, null, 100, 512, [<ore:dustElectrotine>, <ore:dustGold>], "Alloying");
 
 recipes.addShaped(<Creator:blockAlloy:11>, [[<Creator:itemAlloy:11>, <Creator:itemAlloy:11>, <Creator:itemAlloy:11>], [<Creator:itemAlloy:11>, <Creator:itemAlloy:11>, <Creator:itemAlloy:11>], [<Creator:itemAlloy:11>, <Creator:itemAlloy:11>, <Creator:itemAlloy:11>]]);
 recipes.addShapeless(<Creator:itemAlloy:11> * 9, [<Creator:blockAlloy:11>]);
@@ -305,6 +305,8 @@ recipes.addShaped(<Redstonic:tile.blockVibrantium>, [[<Creator:itemAlloy:13>, <C
 recipes.addShapeless(<Creator:itemAlloy:13> * 9, [<Redstonic:tile.blockVibrantium>]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:13>, <Creator:itemAlloy:2> * 8, null, 6000, 4096, [<Creator:itemAlloy:5> * 32, <Creator:itemCrystal:3> * 2], "Alloying");
 
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:14>, <Creator:itemAlloy:4>, null, 100, 512, [<Creator:itemAlloy:3>, <Creator:itemCrystal>], "Alloying");
+
 #crystal
 <ore:itemPulsatingCrystal>.add(<Creator:itemCrystal>);
 <ore:itemVibrantCrystal>.add(<Creator:itemCrystal:1>);
@@ -312,7 +314,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:13>, <Creator:
 <ore:itemEnticingCrystal>.add(<Creator:itemCrystal:3>);
 mods.extraUtils.QED.addShapedRecipe(<Creator:itemCrystal>, [[<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>], [<ore:ingotEnderium>, <Creator:enderDiamond>, <ore:ingotEnderium>], [<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>]]);
 mods.extraUtils.QED.addShapedRecipe(<Creator:itemCrystal:1>, [[<ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>], [<ore:ingotVibrantAlloy>, <ore:gemEmerald>, <ore:ingotVibrantAlloy>], [<ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>]]);
-
+mods.thermalexpansion.Smelter.addRecipe(120000, <Creator:itemCrystal>, <Creator:dark_lasso:1>, <Creator:itemCrystal:2>, <Creator:dark_lasso>, 100);
 mods.thermalexpansion.Smelter.addRecipe(120000, <Creator:itemCrystal:1>, <ExtraUtilities:golden_lasso:2>.withTag({ForgeData: {id: "Villager"}}), <Creator:itemCrystal:3>, <ExtraUtilities:golden_lasso:2>, 100);
 <Creator:itemCrystal:3>.addTooltip(format.gray("To craft this, you need a Golden Lasso with a captured villager."));
 <Creator:itemCrystal:3>.addTooltip(format.gray("你需要一个捕捉了村民的黄金套索来制作它。"));

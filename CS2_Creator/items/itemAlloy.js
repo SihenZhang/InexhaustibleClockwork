@@ -44,3 +44,7 @@ textureFile[12] = "inolashite_ingot.png";
 addToCreative[13] = true;
 hasEffect[13] = true;
 textureFile[13] = "ingotVibrantium.png";
+
+addToCreative[14] = true;
+hasEffect[14] = true;
+textureFile[14] = "ingotDarkSoularium.png";
