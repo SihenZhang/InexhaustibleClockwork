@@ -47,7 +47,7 @@ recipes.addShaped(<StevesCarts:BlockAdvDetector>, [[<ore:ingotSteel>, <minecraft
 
 #Galgadorian
 recipes.remove(<StevesCarts:ModuleComponents:46>);
-recipes.addShaped(<StevesCarts:ModuleComponents:46> * 3, [[<ProjRed|Core:projectred.core.part:14>, <ore:blockDiamond>, <ProjRed|Core:projectred.core.part:14>], [<StevesCarts:ModuleComponents:45>, <ore:ingotDarkSteel>, <StevesCarts:ModuleComponents:45>], [<StevesCarts:ModuleComponents:21>, <StevesCarts:ModuleComponents:45>, <StevesCarts:ModuleComponents:21>]]);
+recipes.addShaped(<StevesCarts:ModuleComponents:46> * 3, [[<ProjRed|Core:projectred.core.part:14>, <ore:blockDiamond>, <ProjRed|Core:projectred.core.part:14>], [<StevesCarts:ModuleComponents:45>, <ore:ingotCarbide>, <StevesCarts:ModuleComponents:45>], [<StevesCarts:ModuleComponents:21>, <StevesCarts:ModuleComponents:45>, <StevesCarts:ModuleComponents:21>]]);
 furnace.remove(<StevesCarts:ModuleComponents:49>);
 
 #glass o'magic

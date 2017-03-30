@@ -251,12 +251,11 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy>, <ore:dustIro
 
 recipes.addShaped(<Creator:blockAlloy:1>, [[<Creator:itemAlloy:1>, <Creator:itemAlloy:1>, <Creator:itemAlloy:1>], [<Creator:itemAlloy:1>, <Creator:itemAlloy:1>, <Creator:itemAlloy:1>], [<Creator:itemAlloy:1>, <Creator:itemAlloy:1>, <Creator:itemAlloy:1>]]);
 recipes.addShapeless(<Creator:itemAlloy:1> * 9, [<Creator:blockAlloy:1>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:1>, <ore:ingotElectrum>, null, 200, 512, [<ore:dustRedstone>, <Creator:Sunnarium>], "Alloying");
-mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:1>, <ore:dustElectrum>, null, 200, 512, [<ore:dustRedstone>, <Creator:Sunnarium>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:1>, <Creator:itemAlloy:6>, null, 200, 512, [<ore:dustRedstone>, <Creator:Sunnarium>], "Alloying");
 
 recipes.addShaped(<Creator:blockAlloy:2>, [[<Creator:itemAlloy:2>, <Creator:itemAlloy:2>, <Creator:itemAlloy:2>], [<Creator:itemAlloy:2>, <Creator:itemAlloy:2>, <Creator:itemAlloy:2>], [<Creator:itemAlloy:2>, <Creator:itemAlloy:2>, <Creator:itemAlloy:2>]]);
 recipes.addShapeless(<Creator:itemAlloy:2> * 9, [<Creator:blockAlloy:2>]);
-mods.thermalexpansion.Smelter.addRecipe(15000, <Creator:itemAlloy:1>, <ThermalFoundation:material:76>, <Creator:itemAlloy:2>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:2>, <Creator:itemAlloy:1>, null, 400, 512, [<ThermalFoundation:material:76> * 8, <ThermalFoundation:material:69>], "Alloying");
 
 recipes.addShaped(<Creator:blockAlloy:3>, [[<Creator:itemAlloy:3>, <Creator:itemAlloy:3>, <Creator:itemAlloy:3>], [<Creator:itemAlloy:3>, <Creator:itemAlloy:3>, <Creator:itemAlloy:3>], [<Creator:itemAlloy:3>, <Creator:itemAlloy:3>, <Creator:itemAlloy:3>]]);
 recipes.addShapeless(<Creator:itemAlloy:3> * 9, [<Creator:blockAlloy:3>]);
@@ -303,9 +302,9 @@ mods.thermalexpansion.Smelter.addRecipe(20000, <Creator:itemAlloy:10>, <Creator:
 
 recipes.addShaped(<Redstonic:tile.blockVibrantium>, [[<Creator:itemAlloy:13>, <Creator:itemAlloy:13>, <Creator:itemAlloy:13>], [<Creator:itemAlloy:13>, <Creator:itemAlloy:13>, <Creator:itemAlloy:13>], [<Creator:itemAlloy:13>, <Creator:itemAlloy:13>, <Creator:itemAlloy:13>]]);
 recipes.addShapeless(<Creator:itemAlloy:13> * 9, [<Redstonic:tile.blockVibrantium>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:13>, <Creator:itemAlloy:2> * 8, null, 6000, 4096, [<Creator:itemAlloy:5> * 32, <Creator:itemCrystal:3> * 2], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:13>, <Creator:itemAlloy:2> * 32, null, 6000, 4096, [<Creator:itemAlloy:14> * 16, <Creator:itemCrystal:3> * 2], "Alloying");
 
-mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:14>, <Creator:itemAlloy:4>, null, 100, 512, [<Creator:itemAlloy:3>, <Creator:itemCrystal>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:14>, <Creator:itemAlloy:5>, null, 100, 512, [<Creator:itemAlloy:3>, <Creator:itemCrystal>], "Alloying");
 
 #crystal
 <ore:itemPulsatingCrystal>.add(<Creator:itemCrystal>);
@@ -316,6 +315,8 @@ mods.extraUtils.QED.addShapedRecipe(<Creator:itemCrystal>, [[<ore:ingotEnderium>
 mods.extraUtils.QED.addShapedRecipe(<Creator:itemCrystal:1>, [[<ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>], [<ore:ingotVibrantAlloy>, <ore:gemEmerald>, <ore:ingotVibrantAlloy>], [<ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>]]);
 mods.thermalexpansion.Smelter.addRecipe(120000, <Creator:itemCrystal>, <Creator:dark_lasso:1>, <Creator:itemCrystal:2>, <Creator:dark_lasso>, 100);
 mods.thermalexpansion.Smelter.addRecipe(120000, <Creator:itemCrystal:1>, <ExtraUtilities:golden_lasso:2>.withTag({ForgeData: {id: "Villager"}}), <Creator:itemCrystal:3>, <ExtraUtilities:golden_lasso:2>, 100);
+<Creator:itemCrystal:2>.addTooltip(format.gray("To craft this, you need a Cursed Lasso with a captured enderman."));
+<Creator:itemCrystal:2>.addTooltip(format.gray("你需要一个捕捉了末影人的诅咒套索来制作它。"));
 <Creator:itemCrystal:3>.addTooltip(format.gray("To craft this, you need a Golden Lasso with a captured villager."));
 <Creator:itemCrystal:3>.addTooltip(format.gray("你需要一个捕捉了村民的黄金套索来制作它。"));
 

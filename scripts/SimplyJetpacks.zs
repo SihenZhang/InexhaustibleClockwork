@@ -5,7 +5,7 @@ print("Initializing 'SimplyJetpacks.zs'...");
 
 #thrusters
 recipes.remove(<simplyjetpacks:components:31>);
-recipes.addShaped(<simplyjetpacks:components:31>, [[<Creator:compactIronPlate>, <ore:gearIron>, <Creator:compactIronPlate>], [<Magneticraft:item.iron_pipe>, <Forestry:engine:2>, <Magneticraft:item.iron_pipe>], [<Creator:compactIronPlate>, <ore:dustRedAlloy>, <Creator:compactIronPlate>]]);
+recipes.addShaped(<simplyjetpacks:components:31>, [[<Creator:compactIronPlate>, <ore:gearIron>, <Creator:compactIronPlate>], [<Magneticraft:item.iron_pipe>, <Forestry:engine:2>, <Magneticraft:item.iron_pipe>], [<Creator:compactIronPlate>, <ore:ingotRedAlloy>, <Creator:compactIronPlate>]]);
 
 recipes.addShaped(<Creator:SJComponents>, [[<Creator:compactElectricalSteelPlate>, <Redstonic:capacitor>, <Creator:compactElectricalSteelPlate>], [<BuildCraft|Silicon:redstoneChipset>, <simplyjetpacks:components:31>, <BuildCraft|Silicon:redstoneChipset>], [<Creator:compactElectricalSteelPlate>, <ore:ingotRedAlloy>, <Creator:compactElectricalSteelPlate>]]);
 
@@ -18,12 +18,12 @@ recipes.addShaped(<simplyjetpacks:components:32>, [[<Creator:compactGoldPlate>, 
 recipes.remove(<simplyjetpacks:components:12>);
 mods.extraUtils.QED.addShapedRecipe(<simplyjetpacks:components:12>, [[<Creator:compactInvarPlate>, <ThermalExpansion:material:1>, <Creator:compactInvarPlate>], [<ThermalExpansion:Cell:2>, <simplyjetpacks:components:32>, <ThermalExpansion:Cell:2>], [<Creator:compactInvarPlate>, <BuildCraft|Silicon:redstoneChipset:6>, <Creator:compactInvarPlate>]]);
 
-mods.extraUtils.QED.addShapedRecipe(<Creator:SJComponents:1>, [[<Creator:compactEnergeticAlloyPlate>, <Creator:gearEnergized>, <Creator:compactEnergeticAlloyPlate>], [<Creator:itemCrystal>, <simplyjetpacks:components:12>, <Creator:itemCrystal>], [<Creator:compactEnergeticAlloyPlate>, <BuildCraft|Silicon:redstoneChipset:6>, <Creator:compactEnergeticAlloyPlate>]]);
+mods.extraUtils.QED.addShapedRecipe(<Creator:SJComponents:1>, [[<Creator:denseEnergeticAlloyPlate>, <Creator:gearEnergized>, <Creator:denseEnergeticAlloyPlate>], [<Creator:itemCrystal>, <simplyjetpacks:components:12>, <Creator:itemCrystal>], [<Creator:denseEnergeticAlloyPlate>, <BuildCraft|Silicon:redstoneChipset:6>, <Creator:denseEnergeticAlloyPlate>]]);
 
 recipes.remove(<simplyjetpacks:components:13>);
-mods.extraUtils.QED.addShapedRecipe(<simplyjetpacks:components:13>, [[<Creator:compactElectrumPlate>, <ThermalExpansion:material:1>, <Creator:compactElectrumPlate>], [<ThermalExpansion:Cell:3>, <Creator:SJComponents:1>, <ThermalExpansion:Cell:3>], [<Creator:compactElectrumPlate>, <BuildCraft|Silicon:redstoneChipset:3>, <Creator:compactElectrumPlate>]]);
+mods.extraUtils.QED.addShapedRecipe(<simplyjetpacks:components:13>, [[<Creator:denseElectrumPlate>, <ThermalExpansion:material:1>, <Creator:denseElectrumPlate>], [<ThermalExpansion:Cell:3>, <Creator:SJComponents:1>, <ThermalExpansion:Cell:3>], [<Creator:denseElectrumPlate>, <BuildCraft|Silicon:redstoneChipset:3>, <Creator:denseElectrumPlate>]]);
 
-mods.extraUtils.QED.addShapedRecipe(<Creator:SJComponents:2>, [[<Creator:compactPhasedGoldPlate>, <Creator:gearVibrant>, <Creator:compactPhasedGoldPlate>], [<Creator:itemCrystal:1>, <simplyjetpacks:components:13>, <Creator:itemCrystal:1>], [<Creator:compactPhasedGoldPlate>, <BuildCraft|Silicon:redstoneChipset:3>, <Creator:compactPhasedGoldPlate>]]);
+mods.extraUtils.QED.addShapedRecipe(<Creator:SJComponents:2>, [[<Creator:densePhasedGoldPlate>, <Creator:gearVibrant>, <Creator:densePhasedGoldPlate>], [<Creator:itemCrystal:1>, <simplyjetpacks:components:13>, <Creator:itemCrystal:1>], [<Creator:densePhasedGoldPlate>, <BuildCraft|Silicon:redstoneChipset:3>, <Creator:densePhasedGoldPlate>]]);
 
 recipes.remove(<simplyjetpacks:components:14>);
 mods.buildcraft.AssemblyTable.addRecipe(<simplyjetpacks:components:14>, 2000000, [<Creator:denseEnderiumPlate> * 8, <ThermalExpansion:material:1> * 4, <ThermalExpansion:Cell:4> * 2, <BuildCraft|Silicon:redstoneChipset:7> * 2, <Creator:SJComponents:2> * 2]);

@@ -21,12 +21,23 @@ item.itemAlloy10.name=神秘蓝金锭
 item.itemAlloy11.name=暗影秘银锭
 item.itemAlloy12.name=暗影秘银蓝金锭
 item.itemAlloy13.name=脉冲魂金锭
+item.itemAlloy14.name=浓缩魂金合金锭
 item.Sunnarium0.name=阳光化合物
 item.enderDiamond0.name=末影钻石
 item.itemCrystal0.name=脉冲晶体
 item.itemCrystal1.name=充能晶体
 item.itemCrystal2.name=末影晶体
 item.itemCrystal3.name=诱引晶体
+
+item.SJComponents0.name=磁钢推进器
+item.SJComponents1.name=充能推进器
+item.SJComponents2.name=脉冲推进器
+item.SJComponents3.name=魂金推进器
+item.SJComponents4.name=飞行控制单元（空）
+item.SJComponents5.name=飞行控制单元
+
+item.InfinityStar0.name=无尽之星
+item.InfiniteBattery0.name=无尽电池
 
 item.gearEnergized0.name=充能合金齿轮
 item.gearVibrant0.name=脉冲合金齿轮

@@ -25,4 +25,24 @@ mods.buildcraft.AssemblyTable.addRecipe(<Redstonic:greatBattery>, 100000, [<Ther
 recipes.remove(<Redstonic:tile.DrillModifier>);
 mods.mekanism.Infuser.addRecipe("REDSTONE", 1000, <Thaumcraft:blockTable>, <Redstonic:tile.DrillModifier>);
 
+#drill
+recipes.remove(<Redstonic:IronDrillHead>);
+mods.forestry.Carpenter.addRecipe(<Redstonic:IronDrillHead>, [[null, <Creator:compactIronPlate>, null],
+                                                              [<Creator:compactIronPlate>, <Creator:compactIronPlate>, <Creator:compactIronPlate>], 
+                                                              [<Creator:compactIronPlate>, <ImmersiveEngineering:drillhead>, <Creator:compactIronPlate>]], <liquid:iron.molten> * 576, 40);
+recipes.remove(<Redstonic:GoldDrillHead>);
+mods.forestry.Carpenter.addRecipe(<Redstonic:GoldDrillHead>, [[null, <Creator:compactGoldPlate>, null],
+                                                              [<Creator:compactGoldPlate>, <Creator:compactGoldPlate>, <Creator:compactGoldPlate>], 
+                                                              [<Creator:compactGoldPlate>, <Redstonic:DiamondDrillHead>, <Creator:compactGoldPlate>]], <liquid:gold.molten> * 864, 80);
+recipes.remove(<Redstonic:DiamondDrillHead>);
+mods.forestry.Carpenter.addRecipe(<Redstonic:DiamondDrillHead>, [[null, <Avaritia:Resource>, null],
+                                                                 [<Avaritia:Resource>, <Avaritia:Resource>, <Avaritia:Resource>], 
+                                                                 [<Avaritia:Resource>, <Redstonic:IronDrillHead>, <Avaritia:Resource>]], null, 160);
+
+
+
+
+
+
+
 print("Initialized 'Redstonic.zs'");

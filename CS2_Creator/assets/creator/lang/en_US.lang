@@ -21,12 +21,23 @@ item.itemAlloy10.name=Alduorite Ingot
 item.itemAlloy11.name=Ceruclase Ingot
 item.itemAlloy12.name=Inolashite Ingot
 item.itemAlloy13.name=Vibrantium Ingot
+item.itemAlloy14.name=Dark Soularium Ingot
 item.Sunnarium0.name=Sunnarium
 item.enderDiamond0.name=Ender Diamond
 item.itemCrystal0.name=Pulsating Crystal
 item.itemCrystal1.name=Vibrant Crystal
 item.itemCrystal2.name=Ender Crystal
 item.itemCrystal3.name=Enticing Crystal
+
+item.SJComponents0.name=Electrical Steel Thruster
+item.SJComponents1.name=Energetic Thruster
+item.SJComponents2.name=Vibrant Thruster
+item.SJComponents3.name=Dark Soularium Thruster
+item.SJComponents4.name=Flight Control Unit (Empty)
+item.SJComponents5.name=Flight Control Unit
+
+item.InfinityStar0.name=Infinity Star
+item.InfiniteBattery0.name=Infinite Battery
 
 item.gearEnergized0.name=Energetic Alloy Gear
 item.gearVibrant0.name=Vibrant Alloy Gear
