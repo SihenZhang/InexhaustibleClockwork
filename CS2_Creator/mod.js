@@ -2,7 +2,6 @@ mod.addTileEntity("Dummy.js", "normal");
 
 mod.addItem("IronHammer.js", "sword");
 mod.addItem("IronWrench.js", "sword");
-mod.addItem("dark_lasso.js", "normal");
 mod.addItem("ctComplex.js", "normal");
 mod.addItem("iaComplex.js", "normal");
 mod.addItem("tcsComplex.js", "normal");
