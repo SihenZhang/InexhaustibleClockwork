@@ -255,7 +255,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:1>, <Creator:i
 
 recipes.addShaped(<Creator:blockAlloy:2>, [[<Creator:itemAlloy:2>, <Creator:itemAlloy:2>, <Creator:itemAlloy:2>], [<Creator:itemAlloy:2>, <Creator:itemAlloy:2>, <Creator:itemAlloy:2>], [<Creator:itemAlloy:2>, <Creator:itemAlloy:2>, <Creator:itemAlloy:2>]]);
 recipes.addShapeless(<Creator:itemAlloy:2> * 9, [<Creator:blockAlloy:2>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:2>, <Creator:itemAlloy:1>, null, 400, 512, [<ThermalFoundation:material:76> * 8, <ThermalFoundation:material:69>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:2> * 2, <Creator:itemAlloy:1> * 2, null, 400, 512, [<ThermalFoundation:material:76> * 8, <ThermalFoundation:material:69>], "Alloying");
 
 recipes.addShaped(<Creator:blockAlloy:3>, [[<Creator:itemAlloy:3>, <Creator:itemAlloy:3>, <Creator:itemAlloy:3>], [<Creator:itemAlloy:3>, <Creator:itemAlloy:3>, <Creator:itemAlloy:3>], [<Creator:itemAlloy:3>, <Creator:itemAlloy:3>, <Creator:itemAlloy:3>]]);
 recipes.addShapeless(<Creator:itemAlloy:3> * 9, [<Creator:blockAlloy:3>]);
@@ -286,7 +286,9 @@ mods.thaumcraft.Research.addCruciblePage("VOIDMETAL", <Creator:itemAlloy:8>);
 
 recipes.addShaped(<Creator:blockAlloy:9>, [[<Creator:itemAlloy:9>, <Creator:itemAlloy:9>, <Creator:itemAlloy:9>], [<Creator:itemAlloy:9>, <Creator:itemAlloy:9>, <Creator:itemAlloy:9>], [<Creator:itemAlloy:9>, <Creator:itemAlloy:9>, <Creator:itemAlloy:9>]]);
 recipes.addShapeless(<Creator:itemAlloy:9> * 9, [<Creator:blockAlloy:9>]);
-mods.thermalexpansion.Smelter.addRecipe(8000, <Creator:itemAlloy:8>, <ThermalFoundation:material:69>, <Creator:itemAlloy:9>);
+mods.thaumcraft.Infusion.addRecipe("VOIDMETAL", <ThermalFoundation:material:69>, [<Creator:itemAlloy:8>, <Creator:itemAlloy:8>, <Creator:itemAlloy:8>, <Creator:itemAlloy:8>, <Creator:itemAlloy:8>, <Creator:itemAlloy:8>, <Creator:itemAlloy:8>, <Creator:itemAlloy:8>, <Creator:itemAlloy:8>], "praecantatio
+ 128, alienis 64, vacuos 64, auram 32", <Creator:itemAlloy:9>, 10);
+mods.thaumcraft.Research.addInfusionPage("VOIDMETAL", <Creator:itemAlloy:9>);
 
 recipes.addShaped(<Creator:blockAlloy:10>, [[<Creator:itemAlloy:10>, <Creator:itemAlloy:10>, <Creator:itemAlloy:10>], [<Creator:itemAlloy:10>, <Creator:itemAlloy:10>, <Creator:itemAlloy:10>], [<Creator:itemAlloy:10>, <Creator:itemAlloy:10>, <Creator:itemAlloy:10>]]);
 recipes.addShapeless(<Creator:itemAlloy:10> * 9, [<Creator:blockAlloy:10>]);
@@ -313,10 +315,8 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:14>, <Creator:
 <ore:itemEnticingCrystal>.add(<Creator:itemCrystal:3>);
 mods.extraUtils.QED.addShapedRecipe(<Creator:itemCrystal>, [[<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>], [<ore:ingotEnderium>, <Creator:enderDiamond>, <ore:ingotEnderium>], [<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>]]);
 mods.extraUtils.QED.addShapedRecipe(<Creator:itemCrystal:1>, [[<ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>], [<ore:ingotVibrantAlloy>, <ore:gemEmerald>, <ore:ingotVibrantAlloy>], [<ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>]]);
-mods.thermalexpansion.Smelter.addRecipe(120000, <Creator:itemCrystal>, <Creator:dark_lasso:1>, <Creator:itemCrystal:2>, <Creator:dark_lasso>, 100);
+mods.thermalexpansion.Smelter.addRecipe(120000, <Creator:itemCrystal>, <enderclay:itemenderclay> * 4, <Creator:itemCrystal:2>);
 mods.thermalexpansion.Smelter.addRecipe(120000, <Creator:itemCrystal:1>, <ExtraUtilities:golden_lasso:2>.withTag({ForgeData: {id: "Villager"}}), <Creator:itemCrystal:3>, <ExtraUtilities:golden_lasso:2>, 100);
-<Creator:itemCrystal:2>.addTooltip(format.gray("To craft this, you need a Cursed Lasso with a captured enderman."));
-<Creator:itemCrystal:2>.addTooltip(format.gray("你需要一个捕捉了末影人的诅咒套索来制作它。"));
 <Creator:itemCrystal:3>.addTooltip(format.gray("To craft this, you need a Golden Lasso with a captured villager."));
 <Creator:itemCrystal:3>.addTooltip(format.gray("你需要一个捕捉了村民的黄金套索来制作它。"));
 

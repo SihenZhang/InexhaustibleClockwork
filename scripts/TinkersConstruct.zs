@@ -102,7 +102,4 @@ mods.railcraft.CokeOven.addRecipe(<TConstruct:materials:2>, <liquid:water> * 100
 recipes.remove(<TConstruct:materials:41>);
 mods.thermalexpansion.Smelter.addRecipe(18000, <TConstruct:materials:39>, <TConstruct:materials:38> , <TConstruct:materials:41>);
 
-#Electrontine Meltdown
-mods.thermalexpansion.Crucible.addRecipe(5000, <ProjRed|Core:projectred.core.part:56>, <liquid:new fantasy> * 100);
-
 print("Initialized 'TinkersConstruct.zs'");

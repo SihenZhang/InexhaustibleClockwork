@@ -14,6 +14,9 @@ print("Initializing 'Thaumcraft.zs'...");
 <ore:thermalexpansion:machineIron>.remove(<thaumicenergistics:material:2>);
 mods.thaumcraft.Arcane.removeRecipe(<thaumicenergistics:material:2>);
 
+#iron wandcap
+recipes.remove(<Thaumcraft:WandCap>);
+
 #Endertech Exchanger - after FOCUSTRADE
 recipes.remove(<EnderTech:endertech.exchanger:1>); #redstone
 recipes.remove(<EnderTech:endertech.exchanger:2>); #resonant

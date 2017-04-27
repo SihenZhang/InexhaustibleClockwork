@@ -35,7 +35,7 @@ recipes.addShaped(<StevesCarts:upgrade:4>, [[<StevesCarts:ModuleComponents:9>, <
 
 #cargo manager
 recipes.remove(<StevesCarts:BlockCargoManager>);
-recipes.addShaped(<StevesCarts:BlockCargoManager>, [[<StevesCarts:ModuleComponents:36>, <StevesCarts:ModuleComponents:38>, <StevesCarts:ModuleComponents:36>], [<Railcraft:machine.gamma>, <IronChest:BlockIronChest>, <Railcraft:machine.gamma:1>], [<StevesCarts:ModuleComponents:36>, <StevesCarts:ModuleComponents:35>, <StevesCarts:ModuleComponents:36>]]);
+recipes.addShaped(<StevesCarts:BlockCargoManager>, [[<StevesCarts:ModuleComponents:36>, <StevesCarts:ModuleComponents:38>, <StevesCarts:ModuleComponents:36>], [<Railcraft:machine.gamma>, <EnhancedInventories:improvedChest:1>.withTag({frameName: "frame.mc.iron"}), <Railcraft:machine.gamma:1>], [<StevesCarts:ModuleComponents:36>, <StevesCarts:ModuleComponents:35>, <StevesCarts:ModuleComponents:36>]]);
 
 #assembler
 recipes.remove(<StevesCarts:BlockCartAssembler>);

@@ -233,15 +233,15 @@ mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:capacitor:5>, 90000, [
 recipes.remove (<ThermalExpansion:material:1>);
 recipes.remove (<ThermalExpansion:material:2>);
 recipes.remove (<ThermalExpansion:material:3>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:material:2> , [[null,null , <minecraft:redstone>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:material:2> , [[null,null , <ore:ingotRedAlloy>],
                                                                       [null, <ore:gearSilver>, null], 
-                                                                      [<minecraft:redstone>,null,null]], <liquid:silver.molten> * 288, 300);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:material:1> , [[null,null , <minecraft:redstone>],
+                                                                      [<ore:ingotRedAlloy>,null,null]], <liquid:silver.molten> * 288, 300);
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:material:1> , [[null,null , <ore:ingotRedAlloy>],
                                                                       [null, <ore:gearGold>, null], 
-                                                                      [<minecraft:redstone>,null,null]], <liquid:gold.molten> * 288, 300);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:material:3> , [[<minecraft:redstone>,null,null],
+                                                                      [<ore:ingotRedAlloy>,null,null]], <liquid:gold.molten> * 288, 300);
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:material:3> , [[<ore:ingotRedAlloy>,null,null],
                                                                       [null, <ore:gearLumium>, null], 
-                                                                      [null,null , <minecraft:redstone>]], <liquid:lumium.molten> * 288, 300);
+                                                                      [null,null , <ore:ingotRedAlloy>]], <liquid:lumium.molten> * 288, 300);
 
 #the taste of MAGIC
 mods.thermalexpansion.Smelter.addRecipe(120000, <ThermalFoundation:material:512>, <ThermalFoundation:material:513> , <ThermalFoundation:material:516>*2, <ThermalFoundation:material:516> , 10);

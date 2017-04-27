@@ -102,6 +102,10 @@ mods.extraUtils.QED.removeRecipe(<ExtraUtilities:extractor_base:12>);
 mods.extraUtils.QED.removeRecipe(<ExtraUtilities:extractor_base:13>);
 <ExtraUtilities:extractor_base:13>.addTooltip(format.red("You can't use this to transfer RF!"));
 
+#magicwood
+recipes.remove(<ExtraUtilities:decorativeBlock1:8>);
+recipes.addShaped(<ExtraUtilities:decorativeBlock1:8>, [[<ore:ingotAtlarus>, <minecraft:enchanted_book>, <ore:ingotAtlarus>], [<minecraft:enchanted_book>, <minecraft:bookshelf>, <minecraft:enchanted_book>], [<ore:ingotAtlarus>, <minecraft:enchanted_book>, <ore:ingotAtlarus>]]);
+
 #drum
 recipes.remove(<ExtraUtilities:drum>);
 recipes.addShaped(<ExtraUtilities:drum>, [[<ore:ingotSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotSteel>], [<ore:ingotSteel>, <minecraft:cauldron>, <ore:ingotSteel>], [<ore:ingotSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotSteel>]]);
@@ -172,7 +176,7 @@ recipes.addShaped(<ExtraUtilities:decorativeBlock1:12>, [[<ore:burntQuartz>, <Cr
 
 #ender flux crystal
 recipes.remove(<ExtraUtilities:endConstructor:2>);
-recipes.addShaped(<ExtraUtilities:endConstructor:2>, [[null, <ExtraUtilities:decorativeBlock1:12>, null], [<Creator:itemAlloy:2>, <ore:blockEnderObsidian>, <Creator:itemAlloy:2>], [<ore:blockEnderObsidian>, <ore:blockEnderObsidian>, <ore:blockEnderObsidian>]]);
+recipes.addShaped(<ExtraUtilities:endConstructor:2>, [[null, <ExtraUtilities:decorativeBlock1:12>, null], [<BuildCraft|Transport:pipeGate>, <ore:blockEnderObsidian>, <BuildCraft|Transport:pipeGate>], [<ore:blockEnderObsidian>, <ore:blockEnderObsidian>, <ore:blockEnderObsidian>]]);
 
 #qed
 recipes.remove(<ExtraUtilities:endConstructor>);

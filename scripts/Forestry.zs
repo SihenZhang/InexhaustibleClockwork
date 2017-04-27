@@ -32,6 +32,6 @@ mods.forestry.Carpenter.addRecipe(<Forestry:craftingMaterial:6>, [[null, <Forest
 
 #therm fab
 recipes.remove(<Forestry:factory2>);
-recipes.addShaped(<Forestry:factory2>, [[<ore:ingotBronze>, <ore:blockGlassColorless>, <ore:ingotBronze>], [<ore:blockGlassColorless>, <Forestry:sturdyMachine>, <ore:blockGlassColorless>], [<ore:ingotBronze>, <IronChest:BlockIronChest:3>, <ore:ingotBronze>]]);
+recipes.addShaped(<Forestry:factory2>, [[<ore:ingotBronze>, <ore:blockGlassColorless>, <ore:ingotBronze>], [<ore:blockGlassColorless>, <Forestry:sturdyMachine>, <ore:blockGlassColorless>], [<ore:ingotBronze>, <EnhancedInventories:improvedChest:1>.withTag({frameName: "frame.ore.bronze"}), <ore:ingotBronze>]]);
 
 print("Initialized 'Forestry.zs'");

@@ -9,6 +9,16 @@ mods.forestry.Carpenter.addRecipe(<Creator:dustHydratedRedstone>, [[<minecraft:r
                                                                    [null, null, null]], <liquid:water> * 500, 200);
 mods.tconstruct.Drying.addRecipe(<Creator:dustHydratedRedstone>, <ProjRed|Core:projectred.core.part:56>, 3600);
 
+#Electontine Manufactory
+mods.magneticraft.OilDistillery.addRecipe(<liquid:redstone> * 10, <liquid:deeper fantasy> * 10, 1000);
+mods.magneticraft.Refinery.addRecipe(<liquid:deeper fantasy> * 10, <liquid:redstone> * 8, <liquid:new fantasy> * 1, <liquid:lava> * 1);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <ProjRed|Core:projectred.core.part:56>, <ProjRed|Core:projectred.core.part:56>*2, <liquid:new fantasy> * 100);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <minecraft:iron_ingot>, <ProjRed|Core:projectred.core.part:57>, <liquid:new fantasy> * 600);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <ProjRed|Core:projectred.core.part:12>, <ProjRed|Core:projectred.core.part:58>, <liquid:new fantasy> * 600);
+
+#Electrontine Meltdown
+mods.thermalexpansion.Crucible.addRecipe(5000, <ProjRed|Core:projectred.core.part:56>, <liquid:new fantasy> * 100);
+
 #Silicon
 furnace.remove(<ProjRed|Core:projectred.core.part:11>);
 mods.thermalexpansion.Furnace.removeRecipe(<ProjRed|Core:projectred.core.part:41>);

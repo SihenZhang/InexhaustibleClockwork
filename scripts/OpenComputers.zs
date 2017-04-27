@@ -23,7 +23,7 @@ mods.buildcraft.AssemblyTable.addRecipe(<OpenComputers:capacitor>, 20000, [<Crea
 recipes.remove(<OpenComputers:case1>);
 recipes.remove(<OpenComputers:case2>);
 recipes.remove(<OpenComputers:case3>);
-mods.buildcraft.AssemblyTable.addRecipe(<OpenComputers:case1>, 200000, [<Creator:compactSteelPlate> * 4, <StevesCarts:ModuleComponents:22>, <Creator:chamberElectrum>, <IronChest:BlockIronChest>, <OpenComputers:item:24>, <OpenComputers:item:32>, <Mekanism:ControlCircuit:2>]);
+mods.buildcraft.AssemblyTable.addRecipe(<OpenComputers:case1>, 200000, [<Creator:compactSteelPlate> * 4, <StevesCarts:ModuleComponents:22>, <Creator:chamberElectrum>, <EnhancedInventories:improvedChest:1>.withTag({frameName: "frame.mc.iron"}), <OpenComputers:item:24>, <OpenComputers:item:32>, <Mekanism:ControlCircuit:2>]);
 mods.buildcraft.AssemblyTable.addRecipe(<OpenComputers:case2>, 300000, [<Creator:compactGoldPlate> * 4, <StevesCarts:ModuleComponents:47>, <OpenComputers:case1>, <OpenComputers:item:25> * 3, <OpenComputers:item:32>, <Mekanism:ControlCircuit:2>]);
 mods.buildcraft.AssemblyTable.addRecipe(<OpenComputers:case3>, 500000, [<Creator:PlatinumPlate>, <StevesCarts:ModuleComponents:49>, <BuildCraft|Silicon:redstoneChipset:3> * 2, <OpenComputers:case2>, <OpenComputers:item:26> * 3, <OpenComputers:item:32>, <Mekanism:ControlCircuit:2> * 2]);
 

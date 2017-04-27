@@ -85,7 +85,7 @@ recipes.addShaped(<appliedenergistics2:tile.BlockCharger>, [[<ore:logWood>, <ore
 
 #me chest
 recipes.remove(<appliedenergistics2:tile.BlockChest>);
-recipes.addShaped(<appliedenergistics2:tile.BlockChest>, [[glassQuartz, <appliedenergistics2:item.ItemMultiPart:380>, glassQuartz], [galCable, <IronChest:BlockIronChest:7>, galCable], [<Railcraft:part.plate:1>, <ore:crystalFluix>, <Railcraft:part.plate:1>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockChest>, [[glassQuartz, <appliedenergistics2:item.ItemMultiPart:380>, glassQuartz], [galCable, <ore:chestWood>, galCable], [<Railcraft:part.plate:1>, <ore:crystalFluix>, <Railcraft:part.plate:1>]]);
 
 #energy acceptor
 recipes.remove(<appliedenergistics2:tile.BlockEnergyAcceptor>);
@@ -129,7 +129,7 @@ recipes.addShaped(<appliedenergistics2:tile.BlockInterface>*4, [[<Railcraft:part
 
 #cell workbench
 recipes.remove(<appliedenergistics2:tile.BlockCellWorkbench>);
-recipes.addShaped(<appliedenergistics2:tile.BlockCellWorkbench>, [[<ore:blockWool>, calProcessor, <ore:blockWool>], [<Railcraft:part.plate:4>, <IronChest:BlockIronChest>, <Railcraft:part.plate:4>], [<Railcraft:part.plate:4>, <Forestry:factory2:2>, <Railcraft:part.plate:4>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockCellWorkbench>, [[<ore:blockWool>, calProcessor, <ore:blockWool>], [<Railcraft:part.plate:4>, <EnhancedInventories:improvedChest:1>.withTag({frameName: "frame.mc.iron"}), <Railcraft:part.plate:4>], [<Railcraft:part.plate:4>, <Forestry:factory2:2>, <Railcraft:part.plate:4>]]);
 
 #me io
 recipes.remove(<appliedenergistics2:tile.BlockIOPort>);

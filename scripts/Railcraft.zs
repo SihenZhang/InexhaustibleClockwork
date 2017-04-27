@@ -99,6 +99,6 @@ mods.railcraft.Rolling.addShapeless(<Railcraft:part.rail:2> * 6, [<Railcraft:par
 
 #undercutter cart
 recipes.remove(<Railcraft:cart.undercutter>);
-recipes.addShaped(<Railcraft:cart.undercutter>, [[<ore:dyeYellow>, <minecraft:redstone_lamp>, <ore:dyeYellow>], [<ore:blockSteel>, <minecraft:diamond_pickaxe>, <IronChest:BlockIronChest>], [<StevesCarts:ModuleComponents:23>, <minecraft:minecart>, <StevesCarts:ModuleComponents:23>]]);
+recipes.addShaped(<Railcraft:cart.undercutter>, [[<ore:dyeYellow>, <minecraft:redstone_lamp>, <ore:dyeYellow>], [<ore:blockSteel>, <minecraft:diamond_pickaxe>, <EnhancedInventories:improvedChest:1>.withTag({frameName: "frame.mc.iron"})], [<StevesCarts:ModuleComponents:23>, <minecraft:minecart>, <StevesCarts:ModuleComponents:23>]]);
 
 print("Initialized 'Railcraft.zs'");

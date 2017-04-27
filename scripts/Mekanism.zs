@@ -55,7 +55,7 @@ mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:MachineBlock:11>, 400000, [<Cr
 
 #Personal Chest
 recipes.remove(<Mekanism:MachineBlock:13>);
-mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:MachineBlock:13>, 400000, [<IronChest:BlockIronChest>, <Mekanism:ControlCircuit:3> *4]);
+mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:MachineBlock:13>, 400000, [<EnhancedInventories:improvedChest:1>.withTag({frameName: "frame.mc.iron"}), <Mekanism:ControlCircuit:3> *4]);
 
 #Rotary Condensentrator
 recipes.remove(<Mekanism:MachineBlock2>);
@@ -63,7 +63,7 @@ mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:MachineBlock2>, 500000, [<Crea
 
 #Chemical Oxidizer
 recipes.remove(<Mekanism:MachineBlock2:1>);
-mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:MachineBlock2:1>, 500000, [<Creator:chamberOsmium>,<Creator:denseOsmiumPlate>*4, <Mekanism:ControlCircuit:3> *4, <Mekanism:EnergyTablet>,<Mekanism:GasTank>,<IronChest:BlockIronChest>,<Mekanism:ReinforcedAlloy>*4]);
+mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:MachineBlock2:1>, 500000, [<Creator:chamberOsmium>,<Creator:denseOsmiumPlate>*4, <Mekanism:ControlCircuit:3> *4, <Mekanism:EnergyTablet>,<Mekanism:GasTank>,<EnhancedInventories:improvedChest:1>.withTag({frameName: "frame.mc.iron"}),<Mekanism:ReinforcedAlloy>*4]);
 
 #Chemical Infuser
 recipes.remove(<Mekanism:MachineBlock2:2>);
