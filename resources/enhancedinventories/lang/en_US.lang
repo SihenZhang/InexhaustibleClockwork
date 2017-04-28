@@ -1,0 +1,175 @@
+itemGroup.EnhancedInventories=Enhanced Inventories
+
+tile.enhancedinventories:improvedChest.0.name=Improved Chest Mk I
+tile.enhancedinventories:improvedChest.1.name=Improved Chest Mk II
+tile.enhancedinventories:improvedChest.2.name=Improved Chest Mk III
+tile.enhancedinventories:improvedChest.3.name=Improved Chest Mk IV
+tile.enhancedinventories:improvedChest.4.name=Improved Chest Mk V
+tile.enhancedinventories:improvedChest.5.name=Improved Chest Mk VI
+tile.enhancedinventories:improvedChest.6.name=Improved Chest Mk VII
+tile.enhancedinventories:improvedChest.7.name=Improved Chest Mk VIII
+
+tile.enhancedinventories:sortingImprovedChest.0.name=Improved Sorting Chest Mk I
+tile.enhancedinventories:sortingImprovedChest.1.name=Improved Sorting Chest Mk II
+tile.enhancedinventories:sortingImprovedChest.2.name=Improved Sorting Chest Mk III
+tile.enhancedinventories:sortingImprovedChest.3.name=Improved Sorting Chest Mk IV
+tile.enhancedinventories:sortingImprovedChest.4.name=Improved Sorting Chest Mk V
+tile.enhancedinventories:sortingImprovedChest.5.name=Improved Sorting Chest Mk VI
+tile.enhancedinventories:sortingImprovedChest.6.name=Improved Sorting Chest Mk VII
+tile.enhancedinventories:sortingImprovedChest.7.name=Improved Sorting Chest Mk VIII
+
+tile.enhancedinventories:locker.0.name=Locker Mk I
+tile.enhancedinventories:locker.1.name=Locker Mk II
+tile.enhancedinventories:locker.2.name=Locker Mk III
+tile.enhancedinventories:locker.3.name=Locker Mk IV
+tile.enhancedinventories:locker.4.name=Locker Mk V
+tile.enhancedinventories:locker.5.name=Locker Mk VI
+tile.enhancedinventories:locker.6.name=Locker Mk VII
+tile.enhancedinventories:locker.7.name=Locker Mk VIII
+
+tile.enhancedinventories:sortingLocker.0.name=Sorting Locker Mk I
+tile.enhancedinventories:sortingLocker.1.name=Sorting Locker Mk II
+tile.enhancedinventories:sortingLocker.2.name=Sorting Locker Mk III
+tile.enhancedinventories:sortingLocker.3.name=Sorting Locker Mk IV
+tile.enhancedinventories:sortingLocker.4.name=Sorting Locker Mk V
+tile.enhancedinventories:sortingLocker.5.name=Sorting Locker Mk VI
+tile.enhancedinventories:sortingLocker.6.name=Sorting Locker Mk VII
+tile.enhancedinventories:sortingLocker.7.name=Sorting Locker Mk VIII
+
+tile.enhancedinventories:cabinet.0.name=Cabinet Mk I
+tile.enhancedinventories:cabinet.1.name=Cabinet Mk II
+tile.enhancedinventories:cabinet.2.name=Cabinet Mk III
+tile.enhancedinventories:cabinet.3.name=Cabinet Mk IV
+tile.enhancedinventories:cabinet.4.name=Cabinet Mk V
+tile.enhancedinventories:cabinet.5.name=Cabinet Mk VI
+tile.enhancedinventories:cabinet.6.name=Cabinet Mk VII
+tile.enhancedinventories:cabinet.7.name=Cabinet Mk VIII
+
+tile.enhancedinventories:sortingCabinet.0.name=Sorting Cabinet Mk I
+tile.enhancedinventories:sortingCabinet.1.name=Sorting Cabinet Mk II
+tile.enhancedinventories:sortingCabinet.2.name=Sorting Cabinet Mk III
+tile.enhancedinventories:sortingCabinet.3.name=Sorting Cabinet Mk IV
+tile.enhancedinventories:sortingCabinet.4.name=Sorting Cabinet Mk V
+tile.enhancedinventories:sortingCabinet.5.name=Sorting Cabinet Mk VI
+tile.enhancedinventories:sortingCabinet.6.name=Sorting Cabinet Mk VII
+tile.enhancedinventories:sortingCabinet.7.name=Sorting Cabinet Mk VIII
+
+tile.enhancedinventories:worktable.name=Worktable
+tile.enhancedinventories:autoAssembler.name=Auto Assembler
+tile.enhancedinventories:painter.name=Painter
+
+item.enhancedinventories:sizeUpgrade.0.name=Size Upgrade Mk II
+item.enhancedinventories:sizeUpgrade.1.name=Size Upgrade Mk III
+item.enhancedinventories:sizeUpgrade.2.name=Size Upgrade Mk IV
+item.enhancedinventories:sizeUpgrade.3.name=Size Upgrade Mk V
+item.enhancedinventories:sizeUpgrade.4.name=Size Upgrade Mk VI
+item.enhancedinventories:sizeUpgrade.5.name=Size Upgrade Mk VII
+item.enhancedinventories:sizeUpgrade.6.name=Size Upgrade Mk VIII
+
+item.enhancedinventories:chestConverter.0.name=Chest Converter Mk I
+item.enhancedinventories:chestConverter.1.name=Chest Converter Mk II
+item.enhancedinventories:chestConverter.2.name=Chest Converter Mk III
+item.enhancedinventories:chestConverter.3.name=Chest Converter Mk IV
+item.enhancedinventories:chestConverter.4.name=Chest Converter Mk V
+item.enhancedinventories:chestConverter.5.name=Chest Converter Mk VI
+item.enhancedinventories:chestConverter.6.name=Chest Converter Mk VII
+item.enhancedinventories:chestConverter.7.name=Chest Converter Mk VIII
+
+item.enhancedinventories:upgradeFunction.0.name=Basic Upgrade
+item.enhancedinventories:upgradeFunction.1.name=Hopper Upgrade
+item.enhancedinventories:upgradeFunction.2.name=Redstone Upgrade
+item.enhancedinventories:upgradeFunction.3.name=Security Upgrade
+item.enhancedinventories:upgradeFunction.4.name=Reinfoced Upgrade
+
+item.enhancedinventories:paintbrush.name=Paintbrush
+item.enhancedinventories:schematic.name=Schematic
+
+info.ei.active=Active
+info.ei.always=Always
+info.ei.never=Never
+info.ei.low=On Low Signal
+info.ei.high=On High Signal
+info.ei.pulse=On Signal Pulse
+info.ei.clear=Clear Grid
+info.ei.save=Save Schematic
+
+string.enhancedinventories:alt=Alternate
+
+color.White=White
+color.Orange=Orange
+color.Magenta=Magenta
+color.LightBlue=Light Blue
+color.Yellow=Yellow
+color.Lime=Lime
+color.Pink=Pink
+color.Gray=Gray
+color.LightGray=Light Gray 
+color.Cyan=Cyan
+color.Purple=Purple
+color.Blue=Blue
+color.Brown=Brown
+color.Green=Green
+color.Red=Red
+color.Black=Black
+
+frame.mc.stone=Stone Frame
+frame.mc.netherrack=Netherrack Frame
+frame.mc.iron=Iron Frame
+frame.mc.gold=Gold Frame
+frame.mc.lapis=Lapis Frame
+frame.mc.quartz=Quartz Frame
+frame.mc.diamond=Diamond Frame
+frame.mc.emerald=Emerald Frame
+frame.mc.nether=Nether Star Frame
+frame.mc.obsidian=Obsidian Frame
+
+frame.ore.copper=Copper Frame
+frame.ore.tin=Tin Frame
+
+frame.ore.silver=Silver Frame
+frame.ore.bronze=Bronze Frame
+frame.ore.steel=Steel Frame
+
+frame.ore.platinum=Platinum Frame
+
+frame.ore.alumite=Alumite Frame
+frame.ore.cobalt=Cobalt Frame
+frame.ore.ardite=Ardite Frame
+frame.ore.manyullyn=Manyullyn Frame
+
+frame.ore.redalloy=Red Alloy Frame
+frame.ore.lead=Lead Frame
+frame.ore.nickel=Nickel Frame
+frame.ore.thaumium=Thaumium Frame
+frame.ore.electrotinealloy=Electrotine Alloy Frame
+frame.ore.zinc=Zinc Frame
+frame.ore.invar=Invar Frame
+frame.ore.energeticalloy=Energetic Alloy Frame
+frame.ore.atlarus=Atlarus Frame
+frame.ore.alduorite=Alduorite Frame
+frame.ore.void=Void Frame
+frame.ore.brass=Brass Frame
+frame.ore.aluminum=Aluminum Frame
+frame.ore.tungsten=Tungsten Frame
+frame.ore.desichalkos=Desichalkos Frame
+frame.ore.unstable=Unstable Frame
+frame.ore.reinforced=Reinforced Metal Frame
+frame.ore.mithril=Mithril Frame
+frame.ore.electrum=Electrum Frame
+frame.ore.signalum=Signalum Frame
+frame.ore.lumium=Lumium Frame
+frame.ore.enderium=Enderium Frame
+frame.ore.quicksilver=Quicksilver Frame
+frame.ore.electricalsteel=Electrical Steel Frame
+frame.ore.soularium=Soularium Frame
+frame.ore.carbide=Carbide Frame
+frame.ore.osmium=Osmium Frame
+frame.ore.enhancedgalgadorian=Enhanced Galgadorian Metal Frame
+frame.ore.darksteel=Dark Steel Frame
+frame.ore.vibrantalloy=Vibrant Alloy Frame
+frame.ore.infuscolium=Infuscolium Frame
+frame.ore.ceruclase=Ceruclase Frame
+frame.ore.amordrine=Amordrine Frame
+frame.ore.vibrantium=Vibrantium Frame
+frame.ore.blutonium=Blutonium Frame
+frame.ore.bedrockium=Bedrockium Frame

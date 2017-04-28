@@ -113,7 +113,7 @@
 		"materials":"ingotInvar"
 	},
 	"EnergeticAlloy":{
-		"name":"frame.ore.energeticAlloy",
+		"name":"frame.ore.energeticalloy",
 		"ColorRed":232,
 		"ColorGreen":93,
 		"ColorBlue":6,

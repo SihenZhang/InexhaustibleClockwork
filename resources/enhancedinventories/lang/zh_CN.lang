@@ -1,0 +1,175 @@
+itemGroup.EnhancedInventories=储物增强
+
+tile.enhancedinventories:improvedChest.0.name=精制箱Mk I
+tile.enhancedinventories:improvedChest.1.name=精制箱Mk II
+tile.enhancedinventories:improvedChest.2.name=精制箱Mk III
+tile.enhancedinventories:improvedChest.3.name=精制箱Mk IV
+tile.enhancedinventories:improvedChest.4.name=精制箱Mk V
+tile.enhancedinventories:improvedChest.5.name=精制箱Mk VI
+tile.enhancedinventories:improvedChest.6.name=精制箱Mk VII
+tile.enhancedinventories:improvedChest.7.name=精制箱Mk VIII
+
+tile.enhancedinventories:sortingImprovedChest.0.name=精制分拣箱Mk I
+tile.enhancedinventories:sortingImprovedChest.1.name=精制分拣箱Mk II
+tile.enhancedinventories:sortingImprovedChest.2.name=精制分拣箱Mk III
+tile.enhancedinventories:sortingImprovedChest.3.name=精制分拣箱Mk IV
+tile.enhancedinventories:sortingImprovedChest.4.name=精制分拣箱Mk V
+tile.enhancedinventories:sortingImprovedChest.5.name=精制分拣箱Mk VI
+tile.enhancedinventories:sortingImprovedChest.6.name=精制分拣箱Mk VII
+tile.enhancedinventories:sortingImprovedChest.7.name=精制分拣箱Mk VIII
+
+tile.enhancedinventories:locker.0.name=立柜Mk I
+tile.enhancedinventories:locker.1.name=立柜Mk II
+tile.enhancedinventories:locker.2.name=立柜Mk III
+tile.enhancedinventories:locker.3.name=立柜Mk IV
+tile.enhancedinventories:locker.4.name=立柜Mk V
+tile.enhancedinventories:locker.5.name=立柜Mk VI
+tile.enhancedinventories:locker.6.name=立柜Mk VII
+tile.enhancedinventories:locker.7.name=立柜Mk VIII
+
+tile.enhancedinventories:sortingLocker.0.name=分拣立柜Mk I
+tile.enhancedinventories:sortingLocker.1.name=分拣立柜Mk II
+tile.enhancedinventories:sortingLocker.2.name=分拣立柜Mk III
+tile.enhancedinventories:sortingLocker.3.name=分拣立柜Mk IV
+tile.enhancedinventories:sortingLocker.4.name=分拣立柜Mk V
+tile.enhancedinventories:sortingLocker.5.name=分拣立柜Mk VI
+tile.enhancedinventories:sortingLocker.6.name=分拣立柜Mk VII
+tile.enhancedinventories:sortingLocker.7.name=分拣立柜Mk VIII
+
+tile.enhancedinventories:cabinet.0.name=储物柜Mk I
+tile.enhancedinventories:cabinet.1.name=储物柜Mk II
+tile.enhancedinventories:cabinet.2.name=储物柜Mk III
+tile.enhancedinventories:cabinet.3.name=储物柜Mk IV
+tile.enhancedinventories:cabinet.4.name=储物柜Mk V
+tile.enhancedinventories:cabinet.5.name=储物柜Mk VI
+tile.enhancedinventories:cabinet.6.name=储物柜Mk VII
+tile.enhancedinventories:cabinet.7.name=储物柜Mk VIII
+
+tile.enhancedinventories:sortingCabinet.0.name=分拣储物柜Mk I
+tile.enhancedinventories:sortingCabinet.1.name=分拣储物柜Mk II
+tile.enhancedinventories:sortingCabinet.2.name=分拣储物柜Mk III
+tile.enhancedinventories:sortingCabinet.3.name=分拣储物柜Mk IV
+tile.enhancedinventories:sortingCabinet.4.name=分拣储物柜Mk V
+tile.enhancedinventories:sortingCabinet.5.name=分拣储物柜Mk VI
+tile.enhancedinventories:sortingCabinet.6.name=分拣储物柜Mk VII
+tile.enhancedinventories:sortingCabinet.7.name=分拣储物柜Mk VIII
+
+tile.enhancedinventories:worktable.name=工作台
+tile.enhancedinventories:autoAssembler.name=自动装配台
+tile.enhancedinventories:painter.name=喷涂机
+
+item.enhancedinventories:sizeUpgrade.0.name=容量升级Mk II
+item.enhancedinventories:sizeUpgrade.1.name=容量升级Mk III
+item.enhancedinventories:sizeUpgrade.2.name=容量升级Mk IV
+item.enhancedinventories:sizeUpgrade.3.name=容量升级Mk V
+item.enhancedinventories:sizeUpgrade.4.name=容量升级Mk VI
+item.enhancedinventories:sizeUpgrade.5.name=容量升级Mk VII
+item.enhancedinventories:sizeUpgrade.6.name=容量升级Mk VIII
+
+item.enhancedinventories:chestConverter.0.name=箱子转换器Mk I
+item.enhancedinventories:chestConverter.1.name=箱子转换器Mk II
+item.enhancedinventories:chestConverter.2.name=箱子转换器Mk III
+item.enhancedinventories:chestConverter.3.name=箱子转换器Mk IV
+item.enhancedinventories:chestConverter.4.name=箱子转换器Mk V
+item.enhancedinventories:chestConverter.5.name=箱子转换器Mk VI
+item.enhancedinventories:chestConverter.6.name=箱子转换器Mk VII
+item.enhancedinventories:chestConverter.7.name=箱子转换器Mk VIII
+
+item.enhancedinventories:upgradeFunction.0.name=基础升级
+item.enhancedinventories:upgradeFunction.1.name=漏斗升级
+item.enhancedinventories:upgradeFunction.2.name=红石升级
+item.enhancedinventories:upgradeFunction.3.name=安全升级
+item.enhancedinventories:upgradeFunction.4.name=强化升级
+
+item.enhancedinventories:paintbrush.name=漆刷
+item.enhancedinventories:schematic.name=合成图纸
+
+info.ei.active=激活
+info.ei.always=总是
+info.ei.never=从不
+info.ei.low=红石信号弱
+info.ei.high=红石信号强·
+info.ei.pulse=红石脉冲信号
+info.ei.clear=清除合成栏
+info.ei.save=保存图纸
+
+string.enhancedinventories:alt=间隔
+
+color.White=白色
+color.Orange=橙色
+color.Magenta=品红色
+color.LightBlue=淡蓝色
+color.Yellow=黄色
+color.Lime=黄绿色
+color.Pink=粉色
+color.Gray=灰色
+color.LightGray=淡灰色
+color.Cyan=青色
+color.Purple=紫色
+color.Blue=蓝色
+color.Brown=棕色
+color.Green=绿色
+color.Red=红色
+color.Black=黑色
+
+frame.mc.stone=石制框架
+frame.mc.netherrack=地狱岩框架
+frame.mc.iron=铁制框架
+frame.mc.gold=金制框架
+frame.mc.lapis=青金石框架
+frame.mc.quartz=石英框架
+frame.mc.diamond=钻石框架
+frame.mc.emerald=绿宝石框架
+frame.mc.nether=下界之星框架
+frame.mc.obsidian=黑曜石框架
+
+frame.ore.copper=铜制框架
+frame.ore.tin=锡制框架
+
+frame.ore.silver=银制框架
+frame.ore.bronze=青铜框架
+frame.ore.steel=钢制框架
+
+frame.ore.platinum=铂制框架
+
+frame.ore.alumite=耐酸铝框架
+frame.ore.cobalt=钴制框架
+frame.ore.ardite=阿迪特框架
+frame.ore.manyullyn=玛玉灵框架
+
+frame.ore.redalloy=红石合金框架
+frame.ore.lead=铅制框架
+frame.ore.nickel=镍制框架
+frame.ore.thaumium=神秘框架
+frame.ore.electrotinealloy=蓝石合金框架
+frame.ore.zinc=锌制框架
+frame.ore.invar=因瓦合金框架
+frame.ore.energeticalloy=充能合金框架
+frame.ore.atlarus=金钻框架
+frame.ore.alduorite=神秘蓝金框架
+frame.ore.void=虚空框架
+frame.ore.brass=黄铜框架
+frame.ore.aluminum=铝制框架
+frame.ore.tungsten=钨制框架
+frame.ore.desichalkos=虚空魂石框架
+frame.ore.unstable=不稳定框架
+frame.ore.reinforced=强化金属框架
+frame.ore.mithril=蕴魔秘银框架
+frame.ore.electrum=琥珀金框架
+frame.ore.signalum=信素框架
+frame.ore.lumium=流明框架
+frame.ore.enderium=末影框架
+frame.ore.quicksilver=银钻框架
+frame.ore.electricalsteel=磁钢框架
+frame.ore.soularium=魂金框架
+frame.ore.carbide=碳化锭框架
+frame.ore.osmium=锇制框架
+frame.ore.enhancedgalgadorian=强化混合晶化金属框架
+frame.ore.darksteel=玄钢框架
+frame.ore.vibrantalloy=脉冲合金框架
+frame.ore.infuscolium=魔金框架
+frame.ore.ceruclase=暗影秘银框架
+frame.ore.amordrine=魔石框架
+frame.ore.vibrantium=脉冲魂金框架
+frame.ore.blutonium=蓝钚框架
+frame.ore.bedrockium=基岩框架
