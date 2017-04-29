@@ -20,6 +20,6 @@ mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 20, <ore:
 mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 20, <ore:listAllveggie>, 80);
 mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 20, <ore:listAllgrain>, 80);
 mods.forestry.Still.addRecipe(<liquid:bioethanol> * 2, <liquid:ethanol> * 10, 2.5); 
-mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 128, <liquid:fuel> * 8, <liquid:bioethanol> * 8);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 96, <liquid:fuel> * 8, <liquid:bioethanol> * 8);
 
 print("Initialized 'OilRefining.zs'");
