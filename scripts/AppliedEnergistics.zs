@@ -209,9 +209,6 @@ recipes.addShaped(<appliedenergistics2:item.ToolMemoryCard>, [[calProcessor, <Cr
 recipes.remove(<appliedenergistics2:tile.BlockLightDetector>);
 recipes.addShaped(<appliedenergistics2:tile.BlockLightDetector>, [[<ore:gemQuartz>, <ore:ingotSteel>]]);
 
-#network tool
-recipes.addShaped(<appliedenergistics2:item.ToolNetworkTool>, [[<ThermalExpansion:wrench>, <ore:itemIlluminatedPanel>], [calProcessor, <minecraft:chest>]]);
-
 #view cell
 recipes.remove(<appliedenergistics2:item.ItemViewCell>);
 recipes.addShaped(<appliedenergistics2:item.ItemViewCell>, [[glassQuartz, <ore:dustRedstone>, glassQuartz], [<ore:dustRedstone>, <ore:anycertusquartz
