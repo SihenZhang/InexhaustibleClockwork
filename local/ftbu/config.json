@@ -35,7 +35,7 @@
       "Welcome to the server!"
     ],
     "starting_items": [
-      "minecraft:apple 16 0",
+      "minecraft:cooked_beef 16 0",
       "minecraft:paper 1 0",
       "Baubles:Ring 1 0"
     ]
@@ -51,9 +51,9 @@
     "dimension_blacklist": [],
     "forced_chunk_security": "-",
     "forced_explosions": "-",
-    "max_claims": 1000,
-    "max_homes": 100,
-    "max_loaded_chunks": 50,
+    "max_claims": 50,
+    "max_homes": 2,
+    "max_loaded_chunks": 0,
     "show_rank": true
   },
   "permissions_player": {
