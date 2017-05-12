@@ -51,7 +51,7 @@
     "dimension_blacklist": [],
     "forced_chunk_security": "-",
     "forced_explosions": "-",
-    "max_claims": 50,
+    "max_claims": 121,
     "max_homes": 2,
     "max_loaded_chunks": 0,
     "show_rank": true
