@@ -1,0 +1,146 @@
+********************************
+Class: tconstruct.modifiers.tools.ModFlux
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModFlux()
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModFlux [batteries=[1xitem.thermalexpansion.capacitor@3, 1xtile.thermalexpansion.cell@1, 1xtile.EnergyCube@0], modifiersRequired=1, key=Flux, stacks=[], effectIndex=9, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModLapis
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModLapis(int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase)
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModLapis [increase=[1, 9], key=Lapis, stacks=[1xitem.dyePowder@4, 1xtile.blockLapis@0], effectIndex=10, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModAttack
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModAttack(java.lang.String guiType, int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase, int max, int threshold, java.lang.String modifierType)
+	public tconstruct.modifiers.tools.ModAttack(java.lang.String guiType, int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase, boolean ammoOnly)
+	public tconstruct.modifiers.tools.ModAttack(java.lang.String guiType, int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase)
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModAttack [increase=[1, 4, 24], key=ModAttack, stacks=[1xitem.netherquartz@0, 1xtile.quartzBlock@32767, 1xitem.appliedenergistics2.ItemMaterial@0], effectIndex=11, random=java.util.Random@4863fa4, ]
+	class tconstruct.modifiers.tools.ModAttack [increase=[1, 4], key=ModAttack, stacks=[1xitem.netherquartz@0, 1xtile.quartzBlock@32767], effectIndex=11, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModExtraModifier
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModExtraModifier(net.minecraft.item.ItemStack[] stacks, java.lang.String key)
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModExtraModifier [key=XUSoul, stacks=[1xitem.extrautils:mini-soul@0], effectIndex=0, random=java.util.Random@4863fa4, ]
+	class tconstruct.modifiers.tools.ModExtraModifier [key=Tier1Free, stacks=[1xitem.diamond@0, 1xtile.blockGold@0], effectIndex=0, random=java.util.Random@4863fa4, ]
+	class tconstruct.modifiers.tools.ModExtraModifier [key=Tier1.5Free, stacks=[1xtile.blockDiamond@0, 1xitem.appleGold@1], effectIndex=0, random=java.util.Random@4863fa4, ]
+	class tconstruct.modifiers.tools.ModExtraModifier [key=Tier2Free, stacks=[1xitem.netherStar@0], effectIndex=0, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModToolRepair
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModToolRepair()
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModToolRepair [key=, stacks=[], effectIndex=0, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModDurability
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModDurability(net.minecraft.item.ItemStack[] stacks, int effectIndex, int durability, float modifier, int miningLevel, java.lang.String key, java.lang.String tooltipName, java.lang.String color)
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModDurability [key=Diamond, stacks=[1xitem.diamond@0], effectIndex=0, random=java.util.Random@4863fa4, ]
+	class tconstruct.modifiers.tools.ModDurability [key=Emerald, stacks=[1xitem.emerald@0], effectIndex=1, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModInteger
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModInteger(net.minecraft.item.ItemStack[] stacks, int effectIndex, java.lang.String key, int initialIncrease, java.lang.String color, java.lang.String tooltipName)
+	public tconstruct.modifiers.tools.ModInteger(net.minecraft.item.ItemStack[] stacks, int effectIndex, java.lang.String key, int initialIncrease, int secondaryIncrease, java.lang.String color, java.lang.String tooltipName)
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModInteger [key=Moss, stacks=[1xitem.tconstruct.Materials@6], effectIndex=4, random=java.util.Random@4863fa4, ]
+	class tconstruct.modifiers.tools.ModInteger [key=Necrotic, stacks=[1xitem.tconstruct.Materials@8], effectIndex=8, random=java.util.Random@4863fa4, ]
+	class tconstruct.modifiers.tools.ModInteger [key=Beheading, stacks=[1xtile.obsidian@0, 1xitem.enderPearl@0], effectIndex=13, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModBlaze
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModBlaze(int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase)
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModBlaze [increase=[1], key=Blaze, stacks=[1xitem.blazePowder@0], effectIndex=7, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModAutoSmelt
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModAutoSmelt(net.minecraft.item.ItemStack[] stacks, int effectIndex, java.lang.String key, java.lang.String color, java.lang.String tooltipName)
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModAutoSmelt [key=Lava, stacks=[1xitem.tconstruct.Materials@7], effectIndex=6, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModCreativeToolModifier
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModCreativeToolModifier(net.minecraft.item.ItemStack[] stacks)
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModCreativeToolModifier [key=, stacks=[1xitem.tconstruct.modifier.creative@0], effectIndex=0, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModButtertouch
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModButtertouch(net.minecraft.item.ItemStack[] stacks, int effectIndex)
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModButtertouch [key=Silk Touch, stacks=[1xitem.tconstruct.Materials@26], effectIndex=12, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModPiston
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModPiston(int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase)
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModPiston [increase=[1], key=Piston, stacks=[1xtile.pistonBase@0], effectIndex=3, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModSmite
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModSmite(java.lang.String tagName, int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase)
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModSmite [increase=[1], key=ModSmite, stacks=[1xtile.TConstruct.Soil@4], effectIndex=14, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModAntiSpider
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModAntiSpider(java.lang.String guiType, int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase)
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModAntiSpider [increase=[1], key=ModAntiSpider, stacks=[1xitem.fermentedSpiderEye@0], effectIndex=15, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModReinforced
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModReinforced(net.minecraft.item.ItemStack[] stacks, int effectIndex, int noPurpose)
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModReinforced [key=Reinforced, stacks=[1xitem.tconstruct.LargePlate@6], effectIndex=16, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModWindup
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModWindup(int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase)
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModWindup [tooltipName=¡ì4Haste, max=50, increase=[1, 9], key=Redstone, stacks=[1xitem.redstone@0, 1xtile.blockRedstone@0], effectIndex=2, random=java.util.Random@4863fa4, ]
+********************************
+********************************
+Class: tconstruct.modifiers.tools.ModAmmoRestock
+Interfaces: 
+Constructors: 
+	public tconstruct.modifiers.tools.ModAmmoRestock()
+Modifiers using this: 
+	class tconstruct.modifiers.tools.ModAmmoRestock [key=, stacks=[], effectIndex=0, random=java.util.Random@4863fa4, ]
+********************************

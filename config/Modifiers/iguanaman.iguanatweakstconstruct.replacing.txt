@@ -1,0 +1,8 @@
+********************************
+Class: iguanaman.iguanatweakstconstruct.replacing.ModPartReplacement
+Interfaces: 
+Constructors: 
+	public iguanaman.iguanatweakstconstruct.replacing.ModPartReplacement()
+Modifiers using this: 
+	class iguanaman.iguanatweakstconstruct.replacing.ModPartReplacement [key=, stacks=[], effectIndex=0, random=java.util.Random@4863fa4, ]
+********************************
