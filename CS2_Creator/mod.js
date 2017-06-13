@@ -9,7 +9,6 @@ mod.addItem("nether_star_fragment.js", "normal");
 mod.addItem("itemAlloy.js", "normal");
 mod.addBlock("blockAlloy.js", "normal");
 mod.addItem("Sunnarium.js", "normal");
-mod.addItem("enderDiamond.js", "normal");
 mod.addItem("itemCrystal.js", "normal");
 mod.addItem("InfiniteBattery.js", "normal");
 mod.addItem("InfinityStar.js", "normal");
