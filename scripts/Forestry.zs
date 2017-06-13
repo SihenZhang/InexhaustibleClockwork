@@ -13,9 +13,6 @@ mods.forestry.Carpenter.addRecipe(<Forestry:impregnatedCasing>, [[<ore:logWood>,
                                                                  [<ore:logWood>, null, <ore:logWood>], 
                                                                  [<ore:logWood>, <ore:logWood>, <ore:logWood>]], <liquid:plantoil> * 250, 200);
 
-#tin electron tube
-recipes.addShaped(<Forestry:thermionicTubes:1>, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>], [<minecraft:redstone>, <TConstruct:buckets:3>.transformReplace(<minecraft:bucket>), <minecraft:redstone>], [<Railcraft:part.plate:3>, <minecraft:glass>, <Railcraft:part.plate:3>]]);
-
 #engine
 recipes.remove(<Forestry:engine:1>);
 recipes.remove(<Forestry:engine:2>);
@@ -23,6 +20,20 @@ recipes.remove(<Forestry:engine:4>);
 recipes.addShaped(<Forestry:engine:1>, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<Creator:IronHammer>.anyDamage().transformDamage(), <Forestry:thermionicTubes>, <Creator:IronWrench>.anyDamage().transformDamage()], [<ore:gearCopper>, <minecraft:piston>, <ore:gearCopper>]]);
 recipes.addShaped(<Forestry:engine:2>, [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>], [<Creator:IronHammer>.anyDamage().transformDamage(), <Forestry:thermionicTubes:2>, <Creator:IronWrench>.anyDamage().transformDamage()], [<ore:gearBronze>, <minecraft:piston>, <ore:gearBronze>]]);
 recipes.addShaped(<Forestry:engine:4>, [[<ImmersiveEngineering:treatedWood:1>, <ImmersiveEngineering:treatedWood:1>, <ImmersiveEngineering:treatedWood:1>], [<Creator:IronHammer>.anyDamage().transformDamage(), <ore:blockGlass>, <Creator:IronWrench>.anyDamage().transformDamage()], [<ore:gearCopper>, <minecraft:piston>, <appliedenergistics2:tile.BlockCrank>]]);
+
+#Remove Bronze Tools
+recipes.remove(<Forestry:bronzeShovel>);
+recipes.remove(<Forestry:bronzePickaxe>);
+recipes.remove(<Forestry:kitShovel>);
+recipes.remove(<Forestry:kitPickaxe>);
+mods.forestry.Carpenter.removeRecipe(<Forestry:kitShovel>);
+mods.forestry.Carpenter.removeRecipe(<Forestry:kitPickaxe>);
+<Forestry:brokenBronzePickaxe>.addTooltip(format.red("Can NOT Get This Item Now!"));
+<Forestry:brokenBronzeShovel>.addTooltip(format.red("Can NOT Get This Item Now!"));
+<Forestry:bronzePickaxe>.addTooltip(format.red("Can NOT Craft This Item Now!"));
+<Forestry:bronzeShovel>.addTooltip(format.red("Can NOT Craft This Item Now!"));
+<Forestry:kitShovel>.addTooltip(format.red("Can NOT Craft This Item Now!"));
+<Forestry:kitPickaxe>.addTooltip(format.red("Can NOT Craft This Item Now!"));
 
 #scented paneling
 mods.forestry.Carpenter.removeRecipe(<Forestry:craftingMaterial:6>);
@@ -33,5 +44,9 @@ mods.forestry.Carpenter.addRecipe(<Forestry:craftingMaterial:6>, [[null, <Forest
 #therm fab
 recipes.remove(<Forestry:factory2>);
 recipes.addShaped(<Forestry:factory2>, [[<ore:ingotBronze>, <ore:blockGlassColorless>, <ore:ingotBronze>], [<ore:blockGlassColorless>, <Forestry:sturdyMachine>, <ore:blockGlassColorless>], [<ore:ingotBronze>, <EnhancedInventories:improvedChest:1>.withTag({frameName: "frame.ore.bronze"}), <ore:ingotBronze>]]);
+
+#scoop
+recipes.remove(<Forestry:scoop>);
+recipes.addShaped(<Forestry:scoop>, [[<Forestry:oakStick>, <ore:blockWool>, <Forestry:oakStick>], [<Forestry:oakStick>, <Forestry:oakStick>, <Forestry:oakStick>], [null, <Forestry:oakStick>]]);
 
 print("Initialized 'Forestry.zs'");

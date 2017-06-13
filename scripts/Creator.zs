@@ -2,6 +2,7 @@
 #Author: Si_hen & Prunoideae
 
 import mods.nei.NEI;
+
 print("Initializing 'Creator.zs'...");
 
 #complex
@@ -34,8 +35,9 @@ mods.forestry.Carpenter.addRecipe(<minecraft:nether_star>, [[<Creator:nether_sta
 #Sunnarium
 mods.magneticraft.Polymerizer.addRecipe(<liquid:lava> * 1000, <minecraft:glowstone_dust>, <Creator:Sunnarium>, 500);
 
-#Ender Diamond
-recipes.addShaped(<Creator:enderDiamond>, [[null, <minecraft:ender_pearl>], [<minecraft:ender_pearl>, <ore:gemDiamond>, <minecraft:ender_pearl>], [null, <minecraft:ender_pearl>]]);
+#gunpowder barrel
+recipes.addShaped(<Prunoideae:gunpowderBarrel>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:dustGunpowder>, <ore:dustGunpowder>, <ore:dustGunpowder>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
+recipes.addShaped(<Prunoideae:bombRemote>, [[null, <ImmersiveEngineering:coil>], [<ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part:1>, <ProjRed|Core:projectred.core.part>], [<ProjRed|Core:projectred.core.part>, <minecraft:stone_button>, <ProjRed|Core:projectred.core.part>]]);
 
 #Plates
 <ore:plateGold>.add(<Creator:GoldPlate>);
@@ -313,10 +315,10 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<Creator:itemAlloy:14>, <Creator:
 <ore:itemVibrantCrystal>.add(<Creator:itemCrystal:1>);
 <ore:itemEnderCrystal>.add(<Creator:itemCrystal:2>);
 <ore:itemEnticingCrystal>.add(<Creator:itemCrystal:3>);
-mods.extraUtils.QED.addShapedRecipe(<Creator:itemCrystal>, [[<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>], [<ore:ingotEnderium>, <Creator:enderDiamond>, <ore:ingotEnderium>], [<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>]]);
-mods.extraUtils.QED.addShapedRecipe(<Creator:itemCrystal:1>, [[<ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>], [<ore:ingotVibrantAlloy>, <ore:gemEmerald>, <ore:ingotVibrantAlloy>], [<ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>]]);
-mods.thermalexpansion.Smelter.addRecipe(120000, <Creator:itemCrystal>, <enderclay:itemenderclay> * 4, <Creator:itemCrystal:2>);
-mods.thermalexpansion.Smelter.addRecipe(120000, <Creator:itemCrystal:1>, <ExtraUtilities:golden_lasso:2>.withTag({ForgeData: {id: "Villager"}}), <Creator:itemCrystal:3>, <ExtraUtilities:golden_lasso:2>, 100);
+mods.extraUtils.QED.addShapedRecipe(<Creator:itemCrystal>, [[<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>], [<ore:ingotEnderium>, <RandomThings:ingredient:6>, <ore:ingotEnderium>], [<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>]]);
+mods.extraUtils.QED.addShapedRecipe(<Creator:itemCrystal:1>, [[<ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>], [<ore:ingotVibrantAlloy>, <RandomThings:ingredient>, <ore:ingotVibrantAlloy>], [<ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>]]);
+mods.thermalexpansion.Smelter.addRecipe(400000, <Creator:itemCrystal>, <enderclay:itemenderclay> * 4, <Creator:itemCrystal:2>);
+mods.thermalexpansion.Smelter.addRecipe(500000, <Creator:itemCrystal:1>, <ExtraUtilities:golden_lasso:2>.withTag({ForgeData: {id: "Villager"}}), <Creator:itemCrystal:3>, <ExtraUtilities:golden_lasso:2>, 100);
 <Creator:itemCrystal:3>.addTooltip(format.gray("To craft this, you need a Golden Lasso with a captured villager."));
 <Creator:itemCrystal:3>.addTooltip(format.gray("你需要一个捕捉了村民的黄金套索来制作它。"));
 

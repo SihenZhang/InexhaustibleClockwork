@@ -16,6 +16,8 @@ mods.thaumcraft.Aspects.set(<Prunoideae:shardOrdo>,"vitreus 1, ordo 8");
 mods.thaumcraft.Aspects.set(<Prunoideae:shardPerditio>,"vitreus 1, perditio 8");
 
 #Creator
+mods.thaumcraft.Aspects.set(<Creator:IronHammer>,"metallum 8, instrumentum 2");
+mods.thaumcraft.Aspects.set(<Creator:IronWrench>,"metallum 8, instrumentum 2");
 mods.thaumcraft.Aspects.set(<Creator:Sunnarium>,"lux 4, ignis 2");
 mods.thaumcraft.Aspects.set(<Creator:iaComplex>,"metallum 4");
 mods.thaumcraft.Aspects.set(<Creator:tcsComplex>,"metallum 4, lucrum 4, vitreus 1, permutatio 1");

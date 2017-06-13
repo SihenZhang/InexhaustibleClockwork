@@ -38,7 +38,7 @@ recipes.addShaped(<ExtraUtilities:generator:5>, [[<harvestcraft:firmtofuItem>, <
 recipes.remove(<ExtraUtilities:generator:6>);
 recipes.addShaped(<ExtraUtilities:generator:6>, [[<Creator:compactObsidianPlate>, <Creator:compactObsidianPlate>, <Creator:compactObsidianPlate>], [<Creator:compactObsidianPlate>, <minecraft:enchanting_table>, <Creator:compactObsidianPlate>], [<ore:ingotRedAlloy>, <ExtraUtilities:generator>, <ore:ingotRedAlloy>]]);
 recipes.remove(<ExtraUtilities:generator:7>);
-recipes.addShaped(<ExtraUtilities:generator:7>, [[<StevesCarts:ModuleComponents:58>, <StevesCarts:ModuleComponents:58>, <StevesCarts:ModuleComponents:58>], [<SolarExpansion:solarPanelHardened>, <ExtraUtilities:generator:1>, <SolarExpansion:solarPanelHardened>], [<ProjRed|Core:projectred.core.part:55>, <SolarExpansion:solarPanelHardened>, <ProjRed|Core:projectred.core.part:55>]]);
+recipes.addShaped(<ExtraUtilities:generator:7>, [[<powersuits:powerArmorComponent:17>, <powersuits:powerArmorComponent:17>, <powersuits:powerArmorComponent:17>], [<SolarExpansion:solarPanelHardened>, <ExtraUtilities:generator:1>, <SolarExpansion:solarPanelHardened>], [<ProjRed|Core:projectred.core.part:55>, <SolarExpansion:solarPanelHardened>, <ProjRed|Core:projectred.core.part:55>]]);
 recipes.remove(<ExtraUtilities:generator:8>);
 recipes.addShaped(<ExtraUtilities:generator:8>, [[<minecraft:tnt>, <minecraft:tnt>, <minecraft:tnt>], [<minecraft:tnt>, <ore:blockSignalum>, <minecraft:tnt>], [<ore:ingotRedAlloy>, <ExtraUtilities:generator>, <ore:ingotRedAlloy>]]);
 recipes.remove(<ExtraUtilities:generator:10>);
@@ -84,17 +84,9 @@ mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:10>, [[<ExtraUt
 recipes.remove(<ExtraUtilities:generator.64:11>);
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:11>, [[<ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>], [<ExtraUtilities:generator.8:11>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:11>], [<ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>]]);
 
-#remove deep dark portal
+#deep dark portal
 recipes.remove(<ExtraUtilities:dark_portal>);
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:dark_portal>, [[<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:cobblestone_compressed:7>, <ExtraUtilities:bedrockiumIngot>], [<ExtraUtilities:cobblestone_compressed:7>, <minecraft:bedrock>, <ExtraUtilities:cobblestone_compressed:7>], [<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:cobblestone_compressed:7>, <ExtraUtilities:bedrockiumIngot>]]);
-
-#remove enderthermic pump
-recipes.remove(<ExtraUtilities:enderThermicPump>);
-<ExtraUtilities:enderThermicPump>.addTooltip(format.red("Please use BC Pump instead!"));
-
-#remove ender quarry
-recipes.remove(<ExtraUtilities:enderQuarry>);
-<ExtraUtilities:enderQuarry>.addTooltip(format.red("Please use BC Quarry instead!"));
 
 #remove transfer node(energy)
 mods.extraUtils.QED.removeRecipe(<ExtraUtilities:extractor_base:12>);
@@ -102,9 +94,19 @@ mods.extraUtils.QED.removeRecipe(<ExtraUtilities:extractor_base:12>);
 mods.extraUtils.QED.removeRecipe(<ExtraUtilities:extractor_base:13>);
 <ExtraUtilities:extractor_base:13>.addTooltip(format.red("You can't use this to transfer RF!"));
 
+#curtain
+recipes.remove(<ExtraUtilities:curtains>);
+mods.logistics.hammer.addRecipe(<minecraft:wool:*>, <ExtraUtilities:curtains> * 2);
+
 #magicwood
 recipes.remove(<ExtraUtilities:decorativeBlock1:8>);
-recipes.addShaped(<ExtraUtilities:decorativeBlock1:8>, [[<ore:ingotAtlarus>, <minecraft:enchanted_book>, <ore:ingotAtlarus>], [<minecraft:enchanted_book>, <minecraft:bookshelf>, <minecraft:enchanted_book>], [<ore:ingotAtlarus>, <minecraft:enchanted_book>, <ore:ingotAtlarus>]]);
+mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:bookshelf>, <liquid:xpjuice>);
+recipes.addShaped(<ExtraUtilities:decorativeBlock1:8>, [[<ore:ingotAtlarus>, <minecraft:enchanted_book>, <ore:ingotAtlarus>], [<minecraft:enchanted_book>, <Automagy:blockBookshelfEnchanted:1>, <minecraft:enchanted_book>], [<ore:ingotAtlarus>, <minecraft:enchanted_book>, <ore:ingotAtlarus>]]);
+
+#ender obsidian
+recipes.remove(<ExtraUtilities:decorativeBlock1:1>);
+mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:obsidian>, <liquid:ender>);
+recipes.addShaped(<ExtraUtilities:decorativeBlock1:1>, [[<enderclay:enderclayblock>, <minecraft:obsidian>, <enderclay:enderclayblock>], [<minecraft:obsidian>, <minecraft:ender_pearl>, <minecraft:obsidian>], [<enderclay:enderclayblock>, <minecraft:obsidian>, <enderclay:enderclayblock>]]);
 
 #drum
 recipes.remove(<ExtraUtilities:drum>);
@@ -114,18 +116,7 @@ recipes.addShaped(<ExtraUtilities:drum>, [[<ore:ingotSteel>, <minecraft:heavy_we
 recipes.remove(<ExtraUtilities:watering_can:1>);
 recipes.remove(<ExtraUtilities:watering_can:3>);
 recipes.addShaped(<ExtraUtilities:watering_can:1>, [[<ore:ingotSteel>, <minecraft:dye:15>, <harvestcraft:beetseedItem>],  [<ore:ingotSteel>, <minecraft:bowl>, <ore:ingotSteel>], [<harvestcraft:kiwiseedItem>, <ore:ingotSteel>, <harvestcraft:cornseedItem>]]);
-
-#angel rings
-recipes.remove(<ExtraUtilities:angelRing>);
-mods.avaritia.ExtremeCrafting.addShaped(<ExtraUtilities:angelRing>, [[<ore:blockGlass>, <ore:blockGlass>, <ore:ingotGold>, null, null, null, <ore:ingotGold>, <ore:blockGlass>, <ore:blockGlass>], [null, null, null, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, null, null, null], [null, null, <ore:ingotGold>, null, <simplyjetpacks:fluxpacks:3>, null, <ore:ingotGold>, null, null], [null, <ore:ingotGold>, <simplyjetpacks:jetpacks:5>, <simplyjetpacks:fluxpacks:3>, null, <simplyjetpacks:fluxpacks:3>, <simplyjetpacks:jetpacks:5>, <ore:ingotGold>, null], [<ore:ingotGold>, null, <minecraft:nether_star>, <simplyjetpacks:fluxpacks:4>, <Thaumcraft:HoverHarness>, <simplyjetpacks:fluxpacks:4>, <minecraft:nether_star>, null, <ore:ingotGold>], [<ore:ingotGold>, null, <simplyjetpacks:components:15>, <simplyjetpacks:components:15>, <simplyjetpacks:fluxpacks:4>, <simplyjetpacks:components:15>, <simplyjetpacks:components:15>, null, <ore:ingotGold>], [null, <ore:ingotGold>, <simplyjetpacks:particleCustomizers:2>, <simplyjetpacks:particleCustomizers:2>, null, <simplyjetpacks:particleCustomizers:2>, <simplyjetpacks:particleCustomizers:2>, <ore:ingotGold>, null], [null, null, <ore:ingotGold>, null, <SolarExpansion:solarPanelAdvanced>, null, <ore:ingotGold>, null, null], [null, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>]]);
-recipes.remove(<ExtraUtilities:angelRing:1>);
-mods.avaritia.ExtremeCrafting.addShaped(<ExtraUtilities:angelRing:1>, [[<minecraft:feather>, <minecraft:feather>, <ore:ingotGold>, null, null, null, <ore:ingotGold>, <minecraft:feather>, <minecraft:feather>], [null, null, null, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, null, null, null], [null, null, <ore:ingotGold>, null, <simplyjetpacks:fluxpacks:3>, null, <ore:ingotGold>, null, null], [null, <ore:ingotGold>, <simplyjetpacks:jetpacks:5>, <simplyjetpacks:fluxpacks:3>, null, <simplyjetpacks:fluxpacks:3>, <simplyjetpacks:jetpacks:5>, <ore:ingotGold>, null], [<ore:ingotGold>, null, <minecraft:nether_star>, <simplyjetpacks:fluxpacks:4>, <Thaumcraft:HoverHarness>, <simplyjetpacks:fluxpacks:4>, <minecraft:nether_star>, null, <ore:ingotGold>], [<ore:ingotGold>, null, <simplyjetpacks:components:15>, <simplyjetpacks:components:15>, <simplyjetpacks:fluxpacks:4>, <simplyjetpacks:components:15>, <simplyjetpacks:components:15>, null, <ore:ingotGold>], [null, <ore:ingotGold>, <simplyjetpacks:particleCustomizers:2>, <simplyjetpacks:particleCustomizers:2>, null, <simplyjetpacks:particleCustomizers:2>, <simplyjetpacks:particleCustomizers:2>, <ore:ingotGold>, null], [null, null, <ore:ingotGold>, null, <SolarExpansion:solarPanelAdvanced>, null, <ore:ingotGold>, null, null], [null, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>]]);
-recipes.remove(<ExtraUtilities:angelRing:2>);
-mods.avaritia.ExtremeCrafting.addShaped(<ExtraUtilities:angelRing:2>, [[<ore:dye>, <ore:dye>, <ore:ingotGold>, null, null, null, <ore:ingotGold>, <ore:dye>, <ore:dye>], [null, null, null, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, null, null, null], [null, null, <ore:ingotGold>, null, <simplyjetpacks:fluxpacks:3>, null, <ore:ingotGold>, null, null], [null, <ore:ingotGold>, <simplyjetpacks:jetpacks:5>, <simplyjetpacks:fluxpacks:3>, null, <simplyjetpacks:fluxpacks:3>, <simplyjetpacks:jetpacks:5>, <ore:ingotGold>, null], [<ore:ingotGold>, null, <minecraft:nether_star>, <simplyjetpacks:fluxpacks:4>, <Thaumcraft:HoverHarness>, <simplyjetpacks:fluxpacks:4>, <minecraft:nether_star>, null, <ore:ingotGold>], [<ore:ingotGold>, null, <simplyjetpacks:components:15>, <simplyjetpacks:components:15>, <simplyjetpacks:fluxpacks:4>, <simplyjetpacks:components:15>, <simplyjetpacks:components:15>, null, <ore:ingotGold>], [null, <ore:ingotGold>, <simplyjetpacks:particleCustomizers:2>, <simplyjetpacks:particleCustomizers:2>, null, <simplyjetpacks:particleCustomizers:2>, <simplyjetpacks:particleCustomizers:2>, <ore:ingotGold>, null], [null, null, <ore:ingotGold>, null, <SolarExpansion:solarPanelAdvanced>, null, <ore:ingotGold>, null, null], [null, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>]]);
-recipes.remove(<ExtraUtilities:angelRing:3>);
-mods.avaritia.ExtremeCrafting.addShaped(<ExtraUtilities:angelRing:3>, [[<minecraft:leather>, <minecraft:leather>, <ore:ingotGold>, null, null, null, <ore:ingotGold>, <minecraft:leather>, <minecraft:leather>], [null, null, null, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, null, null, null], [null, null, <ore:ingotGold>, null, <simplyjetpacks:fluxpacks:3>, null, <ore:ingotGold>, null, null], [null, <ore:ingotGold>, <simplyjetpacks:jetpacks:5>, <simplyjetpacks:fluxpacks:3>, null, <simplyjetpacks:fluxpacks:3>, <simplyjetpacks:jetpacks:5>, <ore:ingotGold>, null], [<ore:ingotGold>, null, <minecraft:nether_star>, <simplyjetpacks:fluxpacks:4>, <Thaumcraft:HoverHarness>, <simplyjetpacks:fluxpacks:4>, <minecraft:nether_star>, null, <ore:ingotGold>], [<ore:ingotGold>, null, <simplyjetpacks:components:15>, <simplyjetpacks:components:15>, <simplyjetpacks:fluxpacks:4>, <simplyjetpacks:components:15>, <simplyjetpacks:components:15>, null, <ore:ingotGold>], [null, <ore:ingotGold>, <simplyjetpacks:particleCustomizers:2>, <simplyjetpacks:particleCustomizers:2>, null, <simplyjetpacks:particleCustomizers:2>, <simplyjetpacks:particleCustomizers:2>, <ore:ingotGold>, null], [null, null, <ore:ingotGold>, null, <SolarExpansion:solarPanelAdvanced>, null, <ore:ingotGold>, null, null], [null, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>]]);
-recipes.remove(<ExtraUtilities:angelRing:4>);
-mods.avaritia.ExtremeCrafting.addShaped(<ExtraUtilities:angelRing:4>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:ingotGold>, null, null, null, <ore:ingotGold>, <ore:nuggetGold>, <ore:nuggetGold>], [null, null, null, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, null, null, null], [null, null, <ore:ingotGold>, null, <simplyjetpacks:fluxpacks:3>, null, <ore:ingotGold>, null, null], [null, <ore:ingotGold>, <simplyjetpacks:jetpacks:5>, <simplyjetpacks:fluxpacks:3>, null, <simplyjetpacks:fluxpacks:3>, <simplyjetpacks:jetpacks:5>, <ore:ingotGold>, null], [<ore:ingotGold>, null, <minecraft:nether_star>, <simplyjetpacks:fluxpacks:4>, <Thaumcraft:HoverHarness>, <simplyjetpacks:fluxpacks:4>, <minecraft:nether_star>, null, <ore:ingotGold>], [<ore:ingotGold>, null, <simplyjetpacks:components:15>, <simplyjetpacks:components:15>, <simplyjetpacks:fluxpacks:4>, <simplyjetpacks:components:15>, <simplyjetpacks:components:15>, null, <ore:ingotGold>], [null, <ore:ingotGold>, <simplyjetpacks:particleCustomizers:2>, <simplyjetpacks:particleCustomizers:2>, null, <simplyjetpacks:particleCustomizers:2>, <simplyjetpacks:particleCustomizers:2>, <ore:ingotGold>, null], [null, null, <ore:ingotGold>, null, <SolarExpansion:solarPanelAdvanced>, null, <ore:ingotGold>, null, null], [null, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>]]);
+recipes.addShaped(<ExtraUtilities:watering_can:3>, [[<ore:fertilizerRich>, <ExtraUtilities:mini-soul>, <ore:fertilizerRich>], [<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:watering_can:1>, <ExtraUtilities:bedrockiumIngot>], [<xreliquary:mob_ingredient:9>, <ExtraUtilities:bedrockiumIngot>, <xreliquary:mob_ingredient:9>]]);
 
 #remove peachful mode to craft nether star
 recipes.removeShaped(<minecraft:nether_star>, [[<minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>], [<minecraft:soul_sand>, <minecraft:soul_sand>, <minecraft:soul_sand>], [<minecraft:diamond_sword>, <minecraft:soul_sand>, <minecraft:bow>]]);
@@ -151,9 +142,9 @@ recipes.addShaped(<minecraft:bedrock>, [[<ExtraUtilities:block_bedrockium>, <Ext
 
 #node
 recipes.remove(<ExtraUtilities:extractor_base>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:extractor_base>, [[null, <ExtraUtilities:pipes:*>], [<ore:ingotRedAlloy>, <Avaritia:Resource>, <ore:ingotRedAlloy>], [<Creator:enderDiamond>, <minecraft:chest>, <Creator:enderDiamond>]]);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:extractor_base>, [[null, <ExtraUtilities:pipes:*>], [<ore:ingotRedAlloy>, <Avaritia:Resource>, <ore:ingotRedAlloy>], [<RandomThings:ingredient:6>, <minecraft:chest>, <RandomThings:ingredient:6>]]);
 recipes.remove(<ExtraUtilities:extractor_base:6>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:extractor_base:6>, [[null, <ExtraUtilities:pipes:*>], [<ProjRed|Core:projectred.core.part:55>, <Avaritia:Resource>, <ProjRed|Core:projectred.core.part:55>], [<Creator:enderDiamond>, <BuildCraft|Factory:tankBlock>, <Creator:enderDiamond>]]);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:extractor_base:6>, [[null, <ExtraUtilities:pipes:*>], [<ProjRed|Core:projectred.core.part:55>, <Avaritia:Resource>, <ProjRed|Core:projectred.core.part:55>], [<RandomThings:ingredient:6>, <BuildCraft|Factory:tankBlock>, <RandomThings:ingredient:6>]]);
 
 #pipes
 recipes.remove(<ExtraUtilities:pipes>);
@@ -172,7 +163,7 @@ recipes.addShaped(<ExtraUtilities:pipes.1> * 2, [[<minecraft:stone_button>, <min
 
 #matrix
 recipes.remove(<ExtraUtilities:decorativeBlock1:12>);
-recipes.addShaped(<ExtraUtilities:decorativeBlock1:12>, [[<ore:burntQuartz>, <Creator:enderDiamond>, <ore:burntQuartz>], [<Creator:enderDiamond>, <ExtraUtilities:decorativeBlock1:1>, <Creator:enderDiamond>], [<ore:burntQuartz>, <Creator:enderDiamond>, <ore:burntQuartz>]]);
+recipes.addShaped(<ExtraUtilities:decorativeBlock1:12>, [[<ore:burntQuartz>, <RandomThings:ingredient:6>, <ore:burntQuartz>], [<RandomThings:ingredient:6>, <ExtraUtilities:decorativeBlock1:1>, <RandomThings:ingredient:6>], [<ore:burntQuartz>, <RandomThings:ingredient:6>, <ore:burntQuartz>]]);
 
 #ender flux crystal
 recipes.remove(<ExtraUtilities:endConstructor:2>);

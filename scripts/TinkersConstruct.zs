@@ -37,7 +37,7 @@ recipes.removeShapeless(<ThermalFoundation:material:44>);
 #New Alloying
 mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:42>, <liquid:redstone> * 250);
 mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:43>, <liquid:glowstone> * 250);
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:44>, <liquid:ender> * 250);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:44>, <liquid:ender> * 1000);
 mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustIral>, <TConstruct:materials:15>, <liquid:obsidian.molten> * 250);
 
 #Gear Crafting
@@ -60,9 +60,6 @@ mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:12>, <liquid:
 #remove book recipe
 recipes.removeShapeless(<minecraft:book>, [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:string>, <TConstruct:blankPattern>, <TConstruct:blankPattern>]);
 
-#flint -- it is encouraged to use TConstruct Tools
-recipes.addShapeless(<minecraft:flint>, [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]);
-
 #iron tools
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:pickaxeHead:2>, <liquid:iron.molten> * 432, <TConstruct:pickaxeHead:3>, true, 200);
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:shovelHead:2>, <liquid:iron.molten> * 432, <TConstruct:shovelHead:3>, true, 200);
@@ -78,17 +75,6 @@ mods.tconstruct.Casting.addTableRecipe(<TConstruct:frypanHead:2>, <liquid:iron.m
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:signHead:2>, <liquid:iron.molten> * 432, <TConstruct:signHead:3>, true, 200);
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:chiselHead:2>, <liquid:iron.molten> * 216, <TConstruct:chiselHead:3>, true, 200);
 
-#ingot pattern
-recipes.addShaped(<TConstruct:metalPattern>, [[null, <ore:ingotBrick>, null], [<ore:ingotBrick>, null, <ore:ingotBrick>], [null, <ore:ingotBrick>, null]]);
-
-#ban wooden and stone tools
-mods.tconstruct.ToolStats.setDurability("Wood", 0);
-mods.tconstruct.ToolStats.setSpeed("Wood", 0);
-mods.tconstruct.ToolStats.setDamage("Wood", 0);
-mods.tconstruct.ToolStats.setDurability("Stone", 0);
-mods.tconstruct.ToolStats.setSpeed("Stone", 0);
-mods.tconstruct.ToolStats.setDamage("Stone", 0);
-
 #balance some materials
 mods.tconstruct.ToolStats.setHarvestLevel("Netherrack", 0);
 mods.tconstruct.ToolStats.setHarvestLevel("Steel", 3);
@@ -97,6 +83,8 @@ mods.tconstruct.ToolStats.setHarvestLevel("Steel", 3);
 furnace.remove(<TConstruct:materials:2>);
 mods.thermalexpansion.Furnace.removeRecipe(<TConstruct:CraftedSoil:1>);
 mods.railcraft.CokeOven.addRecipe(<TConstruct:materials:2>, <liquid:water> * 100, <TConstruct:CraftedSoil:1>, 1200);
+recipes.removeShaped(<TConstruct:Smeltery:2>);
+mods.logistics.hammer.addRecipe(<TConstruct:materials:2> * 4, <TConstruct:Smeltery:2>);
 
 #cobalt & ardite
 recipes.remove(<TConstruct:materials:41>);

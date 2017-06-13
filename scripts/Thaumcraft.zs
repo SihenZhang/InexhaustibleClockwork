@@ -49,6 +49,33 @@ mods.thaumcraft.Research.addInfusionPage("ATOMDISASM", <Mekanism:AtomicDisassemb
 mods.thaumcraft.Research.addPrereq("ATOMDISASM", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("ATOMDISASM", true);
 
+#Flying Ring & Angel Ring
+recipes.remove(<baublelicious:ItemFlyingRing>);
+recipes.remove(<ExtraUtilities:angelRing:*>);
+mods.thaumcraft.Research.addResearch("FLYINGRING", "ARTIFICE", "volatus 40, aer 40, potentia 40, motus 30, iter 30, machina 30, instrumentum 30, cognitio 20", 3, 6, 20, <baublelicious:ItemFlyingRing>);
+game.setLocalization("en_US", "tc.research_name.FLYINGRING", "Flying Ring");
+game.setLocalization("en_US", "tc.research_text.FLYINGRING", "[MT] A better way to fly!");
+game.setLocalization("zh_CN", "tc.research_name.FLYINGRING", "飞行指环");
+game.setLocalization("zh_CN", "tc.research_text.FLYINGRING", "[MT] 更好的飞行方式！");
+mods.thaumcraft.Research.addPrereq("FLYINGRING", "HOVERHARNESS", false);
+mods.thaumcraft.Research.addPage("FLYINGRING", "derp.research_page.FLYINGRING");
+game.setLocalization("zh_CN", "derp.research_page.FLYINGRING", "奥法缰绳使你拥有了飞行的能力，但因其需要Potentia源质以及需要装备在胸甲栏而远没有那么好用。好在有了科技的帮助，你将奥法缰绳融入一个小小的指环中，并以太阳能作为动力来源，这样就获得了一个可以装备在指环栏的飞行指环。由于一些原因，目前你还不能将其从指环栏中取下，但你坚信未来的你能够做到。");
+mods.thaumcraft.Infusion.addRecipe("FLYINGRING", <baublelicious:ItemRing>, [<simplyjetpacks:jetpacks:5>, <simplyjetpacks:components:15>, <Thaumcraft:HoverHarness>, <simplyjetpacks:components:15>, <SolarExpansion:solarPanelAdvanced>, <RandomThings:spiritBinder>, <baublelicious:ItemMagicCore:2>, <Creator:SJComponents:5>, <baublelicious:ItemMagicCore:2>, <Creator:SJComponents:5>, <baublelicious:ItemMagicCore:2>, <RandomThings:spiritBinder>], "volatus 320, aer 160, potentia 160, motus 160, iter 160, machina 160, instrumentum 160", <baublelicious:ItemFlyingRing>, 70);
+mods.thaumcraft.Research.addInfusionPage("FLYINGRING", <baublelicious:ItemFlyingRing>);
+mods.thaumcraft.Research.addPage("FLYINGRING", "derp.research_page.FLYINGRING.1");
+game.setLocalization("zh_CN", "derp.research_page.FLYINGRING.1", "在不稳定金属的帮助下，你终于能够将飞行指环从指环栏中摘下来了，而飞行指环也摇身一变成了天使指环，而拥有了天使之羽的天使指环能够使你如天使一般在空中飞翔。");
+mods.thaumcraft.Infusion.addRecipe("FLYINGRING", <baublelicious:ItemFlyingRing>, [<minecraft:glass>, <minecraft:glass>, <xreliquary:angelic_feather>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <xreliquary:angelic_feather>], "volatus 128, aer 128, motus 64, iter 64, instrumentum 64", <ExtraUtilities:angelRing>, 10);
+mods.thaumcraft.Infusion.addRecipe("FLYINGRING", <baublelicious:ItemFlyingRing>, [<minecraft:feather>, <minecraft:feather>, <xreliquary:angelic_feather>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <xreliquary:angelic_feather>], "volatus 128, aer 128, motus 64, iter 64, instrumentum 64", <ExtraUtilities:angelRing:1>, 10);
+mods.thaumcraft.Infusion.addRecipe("FLYINGRING", <baublelicious:ItemFlyingRing>, [<RandomThings:ingredient:5>, <RandomThings:ingredient:5>, <xreliquary:angelic_feather>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <xreliquary:angelic_feather>], "volatus 128, aer 128, motus 64, iter 64, instrumentum 64", <ExtraUtilities:angelRing:2>, 10);
+mods.thaumcraft.Infusion.addRecipe("FLYINGRING", <baublelicious:ItemFlyingRing>, [<minecraft:leather>, <minecraft:leather>, <xreliquary:angelic_feather>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <xreliquary:angelic_feather>], "volatus 128, aer 128, motus 64, iter 64, instrumentum 64", <ExtraUtilities:angelRing:3>, 10);
+mods.thaumcraft.Infusion.addRecipe("FLYINGRING", <baublelicious:ItemFlyingRing>, [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <xreliquary:angelic_feather>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:2>, <xreliquary:angelic_feather>], "volatus 128, aer 128, motus 64, iter 64, instrumentum 64", <ExtraUtilities:angelRing:4>, 10);
+mods.thaumcraft.Research.addInfusionPage("FLYINGRING", <ExtraUtilities:angelRing>);
+mods.thaumcraft.Research.addInfusionPage("FLYINGRING", <ExtraUtilities:angelRing:1>);
+mods.thaumcraft.Research.addInfusionPage("FLYINGRING", <ExtraUtilities:angelRing:2>);
+mods.thaumcraft.Research.addInfusionPage("FLYINGRING", <ExtraUtilities:angelRing:3>);
+mods.thaumcraft.Research.addInfusionPage("FLYINGRING", <ExtraUtilities:angelRing:4>);
+mods.thaumcraft.Research.setConcealed("FLYINGRING", true);
+
 #Tweak of thaumium
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:2>);
 mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <Thaumcraft:ItemResource:2>, <ThermalFoundation:material:70>, "praecantatio 4");
@@ -73,6 +100,11 @@ mods.thaumcraft.Research.setConcealed("SILVERWOOD", true);
 recipes.remove(<Thaumcraft:ItemThaumometer>);
 recipes.addShaped(<Thaumcraft:ItemThaumometer>, [[<Creator:itemAlloy:5>, <ore:materialAspectShard>, <Creator:itemAlloy:5>], [<Creator:itemAlloy:6>, <StevesCarts:ModuleComponents:5>, <Creator:itemAlloy:6>], [<Creator:itemAlloy:12>, <ore:materialAspectShard>, <Creator:itemAlloy:12>]]);
 mods.thaumcraft.Research.refreshResearchRecipe("THAUMOMETER");
+
+#Tweak of Tallow Candle
+recipes.remove(<Thaumcraft:blockCandle>);
+recipes.addShaped(<Thaumcraft:blockCandle> * 2, [[<WitchingGadgets:item.WG_Material>], [<Thaumcraft:ItemResource:4>], [<Thaumcraft:ItemResource:4>]]);
+mods.thaumcraft.Research.refreshResearchRecipe("TALLOW");
 
 #Taint maker
 mods.thaumcraft.Research.addResearch("TAINTPLANT","ALCHEMY","praecantatio 4, perditio 2, arbor 2, herba 2", 1, -4, 4, <Thaumcraft:blockTaintFibres>);

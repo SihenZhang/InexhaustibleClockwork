@@ -259,8 +259,6 @@ mods.thermalexpansion.Transposer.addFillRecipe(120000, <ThermalFoundation:materi
 mods.thermalexpansion.Transposer.addFillRecipe(120000, <ThermalFoundation:material:34>, <ThermalFoundation:material:34>*2, <liquid:mana> * 30000);
 mods.thermalexpansion.Transposer.addFillRecipe(120000, <ThermalFoundation:material:37>, <ThermalFoundation:material:37>*4, <liquid:mana> * 10000);
 
-#HOP -> Diamond
-mods.thermalexpansion.Smelter.addRecipe(120000, <ImmersiveEngineering:metal:20>*8, <Magneticraft:item.dustdiamond>, <minecraft:diamond>*2);
 #those abandoned kids :<
 recipes.remove(<ThermalExpansion:capacitor:1>); #no! never before tier3!
 recipes.remove (<ThermalExpansion:Machine:8>);

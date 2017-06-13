@@ -84,7 +84,7 @@ recipes.remove(<Railcraft:machine.beta:7>);
 
 #rolling machine
 recipes.remove(<Railcraft:machine.alpha:8>);
-recipes.addShaped(<Railcraft:machine.alpha:8>, [[<Creator:IronHammer>, <ore:gearIron>, <Creator:IronHammer>], [<ore:gearIron>, <Forestry:thermionicTubes:1>, <ore:gearIron>], [<Creator:IronHammer>, <ore:gearIron>, <Creator:IronHammer>]]);
+recipes.addShaped(<Railcraft:machine.alpha:8>, [[<Creator:IronHammer>, <ore:gearIron>, <Creator:IronHammer>], [<ore:gearIron>, <BuildCraft|Factory:autoWorkbenchBlock>, <ore:gearIron>], [<Creator:IronHammer>, <ore:gearIron>, <Creator:IronHammer>]]);
 
 #steel gear
 recipes.remove(<Railcraft:part.gear:2>);

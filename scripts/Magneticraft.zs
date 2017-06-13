@@ -30,34 +30,6 @@ mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:22>);
 mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:23>);
 furnace.remove(<*>, <Magneticraft:item.pebbles:23>);
 mods.thermalexpansion.Furnace.removeRecipe(<Magneticraft:item.pebbles:23>);
-NEI.hide(<Magneticraft:item.chunks:15>);
-NEI.hide(<Magneticraft:item.chunks:17>);
-NEI.hide(<Magneticraft:item.chunks:18>);
-NEI.hide(<Magneticraft:item.chunks:20>);
-NEI.hide(<Magneticraft:item.chunks:21>);
-NEI.hide(<Magneticraft:item.chunks:22>);
-NEI.hide(<Magneticraft:item.chunks:23>);
-NEI.hide(<Magneticraft:item.rubble:15>);
-NEI.hide(<Magneticraft:item.rubble:17>);
-NEI.hide(<Magneticraft:item.rubble:18>);
-NEI.hide(<Magneticraft:item.rubble:20>);
-NEI.hide(<Magneticraft:item.rubble:21>);
-NEI.hide(<Magneticraft:item.rubble:22>);
-NEI.hide(<Magneticraft:item.rubble:23>);
-NEI.hide(<Magneticraft:item.pebbles:15>);
-NEI.hide(<Magneticraft:item.pebbles:17>);
-NEI.hide(<Magneticraft:item.pebbles:18>);
-NEI.hide(<Magneticraft:item.pebbles:20>);
-NEI.hide(<Magneticraft:item.pebbles:21>);
-NEI.hide(<Magneticraft:item.pebbles:22>);
-NEI.hide(<Magneticraft:item.pebbles:23>);
-NEI.hide(<Magneticraft:item.dust:15>);
-NEI.hide(<Magneticraft:item.dust:17>);
-NEI.hide(<Magneticraft:item.dust:18>);
-NEI.hide(<Magneticraft:item.dust:20>);
-NEI.hide(<Magneticraft:item.dust:21>);
-NEI.hide(<Magneticraft:item.dust:22>);
-NEI.hide(<Magneticraft:item.dust:23>);
 
 #remove sulfur from OreDict
 <ore:dustSulfur>.remove(<Magneticraft:item.dustSulfur>);
@@ -81,9 +53,13 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:item.iron_pipe> * 3, [[<ore:plat
                                                                       [<ore:plateInvar>, <BuildCraft|Transport:item.buildcraftPipe.pipefluidsstone>, <ore:plateInvar>]], <liquid:invar.molten> * 288, 20);
 <Magneticraft:item.copper_pipe>.addTooltip(format.red("Copper is so cheap, isn't it?"));
 
+#battery
+recipes.remove(<Magneticraft:battery>);
+recipes.addShaped(<Magneticraft:battery>, [[<ore:plateIron>, <Magneticraft:item.battery>, <ore:plateIron>], [<Magneticraft:item.battery>, <ore:circuitBasic>, <Magneticraft:item.battery>], [<ore:plateIron>, <Magneticraft:item.battery>, <ore:plateIron>]]);
+
 #crusher control
 recipes.remove (<Magneticraft:crusher_control>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:crusher_control> , [[<minecraft:piston>, null, <minecraft:piston>],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:crusher_control> , [[<minecraft:piston>, <ore:circuitBasic>, <minecraft:piston>],
                                                                       [<ore:plateIron>, <Creator:chamberIron>, <ore:plateIron>], 
                                                                       [<ore:plateIron>, <Creator:motorDC>, <ore:plateIron>]], <liquid:iron.molten> * 288, 200);
 #grinder control
@@ -100,7 +76,7 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:stirling_generator> , [[<ore:pla
 recipes.remove(<Magneticraft:refinery_control>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:refinery_control> , [[<ore:plateIron>, <Magneticraft:mg_tank>, <ore:plateIron>],
                                                                       [<Magneticraft:item.heat_cable>, <Creator:chamberIron>, <Magneticraft:item.heat_cable>], 
-                                                                      [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]], <liquid:iron.molten> * 288, 150);
+                                                                      [<ore:plateIron>, <ore:circuitBasic>, <ore:plateIron>]], <liquid:iron.molten> * 288, 150);
 #polymerizer control
 recipes.remove(<Magneticraft:polimerizer_control>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:polimerizer_control> , [[<ore:plateIron>, <Mekanism:ControlCircuit>, <ore:plateIron>],
@@ -123,53 +99,53 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:sifter_control> , [[<Mekanism:Co
                                                                       [<Creator:motorDC>, <Magneticraft:refinery_gap>, <Creator:motorDC>]], <liquid:iron.molten> * 288, 300);
 #multiblocks
 recipes.remove(<Magneticraft:chasis>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:chasis> * 18 , [[<ore:plateIron>, <ore:stickIron>, <ore:plateIron>],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:chasis> * 8, [[<ore:plateIron>, <ore:stickIron>, <ore:plateIron>],
                                                                       [<ore:stickIron>, <ore:gearIron>, <ore:stickIron>], 
-                                                                      [<ore:plateIron>, <ore:stickIron>, <ore:plateIron>]], <liquid:iron.molten> * 144, 150);
+                                                                      [<ore:plateIron>, <ore:stickIron>, <ore:plateIron>]], <liquid:iron.molten> * 144, 80, <Mekanism:ControlCircuit>);
 recipes.remove(<Magneticraft:MB_EnergyIO>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:MB_EnergyIO> * 1 , [[<Magneticraft:item.cable_low>, null, null],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:MB_EnergyIO> * 1, [[<Magneticraft:item.cable_low>, null, null],
                                                                       [null, null, null], 
                                                                       [null, null, null]], <liquid:iron.molten> * 72, 20, <Magneticraft:chasis>);
 recipes.remove(<Magneticraft:MB_Energy_medium>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:MB_Energy_medium> * 1 , [[<Magneticraft:item.cable_medium>, null, null],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:MB_Energy_medium> * 1, [[<Magneticraft:item.cable_medium>, null, null],
                                                                       [null, null, null], 
                                                                       [null, null, null]], <liquid:iron.molten> * 72, 20, <Magneticraft:chasis>);
 recipes.remove(<Magneticraft:multi_heat>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:multi_heat> * 1 , [[<Magneticraft:item.heat_cable>, null, null],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:multi_heat> * 1, [[<Magneticraft:item.heat_cable>, null, null],
                                                                       [null, null, null], 
                                                                       [null, null, null]], <liquid:iron.molten> * 72, 20, <Magneticraft:chasis>);
 recipes.remove(<Magneticraft:multi_io>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:multi_io> * 1 , [[<minecraft:chest>, null, null],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:multi_io> * 1, [[<minecraft:chest>, null, null],
                                                                       [null, null, null], 
                                                                       [null, null, null]], <liquid:iron.molten> * 72, 20, <Magneticraft:chasis>);
 recipes.remove(<Magneticraft:refinery_gap>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:refinery_gap> * 1 , [[null, <ore:plateIron>, null],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:refinery_gap> * 1, [[null, <ore:plateIron>, null],
                                                                       [<ore:plateCopper>, <Magneticraft:chasis>, <ore:plateCopper>], 
                                                                       [null, <ore:plateIron>, null]], <liquid:iron.molten> * 72, 20);
 recipes.remove(<Magneticraft:mg_tank>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:mg_tank> * 2 , [[<ore:plateCopper>, <ore:blockGlass>, <ore:plateCopper>],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:mg_tank> * 2, [[<ore:plateCopper>, <ore:blockGlass>, <ore:plateCopper>],
                                                                       [<ore:blockGlass>, null, <ore:blockGlass>], 
                                                                       [<ore:plateCopper>, <ore:blockGlass>, <ore:plateCopper>]], <liquid:copper.molten> * 144, 20);
 recipes.remove(<Magneticraft:refinery_tank>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:refinery_tank> * 3 , [[null, <Magneticraft:refinery_gap>, null],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:refinery_tank> * 3, [[null, <Magneticraft:refinery_gap>, null],
                                                                       [<Magneticraft:refinery_gap>, <Magneticraft:mg_tank>, <Magneticraft:refinery_gap>], 
                                                                       [null, null, null]], <liquid:iron.molten> * 72, 20);
 recipes.remove(<Magneticraft:mb_controls>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:mb_controls> * 1 , [[<ore:plateIron>, <minecraft:lever>, <ore:plateIron>],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:mb_controls> * 1, [[<ore:plateIron>, <minecraft:lever>, <ore:plateIron>],
                                                                       [<minecraft:lever>, <Magneticraft:chasis>, <minecraft:lever>], 
                                                                       [<ore:plateIron>, <minecraft:lever>, <ore:plateIron>]], <liquid:iron.molten> * 72, 20);
 
 #electric furnace
 recipes.remove(<Magneticraft:electricfurnace>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:electricfurnace> , [[<ore:plateIron>, <Mekanism:ControlCircuit>, <ore:plateIron>],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:electricfurnace>, [[<ore:plateIron>, <Mekanism:ControlCircuit>, <ore:plateIron>],
                                                                       [<ore:plateIron>, <Creator:chamberIron>, <ore:plateIron>], 
                                                                       [<ore:plateIron>, <Magneticraft:item.cable_low>, <ore:plateIron>]], <liquid:iron.molten> * 288, 100);
 recipes.remove(<Magneticraft:item.heatcoil_copper>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:item.heatcoil_copper> * 1 , [[<Creator:wireCopper>, <Creator:wireCopper>, null],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:item.heatcoil_copper> * 1, [[<Creator:wireCopper>, <Creator:wireCopper>, null],
                                                                       [<Creator:wireCopper>, <Creator:wireCopper>, null], 
                                                                       [null, null, null]], <liquid:copper.molten> * 144, 40);
 recipes.remove(<Magneticraft:item.heatcoil_iron>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:item.heatcoil_iron> * 1 , [[<Creator:wireSteel>, <Creator:wireSteel>, null],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:item.heatcoil_iron> * 1, [[<Creator:wireSteel>, <Creator:wireSteel>, null],
                                                                       [<Creator:wireSteel>, <Creator:wireSteel>, null], 
                                                                       [null, null, null]], <liquid:iron.molten> * 144, 40);
 recipes.remove(<Magneticraft:item.heatcoil_tungsten>);
@@ -227,11 +203,11 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:transformer_mh> , [[null, <Creat
 recipes.remove(<Magneticraft:basic_generator>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:basic_generator> , [[<Magneticraft:item.cable_low>, <Creator:generatorDC>, <Magneticraft:item.cable_low>],
                                                                       [<Magneticraft:item.heat_cable>, <Magneticraft:mg_tank>, <Magneticraft:item.heat_cable>], 
-                                                                      [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]], <liquid:iron.molten> * 144, 100);
+                                                                      [<ore:plateIron>, <ore:circuitBasic>, <ore:plateIron>]], <liquid:iron.molten> * 144, 100);
 recipes.remove(<Magneticraft:steam_engine>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:steam_engine> , [[<ore:plateIron>, <Magneticraft:item.cable_low>, <ore:plateIron>],
                                                                       [<Railcraft:part.turbine.blade>, <Creator:generatorDC>, <Railcraft:part.turbine.blade>], 
-                                                                      [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]], <liquid:iron.molten> * 144, 100);
+                                                                      [<ore:plateIron>, <ore:circuitBasic>, <ore:plateIron>]], <liquid:iron.molten> * 144, 100);
 recipes.remove(<Magneticraft:geothermal_pump>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:geothermal_pump> , [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
                                                                       [<ore:plateIron>, <Magneticraft:item.heat_cable>, <ore:plateIron>], 
@@ -247,7 +223,7 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:airlock> , [[<ore:blockGlass>, <
 recipes.remove(<Magneticraft:crafter>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:crafter> , [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
                                                                       [<Magneticraft:inserter>, <Creator:chamberIron>, <Magneticraft:inserter>], 
-                                                                      [<ore:plateIron>, <minecraft:redstone>, <ore:plateIron>]], <liquid:iron.molten> * 288, 300);
+                                                                      [<ore:plateIron>, <ore:ingotRedAlloy>, <ore:plateIron>]], <liquid:iron.molten> * 288, 300);
 recipes.remove(<Magneticraft:heater>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:heater> , [[<ore:plateIron>, <Magneticraft:item.heatcoil_iron>, <ore:plateIron>],
                                                                       [<Magneticraft:item.heatcoil_iron>, <Creator:chamberIron>, <Magneticraft:item.heatcoil_iron>], 
@@ -261,13 +237,13 @@ mods.forestry.Carpenter.addRecipe(<Magneticraft:conveyor_low>*32 , [[<minecraft:
                                                                       [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
                                                                       [null,null,null]], <liquid:iron.molten> * 72, 30);
 recipes.remove(<Magneticraft:inserter>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:inserter>*16 , [[null, null, <ore:stickWood>],
+mods.forestry.Carpenter.addRecipe(<Magneticraft:inserter>, [[null, null, <ore:stickWood>],
                                                                       [null, <ore:stickWood>, null], 
                                                                       [<ore:stone>,<ore:gearCopper>,<ore:stone>]], <liquid:copper.molten> * 72, 30);
 recipes.remove(<Magneticraft:combustion_engine>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:combustion_engine> , [[<Magneticraft:heat_sink>, null, <Magneticraft:heat_sink>],
                                                                       [<ore:plateIron>, <Creator:generatorDC>, <ore:plateIron>], 
-                                                                      [<Magneticraft:item.plastic>,<Magneticraft:item.cable_low>,<Magneticraft:item.plastic>]], <liquid:iron.molten> * 144, 150);
+                                                                      [<Magneticraft:item.plastic>, <ore:circuitBasic>, <Magneticraft:item.plastic>]], <liquid:iron.molten> * 144, 150);
 recipes.remove(<Magneticraft:heat_sink>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:heat_sink> , [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>],
                                                                       [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], 
@@ -279,10 +255,6 @@ recipes.addShaped (<Magneticraft:electric_switch>, [[null,<minecraft:lever>,null
 recipes.remove(<Magneticraft:permanent_magnet>);
 recipes.addShaped (<Magneticraft:permanent_magnet>*2, [[null,<Creator:magnetIron>,null],[<Creator:magnetIron>,<Creator:magnetIron>,<Creator:magnetIron>],[null,<Creator:magnetIron>,null]]);
 
-recipes.remove(<Magneticraft:item.jack_hammer>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:item.jack_hammer> , [[<ore:plateIron>, <Magneticraft:item.battery_small>, <ore:plateIron>],
-                                                                      [<Forestry:thermionicTubes>, <Creator:motorDC>, <Forestry:thermionicTubes>], 
-                                                                      [null,<Magneticraft:item.drill>,null]], <liquid:iron.molten> * 288, 150);
 recipes.remove(<Magneticraft:item.inserter_item_speed_upgrade>);
 recipes.addShaped (<Magneticraft:item.inserter_item_speed_upgrade>, [[<Magneticraft:item.plastic>,<Magneticraft:item.plastic>,<Magneticraft:item.plastic>],[<Magneticraft:item.plastic>,<Creator:coilCopper>,<Magneticraft:item.plastic>],[<Magneticraft:item.plastic>,<Magneticraft:item.plastic>,<Magneticraft:item.plastic>]]);
 
@@ -308,18 +280,7 @@ mods.magneticraft.Crusher.removeRecipe(<Magneticraft:thorium_ore>);
 mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.chunks:8>);
 mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.rubble:8>);
 mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:8>);
-NEI.hide(<Magneticraft:item.dust:7>);
-NEI.hide(<Magneticraft:item.chunks:7>);
-NEI.hide(<Magneticraft:item.rubble:7>);
-NEI.hide(<Magneticraft:item.pebbles:7>);
-NEI.hide(<Magneticraft:item.dust:8>);
-NEI.hide(<Magneticraft:item.chunks:8>);
-NEI.hide(<Magneticraft:item.rubble:8>);
-NEI.hide(<Magneticraft:item.pebbles:8>);
-NEI.hide(<Magneticraft:thorium_ore>);
-NEI.hide(<Magneticraft:uranium_ore>);
-
-																	  
+																  
 #those abandoned kids :\
 recipes.remove(<Magneticraft:item.motor>);
 <Magneticraft:item.motor>.addTooltip(format.red("We want to make parts unified."));
@@ -360,6 +321,11 @@ recipes.remove(<Magneticraft:rc_alternator>);
 recipes.remove(<Magneticraft:item.oil_prospector>);
 <Magneticraft:item.oil_prospector>.addTooltip(format.red("Why do you still want this? OilSource has disappeared."));
 <Magneticraft:miner>.addTooltip(format.red("U want 2 use it? Use dat SLOWWWWW BC Quarry instead!"));
+recipes.remove(<Magneticraft:block_breaker>);
+<Magneticraft:block_breaker>.addTooltip(format.red("It's a little imba, so we remove it."));
+recipes.remove(<Magneticraft:item.jack_hammer>);
+<Magneticraft:item.jack_hammer>.addTooltip(format.red("Please use TConstruct tools."));
+<Magneticraft:item.iron_pipe>.displayName = "因瓦合金管道";
 
 NEI.hide(<Magneticraft:oil_source>);
 NEI.hide(<Magneticraft:oil_source_drained>);

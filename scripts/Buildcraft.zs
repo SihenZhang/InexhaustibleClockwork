@@ -9,7 +9,7 @@ print("Initializing 'Buildcraft.zs'...");
 recipes.remove(<BuildCraft|Core:engineBlock:2>);
 recipes.remove(<BuildCraft|Core:engineBlock:1>);
 recipes.remove(<BuildCraft|Core:engineBlock>);
-recipes.addShaped(<BuildCraft|Core:engineBlock>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<Creator:IronHammer>.anyDamage().transformDamage(), <Forestry:chipsets>, <Creator:IronWrench>.anyDamage().transformDamage()], [<ore:gearCopper>, <minecraft:piston>, <ore:gearCopper>]]);
+mods.logistics.hammer.addRecipe(<minecraft:piston> * 2, <BuildCraft|Core:engineBlock>);
 recipes.addShaped(<BuildCraft|Core:engineBlock:1>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<Creator:IronHammer>.anyDamage().transformDamage(), <Forestry:chipsets:2>, <Creator:IronWrench>.anyDamage().transformDamage()], [<ore:thermalexpansion:machineIron>, <minecraft:piston>, <ore:thermalexpansion:machineIron>]]);
 <BuildCraft|Core:engineBlock:2>.addTooltip(format.red("This machine has no recipe now!"));
 

@@ -39,4 +39,15 @@ mods.thermalexpansion.Smelter.addRecipe(120000, <Creator:SJComponents:4>, <Extra
 <Creator:SJComponents:5>.addTooltip(format.gray("To craft this, you need a Golden Lasso with a captured bat."));
 <Creator:SJComponents:5>.addTooltip(format.gray("你需要一个捕捉了蝙蝠的黄金套索来制作它。"));
 
+#flux pack
+recipes.remove(<simplyjetpacks:fluxpacks:2>);
+recipes.addShaped(<simplyjetpacks:fluxpacks:2>, [[null, <ThermalExpansion:Cell:2>], [<ore:ingotInvar>, <simplyjetpacks:fluxpacks:1>, <ore:ingotInvar>], [null, <ore:ingotInvar>]]);
+recipes.addShapeless(<simplyjetpacks:fluxpacks:2>, [<simplyjetpacks:fluxpacks:102>.transformReplace(<simplyjetpacks:armorPlatings:1>)]);
+recipes.remove(<simplyjetpacks:fluxpacks:3>);
+recipes.addShaped(<simplyjetpacks:fluxpacks:3>, [[null, <ThermalExpansion:Cell:3>], [<ore:ingotEnergeticAlloy>, <simplyjetpacks:fluxpacks:2>, <ore:ingotEnergeticAlloy>], [<ore:ingotSignalum>, <ThermalExpansion:material:3>, <ore:ingotSignalum>]]);
+recipes.addShapeless(<simplyjetpacks:fluxpacks:3>, [<simplyjetpacks:fluxpacks:103>.transformReplace(<simplyjetpacks:armorPlatings:2>)]);
+recipes.remove(<simplyjetpacks:fluxpacks:4>);
+recipes.addShaped(<simplyjetpacks:fluxpacks:4>, [[null, <ThermalExpansion:Cell:4>], [<ore:ingotVibrantAlloy>, <simplyjetpacks:fluxpacks:2>, <ore:ingotVibrantAlloy>], [null, <ore:ingotVibrantAlloy>]]);
+recipes.addShapeless(<simplyjetpacks:fluxpacks:4>, [<simplyjetpacks:fluxpacks:104>.transformReplace(<simplyjetpacks:armorPlatings:3>)]);
+
 print("Initialized 'SimplyJetpacks.zs'");

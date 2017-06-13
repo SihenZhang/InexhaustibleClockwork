@@ -1,8 +1,6 @@
 #Name: ImmersiveEngineering.zs
 #Author: Prunoideae & Si_hen
 
-import mods.nei.NEI;
-
 print("Initializing 'ImmersiveEngineering.zs'...");
 
 #add tooltip to manual
@@ -53,15 +51,6 @@ mods.immersiveengineering.MetalPress.removeRecipe(<ImmersiveEngineering:metal:35
 mods.immersiveengineering.MetalPress.removeRecipe(<ImmersiveEngineering:metal:36>);
 mods.immersiveengineering.MetalPress.removeRecipe(<ImmersiveEngineering:metal:37>);
 mods.immersiveengineering.MetalPress.removeRecipe(<ImmersiveEngineering:metal:38>);
-#NEI.hide(<ImmersiveEngineering:metal:38>);
-#NEI.hide(<ImmersiveEngineering:metal:37>);
-#NEI.hide(<ImmersiveEngineering:metal:36>);
-#NEI.hide(<ImmersiveEngineering:metal:35>);
-#NEI.hide(<ImmersiveEngineering:metal:34>);
-#NEI.hide(<ImmersiveEngineering:metal:33>);
-#NEI.hide(<ImmersiveEngineering:metal:32>);
-#NEI.hide(<ImmersiveEngineering:metal:31>);
-#NEI.hide(<ImmersiveEngineering:metal:30>);
 <ImmersiveEngineering:metal:38>.addTooltip(format.red("This item has no recipe now!"));
 <ImmersiveEngineering:metal:37>.addTooltip(format.red("This item has no recipe at all!"));
 <ImmersiveEngineering:metal:36>.addTooltip(format.red("This item has no recipe now!"));
@@ -116,7 +105,7 @@ recipes.removeShaped(<ProjRed|Core:projectred.core.part:56>, [[<ore:oreElectroti
 vanilla.loot.removeChestLoot("ieVillageCrates", <ImmersiveEngineering:blueprint:2>);
 vanilla.loot.removeChestLoot("strongholdLibrary", <ImmersiveEngineering:blueprint:2>);
 vanilla.loot.removeChestLoot("villageBlacksmith", <ImmersiveEngineering:blueprint:2>);
-mods.immersiveengineering.Squeezer.addRecipe(<ImmersiveEngineering:graphiteElectrode>, null, <ImmersiveEngineering:metal:20> * 6, 7200);
+mods.immersiveengineering.Squeezer.addRecipe(<ImmersiveEngineering:graphiteElectrode>, null, <ImmersiveEngineering:metal:20> * 6, 3600);
 
 #mechanical component
 recipes.remove(<ImmersiveEngineering:material:11>);
@@ -132,11 +121,11 @@ recipes.remove(<ImmersiveEngineering:coil>);
 recipes.remove(<ImmersiveEngineering:coil:1>);
 recipes.remove(<ImmersiveEngineering:coil:2>);
 recipes.remove(<ImmersiveEngineering:coil:4>);
-recipes.addShaped (<ImmersiveEngineering:coil>*4, [[null,<Creator:wireCopper>,null],[<Creator:wireCopper>,<ore:stickWood>,<Creator:wireCopper>],[null,<Creator:wireCopper>,null]]);
+recipes.addShaped (<ImmersiveEngineering:coil> * 4, [[null, <Creator:wireCopper>], [<Creator:wireCopper>, <ore:treatedStick>, <Creator:wireCopper>], [null, <Creator:wireCopper>]]);
 #Gold, yes gold, not electrum or something
-recipes.addShaped (<ImmersiveEngineering:coil:1>*4, [[null,<Creator:wireGold>,null],[<Creator:wireGold>,<ore:stickWood>,<Creator:wireGold>],[null,<Creator:wireGold>,null]]);
-recipes.addShaped (<ImmersiveEngineering:coil:2>*4, [[null,<Creator:wireSteel>,null],[<Creator:wireAluminum>,<ore:stickWood>,<Creator:wireAluminum>],[null,<Creator:wireSteel>,null]]);
-recipes.addShaped (<ImmersiveEngineering:coil:4>*4, [[null,<Creator:wireSteel>,null],[<Creator:wireSteel>,<ore:stickWood>,<Creator:wireSteel>],[null,<Creator:wireSteel>,null]]);
+recipes.addShaped (<ImmersiveEngineering:coil:1> * 4, [[null, <Creator:wireGold>], [<Creator:wireGold>, <Forestry:oakStick>, <Creator:wireGold>], [null, <Creator:wireGold>]]);
+recipes.addShaped (<ImmersiveEngineering:coil:2> * 4, [[null, <Creator:wireSteel>], [<Creator:wireAluminum>, <Forestry:oakStick>,<Creator:wireAluminum>],[null, <Creator:wireSteel>]]);
+recipes.addShaped (<ImmersiveEngineering:coil:4> * 4, [[null, <Creator:wireSteel>], [<Creator:wireSteel>, <ore:stickWood>, <Creator:wireSteel>], [null, <Creator:wireSteel>]]);
 
 #capacitor
 recipes.remove(<ImmersiveEngineering:metalDevice:1>);
@@ -144,13 +133,13 @@ recipes.remove(<ImmersiveEngineering:metalDevice:3>);
 recipes.remove(<ImmersiveEngineering:metalDevice:7>);
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDevice:1>, [[<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>],
                                                                        [<ore:plateCopper>, <ore:ingotLead>, <ore:plateCopper>], 
-                                                                       [<ore:plankTreatedWood>, <minecraft:redstone>, <ore:plankTreatedWood>]], <liquid:invar.molten> * 288, 200);
+                                                                       [<ore:plankTreatedWood>, <ore:ingotRedAlloy>, <ore:plankTreatedWood>]], <liquid:invar.molten> * 288, 200);
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDevice:3>, [[<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>],
                                                                        [<ore:plateIron>, <ore:ingotLead>, <ore:plateIron>], 
-                                                                       [<ore:plankTreatedWood>, <ore:blockRedstone>, <ore:plankTreatedWood>]], <liquid:invar.molten> * 288, 250);
+                                                                       [<ore:plankTreatedWood>, <ore:circuitBasic>, <ore:plankTreatedWood>]], <liquid:invar.molten> * 288, 250);
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDevice:7>, [[<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>],
                                                                        [<ore:plateGold>, <ore:blockLead>, <ore:plateGold>], 
-                                                                       [<ore:plankTreatedWood>, <ore:blockRedstone>, <ore:plankTreatedWood>]], <liquid:invar.molten> * 288, 300);
+                                                                       [<ore:plankTreatedWood>, <ore:circuitAdvanced>, <ore:plankTreatedWood>]], <liquid:invar.molten> * 288, 300);
 #transformer
 recipes.remove(<ImmersiveEngineering:metalDevice:4>); #l->m
 recipes.remove(<ImmersiveEngineering:metalDevice:8>); #m->v
@@ -165,22 +154,22 @@ mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDevice:8>, [[<Immer
 recipes.remove(<ImmersiveEngineering:metalDevice:9>);
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDevice:9>, [[<ore:plateInvar>,<OpenBlocks:wrench>,<ore:plateInvar>],
                                                                        [<ImmersiveEngineering:metalDevice>, <Creator:generatorACSP>, <ImmersiveEngineering:metalDevice>], 
-                                                                       [<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>]], <liquid:invar.molten> * 288, 250);
+                                                                       [<ore:plateInvar>, <ore:circuitAdvanced>, <ore:plateInvar>]], <liquid:invar.molten> * 288, 250);
 
 #external heater
 recipes.remove(<ImmersiveEngineering:metalDevice:12>);
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDevice:12>, [[<ore:plateInvar>, <ore:plateCopper>, <ore:plateInvar>],
                                                                        [<ore:plateCopper>, <ImmersiveEngineering:storage:8>, <ore:plateCopper>], 
-                                                                       [<ore:plateInvar>, <ImmersiveEngineering:metalDevice:0>, <ore:plateInvar>]], <liquid:invar.molten> * 288, 125);
+                                                                       [<ore:plateInvar>, <ore:circuitAdvanced>, <ore:plateInvar>]], <liquid:invar.molten> * 288, 125);
 #item router
 recipes.remove(<ImmersiveEngineering:metalDevice:13>);
-mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDevice:13>, [[<ore:plateInvar>, <minecraft:redstone>, <ore:plateInvar>],
-                                                                       [<ore:plankTreatedWood>, <ImmersiveEngineering:material:11>, <ore:plankTreatedWood>], 
-                                                                       [<ore:plateInvar>, <minecraft:redstone>, <ore:plateInvar>]], <liquid:invar.molten> * 144, 125);
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDevice:13>, [[<ore:plateInvar>, <ImmersiveEngineering:material:11>, <ore:plateInvar>],
+                                                                       [<ore:plankTreatedWood>, <BuildCraft|Transport:filteredBufferBlock>, <ore:plankTreatedWood>], 
+                                                                       [<ore:plateInvar>, <ImmersiveEngineering:material:11>, <ore:plateInvar>]], <liquid:invar.molten> * 144, 125);
 #sample drill
 recipes.remove(<ImmersiveEngineering:metalDevice:14>);
-mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDevice:14>, [[<ImmersiveEngineering:metalDecoration:1>, <ImmersiveEngineering:metalDevice>, <ImmersiveEngineering:metalDecoration:1>],
-                                                                       [<Forestry:thermionicTubes:3>, <Creator:motorACSP>, <Forestry:thermionicTubes:3>], 
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDevice:14>, [[<ImmersiveEngineering:metalDecoration:1>, <ore:circuitAdvanced>, <ImmersiveEngineering:metalDecoration:1>],
+                                                                       [<Forestry:chipsets:2>, <Creator:motorACSP>, <Forestry:chipsets:2>], 
                                                                        [<ImmersiveEngineering:metalDecoration:7>, <Magneticraft:item.drill>, <ImmersiveEngineering:metalDecoration:7>]], <liquid:invar.molten> * 144, 200);
 #iron pipe <- yes iron! 
 recipes.remove(<ImmersiveEngineering:metalDevice2:5>);
@@ -233,18 +222,18 @@ recipes.remove(<ImmersiveEngineering:metalDecoration:4>); #radiator
 recipes.remove(<ImmersiveEngineering:metalDecoration:5>); #heavy
 recipes.remove(<ImmersiveEngineering:metalDecoration:6>); #generator
 recipes.remove(<ImmersiveEngineering:metalDecoration:7>); #light
-mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:4>*2, [[<ore:plateSteel>, <ore:plateCopper>,<ore:plateSteel>],
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:4> * 2, [[<ore:plateSteel>, <ore:plateCopper>,<ore:plateSteel>],
                                                                        [<ore:plateCopper>, <Magneticraft:heat_sink>, <ore:plateCopper>], 
                                                                        [<ore:plateSteel>, <ore:plateCopper>,<ore:plateSteel>]], <liquid:steel.molten> * 144, 80);
-mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:5>*2, [[<ore:plateSteel>, <ImmersiveEngineering:material:12>,<ore:plateSteel>],
-                                                                       [<minecraft:piston>, <ore:plateInvar>,<minecraft:piston>], 
-                                                                       [<ore:plateSteel> , <ImmersiveEngineering:material:12> ,<ore:plateSteel>]], <liquid:steel.molten> * 144, 80);
-mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:6>*2, [[<ore:plateSteel>, <ore:plateSteel>,<ore:plateSteel>],
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:5> * 2, [[<ore:plateSteel>, <ImmersiveEngineering:material:12>,<ore:plateSteel>],
+                                                                       [<minecraft:piston>, <ore:plateInvar>, <minecraft:piston>], 
+                                                                       [<ore:plateSteel>, <ImmersiveEngineering:material:12>, <ore:plateSteel>]], <liquid:steel.molten> * 144, 150, <Mekanism:ControlCircuit:1>);
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:6> * 2, [[<ore:plateSteel>, <ore:plateSteel>,<ore:plateSteel>],
                                                                        [<ImmersiveEngineering:coil:1>, <Creator:generatorACSP>, <ImmersiveEngineering:coil:1>], 
-                                                                       [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]], <liquid:steel.molten> * 72, 80);
-mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:7>*2, [[<ore:plateInvar>, <ImmersiveEngineering:material:11>,<ore:plateInvar>], 
+                                                                       [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]], <liquid:steel.molten> * 72, 150, <Mekanism:ControlCircuit:1>);
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:7> * 2, [[<ore:plateInvar>, <ImmersiveEngineering:material:11>,<ore:plateInvar>], 
 																			  [<ore:plateCopper>, <Creator:compactInvarPlate>, <ore:plateCopper>], 
-																			  [<ore:plateInvar>, <ImmersiveEngineering:material:11>, <ore:plateInvar>]], <liquid:invar.molten> * 144, 80);
+																			  [<ore:plateInvar>, <ImmersiveEngineering:material:11>, <ore:plateInvar>]], <liquid:invar.molten> * 144, 100, <Mekanism:ControlCircuit:1>);
 #shit metal blocks
 recipes.remove(<ImmersiveEngineering:metalDecoration:10>); 
 recipes.remove(<ImmersiveEngineering:metalDecoration2>);
@@ -272,10 +261,10 @@ recipes.remove(<ImmersiveEngineering:metalMultiblock:2>);
 recipes.remove(<ImmersiveEngineering:metalMultiblock:3>);
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalMultiblock:2>*2, [[<Creator:compactInvarPlate>, <minecraft:piston>,<Creator:compactInvarPlate>], 
 																			  [<ImmersiveEngineering:material:11>, <ore:dyeGreen>, <ImmersiveEngineering:material:11>], 
-																			  [<Creator:compactInvarPlate>, <minecraft:piston>, <Creator:compactInvarPlate>]], <liquid:invar.molten> * 144, 150);
+																			  [<Creator:compactInvarPlate>, <minecraft:piston>, <Creator:compactInvarPlate>]], <liquid:invar.molten> * 144, 150, <Mekanism:ControlCircuit:1>);
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalMultiblock:3>*2, [[<Creator:compactInvarPlate>, <minecraft:glass_bottle>,<Creator:compactInvarPlate>], 
 																			  [<ImmersiveEngineering:material:11>, <ore:dyeBlue>, <ImmersiveEngineering:material:11>], 
-																			  [<Creator:compactInvarPlate>, <minecraft:glass_bottle>, <Creator:compactInvarPlate>]], <liquid:invar.molten> * 144, 150);
+																			  [<Creator:compactInvarPlate>, <minecraft:glass_bottle>, <Creator:compactInvarPlate>]], <liquid:invar.molten> * 144, 150, <Mekanism:ControlCircuit:1>);
 #we need to dig deeper
 recipes.remove(<ImmersiveEngineering:drillhead>);
 recipes.remove(<ImmersiveEngineering:drillhead:1>);
@@ -289,9 +278,14 @@ recipes.remove(<ImmersiveEngineering:drill>);
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:drill>, [[null, <ImmersiveEngineering:material:9>,null], 
 																			  [<ore:plateSteel>, <ImmersiveEngineering:metalDecoration:5>, <ImmersiveEngineering:material:9>], 
 																			  [<Magneticraft:item.drill>, <ore:plateSteel>, null]], <liquid:steel.molten> * 576, 350);
+
+#coke oven
+recipes.remove(<ImmersiveEngineering:stoneDecoration:1>);
+recipes.addShaped(<ImmersiveEngineering:stoneDecoration:1> * 4, [[<ImmersiveEngineering:stoneDecoration>, <Railcraft:machine.alpha:7>, <ImmersiveEngineering:stoneDecoration>], [<Railcraft:machine.alpha:7>, <Creator:IronWrench>.anyDamage().transformDamage(), <Railcraft:machine.alpha:7>], [<ImmersiveEngineering:stoneDecoration>, <Railcraft:machine.alpha:7>, <ImmersiveEngineering:stoneDecoration>]]);
+
 #FIRE BLAST!
 recipes.remove(<ImmersiveEngineering:stoneDecoration:2>);
-recipes.addShaped(<ImmersiveEngineering:stoneDecoration:2> *2,[[<TConstruct:materials:2>,<ore:ingotBrick>,<TConstruct:materials:2>],[<ore:ingotBrick>,<Railcraft:machine.alpha:12>,<ore:ingotBrick>],[<TConstruct:materials:2>,<ore:ingotBrick>,<TConstruct:materials:2>]]);
+recipes.addShaped(<ImmersiveEngineering:stoneDecoration:2> * 4, [[<Railcraft:brick.infernal>, <Railcraft:machine.alpha:12>, <Railcraft:brick.infernal>],[<Railcraft:machine.alpha:12>, <Creator:IronWrench>.anyDamage().transformDamage(), <Railcraft:machine.alpha:12>],[<Railcraft:brick.infernal>, <Railcraft:machine.alpha:12>, <Railcraft:brick.infernal>]]);
 
 recipes.remove(<ImmersiveEngineering:stoneDecoration:6>);
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:stoneDecoration:6>, [[<ore:plateInvar>, null,null], 
@@ -310,24 +304,16 @@ recipes.addShaped(<immersiveintegration:redstoneWireConnector>*8,[[<ore:blockRed
 recipes.remove(<immersiveintegration:steelDecoration>);
 recipes.remove(<immersiveintegration:steelDecoration:1>);
 recipes.remove(<immersiveintegration:steelDecoration:2>);
-mods.forestry.Carpenter.addRecipe(<immersiveintegration:steelDecoration>, [[<ore:plateInvar>, <minecraft:bucket>,<ore:plateInvar>], 
-																			  [<ImmersiveEngineering:material:11>, <minecraft:bucket>, <ImmersiveEngineering:material:11>], 
-																			  [<ore:plateInvar>, <minecraft:bucket>, <ore:plateInvar>]], <liquid:invar.molten> * 72, 75);
-mods.forestry.Carpenter.addRecipe(<immersiveintegration:steelDecoration:1>, [[<ore:plateInvar>, <minecraft:lava_bucket>,<ore:plateInvar>], 
-																			  [<ImmersiveEngineering:material:11>, <minecraft:lava_bucket>, <ImmersiveEngineering:material:11>], 
-																			  [<ore:plateInvar>, <minecraft:lava_bucket>, <ore:plateInvar>]], <liquid:invar.molten> * 72, 75);
-mods.forestry.Carpenter.addRecipe(<immersiveintegration:steelDecoration:2>, [[<ore:plateInvar>, <minecraft:bucket>,<ore:plateInvar>], 
-																			  [<ore:plateInvar>, <ImmersiveEngineering:material:11>, <ore:plateInvar>], 
-																			  [<ore:plateInvar>, <minecraft:bucket>, <ore:plateInvar>]], <liquid:invar.molten> * 72, 75);
-#ME wire
-recipes.remove(<immersiveintegration:meTransformer>);
-recipes.remove(<immersiveintegration:meDenseTransformer>);
-mods.forestry.Carpenter.addRecipe(<immersiveintegration:meTransformer>, [[null, <immersiveintegration:meWireConnector>,null], 
-																			  [<Creator:compactInvarPlate>, <immersiveintegration:aeDecoration>, <Creator:compactInvarPlate>], 
-																			  [<Creator:compactInvarPlate>, <Creator:compactInvarPlate>, <Creator:compactInvarPlate>]], <liquid:invar.molten> * 288, 150);
-mods.forestry.Carpenter.addRecipe(<immersiveintegration:meDenseTransformer>, [[null, <immersiveintegration:meDenseWireConnector>,null], 
-																			  [<Creator:compactInvarPlate>, <immersiveintegration:aeDecoration>, <Creator:compactInvarPlate>], 
-																			  [<Creator:compactInvarPlate>, <Creator:compactInvarPlate>, <Creator:compactInvarPlate>]], <liquid:invar.molten> * 288, 200);
+mods.forestry.Carpenter.addRecipe(<immersiveintegration:steelDecoration>, [[<ore:plateSteel>, <minecraft:bucket>,<ore:plateSteel>], 
+																			  [<ImmersiveEngineering:material:11>, <ImmersiveEngineering:stoneDecoration:1>, <ImmersiveEngineering:material:11>], 
+																			  [<ore:plateSteel>, <minecraft:bucket>, <ore:plateSteel>]], <liquid:steel.molten> * 72, 75);
+mods.forestry.Carpenter.addRecipe(<immersiveintegration:steelDecoration:1>, [[<ore:plateSteel>, <minecraft:lava_bucket>,<ore:plateSteel>], 
+																			  [<ImmersiveEngineering:material:11>, <ImmersiveEngineering:stoneDecoration:1>, <ImmersiveEngineering:material:11>], 
+																			  [<ore:plateSteel>, <minecraft:lava_bucket>, <ore:plateSteel>]], <liquid:steel.molten> * 72, 75);
+mods.forestry.Carpenter.addRecipe(<immersiveintegration:steelDecoration:2>, [[<ore:plateSteel>, <minecraft:bucket>,<ore:plateSteel>], 
+																			  [<ore:plateSteel>, <ImmersiveEngineering:material:11>, <ore:plateSteel>], 
+																			  [<ore:plateSteel>, <minecraft:bucket>, <ore:plateSteel>]], <liquid:steel.molten> * 72, 75);
+
 #trapdoor
 recipes.remove(<immersiveintegration:steelTrapdoor>);
 mods.forestry.Carpenter.addRecipe(<immersiveintegration:steelTrapdoor>*2, [[<ImmersiveEngineering:metalDecoration:1>, <ImmersiveEngineering:metalDecoration:1>,<ImmersiveEngineering:metalDecoration:1>], 
@@ -336,5 +322,7 @@ mods.forestry.Carpenter.addRecipe(<immersiveintegration:steelTrapdoor>*2, [[<Imm
 
 #Those abandoned kids :(
 recipes.remove(<ImmersiveEngineering:metalDevice:10>);
+<ImmersiveEngineering:metalDevice:10>.addTooltip(format.red("This is not what I want."));
+<ImmersiveEngineering:metalDevice:10>.addTooltip(format.red("这不是我想要的。"));
 
 print("Initialized 'ImmersiveEngineering.zs'");
