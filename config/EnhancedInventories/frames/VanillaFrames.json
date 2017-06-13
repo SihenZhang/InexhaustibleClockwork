@@ -52,7 +52,7 @@
 		"ColorGreen":250,
 		"ColorBlue":218,
 		"FrameType":0,
-		"tier":2,
+		"tier":5,
 		"materials":"gemDiamond"
 	},
 	"Emerald":{
@@ -61,16 +61,7 @@
 		"ColorGreen":192,
 		"ColorBlue":97,
 		"FrameType":0,
-		"tier":5,
-		"materials":"gemEmerald"
-	},
-	"NetherStar":{
-		"name":"frame.mc.nether",
-		"ColorRed":255,
-		"ColorGreen":255,
-		"ColorBlue":255,
-		"FrameType":0,
 		"tier":7,
-		"materials":{"name":"nether_star"}
+		"materials":"gemEmerald"
 	}
 }

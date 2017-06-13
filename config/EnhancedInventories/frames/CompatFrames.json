@@ -37,6 +37,15 @@
 		"FrameType":0,
 		"tier":1,
 		"materials":"ingotRedAlloy"
+	},	
+	"Steel":{
+		"name":"frame.ore.steel",
+		"ColorRed":128,
+		"ColorGreen":128,
+		"ColorBlue":128,
+		"FrameType":0,
+		"tier":1,
+		"materials":"ingotSteel"
 	},
 	
 	"Lead":{
@@ -66,24 +75,6 @@
 		"tier":2,
 		"materials":"ingotBronze"
 	},
-	"Steel":{
-		"name":"frame.ore.steel",
-		"ColorRed":128,
-		"ColorGreen":128,
-		"ColorBlue":128,
-		"FrameType":0,
-		"tier":2,
-		"materials":"ingotSteel"
-	},
-	"Thaumium":{
-		"name":"frame.ore.thaumium",
-		"ColorRed":80,
-		"ColorGreen":65,
-		"ColorBlue":120,
-		"FrameType":0,
-		"tier":2,
-		"materials":"ingotThaumium"
-	},
 	"ElectrotineAlloy":{
 		"name":"frame.ore.electrotinealloy",
 		"ColorRed":0,
@@ -112,42 +103,6 @@
 		"tier":3,
 		"materials":"ingotInvar"
 	},
-	"EnergeticAlloy":{
-		"name":"frame.ore.energeticalloy",
-		"ColorRed":232,
-		"ColorGreen":93,
-		"ColorBlue":6,
-		"FrameType":0,
-		"tier":3,
-		"materials":"ingotEnergeticAlloy"
-	},
-	"Atlarus":{
-		"name":"frame.ore.atlarus",
-		"ColorRed":204,
-		"ColorGreen":179,
-		"ColorBlue":0,
-		"FrameType":0,
-		"tier":3,
-		"materials":"ingotAtlarus"
-	},
-	"Alduorite":{
-		"name":"frame.ore.alduorite",
-		"ColorRed":163,
-		"ColorGreen":222,
-		"ColorBlue":222,
-		"FrameType":0,
-		"tier":3,
-		"materials":"ingotAlduorite"
-	},
-	"Void":{
-		"name":"frame.ore.void",
-		"ColorRed":29,
-		"ColorGreen":18,
-		"ColorBlue":42,
-		"FrameType":0,
-		"tier":3,
-		"materials":"ingotVoid"
-	},
 	"Brass":{
 		"name":"frame.ore.brass",
 		"ColorRed":155,
@@ -157,14 +112,13 @@
 		"tier":3,
 		"materials":"ingotBrass"
 	},
-	
 	"Silver":{
 		"name":"frame.ore.silver",
 		"ColorRed":147,
 		"ColorGreen":178,
 		"ColorBlue":201,
 		"FrameType":0,
-		"tier":4,
+		"tier":3,
 		"materials":"ingotSilver"
 	},
 	"Aluminum":{
@@ -173,7 +127,7 @@
 		"ColorGreen":145,
 		"ColorBlue":145,
 		"FrameType":0,
-		"tier":4,
+		"tier":3,
 		"materials":"ingotAluminum"
 	},
 	"Tungsten":{
@@ -182,53 +136,17 @@
 		"ColorGreen":73,
 		"ColorBlue":73,
 		"FrameType":0,
-		"tier":4,
+		"tier":3,
 		"materials":"ingotTungsten"
 	},
-	"Desichalkos":{
-		"name":"frame.ore.desichalkos",
-		"ColorRed":80,
-		"ColorGreen":33,
-		"ColorBlue":118,
-		"FrameType":0,
-		"tier":4,
-		"materials":"ingotDesichalkos"
-	},
-	"Unstable":{
-		"name":"frame.ore.unstable",
-		"ColorRed":144,
-		"ColorGreen":144,
-		"ColorBlue":144,
-		"FrameType":0,
-		"tier":4,
-		"materials":"ingotUnstable"
-	},
-	"Reinforced":{
-		"name":"frame.ore.reinforced",
-		"ColorRed":208,
-		"ColorGreen":225,
-		"ColorBlue":236,
-		"FrameType":0,
-		"tier":4,
-		"materials":"ingotReinforced"
-	},
 	
-	"Platinum":{
-		"name":"frame.ore.platinum",
-		"ColorRed":98,
-		"ColorGreen":153,
-		"ColorBlue":255,
-		"FrameType":0,
-		"tier":5,
-		"materials":"ingotPlatinum"
-	},
 	"Mithril":{
 		"name":"frame.ore.mithril",
 		"ColorRed":135,
 		"ColorGreen":215,
 		"ColorBlue":255,
 		"FrameType":0,
-		"tier":5,
+		"tier":4,
 		"materials":"ingotMithril"
 	},
 	"Electrum":{
@@ -237,7 +155,7 @@
 		"ColorGreen":255,
 		"ColorBlue":150,
 		"FrameType":0,
-		"tier":5,
+		"tier":4,
 		"materials":"ingotElectrum"
 	},
 	"Signalum":{
@@ -246,7 +164,7 @@
 		"ColorGreen":110,
 		"ColorBlue":10,
 		"FrameType":0,
-		"tier":5,
+		"tier":4,
 		"materials":"ingotSignalum"
 	},
 	"Lumium":{
@@ -255,8 +173,45 @@
 		"ColorGreen":230,
 		"ColorBlue":155,
 		"FrameType":0,
-		"tier":5,
+		"tier":4,
 		"materials":"ingotLumium"
+	},
+	"Alumite":{
+		"name":"frame.ore.alumite",
+		"ColorRed":235,
+		"ColorGreen":140,
+		"ColorBlue":240,
+		"FrameType":0,
+		"tier":4,
+		"materials":"ingotAlumite"
+	},
+	"ElectricalSteel":{
+		"name":"frame.ore.electricalsteel",
+		"ColorRed":185,
+		"ColorGreen":185,
+		"ColorBlue":185,
+		"FrameType":0,
+		"tier":4,
+		"materials":"ingotElectricalSteel"
+	},
+	"Soularium":{
+		"name":"frame.ore.soularium",
+		"ColorRed":90,
+		"ColorGreen":65,
+		"ColorBlue":40,
+		"FrameType":0,
+		"tier":4,
+		"materials":"ingotSoularium"
+	},
+	
+	"Quicksilver":{
+		"name":"frame.ore.quicksilver",
+		"ColorRed":125,
+		"ColorGreen":210,
+		"ColorBlue":200,
+		"FrameType":0,
+		"tier":5,
+		"materials":"ingotQuicksilver"
 	},
 	"Enderium":{
 		"name":"frame.ore.enderium",
@@ -267,123 +222,42 @@
 		"tier":5,
 		"materials":"ingotEnderium"
 	},
-	"Alumite":{
-		"name":"frame.ore.alumite",
-		"ColorRed":235,
-		"ColorGreen":140,
-		"ColorBlue":240,
-		"FrameType":0,
-		"tier":5,
-		"materials":"ingotAlumite"
-	},
-	"Cobalt":{
-		"name":"frame.ore.cobalt",
-		"ColorRed":65,
-		"ColorGreen":65,
-		"ColorBlue":255,
-		"FrameType":0,
-		"tier":5,
-		"materials":"ingotCobalt"
-	},
-	"Ardite":{
-		"name":"frame.ore.ardite",
-		"ColorRed":255,
-		"ColorGreen":88,
+	"Atlarus":{
+		"name":"frame.ore.atlarus",
+		"ColorRed":204,
+		"ColorGreen":179,
 		"ColorBlue":0,
 		"FrameType":0,
 		"tier":5,
-		"materials":"ingotArdite"
+		"materials":"ingotAtlarus"
 	},
-	"Quicksilver":{
-		"name":"frame.ore.quicksilver",
-		"ColorRed":125,
-		"ColorGreen":210,
-		"ColorBlue":200,
-		"FrameType":0,
-		"tier":5,
-		"materials":"ingotQuicksilver"
-	},
-	"ElectricalSteel":{
-		"name":"frame.ore.electricalsteel",
-		"ColorRed":185,
-		"ColorGreen":185,
-		"ColorBlue":185,
-		"FrameType":0,
-		"tier":5,
-		"materials":"ingotElectricalSteel"
-	},
-	"Soularium":{
-		"name":"frame.ore.soularium",
-		"ColorRed":90,
+	"Thaumium":{
+		"name":"frame.ore.thaumium",
+		"ColorRed":80,
 		"ColorGreen":65,
-		"ColorBlue":40,
+		"ColorBlue":120,
 		"FrameType":0,
 		"tier":5,
-		"materials":"ingotSoularium"
-	},
-	"Carbide":{
-		"name":"frame.ore.carbide",
-		"ColorRed":76,
-		"ColorGreen":76,
-		"ColorBlue":76,
-		"FrameType":0,
-		"tier":5,
-		"materials":"ingotCarbide"
+		"materials":"ingotThaumium"
 	},
 	
-	"Osmium":{
-		"name":"frame.ore.osmium",
-		"ColorRed":215,
-		"ColorGreen":220,
-		"ColorBlue":230,
+	"EnergeticAlloy":{
+		"name":"frame.ore.energeticalloy",
+		"ColorRed":232,
+		"ColorGreen":93,
+		"ColorBlue":6,
 		"FrameType":0,
 		"tier":6,
-		"materials":"ingotOsmium"
+		"materials":"ingotEnergeticAlloy"
 	},
-	"Manyullyn":{
-		"name":"frame.ore.manyullyn",
-		"ColorRed":120,
-		"ColorGreen":0,
-		"ColorBlue":235,
+	"Alduorite":{
+		"name":"frame.ore.alduorite",
+		"ColorRed":163,
+		"ColorGreen":222,
+		"ColorBlue":222,
 		"FrameType":0,
 		"tier":6,
-		"materials":"ingotManyullyn"
-	},
-	"EnhancedGalgadorian":{
-		"name":"frame.ore.enhancedgalgadorian",
-		"ColorRed":150,
-		"ColorGreen":95,
-		"ColorBlue":135,
-		"FrameType":0,
-		"tier":6,
-		"materials":"ingotEnhancedGalgadorian"
-	},
-	"DarkSteel":{
-		"name":"frame.ore.darksteel",
-		"ColorRed":121,
-		"ColorGreen":121,
-		"ColorBlue":121,
-		"FrameType":0,
-		"tier":6,
-		"materials":"ingotDarkSteel"
-	},
-	"VibrantAlloy":{
-		"name":"frame.ore.vibrantalloy",
-		"ColorRed":210,
-		"ColorGreen":240,
-		"ColorBlue":125,
-		"FrameType":0,
-		"tier":6,
-		"materials":"ingotVibrantAlloy"
-	},
-	"Infuscolium":{
-		"name":"frame.ore.infuscolium",
-		"ColorRed":146,
-		"ColorGreen":33,
-		"ColorBlue":86,
-		"FrameType":0,
-		"tier":6,
-		"materials":"ingotInfuscolium"
+		"materials":"ingotAlduorite"
 	},
 	"Ceruclase":{
 		"name":"frame.ore.ceruclase",
@@ -394,41 +268,32 @@
 		"tier":6,
 		"materials":"ingotCeruclase"
 	},
-	"Amordrine":{
-		"name":"frame.ore.amordrine",
-		"ColorRed":170,
-		"ColorGreen":140,
-		"ColorBlue":180,
+	"Reinforced":{
+		"name":"frame.ore.reinforced",
+		"ColorRed":208,
+		"ColorGreen":225,
+		"ColorBlue":236,
 		"FrameType":0,
 		"tier":6,
-		"materials":"ingotAmordrine"
+		"materials":"ingotReinforced"
+	},
+	"Void":{
+		"name":"frame.ore.void",
+		"ColorRed":29,
+		"ColorGreen":18,
+		"ColorBlue":42,
+		"FrameType":0,
+		"tier":6,
+		"materials":"ingotVoid"
 	},
 	
-	"Vibrantium":{
-		"name":"frame.ore.vibrantium",
-		"ColorRed":215,
-		"ColorGreen":230,
-		"ColorBlue":90,
+	"Desichalkos":{
+		"name":"frame.ore.desichalkos",
+		"ColorRed":80,
+		"ColorGreen":33,
+		"ColorBlue":118,
 		"FrameType":0,
 		"tier":7,
-		"materials":"ingotVibrantium"
-	},
-	"Blutonium":{
-		"name":"frame.ore.blutonium",
-		"ColorRed":30,
-		"ColorGreen":0,
-		"ColorBlue":230,
-		"FrameType":0,
-		"tier":7,
-		"materials":"ingotBlutonium"
-	},
-	"Bedrockium":{
-		"name":"frame.ore.bedrockium",
-		"ColorRed":55,
-		"ColorGreen":55,
-		"ColorBlue":55,
-		"FrameType":0,
-		"tier":7,
-		"materials":"ingotBedrockium"
+		"materials":"ingotDesichalkos"
 	}
 }
