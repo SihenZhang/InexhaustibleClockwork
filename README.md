@@ -150,5 +150,6 @@
 | Weapon Case Loot | 1.2.12 | Winter_Grave | https://minecraft.curseforge.com/projects/weapon-case-loot |
 | Wireless Crafting Terminal | rv3-1.8.7.4b | TheRealp455w0rd | https://minecraft.curseforge.com/projects/wireless-crafting-terminal |
 | Witching Gadgets | 1.1.10 | BluSunrize | https://minecraft.curseforge.com/projects/witching-gadgets |
+| YuutoLib | 1.0.3 | ANIMENIAC7 | https://minecraft.curseforge.com/projects/yuutolib |
 | ZettaIndustries | 1.1-120 | bymarcin | https://zi.bymarcin.com/ |
 | Ztones | 2.2.1 | riciJak | https://minecraft.curseforge.com/projects/ztones |
