@@ -31,7 +31,7 @@
 | BeeBetterAtBees | 0.3 | HellFirePvP | https://minecraft.curseforge.com/projects/beebetteratbees |
 | BiblioCraft | v1.11.5 | Nuchaz | https://minecraft.curseforge.com/projects/bibliocraft |
 | Big Reactors | 0.4.3A | ErogenousBeef | https://minecraft.curseforge.com/projects/big-reactors |
-| Binnie's Mods | 2.0-pre16 | Binnie567 | https://minecraft.curseforge.com/projects/binnies-mods |
+| Binnie's Mods | 2.0.19 | Binnie567 | https://minecraft.curseforge.com/projects/binnies-mods |
 | Biomes O' Plenty | 2.1.0.2027 | Team Glitchfiend | https://minecraft.curseforge.com/projects/biomes-o-plenty |
 | BuildCraft | 7.1.22 | Team BuildCraft | http://mod-buildcraft.com |
 | BuildCraftCompat | 7.1.6 | Team BuildCraft | http://www.mod-buildcraft.com/pages/download.html |
