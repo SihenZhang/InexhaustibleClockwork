@@ -14,6 +14,14 @@
                 <IfCondition condition=':= ?blockExists("appliedenergistics2:tile.OreQuartz")'> <Replaces block='appliedenergistics2:tile.OreQuartz' weight='1.0' /> </IfCondition>
                 <IfCondition condition=':= ?blockExists("appliedenergistics2:tile.OreQuartzCharged")'> <Replaces block='appliedenergistics2:tile.OreQuartzCharged' weight='1.0' /> </IfCondition>
 				
+				<IfCondition condition=':= ?blockExists("BiomesOPlenty:gemOre:2")'> <Replaces block='minecraft:diamond_ore' weight='1.0' /> </IfCondition>
+				<IfCondition condition=':= ?blockExists("BiomesOPlenty:gemOre:4")'> <Replaces block='minecraft:diamond_ore' weight='1.0' /> </IfCondition>
+				<IfCondition condition=':= ?blockExists("BiomesOPlenty:gemOre:6")'> <Replaces block='minecraft:diamond_ore' weight='1.0' /> </IfCondition>
+				<IfCondition condition=':= ?blockExists("BiomesOPlenty:gemOre:8")'> <Replaces block='minecraft:diamond_ore' weight='1.0' /> </IfCondition>
+				<IfCondition condition=':= ?blockExists("BiomesOPlenty:gemOre:10")'> <Replaces block='minecraft:diamond_ore' weight='1.0' /> </IfCondition>
+				<IfCondition condition=':= ?blockExists("BiomesOPlenty:gemOre:12")'> <Replaces block='minecraft:diamond_ore' weight='1.0' /> </IfCondition>
+				<IfCondition condition=':= ?blockExists("BiomesOPlenty:gemOre:14")'> <Replaces block='minecraft:diamond_ore' weight='1.0' /> </IfCondition>
+				
                 <IfCondition condition=':= ?blockExists("ThermalFoundation:Ore")'> <Replaces block='ThermalFoundation:Ore' weight='1.0' /> </IfCondition>
                 <IfCondition condition=':= ?blockExists("ThermalFoundation:Ore:1")'> <Replaces block='ThermalFoundation:Ore:1' weight='1.0' /> </IfCondition>
                 <IfCondition condition=':= ?blockExists("ThermalFoundation:Ore:2")'> <Replaces block='ThermalFoundation:Ore:2' weight='1.0' /> </IfCondition>
