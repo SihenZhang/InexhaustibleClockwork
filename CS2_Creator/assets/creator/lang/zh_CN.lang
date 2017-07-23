@@ -171,16 +171,14 @@ item.cookedtofishitem0.name=熟素鱼肉
 item.cookedtofurkeyitem0.name=熟素火鸡
 item.cookedtofuttonitem0.name=熟素羊肉
 
-item.chamberElectrum0.name=琥珀金仓室
-item.chamberElectrumG0.name=琥珀金粉碎仓
-item.chamberElectrumEH0.name=琥珀金涡旋电流加热仓
-item.chamberInvar0.name=因瓦合金仓室
-item.chamberInvarG0.name=因瓦合金粉碎仓
-item.chamberIron0.name=铁质仓室
-item.chamberIronG0.name=铁质粉碎仓
-item.chamberOsmium0.name=锇质仓室
-item.chamberOsmiumEH0.name=锇质涡旋电流加热仓
-item.chamberOsmiumG0.name=锇质粉碎仓
+tile.chamberElectrum0.name=琥珀金仓室
+tile.chamberElectrumG0.name=琥珀金粉碎仓
+tile.chamberElectrumEH0.name=琥珀金涡旋电流加热仓
+tile.chamberIron0.name=铁质仓室
+tile.chamberIronG0.name=铁质粉碎仓
+tile.chamberOsmium0.name=锇质仓室
+tile.chamberOsmiumEH0.name=锇质涡旋电流加热仓
+tile.chamberOsmiumG0.name=锇质粉碎仓
 
 item.coilAluminum0.name=铝质线圈
 item.coilCopper0.name=铜质线圈

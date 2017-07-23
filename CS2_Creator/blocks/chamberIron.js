@@ -1,0 +1,15 @@
+name = "chamberIron";
+material = "iron";
+stepSound = "metal";
+creativeTab = "buildingBlocks";
+addToCreative[0] = true;
+hardness[0] = 3.0;
+toolClass[0] = "pickaxe";
+harvestLevel[0] = 1;
+drop[0] = "Creator:chamberIron:0 1"
+textureFileXP[0] = "chamberIron.png";
+textureFileXN[0] = "chamberIron.png";
+textureFileYP[0] = "chamberIron.png";
+textureFileYN[0] = "chamberIron.png";
+textureFileZP[0] = "chamberIron.png";
+textureFileZN[0] = "chamberIron.png";

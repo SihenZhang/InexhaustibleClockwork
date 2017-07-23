@@ -1,0 +1,15 @@
+name = "chamberOsmiumG";
+material = "iron";
+stepSound = "metal";
+creativeTab = "buildingBlocks";
+addToCreative[0] = true;
+hardness[0] = 3.0;
+toolClass[0] = "pickaxe";
+harvestLevel[0] = 1;
+drop[0] = "Creator:chamberOsmiumG:0 1"
+textureFileXP[0] = "chamberOsmiumG.png";
+textureFileXN[0] = "chamberOsmiumG.png";
+textureFileYP[0] = "chamberOsmium.png";
+textureFileYN[0] = "chamberOsmium.png";
+textureFileZP[0] = "chamberOsmiumG.png";
+textureFileZN[0] = "chamberOsmiumG.png";

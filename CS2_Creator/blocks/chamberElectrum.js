@@ -1,0 +1,15 @@
+name = "chamberElectrum";
+material = "iron";
+stepSound = "metal";
+creativeTab = "buildingBlocks";
+addToCreative[0] = true;
+hardness[0] = 3.0;
+toolClass[0] = "pickaxe";
+harvestLevel[0] = 1;
+drop[0] = "Creator:chamberElectrum:0 1"
+textureFileXP[0] = "chamberElectrum.png";
+textureFileXN[0] = "chamberElectrum.png";
+textureFileYP[0] = "chamberElectrum.png";
+textureFileYN[0] = "chamberElectrum.png";
+textureFileZP[0] = "chamberElectrum.png";
+textureFileZN[0] = "chamberElectrum.png";

@@ -148,14 +148,14 @@ mod.addItem("cookedtofishitem.js", "food");
 mod.addItem("cookedtofurkeyitem.js", "food");
 mod.addItem("cookedtofuttonitem.js", "food");
 
-mod.addItem("chamberElectrum.js","normal"); //chamber
-mod.addItem("chamberElectrumEH.js","normal");
-mod.addItem("chamberElectrumG.js","normal");
-mod.addItem("chamberIron.js","normal");
-mod.addItem("chamberIronG.js","normal");
-mod.addItem("chamberOsmium.js","normal");
-mod.addItem("chamberOsmiumEH.js","normal");
-mod.addItem("chamberOsmiumG.js","normal");
+mod.addBlock("chamberElectrum.js","normal"); //chamber
+mod.addBlock("chamberElectrumEH.js","normal");
+mod.addBlock("chamberElectrumG.js","normal");
+mod.addBlock("chamberIron.js","normal");
+mod.addBlock("chamberIronG.js","normal");
+mod.addBlock("chamberOsmium.js","normal");
+mod.addBlock("chamberOsmiumEH.js","normal");
+mod.addBlock("chamberOsmiumG.js","normal");
 
 mod.addItem("coilAluminum.js","normal"); //coil
 mod.addItem("coilCopper.js","normal");

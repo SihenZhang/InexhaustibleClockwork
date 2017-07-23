@@ -171,16 +171,14 @@ item.cookedtofishitem0.name=Cooked Tofish
 item.cookedtofurkeyitem0.name=Cooked Tofurkey
 item.cookedtofuttonitem0.name=Cooked Tofutton
 
-item.chamberElectrum0.name=Electrum Chamber
-item.chamberElectrumG0.name=Electrum Grinding Chamber
-item.chamberElectrumEH0.name=Electrum Eddy-current Heating Chamber
-item.chamberInvar0.name=Invar Chamber
-item.chamberInvarG0.name=Invar Grinding Chamber
-item.chamberIron0.name=Iron Chamber
-item.chamberIronG0.name=Iron Grinding Chamber
-item.chamberOsmium0.name=Osmium Chamber
-item.chamberOsmiumEH0.name=Osmium Eddy-current Heating Chamber
-item.chamberOsmiumG0.name=Osmium Grinding Chamber
+tile.chamberElectrum0.name=Electrum Chamber
+tile.chamberElectrumG0.name=Electrum Grinding Chamber
+tile.chamberElectrumEH0.name=Electrum Eddy-current Heating Chamber
+tile.chamberIron0.name=Iron Chamber
+tile.chamberIronG0.name=Iron Grinding Chamber
+tile.chamberOsmium0.name=Osmium Chamber
+tile.chamberOsmiumEH0.name=Osmium Eddy-current Heating Chamber
+tile.chamberOsmiumG0.name=Osmium Grinding Chamber
 
 item.coilAluminum0.name=Aluminum Coil
 item.coilCopper0.name=Copper Coil
