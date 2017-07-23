@@ -7,7 +7,7 @@ mods.buildcraft.Refinery.removeRecipe(<liquid:fuel>);
 mods.buildcraft.Refinery.removeRecipe(<liquid:bioethanol>);
 mods.immersiveengineering.Refinery.removeRecipe(<liquid:biodiesel>);
 mods.immersiveengineering.Fermenter.removeFluidRecipe(<liquid:ethanol>);
-mods.magneticraft.OilDistillery.addRecipe(<liquid:heavyoil> * 1000, <liquid:lightoil> * 2000, 50000);
+mods.magneticraft.OilDistillery.addRecipe(<liquid:heavyoil> * 25, <liquid:lightoil> * 50, 1250);
 mods.tconstruct.Smeltery.addAlloy(<liquid:fuel> * 16, [<liquid:lightoil> * 13, <liquid:heavyoil> * 3]);
 mods.forestry.Fermenter.addRecipe(<liquid:ethanol>, <minecraft:reeds>, <liquid:plantoil>, 80, 1);
 mods.forestry.Fermenter.addRecipe(<liquid:ethanol>, <minecraft:melon>, <liquid:plantoil>, 80, 1);

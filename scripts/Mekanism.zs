@@ -24,6 +24,12 @@ recipes.remove(<Mekanism:BasicBlock:3>);
 furnace.setFuel(<Mekanism:BasicBlock:3>, 0);
 <ore:blockCharcoal>.remove(<Mekanism:BasicBlock:3>);
 
+#cardboard box
+recipes.remove(<Mekanism:CardboardBox>);
+mods.forestry.Carpenter.addRecipe(<Mekanism:CardboardBox>, [[<ore:itemBeeswax>, <ExtraTrees:misc:2>, <ore:itemBeeswax>],
+                                                            [<ExtraTrees:misc:2>, <ExtraTrees:misc:1>, <ExtraTrees:misc:2>], 
+                                                            [<ore:itemBeeswax>, <ExtraTrees:misc:2>, <ore:itemBeeswax>]], <liquid:glue> * 5000, 200);
+
 #Machines
 
 #Enrichment Chamber
@@ -106,6 +112,10 @@ mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:MachineBlock2:9>, 100000, [<Cr
 recipes.remove(<Mekanism:MachineBlock2:10>);
 mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:MachineBlock2:10>, 500000, [<Mekanism:MachineBlock>,<Creator:denseOsmiumPlate>*4, <Mekanism:ControlCircuit:3> *4, <Mekanism:EnergyTablet>, <Mekanism:GasTank>*2, <Railcraft:anvil>, <Mekanism:ReinforcedAlloy>*4]);
 
+#Quantum Entangloporter
+recipes.remove(<Mekanism:MachineBlock3>);
+mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:MachineBlock3>, 600000, [<Creator:chamberOsmium>,<Creator:denseOsmiumPlate>*8, <Mekanism:ControlCircuit:3> *8, <Mekanism:EnergyTablet>, <Mekanism:AtomicAlloy>*4, <Mekanism:BasicBlock:7>*4, <ThermalExpansion:Frame:11>*4]);
+
 #Fuelwood Heater
 recipes.remove(<Mekanism:MachineBlock3:6>);
 mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:MachineBlock3:6>, 300000, [<Creator:chamberOsmium>, <minecraft:furnace>*4, <minecraft:redstone>*4, <Mekanism:BasicBlock2:5>]);
@@ -147,7 +157,13 @@ recipes.addShaped(<Mekanism:TeleportationCore>, [[<Forestry:thermionicTubes:11>,
 
 #Cable
 recipes.remove(<Mekanism:PartTransmitter>);
-recipes.addShaped(<Mekanism:PartTransmitter> *8, [[<Creator:compactSteelPlate>, <zettaindustries:blockwire>, <Creator:compactSteelPlate>]]);
+recipes.remove(<Mekanism:PartTransmitter:1>);
+recipes.remove(<Mekanism:PartTransmitter:2>);
+recipes.remove(<Mekanism:PartTransmitter:3>);
+recipes.addShaped(<Mekanism:PartTransmitter> * 8, [[<ore:plateElectricalSteel>, <zettaindustries:blockwire>, <ore:plateElectricalSteel>], [<ore:plateVibrantAlloy>, <zettaindustries:blockwire>, <ore:plateVibrantAlloy>], [<ore:plateDarkSteel>, <zettaindustries:blockwire>, <ore:plateDarkSteel>]]);
+recipes.addShaped(<Mekanism:PartTransmitter:1> * 8, [[<Mekanism:PartTransmitter>, <Mekanism:PartTransmitter>, <Mekanism:PartTransmitter>], [<Mekanism:PartTransmitter>, <Railcraft:firestone.refined>.anyDamage().transformDamage(20), <Mekanism:PartTransmitter>], [<Mekanism:PartTransmitter>, <Mekanism:PartTransmitter>, <Mekanism:PartTransmitter>]]);
+recipes.addShaped(<Mekanism:PartTransmitter:2> * 8, [[<Mekanism:PartTransmitter:1>, <Mekanism:PartTransmitter:1>, <Mekanism:PartTransmitter:1>], [<Mekanism:PartTransmitter:1>, <BuildCraft|Silicon:redstoneChipset:3>, <Mekanism:PartTransmitter:1>], [<Mekanism:PartTransmitter:1>, <Mekanism:PartTransmitter:1>, <Mekanism:PartTransmitter:1>]]);
+recipes.addShaped(<Mekanism:PartTransmitter:3> * 8, [[<Mekanism:PartTransmitter:2>, <Mekanism:PartTransmitter:2>, <Mekanism:PartTransmitter:2>], [<Mekanism:PartTransmitter:2>, <Mekanism:TeleportationCore>, <Mekanism:PartTransmitter:2>], [<Mekanism:PartTransmitter:2>, <Mekanism:PartTransmitter:2>, <Mekanism:PartTransmitter:2>]]);
 
 #Laser
 recipes.remove(<Mekanism:MachineBlock2:14>);
@@ -159,12 +175,10 @@ mods.mekanism.Infuser.removeRecipe(<Mekanism:OtherDust:1>);
 
 #Those abandoned kids :-O
 recipes.remove(<Mekanism:EnergyCube>);
-recipes.remove(<Mekanism:MachineBlock:4>);
 recipes.remove(<Mekanism:MachineBlock:12>);
 recipes.remove(<Mekanism:MachineBlock2:12>);
 recipes.remove(<Mekanism:MachineBlock2:13>);
 recipes.remove(<Mekanism:MachineBlock2:15>);
-
 recipes.remove(<Mekanism:MachineBlock3:5>);
 
 print("Initialized 'Mekanism.zs'");

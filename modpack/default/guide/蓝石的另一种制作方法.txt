@@ -1,0 +1,4 @@
+除了使用匠魂 (Tinkers' Construct) 的晾干架 (Drying Rack) 制作外，还可以依靠一系列机器制作蓝石。
+
+{"image":"electrotine_1.png", "scale":-1}
+{"image":"electrotine_2.png", "scale":-1}

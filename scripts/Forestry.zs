@@ -41,9 +41,17 @@ mods.forestry.Carpenter.addRecipe(<Forestry:craftingMaterial:6>, [[null, <Forest
                                                                   [<Forestry:impregnatedCasing>, <Forestry:impregnatedCasing>, <Forestry:impregnatedCasing>], 
                                                                   [<Forestry:beeswax>, <Forestry:pollen>, <Forestry:beeswax>]], <liquid:for.honey> * 500, 200);
 
+#carpenter
+recipes.remove(<Forestry:factory:1>);
+recipes.addShaped(<Forestry:factory:1>, [[<ore:plateBronze>, <Forestry:thermionicTubes:2>, <ore:plateBronze>], [<ore:plateBronze>, <Forestry:sturdyMachine>, <ore:plateBronze>], [<ore:plateBronze>, <Forestry:thermionicTubes:2>, <ore:plateBronze>]]);
+
 #therm fab
 recipes.remove(<Forestry:factory2>);
 recipes.addShaped(<Forestry:factory2>, [[<ore:ingotBronze>, <ore:blockGlassColorless>, <ore:ingotBronze>], [<ore:blockGlassColorless>, <Forestry:sturdyMachine>, <ore:blockGlassColorless>], [<ore:ingotBronze>, <EnhancedInventories:improvedChest:1>.withTag({frameName: "frame.ore.bronze"}), <ore:ingotBronze>]]);
+
+#squeezer
+recipes.remove(<Forestry:factory:5>);
+recipes.addShaped(<Forestry:factory:5>, [[<ore:plateTin>, <Forestry:thermionicTubes:1>, <ore:plateTin>], [<ore:plateTin>, <Forestry:sturdyMachine>, <ore:plateTin>], [<ore:plateTin>, <Forestry:thermionicTubes:1>, <ore:plateTin>]]);
 
 #scoop
 recipes.remove(<Forestry:scoop>);

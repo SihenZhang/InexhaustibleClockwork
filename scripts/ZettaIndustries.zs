@@ -5,6 +5,10 @@ import mods.nei.NEI;
 
 print("Initializing 'ZettaIndustries.zs'...");
 
+#icon hide
+NEI.hide(<zettaindustries:zettaindustries.fakeitem>);
+NEI.hide(<zettaindustries:SmartCardTerminalExtension>);
+
 #charcoalblock
 recipes.remove(<zettaindustries:charcoalblock>);
 furnace.setFuel(<zettaindustries:charcoalblock>, 0);
@@ -22,7 +26,7 @@ recipes.addShaped(<zettaindustries:sulfurblock>, [[<minecraft:gunpowder>, <minec
 
 #battery
 recipes.remove(<zettaindustries:BatteryWall>);
-recipes.addShaped(<zettaindustries:BatteryWall> * 4, [[<Creator:denseElectrumPlate>, <Mekanism:Polyethene:2>, <Creator:denseElectrumPlate>], [<Magneticraft:item.ingotCarbide>, <ThermalExpansion:Frame:10>, <Magneticraft:item.ingotCarbide>], [<Creator:denseElectrumPlate>, <Mekanism:Polyethene:2>, <Creator:denseElectrumPlate>]]);
+recipes.addShaped(<zettaindustries:BatteryWall> * 16, [[<Creator:denseElectrumPlate>, <Mekanism:Polyethene:2>, <Creator:denseElectrumPlate>], [<Magneticraft:item.ingotCarbide>, <ThermalExpansion:Frame:10>, <Magneticraft:item.ingotCarbide>], [<Creator:denseElectrumPlate>, <Mekanism:Polyethene:2>, <Creator:denseElectrumPlate>]]);
 recipes.remove(<zettaindustries:BatteryControler>);
 recipes.addShaped(<zettaindustries:BatteryControler>, [[<zettaindustries:BatteryWall>, <ThermalExpansion:meter>, <zettaindustries:BatteryWall>], [<BuildCraft|Silicon:redstoneChipset:7>, <OpenComputers:case3>, <Forestry:thermionicTubes:9>], [<zettaindustries:BatteryWall>, <Mekanism:ControlCircuit:3>, <zettaindustries:BatteryWall>]]);
 recipes.remove(<zettaindustries:BatteryPowerTap>);
@@ -36,6 +40,6 @@ recipes.addShaped(<zettaindustries:BatteryGlass>, [[<ThermalExpansion:Frame:12>,
 recipes.remove(<zettaindustries:blockcontroler>);
 NEI.hide(<zettaindustries:blockcontroler>);
 recipes.remove(<zettaindustries:blockwire>);
-recipes.addShaped(<zettaindustries:blockwire> * 18, [[<ThermalExpansion:Frame:5>, <Mekanism:MachineBlock2:11>.withTag({tier: 0, fluidTank: {FluidName: "cryotheum", Amount: 14000}}), <ThermalExpansion:Frame:5>], [<Mekanism:MachineBlock2:11>.withTag({tier: 0, fluidTank: {FluidName: "cryotheum", Amount: 14000}}), <ThermalExpansion:Cell:4>, <Mekanism:MachineBlock2:11>.withTag({tier: 0, fluidTank: {FluidName: "cryotheum", Amount: 14000}})], [<ThermalExpansion:Frame:5>, <Mekanism:MachineBlock2:11>.withTag({tier: 0, fluidTank: {FluidName: "cryotheum", Amount: 14000}}), <ThermalExpansion:Frame:5>]]);
+mods.thermalexpansion.Transposer.addFillRecipe(150000, <ThermalExpansion:Cell:4>, <zettaindustries:blockwire> * 6, <liquid:cryotheum> * 6000);
 
 print("Initialized 'ZettaIndustries.zs'");

@@ -44,6 +44,7 @@ mods.mekanism.chemical.Oxidizer.removeRecipe(<gas:sulfurDioxideGas>, <Magneticra
 #machinehousing
 recipes.remove(<Magneticraft:machine_housing>);
 <Magneticraft:machine_housing>.addTooltip(format.red("We want to make parts unified."));
+<Magneticraft:machine_housing>.addTooltip(format.red("我们希望统一各种零件。"));
 
 #pipe
 recipes.remove(<Magneticraft:item.copper_pipe>);
@@ -59,14 +60,14 @@ recipes.addShaped(<Magneticraft:battery>, [[<ore:plateIron>, <Magneticraft:item.
 
 #crusher control
 recipes.remove (<Magneticraft:crusher_control>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:crusher_control> , [[<minecraft:piston>, <ore:circuitBasic>, <minecraft:piston>],
-                                                                      [<ore:plateIron>, <Creator:chamberIron>, <ore:plateIron>], 
-                                                                      [<ore:plateIron>, <Creator:motorDC>, <ore:plateIron>]], <liquid:iron.molten> * 288, 200);
+mods.forestry.Carpenter.addRecipe(<Magneticraft:crusher_control> , [[<Railcraft:borehead.iron>, <ore:circuitBasic>, <Railcraft:borehead.iron>],
+                                                                    [<ore:plateIron>, <Creator:chamberIronG>, <ore:plateIron>], 
+                                                                    [<ore:plateIron>, <Creator:motorDC>, <ore:plateIron>]], <liquid:iron.molten> * 288, 200);
 #grinder control
 recipes.remove (<Magneticraft:grinder_control>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:grinder_control> , [[<ore:plateIron>, <Mekanism:ControlCircuit>, <ore:plateIron>],
-                                                                      [<minecraft:piston>, <Creator:chamberIronG>, <minecraft:piston>], 
-                                                                      [<ore:plateIron>, <Creator:motorDC>, <ore:plateIron>]], <liquid:iron.molten> * 288, 250);
+                                                                    [<Railcraft:borehead.steel>, <Creator:chamberIronG>, <Railcraft:borehead.steel>], 
+                                                                    [<ore:plateIron>, <Creator:motorDC>, <ore:plateIron>]], <liquid:iron.molten> * 288, 250);
 #stirling generator control
 recipes.remove (<Magneticraft:stirling_generator>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:stirling_generator> , [[<ore:plateIron>, <Magneticraft:item.battery_small>, <ore:plateIron>],

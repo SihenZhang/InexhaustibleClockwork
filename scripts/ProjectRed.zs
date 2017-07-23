@@ -12,7 +12,7 @@ mods.forestry.Carpenter.addRecipe(<Creator:dustHydratedRedstone>, [[<minecraft:r
 mods.tconstruct.Drying.addRecipe(<Creator:dustHydratedRedstone>, <ProjRed|Core:projectred.core.part:56>, 3600);
 
 #Electontine Manufactory
-mods.magneticraft.OilDistillery.addRecipe(<liquid:redstone> * 10, <liquid:deeper fantasy> * 10, 1000);
+mods.magneticraft.OilDistillery.addRecipe(<liquid:redstone> * 10, <liquid:deeper fantasy> * 10, 200);
 mods.magneticraft.Refinery.addRecipe(<liquid:deeper fantasy> * 10, <liquid:redstone> * 8, <liquid:new fantasy> * 1, <liquid:lava> * 1);
 mods.thermalexpansion.Transposer.addFillRecipe(2000, <ProjRed|Core:projectred.core.part:56>, <ProjRed|Core:projectred.core.part:56>*2, <liquid:new fantasy> * 100);
 mods.thermalexpansion.Transposer.addFillRecipe(2000, <minecraft:iron_ingot>, <ProjRed|Core:projectred.core.part:57>, <liquid:new fantasy> * 600);

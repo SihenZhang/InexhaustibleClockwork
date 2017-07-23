@@ -52,7 +52,7 @@
     "forced_chunk_security": "-",
     "forced_explosions": "-",
     "max_claims": 121,
-    "max_homes": 2,
+    "max_homes": 1,
     "max_loaded_chunks": 0,
     "show_rank": true
   },
@@ -69,9 +69,9 @@
     ],
     "forced_chunk_security": "-",
     "forced_explosions": "-",
-    "max_claims": 100,
+    "max_claims": 121,
     "max_homes": 1,
-    "max_loaded_chunks": 50,
+    "max_loaded_chunks": 0,
     "show_rank": true
   },
   "tops": {

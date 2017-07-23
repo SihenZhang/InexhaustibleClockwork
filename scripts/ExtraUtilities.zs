@@ -112,11 +112,16 @@ recipes.addShaped(<ExtraUtilities:decorativeBlock1:1>, [[<enderclay:enderclayblo
 recipes.remove(<ExtraUtilities:drum>);
 recipes.addShaped(<ExtraUtilities:drum>, [[<ore:ingotSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotSteel>], [<ore:ingotSteel>, <minecraft:cauldron>, <ore:ingotSteel>], [<ore:ingotSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotSteel>]]);
 
-#watering Can
+#watering can
 recipes.remove(<ExtraUtilities:watering_can:1>);
 recipes.remove(<ExtraUtilities:watering_can:3>);
 recipes.addShaped(<ExtraUtilities:watering_can:1>, [[<ore:ingotSteel>, <minecraft:dye:15>, <harvestcraft:beetseedItem>],  [<ore:ingotSteel>, <minecraft:bowl>, <ore:ingotSteel>], [<harvestcraft:kiwiseedItem>, <ore:ingotSteel>, <harvestcraft:cornseedItem>]]);
 recipes.addShaped(<ExtraUtilities:watering_can:3>, [[<ore:fertilizerRich>, <ExtraUtilities:mini-soul>, <ore:fertilizerRich>], [<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:watering_can:1>, <ExtraUtilities:bedrockiumIngot>], [<xreliquary:mob_ingredient:9>, <ExtraUtilities:bedrockiumIngot>, <xreliquary:mob_ingredient:9>]]);
+
+#golden bag
+recipes.remove(<ExtraUtilities:golden_bag>);
+recipes.addShaped(<ExtraUtilities:golden_bag>.withTag({enchanted: 1 as byte}), [[<Forestry:craftingMaterial:3>, <Creator:itemCrystal>, <Forestry:craftingMaterial:3>], [<ExtraUtilities:decorativeBlock1:8>, <WitchingGadgets:item.WG_Bag>, <ExtraUtilities:decorativeBlock1:8>], [<Forestry:craftingMaterial:3>, <Creator:blockAlloy:6>, <Forestry:craftingMaterial:3>]]);
+recipes.addShaped(<ExtraUtilities:golden_bag>.withTag({enchanted: 1 as byte}), [[<ExtraUtilities:decorativeBlock1:8>, <ExtraUtilities:golden_bag>, <ExtraUtilities:decorativeBlock1:8>]]);
 
 #remove peachful mode to craft nether star
 recipes.removeShaped(<minecraft:nether_star>, [[<minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>], [<minecraft:soul_sand>, <minecraft:soul_sand>, <minecraft:soul_sand>], [<minecraft:diamond_sword>, <minecraft:soul_sand>, <minecraft:bow>]]);

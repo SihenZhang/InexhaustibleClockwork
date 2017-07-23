@@ -96,12 +96,12 @@ recipes.addShapeless(<Creator:motorACTPA>,[<Creator:generatorACTP>,<OpenBlocks:w
 #mekanism circuits (5 mb copper each circuit, HAYO!)
 mods.mekanism.Infuser.removeRecipe(<Mekanism:ControlCircuit>);
 mods.forestry.Carpenter.addRecipe(<Mekanism:ControlCircuit>, [[<ImmersiveEngineering:coil>, <ImmersiveEngineering:coil>, <ImmersiveEngineering:coil>],
-                                                          [<minecraft:redstone>, <ore:plateIron>, <minecraft:redstone>], 
-                                                          [<ImmersiveEngineering:coil>, <ImmersiveEngineering:coil>, <ImmersiveEngineering:coil>]], <liquid:copper.molten> * 5, 20);
+                                                              [<minecraft:redstone>, <ore:plateIron>, <minecraft:redstone>], 
+                                                              [<ImmersiveEngineering:coil>, <ImmersiveEngineering:coil>, <ImmersiveEngineering:coil>]], <liquid:copper.molten> * 5, 20);
 recipes.remove(<Mekanism:ControlCircuit:1>);
-mods.forestry.Carpenter.addRecipe(<Mekanism:ControlCircuit:1>, [[<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:redstone>],
-                                                          [<minecraft:dye:4>, <Mekanism:ControlCircuit>, <minecraft:dye:4>], 
-                                                          [<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:redstone>]], <liquid:copper.molten> * 5, 40);
+mods.forestry.Carpenter.addRecipe(<Mekanism:ControlCircuit:1>, [[<ProjRed|Core:projectred.core.part:56>, <minecraft:glowstone_dust>, <minecraft:redstone>],
+                                                                [<minecraft:dye:4>, <Mekanism:ControlCircuit>, <minecraft:dye:4>], 
+                                                                [<minecraft:redstone>, <minecraft:glowstone_dust>, <ProjRed|Core:projectred.core.part:56>]], <liquid:copper.molten> * 5, 40);
 recipes.remove(<Mekanism:ControlCircuit:2>);
 mods.forestry.Carpenter.addRecipe(<Mekanism:ControlCircuit:2>, [[<ProjRed|Core:projectred.core.part:13>, <ProjRed|Core:projectred.core.part:14>, <ProjRed|Core:projectred.core.part:13>],
                                                           [<ProjRed|Core:projectred.core.part:59>, <Mekanism:ControlCircuit:1>, <ProjRed|Core:projectred.core.part:59>], 
