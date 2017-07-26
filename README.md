@@ -40,12 +40,10 @@
 | CodeChickenCore | 1.0.7.47 | ChickenBones | http://chickenbones.net/Pages/links.html |
 | CodeChickenLib | 1.1.3.138 | ChickenBones | http://chickenbones.net/Pages/links.html |
 | CoFHCore | 3.1.4-329 | Team CoFH | http://teamcofh.com/downloads |
-| CoFHLib | 1.2.1-185 | Team CoFH | http://teamcofh.com/downloads |
 | Cooking for Blockheads | 1.0.140 | BlayTheNinth | https://minecraft.curseforge.com/projects/cooking-for-blockheads |
 | Crafting Tweaks | 1.0.82 | BlayTheNinth | https://minecraft.curseforge.com/projects/crafting-tweaks |
 | CraftTweaker | 3.0.13 | jaredlll08 | https://minecraft.curseforge.com/projects/crafttweaker |
 | Custom Main Menu | 1.9.2 | Lumien | https://minecraft.curseforge.com/projects/custom-main-menu |
-| CustomOreGen | 1.2.26 | noogenesis | https://minecraft.curseforge.com/projects/customoregen |
 | Custom Stuff 2 | 0.11.29 | CubeX2 | http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1275500-cubex2s-mods-all-mods-available-for-1-8-9 |
 | Custom Stuff 3 | 0.7.10 | CubeX2 | https://minecraft.curseforge.com/projects/custom-stuff-3 |
 | Default World Generator | 0.1-b13 | fireball1725 | https://minecraft.curseforge.com/projects/default-world-generator |
@@ -76,7 +74,7 @@
 | InGame Info XML | 2.8.1.82 | Lunatrius | https://minecraft.curseforge.com/projects/ingame-info-xml |
 | INpureCore | 1.0.0B9-62 | INpureProjects | https://minecraft.curseforge.com/projects/inpurecore |
 | InputFix | v5 | ZLainSama |  https://minecraft.curseforge.com/projects/inputfix |
-| InsanePatcher | 1.0.0 | 3TUSK | https://github.com/Team-AbCiv/InsanePatcher |
+| InsanePatcher | 1.0.1 | 3TUSK | https://github.com/Team-AbCiv/InsanePatcher |
 | Inventory Tweaks | 1.59-dev-152 | Kobata | https://minecraft.curseforge.com/projects/inventory-tweaks |
 | JourneyMap | 5.1.4p2 | techbrew | https://minecraft.curseforge.com/projects/journeymap |
 | LootBags | 2.0.17 | Mal7690 | https://minecraft.curseforge.com/projects/lootbags |
@@ -92,7 +90,6 @@
 | MrTJPCore | 1.1.0.33 | Mr_TJP | https://minecraft.curseforge.com/projects/mrtjpcore |
 | MTUtils | 1.4.2 | LionZXY | https://minecraft.curseforge.com/projects/mtutils |
 | Natura | 2.2.1a2 | mDiyo | https://minecraft.curseforge.com/projects/natura |
-| Neat | 1.0-1 | Vazkii | https://minecraft.curseforge.com/projects/neat |
 | NEI Addons | 1.12.15.41 | bdew | https://minecraft.curseforge.com/projects/nei-addons |
 | NEI Integration | 1.1.2 | Tonius | https://minecraft.curseforge.com/projects/nei-integration |
 | NotEnoughItems | 1.0.5.120 | ChickenBones | http://chickenbones.net/Pages/links.html |
