@@ -34,12 +34,6 @@ recipes.removeShapeless(<ThermalFoundation:material:42>);
 recipes.removeShapeless(<ThermalFoundation:material:43>);
 recipes.removeShapeless(<ThermalFoundation:material:44>);
 
-#New Alloying
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:42>, <liquid:redstone> * 250);
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:43>, <liquid:glowstone> * 250);
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:44>, <liquid:ender> * 1000);
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustIral>, <TConstruct:materials:15>, <liquid:obsidian.molten> * 250);
-
 #Gear Crafting
 mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:140>, <liquid:enderium.molten> * 720, <BuildCraft|Core:woodenGearItem>, true, 200);
 mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:139>, <liquid:lumium.molten> * 720, <BuildCraft|Core:woodenGearItem>, true, 200);

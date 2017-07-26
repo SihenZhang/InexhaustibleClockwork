@@ -26,9 +26,9 @@ furnace.setFuel(<Mekanism:BasicBlock:3>, 0);
 
 #cardboard box
 recipes.remove(<Mekanism:CardboardBox>);
-mods.forestry.Carpenter.addRecipe(<Mekanism:CardboardBox>, [[<ore:itemBeeswax>, <ExtraTrees:misc:2>, <ore:itemBeeswax>],
-                                                            [<ExtraTrees:misc:2>, <ExtraTrees:misc:1>, <ExtraTrees:misc:2>], 
-                                                            [<ore:itemBeeswax>, <ExtraTrees:misc:2>, <ore:itemBeeswax>]], <liquid:glue> * 5000, 200);
+mods.forestry.Carpenter.addRecipe(<Mekanism:CardboardBox>, [[<ore:itemBeeswax>, <ExtraTrees:misc:1>, <ore:itemBeeswax>],
+                                                            [<ExtraTrees:misc:1>, <Mekanism:TeleportationCore>, <ExtraTrees:misc:1>], 
+                                                            [<ore:itemBeeswax>, <ExtraTrees:misc:1>, <ore:itemBeeswax>]], <liquid:glue> * 5000, 200);
 
 #Machines
 

@@ -1,0 +1,21 @@
+{
+    "peat": {
+        "template": "uniform",
+        "block": {"name": "Forestry:soil", "metadata": 1},
+        "clusterSize": 64,
+        "numClusters": 1,
+		"chunkChance": 5,
+        "minHeight": 40,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "SWAMP"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

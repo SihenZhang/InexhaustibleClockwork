@@ -35,10 +35,13 @@
     },
     "coal": {
         "template": "uniform",
-        "block": "coal_ore",
+        "block": [
+            {"name": "minecraft:coal_ore", "weight": 99.9},
+            {"name": "minecraft:diamond_ore", "weight": 0.1}
+        ],
         "material": "stone",
-        "clusterSize": 16,
-        "numClusters": 20,
+        "clusterSize": 512,
+        "numClusters": 2,
         "minHeight": 0,
         "maxHeight": 128,
         "retrogen": "true",
@@ -52,10 +55,14 @@
     },
     "iron": {
         "template": "uniform",
-        "block": "iron_ore",
+        "block": [
+            {"name": "minecraft:iron_ore", "weight": 90},
+            {"name": "Railcraft:ore", "metadata": 7, "weight": 10}
+        ],
         "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 20,
+        "clusterSize": 512,
+        "numClusters": 2,
+		"chunkChance": 2,
         "minHeight": 0,
         "maxHeight": 64,
         "retrogen": "true",
@@ -69,10 +76,14 @@
     },
     "gold": {
         "template": "uniform",
-        "block": "gold_ore",
+        "block": [
+            {"name": "minecraft:gold_ore", "weight": 90},
+            {"name": "Railcraft:ore", "metadata": 8, "weight": 10}
+        ],
         "material": "minecraft:stone",
-        "clusterSize": 8,
+        "clusterSize": 512,
         "numClusters": 2,
+		"chunkChance": 3,
         "minHeight": 0,
         "maxHeight": 32,
         "retrogen": "true",
@@ -86,10 +97,14 @@
     },
     "redstone": {
         "template": "uniform",
-        "block": "redstone_ore",
+        "block": [
+            {"name": "minecraft:redstone_ore", "weight": 99},
+            {"name": "BiomesOPlenty:gemOre", "metadata": 2, "weight": 1}
+        ],
         "material": "minecraft:stone",
-        "clusterSize": 7,
-        "numClusters": 8,
+        "clusterSize": 512,
+        "numClusters": 2,
+		"chunkChance": 2,
         "minHeight": 0,
         "maxHeight": 16,
         "retrogen": "true",
@@ -105,8 +120,9 @@
         "template": "uniform",
         "block": "diamond_ore",
         "material": "minecraft:stone",
-        "clusterSize": 7,
+        "clusterSize": 64,
         "numClusters": 1,
+		"chunkChance": 8,
         "minHeight": 0,
         "maxHeight": 16,
         "retrogen": "true",
@@ -120,15 +136,44 @@
     },
     "lapis": {
         "template": "normal",
-        "block": "lapis_ore",
+        "block": [
+            {"name": "minecraft:lapis_ore", "weight": 95},
+            {"name": "TConstruct:SearedBrick", "metadata": 5, "weight": 4},
+			{"name": "BiomesOPlenty:gemOre", "metadata": 12, "weight": 1}
+        ],
         "material": "minecraft:stone",
-        "clusterSize": 6,
+        "clusterSize": 256,
         "numClusters": 1,
+		"chunkChance": 3,
         "meanHeight": 16,
         "maxVariance": 16,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"emerald": {
+        "template": "uniform",
+        "block": [
+            {"name": "minecraft:emerald_ore", "weight": 95},
+            {"name": "TConstruct:ore.berries.two", "metadata": 9, "weight": 4},
+			{"name": "BiomesOPlenty:gemOre", "metadata": 4, "weight": 1}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 64,
+        "numClusters": 1,
+		"chunkChance": 10,
+        "minHeight": 4,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "MOUNTAIN"}
+        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,

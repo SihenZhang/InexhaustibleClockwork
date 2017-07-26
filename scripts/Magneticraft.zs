@@ -269,7 +269,11 @@ recipes.remove(<Magneticraft:item.chainsaw>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:item.chainsaw> , [[<ore:plateIron>, <ore:plateIron>, null],
                                                                       [<ore:plateIron>, <ore:plateIron>, <Forestry:thermionicTubes>], 
                                                                       [null,<Creator:motorDC>,<Magneticraft:item.battery_small>]], <liquid:iron.molten> * 288, 150);
-recipes.addShaped(<ThermalFoundation:material:16>,[[<Magneticraft:item.dustSulfur>,<Magneticraft:item.dustSulfur>],[<Magneticraft:item.dustSulfur>,<Magneticraft:item.dustSulfur>]]);
+recipes.remove(<Magneticraft:item.voltmeter>);
+recipes.addShaped(<Magneticraft:item.voltmeter>, [[<ore:plateBronze>, <ore:paneGlass>, <ore:plateBronze>], [<ore:plateBronze>, <ore:paneGlass>, <ore:plateBronze>], [<Magneticraft:item.cable_low>, <Magneticraft:item.cable_medium>, <Magneticraft:item.cable_high>]]);
+
+recipes.addShaped(<ThermalFoundation:material:16>, [[<Magneticraft:item.dustSulfur>, <Magneticraft:item.dustSulfur>], [<Magneticraft:item.dustSulfur>, <Magneticraft:item.dustSulfur>]]);
+
 
 #remove things about Uranium & Thorium
 <ore:oreUranium>.remove(<Magneticraft:uranium_ore>);

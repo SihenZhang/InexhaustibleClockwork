@@ -19,7 +19,7 @@ recipes.remove(<Forestry:engine:2>);
 recipes.remove(<Forestry:engine:4>);
 recipes.addShaped(<Forestry:engine:1>, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<Creator:IronHammer>.anyDamage().transformDamage(), <Forestry:thermionicTubes>, <Creator:IronWrench>.anyDamage().transformDamage()], [<ore:gearCopper>, <minecraft:piston>, <ore:gearCopper>]]);
 recipes.addShaped(<Forestry:engine:2>, [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>], [<Creator:IronHammer>.anyDamage().transformDamage(), <Forestry:thermionicTubes:2>, <Creator:IronWrench>.anyDamage().transformDamage()], [<ore:gearBronze>, <minecraft:piston>, <ore:gearBronze>]]);
-recipes.addShaped(<Forestry:engine:4>, [[<ImmersiveEngineering:treatedWood:1>, <ImmersiveEngineering:treatedWood:1>, <ImmersiveEngineering:treatedWood:1>], [<Creator:IronHammer>.anyDamage().transformDamage(), <ore:blockGlass>, <Creator:IronWrench>.anyDamage().transformDamage()], [<ore:gearCopper>, <minecraft:piston>, <appliedenergistics2:tile.BlockCrank>]]);
+recipes.addShaped(<Forestry:engine:4>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<Creator:IronHammer>.anyDamage().transformDamage(), <ore:blockGlass>, <Creator:IronWrench>.anyDamage().transformDamage()], [<ore:gearCopper>, <minecraft:piston>, <appliedenergistics2:tile.BlockCrank>]]);
 
 #Remove Bronze Tools
 recipes.remove(<Forestry:bronzeShovel>);

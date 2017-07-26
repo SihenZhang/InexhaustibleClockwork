@@ -19,6 +19,12 @@ recipes.remove(<ThermalExpansion:Frame:3>);
 <ThermalExpansion:Frame:3>.addTooltip(format.red("We want to make parts unified."));
 <ThermalExpansion:Frame:3>.addTooltip(format.red("我们希望统一各种零件。"));
 
+#New Alloying
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:42>, <liquid:redstone> * 250);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:43>, <liquid:glowstone> * 250);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustTincosi>, <ThermalFoundation:material:44>, <liquid:ender> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <Creator:dustIral>, <TConstruct:materials:15>, <liquid:obsidian.molten> * 250);
+
 #hardened glass
 mods.thermalexpansion.Smelter.removeRecipe(<ore:dustObsidian>, <ore:dustLead>);
 mods.thermalexpansion.Smelter.removeRecipe(<ore:dustObsidian>, <ore:ingotLead>);
@@ -32,85 +38,85 @@ mods.thermalexpansion.Smelter.addRecipe(4000, <ThermalFoundation:material:43> * 
 
 #redstone furance
 recipes.remove(<ThermalExpansion:Machine>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine> , [[<Creator:compactElectrumPlate>, <Mekanism:ControlCircuit:2>, <Creator:compactElectrumPlate>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine>, [[<Creator:compactElectrumPlate>, <Mekanism:ControlCircuit:2>, <Creator:compactElectrumPlate>],
                                                                 [<openmodularturrets:ioBus>, <Creator:chamberElectrumEH>, <openmodularturrets:ioBus>], 
                                                                 [<Creator:compactElectrumPlate>, <ThermalExpansion:material:1>, <Creator:compactElectrumPlate>]], <liquid:electrum.molten> * 288, 300);
 #pulverizer
 recipes.remove(<ThermalExpansion:Machine:1>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:1> , [[<Creator:compactElectrumPlate>, <Mekanism:ControlCircuit:2>, <Creator:compactElectrumPlate>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:1>, [[<Creator:compactElectrumPlate>, <Mekanism:ControlCircuit:2>, <Creator:compactElectrumPlate>],
                                                                   [<Creator:motorACTPA>, <Creator:chamberElectrumG>, <Creator:motorACTPA>], 
                                                                   [<Creator:compactElectrumPlate>, <ThermalExpansion:material:1>, <Creator:compactElectrumPlate>]], <liquid:electrum.molten> * 288, 300);
 #sawmill
 recipes.remove(<ThermalExpansion:Machine:2>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:2> , [[<Creator:compactElectrumPlate>, <Mekanism:ControlCircuit:2>, <Creator:compactElectrumPlate>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:2>, [[<Creator:compactElectrumPlate>, <Mekanism:ControlCircuit:2>, <Creator:compactElectrumPlate>],
                                                                   [<minecraft:iron_axe>, <Creator:chamberElectrum>, <minecraft:iron_axe>], 
                                                                   [<Creator:motorACTPA>, <ThermalExpansion:material:1>, <Creator:motorACTPA>]], <liquid:electrum.molten> * 288, 300);
 #inductioin smelter
 recipes.remove(<ThermalExpansion:Machine:3>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:3> , [[<Creator:compactElectrumPlate>, <Mekanism:ControlCircuit:2>, <Creator:compactElectrumPlate>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:3>, [[<Creator:compactElectrumPlate>, <Mekanism:ControlCircuit:2>, <Creator:compactElectrumPlate>],
                                                                   [<ThermalExpansion:Frame:4>, <Creator:chamberElectrumEH>, <ThermalExpansion:Frame:4>], 
                                                                   [<ThermalExpansion:material:1>, <ThermalExpansion:material:1>, <ThermalExpansion:material:1>]], <liquid:electrum.molten> * 288, 300);
 #magma crucible
 recipes.remove(<ThermalExpansion:Machine:4>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:4> , [[<Creator:compactElectrumPlate>, <Magneticraft:mg_tank>, <Creator:compactElectrumPlate>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:4>, [[<Creator:compactElectrumPlate>, <Magneticraft:mg_tank>, <Creator:compactElectrumPlate>],
                                                                   [<ThermalExpansion:Frame:4>, <Creator:chamberElectrumEH>, <ThermalExpansion:Frame:4>], 
                                                                   [<ThermalExpansion:material:1>, <Mekanism:ControlCircuit:2>, <ThermalExpansion:material:1>]], <liquid:electrum.molten> * 288, 300);
 #fluid transposer
 recipes.remove(<ThermalExpansion:Machine:5>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:5> , [[<Creator:compactElectrumPlate>, <Creator:motorACTPA> , <Creator:compactElectrumPlate>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:5>, [[<Creator:compactElectrumPlate>, <Creator:motorACTPA> , <Creator:compactElectrumPlate>],
                                                                   [<Magneticraft:mg_tank>, <Creator:chamberElectrum>, <minecraft:chest>], 
                                                                   [<Mekanism:ControlCircuit:2>, <ThermalExpansion:material:1>, <Mekanism:ControlCircuit:2>]], <liquid:electrum.molten> * 288, 300);
 #glacial precipitator
 recipes.remove(<ThermalExpansion:Machine:6>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:6> , [[<ImmersiveEngineering:metalDecoration:4>, <Magneticraft:mg_tank> , <ImmersiveEngineering:metalDecoration:4>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:6>, [[<ImmersiveEngineering:metalDecoration:4>, <Magneticraft:mg_tank> , <ImmersiveEngineering:metalDecoration:4>],
                                                                   [<Creator:motorACTPA>, <Creator:chamberElectrum>, <Creator:motorACTPA>], 
                                                                   [<ThermalExpansion:material:1>, <Mekanism:ControlCircuit:2>, <ThermalExpansion:material:1>]], <liquid:electrum.molten> * 288, 300);
 #igneous extruder
 recipes.remove(<ThermalExpansion:Machine:7>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:7> , [[<Creator:compactElectrumPlate>, <Creator:compactElectrumPlate> , <Creator:compactElectrumPlate>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:7>, [[<Creator:compactElectrumPlate>, <Creator:compactElectrumPlate> , <Creator:compactElectrumPlate>],
                                                                   [<Magneticraft:mg_tank>, <Creator:chamberElectrum>, <Magneticraft:mg_tank>], 
                                                                   [<ThermalExpansion:material>, <minecraft:piston>, <ThermalExpansion:material>]], <liquid:electrum.molten> * 288, 300);
 
 #cyclic assembler
 recipes.remove(<ThermalExpansion:Machine:9>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:9> , [[<Mekanism:ControlCircuit:2>, <BuildCraft|Silicon:laserTableBlock:1> , <Mekanism:ControlCircuit:2>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:9>, [[<Mekanism:ControlCircuit:2>, <BuildCraft|Silicon:laserTableBlock:1> , <Mekanism:ControlCircuit:2>],
                                                                   [<BuildCraft|Silicon:laserBlock>, <Creator:chamberElectrum>, <BuildCraft|Silicon:laserBlock>], 
                                                                   [<ore:gearInvar>, <ThermalExpansion:material:1>, <ore:gearInvar>]], <liquid:electrum.molten> * 288, 300);
 #energy infuser
 recipes.remove(<ThermalExpansion:Machine:10>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:10> , [[<Creator:compactElectrumPlate>, <ThermalExpansion:Frame:4> , <Creator:compactElectrumPlate>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:10>, [[<Creator:compactElectrumPlate>, <ThermalExpansion:Frame:4> , <Creator:compactElectrumPlate>],
                                                                    [<ThermalExpansion:material:2>, <Creator:chamberElectrum>, <ThermalExpansion:material:2>], 
                                                                    [<Mekanism:ControlCircuit:2>, <ThermalExpansion:material:1>, <Mekanism:ControlCircuit:2>]], <liquid:electrum.molten> * 288, 300);
 #Poor organic infuser
 recipes.remove(<ThermalExpansion:Machine:11>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:11> , [[<Creator:compactElectrumPlate>, <ThermalExpansion:material:3> , <Creator:compactElectrumPlate>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Machine:11>, [[<Creator:compactElectrumPlate>, <ThermalExpansion:material:3> , <Creator:compactElectrumPlate>],
                                                                    [<ProjRed|Core:projectred.core.part:14>, <Creator:chamberElectrum>, <Forestry:soil>], 
                                                                    [<Mekanism:ControlCircuit:2>, <ThermalExpansion:material:1>, <Mekanism:ControlCircuit:2>]], <liquid:electrum.molten> * 288, 300);
 #devices
 
 #autonomous activator
 recipes.remove(<ThermalExpansion:Device:2>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Device:2> , [[<Magneticraft:inserter>, <minecraft:chest> , <Magneticraft:inserter>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Device:2>, [[<Magneticraft:inserter>, <minecraft:chest> , <Magneticraft:inserter>],
                                                                  [<Creator:motorACTPA>, <Creator:chamberElectrum>, <Creator:motorACTPA>], 
                                                                  [<Mekanism:ControlCircuit:2>, <ThermalExpansion:material:1>, <Mekanism:ControlCircuit:2>]], <liquid:electrum.molten> * 576, 300);
 #terrain smasher
 recipes.remove(<ThermalExpansion:Device:3>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Device:3> , [[<Magneticraft:inserter>, <minecraft:iron_pickaxe> , <Magneticraft:inserter>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Device:3>, [[<Magneticraft:inserter>, <minecraft:iron_pickaxe> , <Magneticraft:inserter>],
                                                                  [<ore:gearCopper>, <Creator:chamberElectrum>, <ore:gearCopper>], 
                                                                  [<Mekanism:ControlCircuit:2>, <ThermalExpansion:material:1>, <Mekanism:ControlCircuit:2>]], <liquid:electrum.molten> * 288, 300);
 #acquisition apparatus
 recipes.remove(<ThermalExpansion:Device:4>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Device:4> , [[<ore:plateElectrum>, <Magneticraft:inserter> , <ore:plateElectrum>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Device:4>, [[<ore:plateElectrum>, <Magneticraft:inserter> , <ore:plateElectrum>],
                                                                  [<ThermalExpansion:material>, <minecraft:chest>, <ThermalExpansion:material>], 
                                                                  [<ore:plateElectrum>, <ThermalExpansion:material>, <ore:plateElectrum>]], <liquid:electrum.molten> * 288, 300);
 #nullifier
 recipes.remove(<ThermalExpansion:Device:5>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Device:5> , [[<ore:plateElectrum>, <ore:gearTin> , <ore:plateElectrum>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Device:5>, [[<ore:plateElectrum>, <ore:gearTin> , <ore:plateElectrum>],
                                                                  [<minecraft:hopper>, <minecraft:lava_bucket>, <Magneticraft:mg_tank>], 
                                                                  [<ore:plateElectrum>, <ThermalExpansion:material>, <ore:plateElectrum>]], <liquid:electrum.molten> * 288, 300);
 #item allocator
 recipes.remove(<ThermalExpansion:Device:6>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Device:6> , [[<ore:plateElectrum>, <minecraft:hopper> , <ore:plateElectrum>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Device:6>, [[<ore:plateElectrum>, <minecraft:hopper> , <ore:plateElectrum>],
                                                                  [<ore:plateElectrum>, <ThermalExpansion:material>, <ore:plateElectrum>], 
                                                                  [null,null,null]], <liquid:electrum.molten> * 288, 300);
 
@@ -118,24 +124,24 @@ mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Device:6> , [[<ore:plateElec
 
 #vote gaben for president, and there will be no ww3.
 recipes.remove(<ThermalExpansion:Dynamo>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Dynamo> , [[<ore:plateElectrum>, <ThermalExpansion:material:2> , <ore:plateElectrum>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Dynamo>, [[<ore:plateElectrum>, <ThermalExpansion:material:2> , <ore:plateElectrum>],
                                                                [<ore:gearCopper>, <Creator:generatorACTP>, <ore:gearCopper>], 
                                                                [<ore:plateElectrum>,<Magneticraft:mg_tank>,<ore:plateElectrum>]], <liquid:electrum.molten> * 288, 300);
 #hey, where is the magmatic dynamo?
 
 #compression dynamo
 recipes.remove(<ThermalExpansion:Dynamo:2>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Dynamo:2> , [[<ore:plateElectrum>, <ThermalExpansion:material:2> , <ore:plateElectrum>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Dynamo:2>, [[<ore:plateElectrum>, <ThermalExpansion:material:2> , <ore:plateElectrum>],
                                                                  [<Magneticraft:mg_tank>, <Creator:generatorACTP>, <Magneticraft:mg_tank>], 
                                                                  [<ore:plateElectrum>,<Mekanism:ControlCircuit:2>,<ore:plateElectrum>]], <liquid:electrum.molten> * 288, 300);
 #reactant dynamo
 recipes.remove(<ThermalExpansion:Dynamo:3>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Dynamo:3> , [[<ore:plateElectrum>, <ThermalExpansion:material:2> , <ore:plateElectrum>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Dynamo:3>, [[<ore:plateElectrum>, <ThermalExpansion:material:2> , <ore:plateElectrum>],
                                                                  [<ore:gearBronze>, <Creator:generatorACTP>, <Magneticraft:mg_tank>], 
                                                                  [<ore:plateElectrum>,<ore:plateElectrum>,<ore:plateElectrum>]], <liquid:electrum.molten> * 288, 300);
 #enervation dynamo
 recipes.remove(<ThermalExpansion:Dynamo:4>);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Dynamo:4> , [[<ore:plateElectrum>, <ThermalExpansion:material:2> , <ore:plateElectrum>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Dynamo:4>, [[<ore:plateElectrum>, <ThermalExpansion:material:2> , <ore:plateElectrum>],
                                                                  [<ThermalExpansion:material:1>, <Creator:chamberElectrum>, <ThermalExpansion:material:1>], 
                                                                  [<ore:plateElectrum>,<Mekanism:ControlCircuit:2>,<ore:plateElectrum>]], <liquid:electrum.molten> * 288, 300);
 
@@ -146,10 +152,10 @@ recipes.remove(<ThermalExpansion:Frame:6>); #redstone energy cell frame empty
 recipes.remove(<ThermalExpansion:Frame:8>); #resonant energy cell frame empty
 recipes.remove(<ThermalExpansion:Frame:9>); #full
 recipes.remove(<ThermalExpansion:Frame:10>); #tesseract frame empty
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Frame:4> , [[<Creator:compactElectrumPlate>, <Creator:compactLeadPlate> , <Creator:compactElectrumPlate>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Frame:4>, [[<Creator:compactElectrumPlate>, <Creator:compactLeadPlate> , <Creator:compactElectrumPlate>],
                                                                 [<Creator:compactLeadPlate>, <ore:blockRedstone>, <Creator:compactLeadPlate>], 
                                                                 [<Creator:compactElectrumPlate>,<Creator:compactLeadPlate>,<Creator:compactElectrumPlate>]], <liquid:electrum.molten> * 288, 300);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Frame:5> , [[null, <Creator:compactLeadPlate> ,null ],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Frame:5>, [[null, <Creator:compactLeadPlate> ,null ],
                                                                 [<Creator:compactInvarPlate>, <ThermalExpansion:Frame:4>, <Creator:compactInvarPlate>], 
                                                                 [null, <Creator:compactLeadPlate>, null]], <liquid:electrum.molten> * 288, 300);
 recipes.addShaped(<ThermalExpansion:Frame:6>, [[<Redstonic:EnergizerCapsuleFULL>, <ore:ingotLumium>, <Redstonic:EnergizerCapsuleFULL>], [<ore:ingotLumium>, <ThermalExpansion:Frame:5>, <ore:ingotLumium>], [<Redstonic:EnergizerCapsuleFULL>, <ore:ingotLumium>, <Redstonic:EnergizerCapsuleFULL>]]);
@@ -162,14 +168,14 @@ recipes.remove(<ThermalExpansion:Cell:1>); #leadstone energy cell
 recipes.remove(<ThermalExpansion:Cell:2>); #hardened energy cell
 recipes.remove(<ThermalExpansion:Cell:3>); #redstone energy cell
 recipes.remove(<ThermalExpansion:Cell:4>); #resonant energy cell
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Cell:1> , [[<Creator:compactElectrumPlate>, <ThermalExpansion:material:1> , <Creator:compactElectrumPlate>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Cell:1>, [[<Creator:compactElectrumPlate>, <ThermalExpansion:material:1> , <Creator:compactElectrumPlate>],
                                                                [<ThermalExpansion:material:2>, <ThermalExpansion:Frame:4>, <ThermalExpansion:material:2>], 
                                                                [<Creator:compactElectrumPlate>,<ThermalExpansion:material:1>,<Creator:compactElectrumPlate>]], <liquid:electrum.molten> * 288, 300);
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Cell:2> , [[<Creator:compactElectrumPlate>, <ThermalExpansion:material:1> , <Creator:compactElectrumPlate>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Cell:2>, [[<Creator:compactElectrumPlate>, <ThermalExpansion:material:1> , <Creator:compactElectrumPlate>],
                                                                [<ThermalExpansion:material:2>, <ThermalExpansion:Frame:5>, <ThermalExpansion:material:2>], 
                                                                [<Creator:compactElectrumPlate>,<ThermalExpansion:material:1>,<Creator:compactElectrumPlate>]], <liquid:electrum.molten> * 288, 300);
 
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Cell:2> , [[null, <Creator:compactLeadPlate> ,null ],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:Cell:2>, [[null, <Creator:compactLeadPlate> ,null ],
                                                                [<Creator:compactInvarPlate>, <ThermalExpansion:Cell:1>, <Creator:compactInvarPlate>], 
                                                                [null, <Creator:compactLeadPlate>, null]], <liquid:electrum.molten> * 288, 300);
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Cell:3>, 300000, [<ThermalExpansion:Frame:7>, <Creator:EnergeticAlloyPlate> * 4, <Creator:gearEnergized> * 2, <ThermalExpansion:material:3> * 4]);
@@ -226,7 +232,7 @@ recipes.remove(<ThermalExpansion:capacitor:3>);
 recipes.remove(<ThermalExpansion:capacitor:4>);
 recipes.remove(<ThermalExpansion:capacitor:5>);
 
-mods.forestry.Carpenter.addRecipe(<ThermalExpansion:capacitor:2> , [[<ThermalExpansion:material:2>, <Redstonic:capacitor> , <ThermalExpansion:material:2>],
+mods.forestry.Carpenter.addRecipe(<ThermalExpansion:capacitor:2>, [[<ThermalExpansion:material:2>, <Redstonic:capacitor> , <ThermalExpansion:material:2>],
                                                                       [<Creator:compactLeadPlate>, <ore:blockCopper>, <Creator:compactLeadPlate>], 
                                                                       [<Creator:compactElectrumPlate>,<ore:dustSulfur>,<Creator:compactElectrumPlate>]], <liquid:electrum.molten> * 288, 300);
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:capacitor:3>, 30000, [<ThermalExpansion:capacitor:2>, <Creator:compactInvarPlate> * 3, <minecraft:redstone>*3, <ThermalExpansion:material:2> * 2]);
@@ -339,7 +345,7 @@ recipes.remove(<ThermalExpansion:Tank:4>);
 <ThermalExpansion:Tank:4>.addTooltip(format.red("There are so many kinds of tanks that you can choose."));
 <ThermalExpansion:Tank:4>.addTooltip(format.red("有太多种储罐供你选择了。"));
 recipes.remove(<ThermalExpansion:Sponge:*>);
-<ThermalExpansion:Sponge:*>.addTooltip(format.red("You have OB Sponge, so you needn't use this."));
+<ThermalExpansion:Sponge:*>.addTooltip(format.red("You have OpenBlocks Sponge, so you needn't use this."));
 <ThermalExpansion:Sponge:*>.addTooltip(format.red("你有开放式方块的海绵了，所以你没必要用这玩意了。"));
 NEI.hide(<ThermalExpansion:Sponge:1>);
 NEI.hide(<ThermalExpansion:Sponge:2>);

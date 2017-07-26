@@ -90,6 +90,14 @@ recipes.addShaped(<Railcraft:machine.alpha:8>, [[<Creator:IronHammer>, <ore:gear
 recipes.remove(<Railcraft:part.gear:2>);
 recipes.addShaped(<Railcraft:part.gear:2>, [[null, <Railcraft:part.plate:1>, null], [<Railcraft:part.plate:1>, <ore:gearIron>, <Railcraft:part.plate:1>], [null, <Railcraft:part.plate:1>, null]]);
 
+#anchor
+recipes.remove(<Railcraft:machine.alpha>);
+recipes.remove(<Railcraft:machine.alpha:2>);
+recipes.remove(<Railcraft:machine.alpha:13>);
+recipes.addShaped(<Railcraft:machine.alpha>, [[<ore:ingotVibrantAlloy>, <ore:itemPulsatingCrystal>, <ore:ingotVibrantAlloy>], [<ore:gemDiamond>, <minecraft:dragon_egg>.transformReplace(<minecraft:dragon_egg>), <ore:gemDiamond>], [<ore:ingotVibrantAlloy>, <ore:itemPulsatingCrystal>, <ore:ingotVibrantAlloy>]]);
+recipes.addShaped(<Railcraft:machine.alpha:2>, [[<ore:ingotVibrantAlloy>, <ore:itemPulsatingCrystal>, <ore:ingotVibrantAlloy>], [<ore:gemEmerald>, <minecraft:dragon_egg>.transformReplace(<minecraft:dragon_egg>), <ore:gemEmerald>], [<ore:ingotVibrantAlloy>, <ore:itemPulsatingCrystal>, <ore:ingotVibrantAlloy>]]);
+recipes.addShaped(<Railcraft:machine.alpha:13>, [[<ore:ingotVibrantAlloy>, <ore:itemPulsatingCrystal>, <ore:ingotVibrantAlloy>], [<ore:dyeCyan>, <minecraft:dragon_egg>.transformReplace(<minecraft:dragon_egg>), <ore:dyeCyan>], [<ore:ingotVibrantAlloy>, <ore:itemPulsatingCrystal>, <ore:ingotVibrantAlloy>]]);
+
 #remove wooden tie crafting
 recipes.remove(<Railcraft:part.tie>);
 

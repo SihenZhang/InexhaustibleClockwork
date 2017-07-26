@@ -1,0 +1,19 @@
+{
+    "aluminum": {
+        "template": "uniform",
+        "block": "Mekanism:OreBlock",
+        "clusterSize": 512,
+        "numClusters": 1,
+		"chunkChance": 5,
+        "minHeight": 0,
+        "maxHeight": 60,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}
