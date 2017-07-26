@@ -4,7 +4,7 @@ var gen_level = 10.0;
 var Opcodes = org.objectweb.asm.Opcodes;
 
 var methodGenLevelGetter = node.methods.stream().filter(function (m){
-    return m.name.equals("getGenLevel");
+    return m.name.equals("genLevel");
 }).findFirst().orElseThrow(function (){
     return new java.lang.Error();
 });
