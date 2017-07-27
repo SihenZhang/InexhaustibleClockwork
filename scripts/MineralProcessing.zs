@@ -359,56 +359,6 @@ mods.railcraft.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:12>, true, fal
 mods.railcraft.BlastFurnace.addRecipe(<Mekanism:Shard:6>, true, false, 250, <Creator:leadDustSmall> * 4);
 mods.railcraft.BlastFurnace.addRecipe(<Mekanism:Crystal:6>, true, false, 250, <Creator:leadDustTiny> * 6);
 
-#Zinc
-#remove
-furnace.remove(<ore:ingotZinc>);
-mods.tconstruct.Smeltery.removeMelting(<ore:oreZinc>);
-mods.appeng.Grinder.removeRecipe(<ore:dustZinc>);
-recipes.removeShaped(<ore:ingotZinc>, [[<ore:oreZinc>, <ThermalFoundation:material:512>]]);
-mods.mekanism.Crusher.removeRecipe(<ore:dustDirtyZinc>, <*>);
-mods.mekanism.Enrichment.removeRecipe(<*>, <ore:dustZinc>);
-mods.mekanism.Purification.removeRecipe(<ore:clumpZinc>, <*>, <gas:oxygen>);
-mods.mekanism.chemical.Injection.removeRecipe(<ore:shardZinc>, <*>, <gas:hydrogenchloride>);
-mods.mekanism.chemical.Dissolution.removeRecipe(<gas:zinc>, <ore:oreZinc>);
-mods.mekanism.chemical.Crystallizer.removeRecipe(<ore:crystalZinc>, <gas:cleanZinc>);
-mods.thermalexpansion.Furnace.removeRecipe(<ore:oreZinc>);
-mods.thermalexpansion.Furnace.removeRecipe(<ore:chunkZinc>);
-mods.thermalexpansion.Furnace.removeRecipe(<ore:rubbleZinc>);
-mods.thermalexpansion.Furnace.removeRecipe(<ore:pebblesZinc>);
-mods.thermalexpansion.Furnace.removeRecipe(<ore:clusterZinc>);
-mods.thermalexpansion.Furnace.removeRecipe(<ore:dustZinc>);
-mods.thermalexpansion.Furnace.removeRecipe(<ore:denseoreZinc>);
-mods.thermalexpansion.Furnace.removeRecipe(<ore:crushedZinc>);
-mods.thermalexpansion.Pulverizer.removeRecipe(<ore:oreZinc>);
-mods.thermalexpansion.Pulverizer.removeRecipe(<ore:denseoreZinc>);
-mods.thermalexpansion.Smelter.removeRecipe(<*>, <ore:oreZinc>);
-mods.extraUtils.QED.removeRecipe(<ore:ingotZinc>);
-mods.immersiveengineering.Crusher.removeRecipe(<Magneticraft:item.dust:12>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<Magneticraft:item.ingotZinc>);
-mods.magneticraft.Crusher.removeRecipe(<Magneticraft:zinc_ore>);
-mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.ingotZinc>);
-mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.chunks:12>);
-mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.rubble:12>);
-mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:12>);
-mods.railcraft.RockCrusher.removeRecipe(<ore:oreZinc>);
-mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<Magneticraft:item.ingotZinc>);
-#add
-mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.chunks:12>, <ore:oreZinc>, 20000, <Creator:aluminumDustSmall>, 0.4);
-mods.magneticraft.Crusher.addRecipe(<Magneticraft:item.chunks:12>, <Magneticraft:item.rubble:12> * 2, <Creator:zincDustSmall>, 0.4, <Creator:aluminumDustSmall> * 3, 0.6);
-mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:12>, <Magneticraft:item.pebbles:12> * 3, <Creator:zincDustSmall>, 0.6, <Creator:copperDustTiny>, 0.15);
-mods.magneticraft.Sifter.addRecipe(<Magneticraft:item.pebbles:12>, <aobd:dustDirtyZinc> * 3, <Creator:aluminumDustSmall>, 0.6);
-mods.forestry.Centrifuge.addRecipe([<Creator:zincDust> % 100, <minecraft:dirt> % 50], <aobd:dustDirtyZinc>, 20);
-mods.thermalexpansion.Smelter.addRecipe(18000, <ExtraUtilities:cobblestone_compressed>, <Creator:zincDust> * 4, <aobd:shardZinc>, <Creator:zincDustTiny> * 2, 20);
-mods.mekanism.Purification.addRecipe(<aobd:shardZinc>, <gas:oxygen>, <aobd:crystalZinc> * 8);
-mods.mekanism.Crusher.addRecipe(<aobd:crystalZinc>, <Creator:zincDustSmall>);
-mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.chunks:12>, true, false, 400, <Creator:zincDustSmall> * 4);
-mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.rubble:12>, true, false, 350, <Creator:zincDustSmall> * 3);
-mods.railcraft.BlastFurnace.addRecipe(<Magneticraft:item.pebbles:12>, true, false, 330, <Creator:zincDustSmall> * 2);
-mods.railcraft.BlastFurnace.addRecipe(<aobd:dustDirtyZinc>, true, false, 300, <Creator:zincDustSmall>);
-mods.railcraft.BlastFurnace.addRecipe(<Creator:zincDust>, true, false, 280, <Creator:zincDustSmall>);
-mods.railcraft.BlastFurnace.addRecipe(<aobd:shardZinc>, true, false, 250, <Creator:zincDustSmall> * 4);
-mods.railcraft.BlastFurnace.addRecipe(<aobd:crystalZinc>, true, false, 250, <Creator:zincDustTiny> * 6);
-
 #Tier 3
 
 #Silver
