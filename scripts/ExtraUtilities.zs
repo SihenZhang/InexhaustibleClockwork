@@ -7,32 +7,29 @@ print("Initializing 'ExtraUtilities.zs'...");
 <ExtraUtilities:generator.64:9>.addTooltip(format.white("Useless Generator"));
 recipes.remove(<ExtraUtilities:generator.64:4>);
 <ExtraUtilities:generator.64:4>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.64:3>);
-<ExtraUtilities:generator.64:3>.addTooltip(format.red("This machine has no recipe now!"));
+<ExtraUtilities:generator.64:3>.addTooltip(format.white("Useless Generator"));
 recipes.remove(<ExtraUtilities:generator.64:2>);
 <ExtraUtilities:generator.64:2>.addTooltip(format.red("This machine has no recipe now!"));
 
 <ExtraUtilities:generator.8:9>.addTooltip(format.white("Useless Generator"));
 recipes.remove(<ExtraUtilities:generator.8:4>);
 <ExtraUtilities:generator.8:4>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator.8:3>);
-<ExtraUtilities:generator.8:3>.addTooltip(format.red("This machine has no recipe now!"));
+<ExtraUtilities:generator.8:3>.addTooltip(format.white("Useless Generator"));
 recipes.remove(<ExtraUtilities:generator.8:2>);
 <ExtraUtilities:generator.8:2>.addTooltip(format.red("This machine has no recipe now!"));
 
 <ExtraUtilities:generator:9>.addTooltip(format.white("Useless Generator"));
 recipes.remove(<ExtraUtilities:generator:4>);
 <ExtraUtilities:generator:4>.addTooltip(format.red("This machine has no recipe now!"));
-recipes.remove(<ExtraUtilities:generator:3>);
-<ExtraUtilities:generator:3>.addTooltip(format.red("This machine has no recipe now!"));
+<ExtraUtilities:generator:3>.addTooltip(format.white("Useless Generator"));
 recipes.remove(<ExtraUtilities:generator:2>);
 <ExtraUtilities:generator:2>.addTooltip(format.red("This machine has no recipe now!"));
 
 #custom generators
 recipes.remove(<ExtraUtilities:generator>);
-recipes.addShaped(<ExtraUtilities:generator>, [[<ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed:1>], [<ore:ingotRedAlloy>, <Forestry:sturdyMachine>, <ore:ingotRedAlloy>], [<Creator:coilCopper>, <BuildCraft|Core:engineBlock:1>, <Creator:coilCopper>]]);
+recipes.addShaped(<ExtraUtilities:generator>, [[<ExtraUtilities:cobblestone_compressed>, <ExtraUtilities:cobblestone_compressed>, <ExtraUtilities:cobblestone_compressed>], [<ore:ingotRedAlloy>, <Forestry:sturdyMachine>, <ore:ingotRedAlloy>], [<Creator:coilCopper>, <BuildCraft|Core:engineBlock:1>, <Creator:coilCopper>]]);
 recipes.remove(<ExtraUtilities:generator:1>);
-recipes.addShaped(<ExtraUtilities:generator:1>, [[<ore:blockCoal>, <BuildCraft|Core:engineBlock:1>, <ore:blockCoal>], [<BuildCraft|Core:engineBlock:1>, <ExtraUtilities:generator>, <BuildCraft|Core:engineBlock:1>], [<ore:ingotRedAlloy>, <BuildCraft|Core:engineBlock:1>, <ore:ingotRedAlloy>]]);
+recipes.addShaped(<ExtraUtilities:generator:1>, [[<ore:blockCoal>, <ore:blockCoal>, <ore:blockCoal>], [<BuildCraft|Core:engineBlock:1>, <ExtraUtilities:generator>, <BuildCraft|Core:engineBlock:1>], [<ore:ingotRedAlloy>, <BuildCraft|Core:engineBlock:1>, <ore:ingotRedAlloy>]]);
 recipes.remove(<ExtraUtilities:generator:5>);
 recipes.addShaped(<ExtraUtilities:generator:5>, [[<harvestcraft:firmtofuItem>, <harvestcraft:firmtofuItem>, <harvestcraft:firmtofuItem>], [<minecraft:furnace>, <ExtraUtilities:generator:10>, <minecraft:furnace>], [<ore:ingotRedAlloy>, <ore:gearIron>, <ore:ingotRedAlloy>]]);
 recipes.remove(<ExtraUtilities:generator:6>);

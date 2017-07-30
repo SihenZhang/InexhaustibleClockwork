@@ -89,5 +89,15 @@ NEI.hide(<gendustry:Transposer>);
 NEI.hide(<gendustry:Replicator>);
 NEI.hide(<gendustry:GeneSampleBlank>);
 NEI.hide(<gendustry:GeneTemplate>);
+NEI.hide(<gendustry:fluid.Mutagen>);
+NEI.hide(<gendustry:fluid.LiquidDNA>);
+NEI.hide(<gendustry:fluid.Protein>);
+NEI.hide(<gendustry:Waste>);
+NEI.hide(<gendustry:MutagenBucket>);
+NEI.hide(<gendustry:MutagenCan>);
+NEI.hide(<gendustry:LiquidDNABucket>);
+NEI.hide(<gendustry:LiquidDNACan>);
+NEI.hide(<gendustry:ProteinBucket>);
+NEI.hide(<gendustry:ProteinCan>);
 
 print("Initialized 'Gendustry.zs'");

@@ -26,6 +26,8 @@ recipes.remove(<StevesCarts:ModuleComponents:1>);
 recipes.addShaped(<StevesCarts:ModuleComponents:1>, [[null, <ore:ingotIron>], [<ore:ingotIron>, <StevesCarts:ModuleComponents>, <ore:ingotIron>], [null, <ore:ingotIron>]]);
 recipes.remove(<StevesCarts:ModuleComponents:23>);
 recipes.addShaped(<StevesCarts:ModuleComponents:23>, [[null, <StevesCarts:ModuleComponents:22>], [<StevesCarts:ModuleComponents:22>, <StevesCarts:ModuleComponents:1>, <StevesCarts:ModuleComponents:22>], [null, <StevesCarts:ModuleComponents:22>]]);
+recipes.remove(<StevesCarts:CartModule:87>);
+recipes.addShaped(<StevesCarts:CartModule:87>, [[null, <ExtraUtilities:generator:7>], [<appliedenergistics2:tile.BlockCraftingStorage>, <appliedenergistics2:tile.BlockMolecularAssembler>, <appliedenergistics2:tile.BlockCraftingStorage>], [null, <StevesCarts:ModuleComponents:9>]]);
 
 #upgrades
 recipes.remove(<StevesCarts:upgrade>);
@@ -51,6 +53,8 @@ recipes.addShaped(<StevesCarts:BlockAdvDetector>, [[<ore:ingotSteel>, <minecraft
 #recipes.remove(<StevesCarts:ModuleComponents:46>);
 #recipes.addShaped(<StevesCarts:ModuleComponents:46> * 3, [[<ProjRed|Core:projectred.core.part:14>, <ore:blockDiamond>, <ProjRed|Core:projectred.core.part:14>], [<StevesCarts:ModuleComponents:45>, <ore:ingotCarbide>, <StevesCarts:ModuleComponents:45>], [<StevesCarts:ModuleComponents:21>, <StevesCarts:ModuleComponents:45>, <StevesCarts:ModuleComponents:21>]]);
 furnace.remove(<StevesCarts:ModuleComponents:49>);
+mods.thermalexpansion.Furnace.removeRecipe(<StevesCarts:ModuleComponents:48>);
+mods.immersiveengineering.CokeOven.addRecipe(<StevesCarts:ModuleComponents:49>, 0, <StevesCarts:ModuleComponents:48>, 800);
 
 #glass o'magic
 recipes.remove(<StevesCarts:ModuleComponents:5>);

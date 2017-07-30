@@ -32,12 +32,9 @@ MTUtils.setHardness(<ThermalFoundation:Ore:4>, 40);
 MTUtils.setHardness(<ThermalFoundation:Ore:5>, 40);
 
 MTUtils.setHardness(<Magneticraft:salt_ore>, 30);
-MTUtils.setHardness(<Magneticraft:zinc_ore>, 40);
 MTUtils.setHardness(<Magneticraft:tungsten_ore>, 40);
 
 MTUtils.setHardness(<Mekanism:OreBlock>, 40);
-
-MTUtils.setHardness(<Railcraft:ore>, 30);
 
 MTUtils.setHardness(<TConstruct:SearedBrick:5>, 40);
 
@@ -70,13 +67,12 @@ MTUtils.setBlockDrops(null, <denseores:block1:4>, [<ThermalFoundation:Ore:4> * 1
 MTUtils.setBlockDrops(null, <denseores:block1:5>, [<ThermalFoundation:Ore:5> * 16], [1.5], [<ThermalFoundation:Ore:5> * 16]);
 
 MTUtils.setBlockDrops(null, <denseores:block1:7>, [<Magneticraft:item.dustSalt> * 16], [1.5], [<Magneticraft:item.dustSalt> * 16]);
-MTUtils.setBlockDrops(null, <denseores:block1:8>, [<Magneticraft:zinc_ore> * 16], [1.5], [<Magneticraft:zinc_ore> * 16]);
-MTUtils.setBlockDrops(null, <denseores:block1:9>, [<Magneticraft:tungsten_ore> * 16], [1.5], [<Magneticraft:tungsten_ore> * 16]);
+MTUtils.setBlockDrops(null, <denseores:block1:8>, [<Magneticraft:tungsten_ore> * 16], [1.5], [<Magneticraft:tungsten_ore> * 16]);
 
-MTUtils.setBlockDrops(null, <denseores:block1:10>, [<Mekanism:OreBlock> * 16], [1.5], [<Mekanism:OreBlock> * 16]);
+MTUtils.setBlockDrops(null, <denseores:block1:9>, [<Mekanism:OreBlock> * 16], [1.5], [<Mekanism:OreBlock> * 16]);
 
-MTUtils.setBlockDrops(null, <denseores:block1:11>, [<ThermalFoundation:material:16> * 16], [1.5], [<ThermalFoundation:material:16> * 16]);
+MTUtils.setBlockDrops(null, <denseores:block1:10>, [<ThermalFoundation:material:16> * 16], [1.5], [<ThermalFoundation:material:16> * 16]);
 
-MTUtils.setBlockDrops(null, <denseores:block1:12>, [<TConstruct:SearedBrick:5> * 16], [1.5], [<TConstruct:SearedBrick:5> * 16]);
+MTUtils.setBlockDrops(null, <denseores:block1:11>, [<TConstruct:SearedBrick:5> * 16], [1.5], [<TConstruct:SearedBrick:5> * 16]);
 
 print("Initialized 'OreDrop&OreHardness.zs'");
