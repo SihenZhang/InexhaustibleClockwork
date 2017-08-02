@@ -2,14 +2,14 @@
 
 ------
 
-**InexhaustibleClockwork**是一个由**Si_hen**（项目所有者Owner）及**Prunoideae**（作者Author，设计师Designer）联合制作的**Minecraft整合包**。
->本仓库仅提供**Mod列表，config，scripts，CS2，CS3，resources及releases**。
+**InexhaustibleClockwork**是一个由**Si_hen**（项目所有者Owner，作者Author）及**Prunoideae**（作者Author，世界观架构师Worldview Architect）联合制作的**Minecraft整合包**。
+>本仓库仅提供**Mod列表，config，scripts，CS2，CS3，resources，insane_patchers，local，modpack及releases**。
 
 ------
 
 ## 声明
 
->本整合包中所使用的 **`Pam's HarvestCraft`、`Steve's Carts 2`、`Steve's Facotry Manager`及`Ztones`** 的 **本地化文件** 皆来自于 **[@3TUSK](https://github.com/3TUSK) 的 [TemporaryLocalization仓库](https://github.com/3TUSK/TemporaryLocalization/tree/1.7.10)** 并且 **[已经过本人授权](https://github.com/SihenZhang/InexhaustibleClockwork/blob/master/resources/PERMISSION.png)** 。
+>本整合包中所使用的 **`Pam's HarvestCraft`、`Steve's Carts 2`、`Steve's Facotry Manager`及`Ztones`** 的 **本地化文件** 皆来自于 **[@3TUSK](https://github.com/3TUSK) 的 [TemporaryLocalization仓库](https://github.com/3TUSK/Temp-l10n/tree/1.7.10)** 并且 **[已经过本人授权](https://github.com/SihenZhang/InexhaustibleClockwork/blob/master/resources/PERMISSION.png)** 。
 
 ------
 
@@ -31,7 +31,7 @@
 | BeeBetterAtBees | 0.3 | HellFirePvP | https://minecraft.curseforge.com/projects/beebetteratbees |
 | BiblioCraft | v1.11.5 | Nuchaz | https://minecraft.curseforge.com/projects/bibliocraft |
 | Big Reactors | 0.4.3A | ErogenousBeef | https://minecraft.curseforge.com/projects/big-reactors |
-| Binnie's Mods | 2.0.19 | Binnie567 | https://minecraft.curseforge.com/projects/binnies-mods |
+| Binnie's Mods | 2.0.20 | Binnie567 | https://minecraft.curseforge.com/projects/binnies-mods |
 | Biomes O' Plenty | 2.1.0.2027 | Team Glitchfiend | https://minecraft.curseforge.com/projects/biomes-o-plenty |
 | BuildCraft | 7.1.22 | Team BuildCraft | http://mod-buildcraft.com |
 | BuildCraftCompat | 7.1.6 | Team BuildCraft | http://www.mod-buildcraft.com/pages/download.html |
@@ -71,6 +71,7 @@
 | Iguanas Tinker Tweaks | 2.1.6 | boni | https://minecraft.curseforge.com/projects/iguanas-tinker-tweaks |
 | Immersive Engineering | 0.7.7 | BluSunrize | https://minecraft.curseforge.com/projects/immersive-engineering |
 | Immersive Integration | 0.6.8 | UnwrittenFun | https://minecraft.curseforge.com/projects/immersive-integration |
+| InexhaustibleTweaks | 1.0.0 | 3TUSK | / |
 | InGame Info XML | 2.8.1.82 | Lunatrius | https://minecraft.curseforge.com/projects/ingame-info-xml |
 | INpureCore | 1.0.0B9-62 | INpureProjects | https://minecraft.curseforge.com/projects/inpurecore |
 | InputFix | v5 | ZLainSama |  https://minecraft.curseforge.com/projects/inputfix |
