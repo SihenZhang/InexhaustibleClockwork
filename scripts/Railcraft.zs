@@ -3,17 +3,13 @@
 
 print("Initializing 'Railcraft.zs'...");
 
-#add plates into OreDict
-val plateIron = <ore:plateIron>;
-val plateSteel = <ore:plateSteel>;
-val plateCopper = <ore:plateCopper>;
-val plateTin = <ore:plateTin>;
-val plateLead = <ore:plateLead>;
-plateIron.add(<Railcraft:part.plate:0>);
-plateSteel.add(<Railcraft:part.plate:1>);
-plateCopper.add(<Railcraft:part.plate:3>);
-plateTin.add(<Railcraft:part.plate:2>);
-plateLead.add(<Railcraft:part.plate:4>);
+#add something into OreDict
+<ore:plateIron>.add(<Railcraft:part.plate:0>);
+<ore:plateSteel>.add(<Railcraft:part.plate:1>);
+<ore:plateCopper>.add(<Railcraft:part.plate:3>);
+<ore:plateTin>.add(<Railcraft:part.plate:2>);
+<ore:plateLead>.add(<Railcraft:part.plate:4>);
+<ore:gearSteel>.add(<Railcraft:part.gear:2>);
 
 #plate
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2>);
@@ -31,28 +27,28 @@ recipes.remove(<Railcraft:machine.alpha:7>);
 recipes.addShaped(<Railcraft:machine.alpha:7> * 2, [[<TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>], [<TConstruct:CraftedSoil:1>, <Railcraft:brick.sandy>, <TConstruct:CraftedSoil:1>], [<TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>]]);
 recipes.removeShaped(<Railcraft:brick.sandy:2>, [[<minecraft:brick>, <ore:sand>], [<ore:sand>, <minecraft:brick>]]);
 recipes.addShaped(<Railcraft:brick.sandy:2> * 4, [[<TConstruct:CraftedSoil:1>, <ExtraUtilities:cobblestone_compressed:14>], [<ExtraUtilities:cobblestone_compressed:14>, <TConstruct:CraftedSoil:1>]]);
-mods.railcraft.CokeOven.addRecipe(<Railcraft:machine.alpha:7>, <liquid:water> * 100, <Railcraft:brick.sandy>, 5400);
+mods.railcraft.CokeOven.addRecipe(<Railcraft:machine.alpha:7>, <liquid:water> * 125, <Railcraft:brick.sandy>, 5400);
 mods.railcraft.RockCrusher.removeRecipe(<Railcraft:machine.alpha:7>);
 mods.railcraft.CokeOven.removeRecipe(<ore:fuelCoke>);
 mods.railcraft.CokeOven.removeRecipe(<ore:blockFuelCoke>);
 mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:1>);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <minecraft:log:*>, 400); 
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <minecraft:log2:*>, 400); 
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Natura:tree:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Natura:redwood:1>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Natura:Rare Tree:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Natura:willow>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Natura:Dark Tree:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <BiomesOPlenty:logs1:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <BiomesOPlenty:logs2:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <BiomesOPlenty:logs3:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <BiomesOPlenty:logs4:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Forestry:logs:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Forestry:logsFireproof:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <harvestcraft:pamCinnamon>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <harvestcraft:pamMaple>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <harvestcraft:pamPaperbark>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Thaumcraft:blockMagicalLog:*>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <minecraft:log:*>, 400); 
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <minecraft:log2:*>, 400); 
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Natura:tree:*>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Natura:redwood:1>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Natura:Rare Tree:*>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Natura:willow>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Natura:Dark Tree:*>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <BiomesOPlenty:logs1:*>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <BiomesOPlenty:logs2:*>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <BiomesOPlenty:logs3:*>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <BiomesOPlenty:logs4:*>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Forestry:logs:*>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Forestry:logsFireproof:*>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <harvestcraft:pamCinnamon>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <harvestcraft:pamMaple>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <harvestcraft:pamPaperbark>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Thaumcraft:blockMagicalLog:*>, 400);
 
 #BlastFurnace
 recipes.remove(<Railcraft:machine.alpha:12>);

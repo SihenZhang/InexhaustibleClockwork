@@ -51,7 +51,27 @@ recipes.addShaped(<Forestry:factory2>, [[<ore:ingotBronze>, <ore:blockGlassColor
 
 #squeezer
 recipes.remove(<Forestry:factory:5>);
-recipes.addShaped(<Forestry:factory:5>, [[<ore:plateTin>, <Forestry:thermionicTubes:1>, <ore:plateTin>], [<ore:plateTin>, <Forestry:sturdyMachine>, <ore:plateTin>], [<ore:plateTin>, <Forestry:thermionicTubes:1>, <ore:plateTin>]]);
+mods.forestry.Carpenter.addRecipe(<Forestry:factory:5>, [[<ore:plateTin>, <Forestry:thermionicTubes:1>, <ore:plateTin>],
+                                                         [<ore:plateTin>, <Forestry:sturdyMachine>, <ore:plateTin>],
+														 [<ore:plateTin>, <Forestry:thermionicTubes:1>, <ore:plateTin>]], <liquid:tin.molten> * 288, 100);
+
+#fermenter
+recipes.remove(<Forestry:factory:3>);
+mods.forestry.Carpenter.addRecipe(<Forestry:factory:3>, [[<ore:gearBronze>, <ore:blockGlass>, <ore:gearBronze>],
+                                                         [<ore:blockGlass>, <Forestry:sturdyMachine>, <ore:blockGlass>], 
+                                                         [<ore:gearBronze>, <ore:blockGlass>, <ore:gearBronze>]], <liquid:bronze.molten> * 288, 100);
+
+#still
+recipes.remove(<Forestry:factory:6>);
+mods.forestry.Carpenter.addRecipe(<Forestry:factory:6>, [[<ore:ingotRedAlloy>, <ore:blockGlass>, <ore:ingotRedAlloy>],
+                                                         [<ore:blockGlass>, <Forestry:sturdyMachine>, <ore:blockGlass>], 
+                                                         [<ore:ingotRedAlloy>, <ore:blockGlass>, <ore:ingotRedAlloy>]], null, 100);
+
+#centrifuge
+recipes.remove(<Forestry:factory:2>);
+mods.forestry.Carpenter.addRecipe(<Forestry:factory:2>, [[<ore:plateCopper>, <Forestry:thermionicTubes>, <ore:plateCopper>],
+                                                         [<ore:plateCopper>, <Forestry:sturdyMachine>, <ore:plateCopper>],
+														 [<ore:plateCopper>, <Forestry:thermionicTubes>, <ore:plateCopper>]], <liquid:copper.molten> * 288, 100);
 
 #scoop
 recipes.remove(<Forestry:scoop>);

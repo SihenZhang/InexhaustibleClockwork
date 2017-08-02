@@ -1,5 +1,5 @@
 // This defines the output rate, with unit of RF/t. Must be float-point number, i.e. has decimals.
-var gen_level = 2.5;
+var gen_level = 3.0;
 
 var Opcodes = org.objectweb.asm.Opcodes;
 

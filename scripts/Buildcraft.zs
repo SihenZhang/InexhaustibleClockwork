@@ -10,8 +10,8 @@ recipes.remove(<BuildCraft|Core:engineBlock:2>);
 recipes.remove(<BuildCraft|Core:engineBlock:1>);
 recipes.remove(<BuildCraft|Core:engineBlock>);
 mods.logistics.hammer.addRecipe(<minecraft:piston> * 2, <BuildCraft|Core:engineBlock>);
-recipes.addShaped(<BuildCraft|Core:engineBlock:1>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<Creator:IronHammer>.anyDamage().transformDamage(), <Forestry:chipsets:2>, <Creator:IronWrench>.anyDamage().transformDamage()], [<ore:thermalexpansion:machineIron>, <BuildCraft|Core:engineBlock>, <ore:thermalexpansion:machineIron>]]);
-<BuildCraft|Core:engineBlock:2>.addTooltip(format.red("This machine has no recipe now!"));
+recipes.addShaped(<BuildCraft|Core:engineBlock:1>, [[<ExtraUtilities:cobblestone_compressed>, <ExtraUtilities:cobblestone_compressed>, <ExtraUtilities:cobblestone_compressed>], [<Creator:IronHammer>.anyDamage().transformDamage(), <ore:gearIron>, <Creator:IronWrench>.anyDamage().transformDamage()], [<ore:gearStone>, <BuildCraft|Core:engineBlock>, <ore:gearStone>]]);
+recipes.addShaped(<BuildCraft|Core:engineBlock:2>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<Creator:IronHammer>.anyDamage().transformDamage(), <Forestry:chipsets:2>, <Creator:IronWrench>.anyDamage().transformDamage()], [<ore:gearSteel>, <BuildCraft|Core:engineBlock:1>, <ore:gearSteel>]]);
 
 #laser
 recipes.remove(<BuildCraft|Silicon:laserBlock>);
