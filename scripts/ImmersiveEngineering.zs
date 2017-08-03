@@ -100,7 +100,7 @@ recipes.removeShaped(<BiomesOPlenty:gems:4>, [[<ore:oreTanzanite>, <ImmersiveEng
 recipes.removeShaped(<BiomesOPlenty:gems:5>, [[<ore:oreMalachite>, <ImmersiveEngineering:tool>]]);
 recipes.removeShaped(<BiomesOPlenty:gems:6>, [[<ore:oreSapphire>, <ImmersiveEngineering:tool>]]);
 recipes.removeShaped(<ProjRed|Core:projectred.core.part:56>, [[<ore:oreElectrotine>, <ImmersiveEngineering:tool>]]);
-recipes.removeShaped(<DraconicEvolution:draconiumDust>, [[<ore:oreDraconium>, <ImmersiveEngineering:tool>]]);
+#recipes.removeShaped(<DraconicEvolution:draconiumDust>, [[<ore:oreDraconium>, <ImmersiveEngineering:tool>]]);
 
 #Graphite Electrode
 vanilla.loot.removeChestLoot("ieVillageCrates", <ImmersiveEngineering:blueprint:2>);
