@@ -54,6 +54,7 @@ mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles>);
 mods.railcraft.RockCrusher.removeRecipe(<ore:oreIron>);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<minecraft:iron_ingot>);
 #add
+recipes.addShaped(<minecraft:iron_ingot> * 9, [[<ore:blockIron>]]);
 mods.tconstruct.Smeltery.addMelting(<ore:oreIron>, <liquid:iron.molten> * 72, 600);
 mods.railcraft.RockCrusher.addRecipe(<minecraft:iron_ore>, true, false, [<aobd:crushedIron> * 1], [1]);
 mods.magneticraft.Crusher.addRecipe(<minecraft:iron_ore>, <Magneticraft:item.chunks>, <Creator:ironDustSmall>, 0.4, <Creator:nickelDustTiny> * 3, 0.6);
@@ -113,6 +114,7 @@ mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:2>);
 mods.railcraft.RockCrusher.removeRecipe(<ore:oreCopper>);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<ThermalFoundation:material:64>);
 #add
+recipes.addShapeless(<ThermalFoundation:material:64> * 9, [<ore:blockCopper>]);
 mods.tconstruct.Smeltery.addMelting(<ore:oreCopper>, <liquid:copper.molten> * 72, 550);
 mods.railcraft.RockCrusher.addRecipe(<ThermalFoundation:Ore>, true, false, [<aobd:crushedCopper> * 1], [1]);
 mods.magneticraft.Crusher.addRecipe(<ThermalFoundation:Ore>, <Magneticraft:item.chunks:2>, <Creator:copperDustSmall>, 0.4, <Creator:tinDustTiny> * 3, 0.6);
@@ -172,6 +174,7 @@ mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:3>);
 mods.railcraft.RockCrusher.removeRecipe(<ore:oreTin>);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<ThermalFoundation:material:65>);
 #add
+recipes.addShapeless(<ThermalFoundation:material:65> * 9, [<ore:blockTin>]);
 mods.tconstruct.Smeltery.addMelting(<ore:oreTin>, <liquid:tin.molten> * 72, 400);
 mods.railcraft.RockCrusher.addRecipe(<ThermalFoundation:Ore:1>, true, false, [<aobd:crushedTin> * 1], [1]);
 mods.magneticraft.Crusher.addRecipe(<ThermalFoundation:Ore:1>, <Magneticraft:item.chunks:3>, <Creator:tinDustSmall>, 0.4, <Creator:copperDustTiny> * 3, 0.6);
@@ -233,6 +236,7 @@ mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:9>);
 mods.railcraft.RockCrusher.removeRecipe(<ore:oreNickel>);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<ThermalFoundation:material:68>);
 #add
+recipes.addShapeless(<ThermalFoundation:material:68> * 9, [<ore:blockNickel>]);
 mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.chunks:9>, <ore:oreNickel>, 20000, <Creator:ironDustSmall>, 0.4);
 mods.magneticraft.Crusher.addRecipe(<Magneticraft:item.chunks:9>, <Magneticraft:item.rubble:9> * 2, <Creator:nickelDustSmall>, 0.4, <Creator:ironDustTiny> * 3, 0.6);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:9>, <Magneticraft:item.pebbles:9> * 3, <Creator:nickelDustSmall>, 0.6, <Magneticraft:item.dustSulfur>, 0.15);
@@ -252,8 +256,10 @@ mods.railcraft.BlastFurnace.addRecipe(<aobd:crystalNickel>, true, false, 250, <C
 #Gold
 #remove
 furnace.remove(<ore:ingotGold>);
+furnace.remove(<ore:nuggetGold>);
 mods.tconstruct.Smeltery.removeMelting(<ore:oreGold>);
 mods.tconstruct.Smeltery.removeMelting(<ore:denseoreGold>);
+mods.tconstruct.Smeltery.removeMelting(<ore:orePoorGold>);
 mods.tconstruct.Smeltery.removeMelting(<ImmersiveEngineering:metal:9>);
 mods.appeng.Grinder.removeRecipe(<ore:dustGold>);
 recipes.removeShaped(<ore:ingotGold>, [[<ore:oreGold>, <ThermalFoundation:material:512>]]);
@@ -288,6 +294,7 @@ mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:1>);
 mods.railcraft.RockCrusher.removeRecipe(<ore:oreGold>);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<minecraft:gold_ingot>);
 #add
+recipes.addShaped(<minecraft:gold_ingot> * 9, [[<ore:blockGold>]]);
 mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.chunks:1>, <ore:oreGold>, 20000, <Creator:silverDustSmall>, 0.4);
 mods.magneticraft.Crusher.addRecipe(<Magneticraft:item.chunks:1>, <Magneticraft:item.rubble:1> * 2, <Creator:goldDustSmall>, 0.4, <Creator:silverDustTiny> * 3, 0.6);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:1>, <Magneticraft:item.pebbles:1> * 3, <Creator:goldDustSmall>, 0.6, <Creator:copperDustTiny>, 0.15);
@@ -307,8 +314,10 @@ mods.railcraft.BlastFurnace.addRecipe(<Mekanism:Crystal:1>, true, false, 250, <C
 #Lead
 #remove
 furnace.remove(<ore:ingotLead>);
+furnace.remove(<ore:nuggetLead>);
 mods.tconstruct.Smeltery.removeMelting(<ore:oreLead>);
 mods.tconstruct.Smeltery.removeMelting(<ore:denseoreLead>);
+mods.tconstruct.Smeltery.removeMelting(<ore:orePoorLead>);
 mods.tconstruct.Smeltery.removeMelting(<ImmersiveEngineering:metal:12>);
 mods.appeng.Grinder.removeRecipe(<ore:dustLead>);
 recipes.removeShaped(<ore:ingotLead>, [[<ore:oreLead>, <ThermalFoundation:material:512>]]);
@@ -343,6 +352,7 @@ mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:5>);
 mods.railcraft.RockCrusher.removeRecipe(<ore:oreLead>);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<ThermalFoundation:material:67>);
 #add
+recipes.addShapeless(<ThermalFoundation:material:67> * 9, [<ore:blockLead>]);
 mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.chunks:5>, <ore:oreLead>, 20000, <Magneticraft:item.dustSulfur>, 0.4);
 mods.magneticraft.Crusher.addRecipe(<Magneticraft:item.chunks:5>, <Magneticraft:item.rubble:5> * 2, <Creator:leadDustSmall>, 0.4, <Magneticraft:item.dustSulfur> * 3, 0.6);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:5>, <Magneticraft:item.pebbles:5> * 3, <Creator:leadDustSmall>, 0.6, <Creator:silverDustTiny>, 0.15);
@@ -401,6 +411,7 @@ mods.railcraft.RockCrusher.removeRecipe(<ore:oreSilver>);
 mods.mekanism.chemical.Washer.removeRecipe(<gas:cleanSilver>, <gas:silver>);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<ThermalFoundation:material:66>);
 #add
+recipes.addShapeless(<ThermalFoundation:material:66> * 9, [<ore:blockSilver>]);
 mods.thermalexpansion.Smelter.addRecipe(35000, <ExtraUtilities:cobblestone_compressed>, <ThermalFoundation:Ore:2>, <Magneticraft:item.chunks:6>, <Creator:goldDustSmall> * 2, 20);
 mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.rubble:6> * 2, <Magneticraft:item.chunks:6>, 25000, <Creator:leadDustSmall>, 0.4);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:6>, <Magneticraft:item.pebbles:6> * 3, <Creator:silverDustSmall>, 0.4, <Creator:leadDustTiny> * 3, 0.6);
@@ -455,6 +466,7 @@ mods.railcraft.RockCrusher.removeRecipe(<ore:oreAluminium>);
 mods.mekanism.chemical.Washer.removeRecipe(<gas:cleanAluminium>, <gas:aluminium>);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<TConstruct:materials:11>);
 #add
+recipes.addShaped(<TConstruct:materials:11> * 9, [[<ore:blockAluminum>]]);
 mods.thermalexpansion.Smelter.addRecipe(35000, <ExtraUtilities:cobblestone_compressed>, <TConstruct:SearedBrick:5>, <Magneticraft:item.chunks:13>, <Creator:osmiumDustSmall> * 2, 20);
 mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.rubble:13> * 2, <Magneticraft:item.chunks:13>, 25000, <Creator:tinDustSmall>, 0.4);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:13>, <Magneticraft:item.pebbles:13> * 3, <Creator:aluminumDustSmall>, 0.4, <Creator:osmiumDustTiny> * 3, 0.6);
@@ -508,6 +520,7 @@ mods.railcraft.RockCrusher.removeRecipe(<ore:orePlatinum>);
 mods.mekanism.chemical.Washer.removeRecipe(<gas:cleanPlatinum>, <gas:platinum>);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<ThermalFoundation:material:69>);
 #add
+recipes.addShapeless(<ThermalFoundation:material:69> * 9, [<ore:blockPlatinum>]);
 mods.thermalexpansion.Smelter.addRecipe(35000, <ExtraUtilities:cobblestone_compressed>, <ThermalFoundation:Ore:5>, <Magneticraft:item.chunks:14>, <Creator:nickelDustSmall> * 2, 20);
 mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.rubble:14> * 2, <Magneticraft:item.chunks:14>, 25000, <Creator:goldDustSmall>, 0.4);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:14>, <Magneticraft:item.pebbles:14> * 3, <Creator:platinumDustSmall>, 0.4, <Creator:goldDustTiny> * 3, 0.6);
@@ -609,6 +622,7 @@ mods.railcraft.RockCrusher.removeRecipe(<ore:oreOsmium>);
 mods.mekanism.chemical.Washer.removeRecipe(<gas:cleanOsmium>, <gas:osmium>);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<Mekanism:Ingot:1>);
 #add
+recipes.addShaped(<Mekanism:Ingot:1> * 9, [[<ore:blockOsmium>]]);
 mods.mekanism.Crusher.addRecipe(<Mekanism:OreBlock>, <Magneticraft:item.chunks:16>);
 mods.thermalexpansion.Pulverizer.addRecipe(50000, <Magneticraft:item.chunks:16>, <Magneticraft:item.rubble:16> * 2, <Creator:platinumDustSmall>, 25);
 mods.immersiveengineering.Crusher.addRecipe(<Magneticraft:item.pebbles:16> * 3, <Magneticraft:item.rubble:16>, 40000, <Creator:ironDustSmall>, 0.4);
@@ -659,7 +673,8 @@ mods.thermalexpansion.Smelter.removeRecipe(<*>, <ore:dustArdite>);
 mods.thermalexpansion.Pulverizer.removeRecipe(<WitchingGadgets:item.WG_Cluster:2>);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<TConstruct:materials:4>);
 #add
-mods.mekanism.Purification.addRecipe(<TConstruct:SearedBrick:2>, <gas:oxygen>, <Magneticraft:item.chunks:10>);
+recipes.addShaped(<TConstruct:materials:4> * 9, [[<ore:blockArdite>]]);
+mods.thermalexpansion.Transposer.addFillRecipe(100000, <TConstruct:SearedBrick:2>, <Magneticraft:item.chunks:10>, <liquid:petrotheum> * 1000);
 mods.buildcraft.AssemblyTable.addRecipe(<Magneticraft:item.rubble:10> * 2, 100000, [<Magneticraft:item.chunks:10>]);
 mods.buildcraft.AssemblyTable.addRecipe(<Magneticraft:item.pebbles:10> * 2, 100000, [<Magneticraft:item.rubble:10>]);
 mods.thermalexpansion.Pulverizer.addRecipe(100000, <Magneticraft:item.pebbles:10>, <TConstruct:materials:38>, <TConstruct:materials:39>, 1);
@@ -698,11 +713,12 @@ mods.thermalexpansion.Smelter.removeRecipe(<*>, <ore:dustCobalt>);
 mods.thermalexpansion.Pulverizer.removeRecipe(<WitchingGadgets:item.WG_Cluster:1>);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<TConstruct:materials:3>);
 #add
-mods.mekanism.Purification.addRecipe(<TConstruct:SearedBrick:1>, <gas:oxygen>, <Magneticraft:item.chunks:11>);
+recipes.addShaped(<TConstruct:materials:3> * 9, [[<ore:blockCobalt>]]);
+mods.thermalexpansion.Transposer.addFillRecipe(100000, <TConstruct:SearedBrick:1>, <Magneticraft:item.chunks:11>, <liquid:petrotheum> * 1000);
 mods.buildcraft.AssemblyTable.addRecipe(<Magneticraft:item.rubble:11> * 2, 100000, [<Magneticraft:item.chunks:11>]);
 mods.buildcraft.AssemblyTable.addRecipe(<Magneticraft:item.pebbles:11> * 2, 100000, [<Magneticraft:item.rubble:11>]);
 mods.thermalexpansion.Pulverizer.addRecipe(100000, <Magneticraft:item.pebbles:11>, <TConstruct:materials:39>, <TConstruct:materials:38>, 1);
-mods.thermalexpansion.Crucible.addRecipe(500000, <TConstruct:materials:39>, <liquid:cobalt.molten> * 144);
+mods.thermalexpansion.Crucible.addRecipe(100000, <TConstruct:materials:39>, <liquid:cobalt.molten> * 144);
 
 #Yellorium
 #remove
@@ -740,6 +756,7 @@ mods.magneticraft.Sifter.removeRecipe(<aobd:pebblesYellorium>);
 mods.railcraft.RockCrusher.removeRecipe(<ore:oreYellorium>);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<BigReactors:BRIngot>);
 #add
+recipes.addShapeless(<BigReactors:BRIngot> * 9, [<ore:blockYellorium>]);
 mods.mekanism.Crusher.addRecipe(<BigReactors:YelloriteOre>, <aobd:crushedYellorium>);
 mods.forestry.Carpenter.addRecipe(<aobd:clumpYellorium>, [[<aobd:crushedYellorium>, null, null],
                                                           [null, null, null], 

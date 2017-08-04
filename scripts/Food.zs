@@ -3,6 +3,10 @@
 
 print("Initializing 'Food.zs'...");
 
+#toast
+furnace.remove(<harvestcraft:toastItem>);
+mods.thermalexpansion.Furnace.removeRecipe(<minecraft:bread>);
+
 #About Tofeat OD
 val rawmeat = <ore:listAllmeatraw>;
 rawmeat.add(<Creator:rawtofabbititem>);

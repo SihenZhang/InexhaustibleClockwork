@@ -13,9 +13,6 @@ furnace.setFuel(<ImmersiveEngineering:stoneDecoration:3>, 32000);
 recipes.remove(<ImmersiveEngineering:mold>);
 recipes.addShaped(<ImmersiveEngineering:mold>, [[null, <ore:plateSteel>], [<ore:plateSteel>, null, <ore:plateSteel>], [null, <ore:plateSteel>]]);
 
-#remove Gear Crafting
-mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mold:1>);
-
 #remove plates from OreDict
 val plateIron = <ore:plateIron>;
 val plateCopper = <ore:plateCopper>;
@@ -100,7 +97,7 @@ recipes.removeShaped(<BiomesOPlenty:gems:4>, [[<ore:oreTanzanite>, <ImmersiveEng
 recipes.removeShaped(<BiomesOPlenty:gems:5>, [[<ore:oreMalachite>, <ImmersiveEngineering:tool>]]);
 recipes.removeShaped(<BiomesOPlenty:gems:6>, [[<ore:oreSapphire>, <ImmersiveEngineering:tool>]]);
 recipes.removeShaped(<ProjRed|Core:projectred.core.part:56>, [[<ore:oreElectrotine>, <ImmersiveEngineering:tool>]]);
-#recipes.removeShaped(<DraconicEvolution:draconiumDust>, [[<ore:oreDraconium>, <ImmersiveEngineering:tool>]]);
+recipes.removeShaped(<DraconicEvolution:draconiumDust>, [[<ore:oreDraconium>, <ImmersiveEngineering:tool>]]);
 
 #Graphite Electrode
 vanilla.loot.removeChestLoot("ieVillageCrates", <ImmersiveEngineering:blueprint:2>);
