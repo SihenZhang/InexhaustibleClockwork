@@ -1,0 +1,46 @@
+{
+    "salt": {
+        "template": "uniform",
+        "block": [
+            {"name": "Magneticraft:salt_ore", "weight":80},
+            {"name": "Railcraft:ore", "metadata": 1, "weight":10},
+			{"name": "Forestry:resources", "weight":10}
+        ],
+        "clusterSize": 256,
+        "numClusters": 1,
+		"chunkChance": 10,
+        "minHeight": 40,
+        "maxHeight": 80,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "RIVER"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"tungsten": {
+        "template": "uniform",
+        "block": [
+            {"name": "Magneticraft:tungsten_ore", "weight": 90},
+            {"name": "TConstruct:Smeltery", "metadata": 4, "weight": 10}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 512,
+        "numClusters": 1,
+		"chunkChance": 3,
+        "minHeight": 20,
+        "maxHeight": 50,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

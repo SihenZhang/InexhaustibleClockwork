@@ -6,40 +6,70 @@ import mods.MTUtils;
 print("Initializing 'OreDrop&OreHardness.zs'...");
 
 #orehardness
-MTUtils.setHardness(<minecraft:coal_ore>, 30);
-MTUtils.setHardness(<minecraft:iron_ore>, 40);
-MTUtils.setHardness(<minecraft:gold_ore>, 40);
-MTUtils.setHardness(<minecraft:lapis_ore>, 30);
-MTUtils.setHardness(<minecraft:redstone_ore>, 30);
-MTUtils.setHardness(<minecraft:diamond_ore>, 40);
-MTUtils.setHardness(<minecraft:emerald_ore>, 40);
+MTUtils.setHardness(<minecraft:coal_ore>, 15);
+MTUtils.setHardness(<minecraft:iron_ore>, 25);
+MTUtils.setHardness(<minecraft:gold_ore>, 25);
+MTUtils.setHardness(<minecraft:lapis_ore>, 15);
+MTUtils.setHardness(<minecraft:redstone_ore>, 15);
+MTUtils.setHardness(<minecraft:diamond_ore>, 25);
+MTUtils.setHardness(<minecraft:emerald_ore>, 25);
 
-MTUtils.setHardness(<appliedenergistics2:tile.OreQuartz>, 30);
-MTUtils.setHardness(<appliedenergistics2:tile.OreQuartzCharged>, 30);
+MTUtils.setHardness(<appliedenergistics2:tile.OreQuartz>, 15);
+MTUtils.setHardness(<appliedenergistics2:tile.OreQuartzCharged>, 15);
 
-MTUtils.setHardness(<BiomesOPlenty:gemOre:2>, 30);
-MTUtils.setHardness(<BiomesOPlenty:gemOre:4>, 30);
-MTUtils.setHardness(<BiomesOPlenty:gemOre:6>, 30);
-MTUtils.setHardness(<BiomesOPlenty:gemOre:8>, 30);
-MTUtils.setHardness(<BiomesOPlenty:gemOre:10>, 30);
-MTUtils.setHardness(<BiomesOPlenty:gemOre:12>, 30);
+MTUtils.setHardness(<BiomesOPlenty:gemOre:2>, 15);
+MTUtils.setHardness(<BiomesOPlenty:gemOre:4>, 15);
+MTUtils.setHardness(<BiomesOPlenty:gemOre:6>, 15);
+MTUtils.setHardness(<BiomesOPlenty:gemOre:8>, 15);
+MTUtils.setHardness(<BiomesOPlenty:gemOre:10>, 15);
+MTUtils.setHardness(<BiomesOPlenty:gemOre:12>, 15);
 
-MTUtils.setHardness(<ThermalFoundation:Ore>, 40);
-MTUtils.setHardness(<ThermalFoundation:Ore:1>, 40);
-MTUtils.setHardness(<ThermalFoundation:Ore:2>, 40);
-MTUtils.setHardness(<ThermalFoundation:Ore:3>, 40);
-MTUtils.setHardness(<ThermalFoundation:Ore:4>, 40);
-MTUtils.setHardness(<ThermalFoundation:Ore:5>, 40);
+MTUtils.setHardness(<ThermalFoundation:Ore>, 25);
+MTUtils.setHardness(<ThermalFoundation:Ore:1>, 25);
+MTUtils.setHardness(<ThermalFoundation:Ore:2>, 25);
+MTUtils.setHardness(<ThermalFoundation:Ore:3>, 25);
+MTUtils.setHardness(<ThermalFoundation:Ore:4>, 25);
+MTUtils.setHardness(<ThermalFoundation:Ore:5>, 25);
 
-MTUtils.setHardness(<Magneticraft:salt_ore>, 30);
-MTUtils.setHardness(<Magneticraft:zinc_ore>, 40);
-MTUtils.setHardness(<Magneticraft:tungsten_ore>, 40);
+MTUtils.setHardness(<Magneticraft:salt_ore>, 15);
+MTUtils.setHardness(<Magneticraft:tungsten_ore>, 25);
 
-MTUtils.setHardness(<Mekanism:OreBlock>, 40);
+MTUtils.setHardness(<Mekanism:OreBlock>, 25);
 
-MTUtils.setHardness(<Railcraft:ore>, 30);
+MTUtils.setHardness(<TConstruct:SearedBrick:5>, 25);
 
-MTUtils.setHardness(<TConstruct:SearedBrick:5>, 40);
+#oreresistance
+MTUtils.setResistance(<minecraft:coal_ore>, 2);
+MTUtils.setResistance(<minecraft:iron_ore>, 2);
+MTUtils.setResistance(<minecraft:gold_ore>, 2);
+MTUtils.setResistance(<minecraft:lapis_ore>, 2);
+MTUtils.setResistance(<minecraft:redstone_ore>, 2);
+MTUtils.setResistance(<minecraft:diamond_ore>, 2);
+MTUtils.setResistance(<minecraft:emerald_ore>, 2);
+
+MTUtils.setResistance(<appliedenergistics2:tile.OreQuartz>, 2);
+MTUtils.setResistance(<appliedenergistics2:tile.OreQuartzCharged>, 2);
+
+MTUtils.setResistance(<BiomesOPlenty:gemOre:2>, 2);
+MTUtils.setResistance(<BiomesOPlenty:gemOre:4>, 2);
+MTUtils.setResistance(<BiomesOPlenty:gemOre:6>, 2);
+MTUtils.setResistance(<BiomesOPlenty:gemOre:8>, 2);
+MTUtils.setResistance(<BiomesOPlenty:gemOre:10>, 2);
+MTUtils.setResistance(<BiomesOPlenty:gemOre:12>, 2);
+
+MTUtils.setResistance(<ThermalFoundation:Ore>, 2);
+MTUtils.setResistance(<ThermalFoundation:Ore:1>, 2);
+MTUtils.setResistance(<ThermalFoundation:Ore:2>, 2);
+MTUtils.setResistance(<ThermalFoundation:Ore:3>, 2);
+MTUtils.setResistance(<ThermalFoundation:Ore:4>, 2);
+MTUtils.setResistance(<ThermalFoundation:Ore:5>, 2);
+
+MTUtils.setResistance(<Magneticraft:salt_ore>, 2);
+MTUtils.setResistance(<Magneticraft:tungsten_ore>, 2);
+
+MTUtils.setResistance(<Mekanism:OreBlock>, 2);
+
+MTUtils.setResistance(<TConstruct:SearedBrick:5>, 2);
 
 #oredrop
 MTUtils.clearDrops();
@@ -70,13 +100,12 @@ MTUtils.setBlockDrops(null, <denseores:block1:4>, [<ThermalFoundation:Ore:4> * 1
 MTUtils.setBlockDrops(null, <denseores:block1:5>, [<ThermalFoundation:Ore:5> * 16], [1.5], [<ThermalFoundation:Ore:5> * 16]);
 
 MTUtils.setBlockDrops(null, <denseores:block1:7>, [<Magneticraft:item.dustSalt> * 16], [1.5], [<Magneticraft:item.dustSalt> * 16]);
-MTUtils.setBlockDrops(null, <denseores:block1:8>, [<Magneticraft:zinc_ore> * 16], [1.5], [<Magneticraft:zinc_ore> * 16]);
-MTUtils.setBlockDrops(null, <denseores:block1:9>, [<Magneticraft:tungsten_ore> * 16], [1.5], [<Magneticraft:tungsten_ore> * 16]);
+MTUtils.setBlockDrops(null, <denseores:block1:8>, [<Magneticraft:tungsten_ore> * 16], [1.5], [<Magneticraft:tungsten_ore> * 16]);
 
-MTUtils.setBlockDrops(null, <denseores:block1:10>, [<Mekanism:OreBlock> * 16], [1.5], [<Mekanism:OreBlock> * 16]);
+MTUtils.setBlockDrops(null, <denseores:block1:9>, [<Mekanism:OreBlock> * 16], [1.5], [<Mekanism:OreBlock> * 16]);
 
-MTUtils.setBlockDrops(null, <denseores:block1:11>, [<ThermalFoundation:material:16> * 16], [1.5], [<ThermalFoundation:material:16> * 16]);
+MTUtils.setBlockDrops(null, <denseores:block1:10>, [<ThermalFoundation:material:16> * 16], [1.5], [<ThermalFoundation:material:16> * 16]);
 
-MTUtils.setBlockDrops(null, <denseores:block1:12>, [<TConstruct:SearedBrick:5> * 16], [1.5], [<TConstruct:SearedBrick:5> * 16]);
+MTUtils.setBlockDrops(null, <denseores:block1:11>, [<TConstruct:SearedBrick:5> * 16], [1.5], [<TConstruct:SearedBrick:5> * 16]);
 
 print("Initialized 'OreDrop&OreHardness.zs'");

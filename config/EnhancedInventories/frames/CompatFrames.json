@@ -84,15 +84,6 @@
 		"tier":2,
 		"materials":"ingotElectrotineAlloy"
 	},
-	"Zinc":{
-		"name":"frame.ore.zinc",
-		"ColorRed":210,
-		"ColorGreen":190,
-		"ColorBlue":140,
-		"FrameType":0,
-		"tier":2,
-		"materials":"ingotZinc"
-	},
 	
 	"Invar":{
 		"name":"frame.ore.invar",
@@ -102,15 +93,6 @@
 		"FrameType":0,
 		"tier":3,
 		"materials":"ingotInvar"
-	},
-	"Brass":{
-		"name":"frame.ore.brass",
-		"ColorRed":155,
-		"ColorGreen":120,
-		"ColorBlue":54,
-		"FrameType":0,
-		"tier":3,
-		"materials":"ingotBrass"
 	},
 	"Silver":{
 		"name":"frame.ore.silver",

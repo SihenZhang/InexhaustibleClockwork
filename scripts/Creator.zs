@@ -36,7 +36,7 @@ mods.forestry.Carpenter.addRecipe(<minecraft:nether_star>, [[<Creator:nether_sta
 mods.magneticraft.Polymerizer.addRecipe(<liquid:lava> * 1000, <minecraft:glowstone_dust>, <Creator:Sunnarium>, 500);
 
 #gunpowder barrel
-recipes.addShaped(<Prunoideae:gunpowderBarrel>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:dustGunpowder>, <ore:dustGunpowder>, <ore:dustGunpowder>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
+recipes.addShaped(<Prunoideae:gunpowderBarrel>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, <ore:dustGunpowder>, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 recipes.addShaped(<Prunoideae:bombRemote>, [[null, <ImmersiveEngineering:coil>], [<ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part:1>, <ProjRed|Core:projectred.core.part>], [<ProjRed|Core:projectred.core.part>, <minecraft:stone_button>, <ProjRed|Core:projectred.core.part>]]);
 
 #Plates

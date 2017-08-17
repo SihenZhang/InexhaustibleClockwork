@@ -1,5 +1,5 @@
 // This defines the output rate, with unit of RF/t. Must be float-point number, i.e. has decimals.
-var gen_level = 10.0;
+var gen_level = 500.0;
 // This defines the "burning time", with unit of tick. Must be float point number, i.e. has decimals.
 var gen_time = 200.0;
 

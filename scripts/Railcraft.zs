@@ -1,19 +1,17 @@
 #Name: Railcraft.zs
 #Author: Si_hen
 
+import mods.MTUtils;
+
 print("Initializing 'Railcraft.zs'...");
 
-#add plates into OreDict
-val plateIron = <ore:plateIron>;
-val plateSteel = <ore:plateSteel>;
-val plateCopper = <ore:plateCopper>;
-val plateTin = <ore:plateTin>;
-val plateLead = <ore:plateLead>;
-plateIron.add(<Railcraft:part.plate:0>);
-plateSteel.add(<Railcraft:part.plate:1>);
-plateCopper.add(<Railcraft:part.plate:3>);
-plateTin.add(<Railcraft:part.plate:2>);
-plateLead.add(<Railcraft:part.plate:4>);
+#add something into OreDict
+<ore:plateIron>.add(<Railcraft:part.plate:0>);
+<ore:plateSteel>.add(<Railcraft:part.plate:1>);
+<ore:plateCopper>.add(<Railcraft:part.plate:3>);
+<ore:plateTin>.add(<Railcraft:part.plate:2>);
+<ore:plateLead>.add(<Railcraft:part.plate:4>);
+<ore:gearSteel>.add(<Railcraft:part.gear:2>);
 
 #plate
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2>);
@@ -27,34 +25,36 @@ recipes.addShaped(<Railcraft:part.plate:2>, [[<Creator:IronHammer>.anyDamage().t
 recipes.addShaped(<Railcraft:part.plate:4>, [[<Creator:IronHammer>.anyDamage().transformDamage()], [<ore:ingotLead>], [<ore:ingotLead>]]);
 
 #CokeOven
+MTUtils.setHarvestLevel(<Railcraft:machine.alpha:7>, null, 0);
 recipes.remove(<Railcraft:machine.alpha:7>);
 recipes.addShaped(<Railcraft:machine.alpha:7> * 2, [[<TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>], [<TConstruct:CraftedSoil:1>, <Railcraft:brick.sandy>, <TConstruct:CraftedSoil:1>], [<TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>]]);
 recipes.removeShaped(<Railcraft:brick.sandy:2>, [[<minecraft:brick>, <ore:sand>], [<ore:sand>, <minecraft:brick>]]);
 recipes.addShaped(<Railcraft:brick.sandy:2> * 4, [[<TConstruct:CraftedSoil:1>, <ExtraUtilities:cobblestone_compressed:14>], [<ExtraUtilities:cobblestone_compressed:14>, <TConstruct:CraftedSoil:1>]]);
-mods.railcraft.CokeOven.addRecipe(<Railcraft:machine.alpha:7>, <liquid:water> * 100, <Railcraft:brick.sandy>, 5400);
+mods.railcraft.CokeOven.addRecipe(<Railcraft:machine.alpha:7>, <liquid:water> * 125, <Railcraft:brick.sandy>, 3600);
 mods.railcraft.RockCrusher.removeRecipe(<Railcraft:machine.alpha:7>);
 mods.railcraft.CokeOven.removeRecipe(<ore:fuelCoke>);
 mods.railcraft.CokeOven.removeRecipe(<ore:blockFuelCoke>);
 mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:1>);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <minecraft:log:*>, 400); 
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <minecraft:log2:*>, 400); 
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Natura:tree:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Natura:redwood:1>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Natura:Rare Tree:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Natura:willow>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Natura:Dark Tree:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <BiomesOPlenty:logs1:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <BiomesOPlenty:logs2:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <BiomesOPlenty:logs3:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <BiomesOPlenty:logs4:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Forestry:logs:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Forestry:logsFireproof:*>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <harvestcraft:pamCinnamon>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <harvestcraft:pamMaple>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <harvestcraft:pamPaperbark>, 400);
-mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 100, <Thaumcraft:blockMagicalLog:*>, 400);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <minecraft:log:*>, 600); 
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <minecraft:log2:*>, 600); 
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Natura:tree:*>, 600);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Natura:redwood:1>, 600);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Natura:Rare Tree:*>, 600);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Natura:willow>, 600);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Natura:Dark Tree:*>, 600);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <BiomesOPlenty:logs1:*>, 600);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <BiomesOPlenty:logs2:*>, 600);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <BiomesOPlenty:logs3:*>, 600);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <BiomesOPlenty:logs4:*>, 600);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Forestry:logs:*>, 600);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Forestry:logsFireproof:*>, 600);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <harvestcraft:pamCinnamon>, 600);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <harvestcraft:pamMaple>, 600);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <harvestcraft:pamPaperbark>, 600);
+mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Thaumcraft:blockMagicalLog:*>, 600);
 
 #BlastFurnace
+MTUtils.setHarvestLevel(<Railcraft:machine.alpha:12>, null, 0);
 recipes.remove(<Railcraft:machine.alpha:12>);
 recipes.addShaped(<Railcraft:machine.alpha:12> * 2, [[null, <TConstruct:materials:2>], [<TConstruct:materials:2>, <Railcraft:machine.alpha:7>, <TConstruct:materials:2>], [null, <TConstruct:materials:2>]]);
 mods.railcraft.RockCrusher.removeRecipe(<Railcraft:machine.alpha:12>);
@@ -69,6 +69,7 @@ mods.railcraft.BlastFurnace.removeRecipe(<ore:nuggetSteel>);
 mods.railcraft.BlastFurnace.removeRecipe(<ore:blockSteel>);
 
 #rock crusher
+MTUtils.setHarvestLevel(<Railcraft:machine.alpha:15>, null, 0);
 recipes.remove(<Railcraft:machine.alpha:15>);
 recipes.remove(<Railcraft:borehead.iron>);
 recipes.addShaped(<Railcraft:borehead.iron> * 2, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_block>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
@@ -83,12 +84,17 @@ recipes.remove(<Railcraft:machine.beta:7>);
 <Railcraft:machine.beta:7>.addTooltip(format.red("This machine has no recipe now!"));
 
 #rolling machine
+MTUtils.setHarvestLevel(<Railcraft:machine.alpha:8>, null, 0);
 recipes.remove(<Railcraft:machine.alpha:8>);
 recipes.addShaped(<Railcraft:machine.alpha:8>, [[<Creator:IronHammer>, <ore:gearIron>, <Creator:IronHammer>], [<ore:gearIron>, <BuildCraft|Factory:autoWorkbenchBlock>, <ore:gearIron>], [<Creator:IronHammer>, <ore:gearIron>, <Creator:IronHammer>]]);
 
-#steel gear
-recipes.remove(<Railcraft:part.gear:2>);
-recipes.addShaped(<Railcraft:part.gear:2>, [[null, <Railcraft:part.plate:1>, null], [<Railcraft:part.plate:1>, <ore:gearIron>, <Railcraft:part.plate:1>], [null, <Railcraft:part.plate:1>, null]]);
+#anchor
+recipes.remove(<Railcraft:machine.alpha>);
+recipes.remove(<Railcraft:machine.alpha:2>);
+recipes.remove(<Railcraft:machine.alpha:13>);
+recipes.addShaped(<Railcraft:machine.alpha>, [[<ore:ingotVibrantAlloy>, <ore:itemPulsatingCrystal>, <ore:ingotVibrantAlloy>], [<ore:gemDiamond>, <minecraft:dragon_egg>.transformReplace(<minecraft:dragon_egg>), <ore:gemDiamond>], [<ore:ingotVibrantAlloy>, <ore:itemPulsatingCrystal>, <ore:ingotVibrantAlloy>]]);
+recipes.addShaped(<Railcraft:machine.alpha:2>, [[<ore:ingotVibrantAlloy>, <ore:itemPulsatingCrystal>, <ore:ingotVibrantAlloy>], [<ore:gemEmerald>, <minecraft:dragon_egg>.transformReplace(<minecraft:dragon_egg>), <ore:gemEmerald>], [<ore:ingotVibrantAlloy>, <ore:itemPulsatingCrystal>, <ore:ingotVibrantAlloy>]]);
+recipes.addShaped(<Railcraft:machine.alpha:13>, [[<ore:ingotVibrantAlloy>, <ore:itemPulsatingCrystal>, <ore:ingotVibrantAlloy>], [<ore:dyeCyan>, <minecraft:dragon_egg>.transformReplace(<minecraft:dragon_egg>), <ore:dyeCyan>], [<ore:ingotVibrantAlloy>, <ore:itemPulsatingCrystal>, <ore:ingotVibrantAlloy>]]);
 
 #remove wooden tie crafting
 recipes.remove(<Railcraft:part.tie>);

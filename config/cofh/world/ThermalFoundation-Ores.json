@@ -1,9 +1,13 @@
 {
     "copper": {
         "template": "uniform",
-        "block": "ThermalFoundation:Ore",
-        "clusterSize": 8,
-        "numClusters": 10,
+		"block": [
+            {"name": "ThermalFoundation:Ore", "weight": 90},
+            {"name": "Railcraft:ore", "metadata": 9, "weight": 10}
+        ],
+        "clusterSize": 512,
+        "numClusters": 1,
+		"chunkChance": 2,
         "minHeight": 40,
         "maxHeight": 75,
         "retrogen": "true",
@@ -19,9 +23,13 @@
     },
     "tin": {
         "template": "uniform",
-        "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
-        "clusterSize": 8,
-        "numClusters": 8,
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 1, "weight": 90},
+            {"name": "Railcraft:ore", "metadata": 10, "weight": 10}
+        ],
+        "clusterSize": 512,
+        "numClusters": 1,
+		"chunkChance": 2,
         "minHeight": 20,
         "maxHeight": 55,
         "retrogen": "true",
@@ -38,11 +46,12 @@
     "silver": {
         "template": "uniform",
         "block": [
-            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":80},
-            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight":20}
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":95},
+            {"name": "minecraft:gold_ore", "weight":5}
         ],
-        "clusterSize": 8,
-        "numClusters": 6,
+        "clusterSize": 512,
+        "numClusters": 1,
+		"chunkChance": 3,
         "minHeight": 5,
         "maxHeight": 30,
         "retrogen": "true",
@@ -60,10 +69,12 @@
         "template": "uniform",
         "block": [
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 90},
-            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10}
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 8},
+			{"name": "Railcraft:ore", "weight": 2}
         ],
-        "clusterSize": 8,
-        "numClusters": 8,
+        "clusterSize": 512,
+        "numClusters": 1,
+		"chunkChance": 3,
         "minHeight": 10,
         "maxHeight": 35,
         "retrogen": "true",
@@ -79,9 +90,14 @@
     },
     "nickel": {
         "template": "uniform",
+		"block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight":95},
+            {"name": "minecraft:iron_ore", "weight":5}
+        ],
         "block": {"name": "ThermalFoundation:Ore", "metadata": 4},
-        "clusterSize": 4,
-        "numClusters": 3,
+        "clusterSize": 512,
+        "numClusters": 1,
+		"chunkChance": 2,
         "minHeight": 5,
         "maxHeight": 20,
         "retrogen": "true",
@@ -97,33 +113,15 @@
     },
     "platinum": {
         "template": "uniform",
-        "generator": "sparse-cluster",
         "block": [
-            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 80},
-            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 20}
+            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 90},
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 10}
         ],
-        "clusterSize": 3,
+        "clusterSize": 32,
         "numClusters": 1,
+		"chunkChance": 12,
         "minHeight": 5,
         "maxHeight": 30,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [
-            "all"
-        ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-    },
-    "copperHigh": {
-        "template": "uniform",
-        "block": "ThermalFoundation:Ore",
-        "clusterSize": 8,
-        "numClusters": 8,
-        "minHeight": 48,
-        "maxHeight": 96,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [

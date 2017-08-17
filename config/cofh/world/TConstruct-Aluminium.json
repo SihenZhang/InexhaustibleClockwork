@@ -1,0 +1,23 @@
+{
+    "aluminum": {
+        "template": "uniform",
+        "block": [
+            {"name": "TConstruct:SearedBrick", "metadata": 5, "weight":90},
+            {"name": "minecraft:lapis_ore", "weight":7},
+			{"name": "minecraft:iron_ore", "weight":3}
+        ],
+        "clusterSize": 512,
+        "numClusters": 1,
+		"chunkChance": 5,
+        "minHeight": 45,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}
