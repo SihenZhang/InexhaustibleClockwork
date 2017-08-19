@@ -1,5 +1,0 @@
-name = "zincDust";
-addToCreative[0] = true;
-creativeTab = "materials";
-maxStack = 64;
-textureFile[0] = "zincDust.png";

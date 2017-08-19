@@ -6,7 +6,7 @@ import mods.nei.NEI;
 print("Initializing 'ProjectRed.zs'...");
 
 #Electrotine
-mods.forestry.Carpenter.addRecipe(<Creator:dustHydratedRedstone>, [[<minecraft:redstone>, null, null],
+mods.forestry.Carpenter.addRecipe(<Creator:dustHydratedRedstone>, [[<minecraft:redstone>, <ore:gemLapis>, null],
                                                                    [null, null, null], 
                                                                    [null, null, null]], <liquid:water> * 500, 200);
 mods.tconstruct.Drying.addRecipe(<Creator:dustHydratedRedstone>, <ProjRed|Core:projectred.core.part:56>, 3600);
@@ -14,9 +14,12 @@ mods.tconstruct.Drying.addRecipe(<Creator:dustHydratedRedstone>, <ProjRed|Core:p
 #Electontine Manufactory
 mods.magneticraft.OilDistillery.addRecipe(<liquid:redstone> * 10, <liquid:deeper fantasy> * 10, 200);
 mods.magneticraft.Refinery.addRecipe(<liquid:deeper fantasy> * 10, <liquid:redstone> * 8, <liquid:new fantasy> * 1, <liquid:lava> * 1);
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <ProjRed|Core:projectred.core.part:56>, <ProjRed|Core:projectred.core.part:56>*2, <liquid:new fantasy> * 100);
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <minecraft:iron_ingot>, <ProjRed|Core:projectred.core.part:57>, <liquid:new fantasy> * 600);
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <ProjRed|Core:projectred.core.part:12>, <ProjRed|Core:projectred.core.part:58>, <liquid:new fantasy> * 600);
+mods.immersiveengineering.BottlingMachine.addRecipe(<ProjRed|Core:projectred.core.part:56> * 2, <ProjRed|Core:projectred.core.part:56>, <liquid:new fantasy> * 100);
+mods.immersiveengineering.BottlingMachine.addRecipe(<ProjRed|Core:projectred.core.part:57>, <minecraft:iron_ingot>, <liquid:new fantasy> * 600);
+mods.immersiveengineering.BottlingMachine.addRecipe(<ProjRed|Core:projectred.core.part:58>, <ProjRed|Core:projectred.core.part:12>, <liquid:new fantasy> * 600);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <ProjRed|Core:projectred.core.part:56>, <ProjRed|Core:projectred.core.part:56> * 2, <liquid:new fantasy> * 100);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <minecraft:iron_ingot>, <ProjRed|Core:projectred.core.part:57>, <liquid:new fantasy> * 500);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <ProjRed|Core:projectred.core.part:12>, <ProjRed|Core:projectred.core.part:58>, <liquid:new fantasy> * 500);
 
 #Electrontine Meltdown
 mods.thermalexpansion.Crucible.addRecipe(5000, <ProjRed|Core:projectred.core.part:56>, <liquid:new fantasy> * 100);
@@ -30,7 +33,7 @@ mods.thermalexpansion.Furnace.addRecipe(1600, <PracticalLogistics:StonePlate>, <
 #Silicon
 furnace.remove(<ProjRed|Core:projectred.core.part:11>);
 mods.thermalexpansion.Furnace.removeRecipe(<ProjRed|Core:projectred.core.part:41>);
-mods.immersiveengineering.CokeOven.addRecipe(<ProjRed|Core:projectred.core.part:11>, 0, <ProjRed|Core:projectred.core.part:41>, 400);
+mods.railcraft.CokeOven.addRecipe(<ProjRed|Core:projectred.core.part:11>, null, <ProjRed|Core:projectred.core.part:41>, 400); 
 
 #Glowing Silicon Compound
 recipes.remove(<ProjRed|Core:projectred.core.part:43>);

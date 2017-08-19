@@ -123,9 +123,6 @@ mod.addItem("osmiumDustTiny.js", "normal");
 mod.addItem("tungstenDust.js", "normal");
 mod.addItem("tungstenDustSmall.js", "normal");
 mod.addItem("tungstenDustTiny.js", "normal");
-mod.addItem("zincDust.js", "normal");
-mod.addItem("zincDustSmall.js", "normal");
-mod.addItem("zincDustTiny.js", "normal");
 mod.addItem("uranium_dioxide.js", "normal");
 mod.addItem("uranium_halide.js", "normal");
 
@@ -191,6 +188,8 @@ mod.addItem("symKan.js","normal");
 mod.addItem("symXun.js","normal"); 
 mod.addItem("symQian.js","normal"); 
 mod.addItem("symKun.js","normal"); 
+
+mod.addItem("ieMachines.js","normal"); 
 
 //blocks
 mod.addBlock("eye.js","flat");

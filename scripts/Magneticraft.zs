@@ -166,10 +166,6 @@ recipes.remove(<Magneticraft:cooler>);
 recipes.addShaped (<Magneticraft:cooler>, [[null,<ore:plateIron>,null],[<ore:plateIron>,<Magneticraft:item.heat_cable>,<ore:plateIron>],[null,<ore:plateIron>,null]]);
 recipes.remove(<Magneticraft:fluid_hopper>);
 <Magneticraft:fluid_hopper>.addTooltip(format.red("To tell you the truth, it has BUG."));
-recipes.remove(<Magneticraft:mirror>);
-mods.railcraft.Rolling.addShaped(<Magneticraft:mirror>*2, [[<ore:plateIron>, <ore:blockGlass>, null], 
-                                                        [<ore:plateIron>, <ore:blockGlass>, null],
-                                                        [<ore:plateIron>, <ore:blockGlass>, null]]);
 recipes.remove(<Magneticraft:biomassburner>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:biomassburner> , [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
                                                                       [<minecraft:furnace>, <Magneticraft:item.heat_cable>, <minecraft:furnace>], 
@@ -178,10 +174,7 @@ recipes.remove(<Magneticraft:InfiniteWater>);
 mods.forestry.Carpenter.addRecipe(<Magneticraft:InfiniteWater> , [[<ore:plateIron>, <minecraft:water_bucket>, <ore:plateIron>],
                                                                       [<minecraft:water_bucket>, <Creator:chamberIron>, <minecraft:water_bucket>], 
                                                                       [<ore:plateIron>, <minecraft:water_bucket>, <ore:plateIron>]], <liquid:iron.molten> * 288, 200);
-recipes.remove(<Magneticraft:solar_tower_core>);
-mods.forestry.Carpenter.addRecipe(<Magneticraft:solar_tower_core> , [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
-                                                                      [<ore:plateIron>, <Magneticraft:item.heat_cable>, <ore:plateIron>], 
-                                                                      [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]], <liquid:iron.molten> * 288, 500);
+
 #electrical age
 recipes.remove(<Magneticraft:solarpanel>);
 <Magneticraft:solarpanel>.addTooltip(format.red("Solar? No! It's too early!"));
@@ -300,41 +293,68 @@ mods.thermalexpansion.Smelter.addRecipe(50000, <Magneticraft:item.ingotTungsten>
 
 recipes.remove(<Magneticraft:windturbine>);
 <Magneticraft:windturbine>.addTooltip(format.red("Don't you think you're a little avaricious?"));
+<Magneticraft:windturbine>.addTooltip(format.red("你不觉得你有点贪得无厌吗？"));
 recipes.remove(<Magneticraft:item.turbine_0>);
 <Magneticraft:item.turbine_0>.addTooltip(format.red("WindTurbine has disappeared, so it is useless."));
+<Magneticraft:item.turbine_0>.addTooltip(format.red("风力发电机已经没了，因此它也没有用了。"));
 recipes.remove(<Magneticraft:item.turbine_1>);
 <Magneticraft:item.turbine_1>.addTooltip(format.red("WindTurbine has disappeared, so it is useless."));
+<Magneticraft:item.turbine_1>.addTooltip(format.red("风力发电机已经没了，因此它也没有用了。"));
 recipes.remove(<Magneticraft:item.turbine_2>);
 <Magneticraft:item.turbine_2>.addTooltip(format.red("WindTurbine has disappeared, so it is useless."));
+<Magneticraft:item.turbine_2>.addTooltip(format.red("风力发电机已经没了，因此它也没有用了。"));
 recipes.remove(<Magneticraft:item.string_fabric>);
 NEI.hide(<Magneticraft:item.string_fabric>);
 recipes.remove(<Magneticraft:item.turbine_wing>);
 NEI.hide(<Magneticraft:item.turbine_wing>);
 recipes.remove(<Magneticraft:thermopile>);
 <Magneticraft:thermopile>.addTooltip(format.red("Infinity electricty? No way!"));
+<Magneticraft:thermopile>.addTooltip(format.red("无限电力？不可能！"));
 recipes.remove(<Magneticraft:miner>);
 recipes.remove(<Magneticraft:crushing_table>);
 <Magneticraft:crushing_table>.addTooltip(format.red("You need machines, my friend, not your hands!"));
+<Magneticraft:crushing_table>.addTooltip(format.red("你需要机器，而不是靠你的手！"));
 recipes.remove(<Magneticraft:pumpjack_1>);
 <Magneticraft:pumpjack_1>.addTooltip(format.red("Why do you still want this? OilSource has disappeared."));
+<Magneticraft:pumpjack_1>.addTooltip(format.red("为什么你还想要这个？石油源已经没了。"));
 recipes.remove(<Magneticraft:ShelvingUnit>);
 <Magneticraft:ShelvingUnit>.addTooltip(format.red("It has BUG!!! You know? BUG!!!"));
+<Magneticraft:ShelvingUnit>.addTooltip(format.red("这货有BUG！！！懂吗？BUG！！！"));
 recipes.remove(<Magneticraft:rf_alternator>);
 <Magneticraft:rf_alternator>.addTooltip(format.red("I don't want to generate electricty using RF!--Prunoideae"));
+<Magneticraft:rf_alternator>.addTooltip(format.red("我不想用RF来产生电力！——Prunoideae"));
 recipes.remove(<Magneticraft:rc_alternator>);
 <Magneticraft:rc_alternator>.addTooltip(format.red("I don't want to generate electricty using RC Charge, either!--Prunoideae"));
+<Magneticraft:rc_alternator>.addTooltip(format.red("我不想用Railcraft电力来产生电力！——Prunoideae"));
 recipes.remove(<Magneticraft:item.oil_prospector>);
 <Magneticraft:item.oil_prospector>.addTooltip(format.red("Why do you still want this? OilSource has disappeared."));
+<Magneticraft:item.oil_prospector>.addTooltip(format.red("为什么你还想要这个？石油源已经没了。"));
 <Magneticraft:miner>.addTooltip(format.red("U want 2 use it? Use dat SLOWWWWW BC Quarry instead!"));
+<Magneticraft:miner>.addTooltip(format.red("你想要用这个？滚去用慢悠悠的Buildcraft采石场吧！"));
 recipes.remove(<Magneticraft:block_breaker>);
 <Magneticraft:block_breaker>.addTooltip(format.red("It's a little imba, so we remove it."));
+<Magneticraft:block_breaker>.addTooltip(format.red("这货有点小imba，因此我们移除了它。"));
 recipes.remove(<Magneticraft:item.jack_hammer>);
 <Magneticraft:item.jack_hammer>.addTooltip(format.red("Please use TConstruct tools."));
+<Magneticraft:item.jack_hammer>.addTooltip(format.red("请使用匠魂工具。"));
+recipes.remove(<Magneticraft:solar_tower_core>);
+<Magneticraft:solar_tower_core>.addTooltip(format.red("Please use Factorization Water Boiler."));
+<Magneticraft:solar_tower_core>.addTooltip(format.red("请使用Factorization的烧水锅炉。"));
+recipes.remove(<Magneticraft:mirror>);
+<Magneticraft:mirror>.addTooltip(format.red("Please use Factorization Mirror."));
+<Magneticraft:mirror>.addTooltip(format.red("请使用Factorization的反射镜。"));
+recipes.remove(<Magneticraft:item.map_pos>);
+<Magneticraft:item.map_pos>.addTooltip(format.red("Solar Tower Core has disappeared, so it is useless."));
+<Magneticraft:item.map_pos>.addTooltip(format.red("太阳能塔核心已经没了，因此它也没有用了。"));
 <Magneticraft:item.iron_pipe>.displayName = "因瓦合金管道";
 
 NEI.hide(<Magneticraft:oil_source>);
 NEI.hide(<Magneticraft:oil_source_drained>);
 NEI.hide(<Magneticraft:item.brass_pipe>);
 NEI.hide(<Magneticraft:item.optic_fiber>);
+NEI.hide(<Magneticraft:zinc_ore>);
+NEI.hide(<Magneticraft:block_brass>);
+NEI.hide(<Magneticraft:block_zinc>);
+NEI.hide(<Magneticraft:item.ingotZinc>);
 
 print("Initialized 'Magneticraft.zs'");

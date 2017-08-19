@@ -223,8 +223,6 @@ recipes.addShaped(<Mekanism:Dust:2>, [[<Creator:osmiumDustSmall>, <Creator:osmiu
 recipes.addShaped(<Creator:osmiumDustSmall>, [[<Creator:osmiumDustTiny>, <Creator:osmiumDustTiny>, <Creator:osmiumDustTiny>], [<Creator:osmiumDustTiny>, <Creator:osmiumDustTiny>, <Creator:osmiumDustTiny>], [<Creator:osmiumDustTiny>, <Creator:osmiumDustTiny>, <Creator:osmiumDustTiny>]]);
 recipes.addShaped(<Magneticraft:item.dust:4>, [[<Creator:tungstenDustSmall>, <Creator:tungstenDustSmall>], [<Creator:tungstenDustSmall>, <Creator:tungstenDustSmall>]]);
 recipes.addShaped(<Creator:tungstenDustSmall>, [[<Creator:tungstenDustTiny>, <Creator:tungstenDustTiny>, <Creator:tungstenDustTiny>], [<Creator:tungstenDustTiny>, <Creator:tungstenDustTiny>, <Creator:tungstenDustTiny>], [<Creator:tungstenDustTiny>, <Creator:tungstenDustTiny>, <Creator:tungstenDustTiny>]]);
-recipes.addShaped(<Magneticraft:item.dust:12>, [[<Creator:zincDustSmall>, <Creator:zincDustSmall>], [<Creator:zincDustSmall>, <Creator:zincDustSmall>]]);
-recipes.addShaped(<Creator:zincDustSmall>, [[<Creator:zincDustTiny>, <Creator:zincDustTiny>, <Creator:zincDustTiny>], [<Creator:zincDustTiny>, <Creator:zincDustTiny>, <Creator:zincDustTiny>], [<Creator:zincDustTiny>, <Creator:zincDustTiny>, <Creator:zincDustTiny>]]);
 
 #wire
 mods.railcraft.Rolling.addShaped(<Creator:wireGold> * 6, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], 

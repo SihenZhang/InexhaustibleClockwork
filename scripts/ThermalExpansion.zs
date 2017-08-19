@@ -233,8 +233,8 @@ recipes.remove(<ThermalExpansion:capacitor:4>);
 recipes.remove(<ThermalExpansion:capacitor:5>);
 
 mods.forestry.Carpenter.addRecipe(<ThermalExpansion:capacitor:2>, [[<ThermalExpansion:material:2>, <Redstonic:capacitor> , <ThermalExpansion:material:2>],
-                                                                      [<Creator:compactLeadPlate>, <ore:blockCopper>, <Creator:compactLeadPlate>], 
-                                                                      [<Creator:compactElectrumPlate>,<ore:dustSulfur>,<Creator:compactElectrumPlate>]], <liquid:electrum.molten> * 288, 300);
+                                                                      [<Creator:compactLeadPlate>, <ImmersiveEngineering:metalDevice:1>, <Creator:compactLeadPlate>], 
+                                                                      [<Creator:compactElectrumPlate>,<ore:blockSulfur>,<Creator:compactElectrumPlate>]], <liquid:electrum.molten> * 288, 300);
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:capacitor:3>, 30000, [<ThermalExpansion:capacitor:2>, <Creator:compactInvarPlate> * 3, <minecraft:redstone>*3, <ThermalExpansion:material:2> * 2]);
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:capacitor:4>, 60000, [<Redstonic:basicBattery>, <Creator:compactElectrumPlate> * 3, <ThermalFoundation:material:138> * 2, <minecraft:diamond>, <ThermalExpansion:material:2> * 2]);
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:capacitor:5>, 90000, [<Redstonic:energizedBattery>, <Creator:compactEnderiumPlate> * 3 , <ThermalFoundation:material:140> * 4 , <ThermalExpansion:material:2> * 2]);

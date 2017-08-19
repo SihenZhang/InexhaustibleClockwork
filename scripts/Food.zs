@@ -7,6 +7,9 @@ print("Initializing 'Food.zs'...");
 furnace.remove(<harvestcraft:toastItem>);
 mods.thermalexpansion.Furnace.removeRecipe(<minecraft:bread>);
 
+#jerky mutton
+mods.tconstruct.Drying.addRecipe(<harvestcraft:muttonrawItem>, <TConstruct:jerky:3>, 24000);
+
 #About Tofeat OD
 val rawmeat = <ore:listAllmeatraw>;
 rawmeat.add(<Creator:rawtofabbititem>);

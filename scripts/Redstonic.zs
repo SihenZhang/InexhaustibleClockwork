@@ -23,7 +23,9 @@ mods.buildcraft.AssemblyTable.addRecipe(<Redstonic:greatBattery>, 100000, [<Ther
 
 #modifier
 recipes.remove(<Redstonic:tile.DrillModifier>);
-mods.mekanism.Infuser.addRecipe("REDSTONE", 1000, <Thaumcraft:blockTable>, <Redstonic:tile.DrillModifier>);
+mods.forestry.Carpenter.addRecipe(<Redstonic:tile.DrillModifier>, [[<ore:ingotRedAlloy>, <ore:ingotRedAlloy>, <ore:ingotRedAlloy>],
+                                                                   [<ore:ingotRedAlloy>, <Thaumcraft:blockTable>, <ore:ingotRedAlloy>], 
+                                                                   [<ore:gearInvar>, <ore:gearSteel>, <ore:gearInvar>]], <liquid:invar.molten> * 144, 20);
 
 #drill
 recipes.remove(<Redstonic:IronDrillHead>);

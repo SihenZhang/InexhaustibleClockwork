@@ -38,22 +38,22 @@ mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:129>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:128>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:13>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:12>);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:12>, <liquid:iron.molten> * 720, <TConstruct:gearCast>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:13>, <liquid:gold.molten> * 720, <TConstruct:gearCast>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:128>, <liquid:copper.molten> * 720, <TConstruct:gearCast>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:129>, <liquid:tin.molten> * 720, <TConstruct:gearCast>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:130>, <liquid:silver.molten> * 720, <TConstruct:gearCast>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:131>, <liquid:lead.molten> * 720, <TConstruct:gearCast>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:132>, <liquid:nickel.molten> * 720, <TConstruct:gearCast>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:133>, <liquid:platinum.molten> * 720, <TConstruct:gearCast>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:134>, <liquid:mithril.molten> * 720, <TConstruct:gearCast>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:135>, <liquid:electrum.molten> * 720, <TConstruct:gearCast>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:136>, <liquid:invar.molten> * 720, <TConstruct:gearCast>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:137>, <liquid:bronze.molten> * 720, <TConstruct:gearCast>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:138>, <liquid:signalum.molten> * 720, <TConstruct:gearCast>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:139>, <liquid:lumium.molten> * 720, <TConstruct:gearCast>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:140>, <liquid:enderium.molten> * 720, <TConstruct:gearCast>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<Railcraft:part.gear:2>, <liquid:steel.molten> * 720, <TConstruct:gearCast>, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:12>, <liquid:iron.molten> * 720, <TConstruct:gearCast>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:13>, <liquid:gold.molten> * 720, <TConstruct:gearCast>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:128>, <liquid:copper.molten> * 720, <TConstruct:gearCast>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:129>, <liquid:tin.molten> * 720, <TConstruct:gearCast>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:130>, <liquid:silver.molten> * 720, <TConstruct:gearCast>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:131>, <liquid:lead.molten> * 720, <TConstruct:gearCast>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:132>, <liquid:nickel.molten> * 720, <TConstruct:gearCast>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:133>, <liquid:platinum.molten> * 720, <TConstruct:gearCast>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:134>, <liquid:mithril.molten> * 720, <TConstruct:gearCast>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:135>, <liquid:electrum.molten> * 720, <TConstruct:gearCast>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:136>, <liquid:invar.molten> * 720, <TConstruct:gearCast>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:137>, <liquid:bronze.molten> * 720, <TConstruct:gearCast>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:138>, <liquid:signalum.molten> * 720, <TConstruct:gearCast>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:139>, <liquid:lumium.molten> * 720, <TConstruct:gearCast>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:140>, <liquid:enderium.molten> * 720, <TConstruct:gearCast>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<Railcraft:part.gear:2>, <liquid:steel.molten> * 720, <TConstruct:gearCast>, false, 40);
 
 #Gear Crafting through MetalPress
 mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mold:1>);
@@ -141,6 +141,8 @@ mods.logistics.hammer.addRecipe(<minecraft:cobblestone> * 4, <minecraft:gravel>)
 mods.logistics.hammer.addRecipe(<minecraft:gravel> * 4, <minecraft:sand>);
 recipes.removeShaped(<minecraft:gold_ingot>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]]);
 recipes.addShaped(<minecraft:gold_ingot>, [[<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>], [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>], [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]]);
+mods.tconstruct.Smeltery.removeMelting(<Thaumcraft:ItemResource:18>);
+mods.thermalexpansion.Furnace.removeRecipe(<ore:nuggetGold>);
 
 #remove vanilla things smelt in TConstruct Smeltry
 mods.tconstruct.Smeltery.removeMelting(<minecraft:golden_rail>);

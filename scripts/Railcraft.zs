@@ -15,9 +15,9 @@ print("Initializing 'Railcraft.zs'...");
 
 #plate
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2>);
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:2>, [[<ore:ingotTin>, <ore:ingotTin>, null], 
-                                                            [<ore:ingotTin>, <ore:ingotTin>, null],
-                                                            [null, null, null]]);
+mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:2> * 4, [[<ore:ingotTin>, <ore:ingotTin>, null], 
+                                                                [<ore:ingotTin>, <ore:ingotTin>, null],
+                                                                [null, null, null]]);
 recipes.addShaped(<Railcraft:part.plate:0>, [[<Creator:IronHammer>.anyDamage().transformDamage()], [<ore:ingotIron>], [<ore:ingotIron>]]);
 recipes.addShaped(<Railcraft:part.plate:1>, [[<Creator:IronHammer>.anyDamage().transformDamage()], [<ore:ingotSteel>], [<ore:ingotSteel>]]);
 recipes.addShaped(<Railcraft:part.plate:3>, [[<Creator:IronHammer>.anyDamage().transformDamage()], [<ore:ingotCopper>], [<ore:ingotCopper>]]);
@@ -76,12 +76,12 @@ recipes.addShaped(<Railcraft:borehead.iron> * 2, [[<minecraft:iron_ingot>, <mine
 recipes.addShaped(<Railcraft:machine.alpha:15> * 4, [[<minecraft:piston>, <Railcraft:borehead.iron>, <minecraft:piston>], [<minecraft:flint>, <minecraft:iron_block>, <minecraft:flint>], [<minecraft:piston>, <Railcraft:borehead.iron>, <minecraft:piston>]]);
 
 #engines
-recipes.remove(<Railcraft:machine.beta:9>);
-recipes.remove(<Railcraft:machine.beta:8>);
+#recipes.remove(<Railcraft:machine.beta:9>);
+#recipes.remove(<Railcraft:machine.beta:8>);
 recipes.remove(<Railcraft:machine.beta:7>);
-<Railcraft:machine.beta:9>.addTooltip(format.red("This machine has no recipe now!"));
-<Railcraft:machine.beta:8>.addTooltip(format.red("This machine has no recipe now!"));
-<Railcraft:machine.beta:7>.addTooltip(format.red("This machine has no recipe now!"));
+mods.forestry.Carpenter.addRecipe(<Railcraft:machine.beta:7>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>],
+                                                               [null, <Forestry:chipsets:1>, null],
+															   [<ore:ingotAluminiumBrass>, <BuildCraft|Core:engineBlock:1>, <ore:ingotAluminiumBrass>]], <liquid:aluminumbrass.molten> * 576, 40);
 
 #rolling machine
 MTUtils.setHarvestLevel(<Railcraft:machine.alpha:8>, null, 0);

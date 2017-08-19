@@ -1,0 +1,2 @@
+﻿　　　　　　　
+{"image":"oil_refining.png", "scale":-1}

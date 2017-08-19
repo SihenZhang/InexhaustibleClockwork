@@ -97,6 +97,7 @@ recipes.removeShaped(<BiomesOPlenty:gems:4>, [[<ore:oreTanzanite>, <ImmersiveEng
 recipes.removeShaped(<BiomesOPlenty:gems:5>, [[<ore:oreMalachite>, <ImmersiveEngineering:tool>]]);
 recipes.removeShaped(<BiomesOPlenty:gems:6>, [[<ore:oreSapphire>, <ImmersiveEngineering:tool>]]);
 recipes.removeShaped(<ProjRed|Core:projectred.core.part:56>, [[<ore:oreElectrotine>, <ImmersiveEngineering:tool>]]);
+recipes.removeShaped(<aobd:dustFzDarkIron>, [[<ore:oreFzDarkIron>, <ImmersiveEngineering:tool>]]);
 #recipes.removeShaped(<DraconicEvolution:draconiumDust>, [[<ore:oreDraconium>, <ImmersiveEngineering:tool>]]);
 
 #Graphite Electrode
@@ -134,10 +135,10 @@ mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDevice:1>, [[<ore:p
                                                                        [<ore:plateCopper>, <ore:ingotLead>, <ore:plateCopper>], 
                                                                        [<ore:plankTreatedWood>, <ore:ingotRedAlloy>, <ore:plankTreatedWood>]], <liquid:invar.molten> * 288, 200);
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDevice:3>, [[<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>],
-                                                                       [<ore:plateIron>, <ore:ingotLead>, <ore:plateIron>], 
+                                                                       [<ore:plateIron>, <ImmersiveEngineering:metalDevice:1>, <ore:plateIron>], 
                                                                        [<ore:plankTreatedWood>, <ore:circuitBasic>, <ore:plankTreatedWood>]], <liquid:invar.molten> * 288, 250);
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDevice:7>, [[<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>],
-                                                                       [<ore:plateGold>, <ore:blockLead>, <ore:plateGold>], 
+                                                                       [<ore:plateGold>, <ImmersiveEngineering:metalDevice:3>, <ore:plateGold>], 
                                                                        [<ore:plankTreatedWood>, <ore:circuitAdvanced>, <ore:plankTreatedWood>]], <liquid:invar.molten> * 288, 300);
 #transformer
 recipes.remove(<ImmersiveEngineering:metalDevice:4>); #l->m
@@ -201,12 +202,12 @@ recipes.remove(<ImmersiveEngineering:metalDecoration:1>);
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration>, [[<ImmersiveEngineering:material:15>, <ImmersiveEngineering:material:15>,<ImmersiveEngineering:material:15>],
                                                                        [<ImmersiveEngineering:material:15>, <ImmersiveEngineering:material:15>, <ImmersiveEngineering:material:15>], 
                                                                        [null ,null ,null]], <liquid:steel.molten> * 72, 30);
-mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:3>*4, [[<ImmersiveEngineering:metalDecoration:1>, null,null],
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:3> * 4, [[<ImmersiveEngineering:metalDecoration:1>, null,null],
                                                                        [<ImmersiveEngineering:metalDecoration:1>, <ImmersiveEngineering:metalDecoration:1>, null], 
                                                                        [<ImmersiveEngineering:metalDecoration:1>, <ImmersiveEngineering:metalDecoration:1>, <ImmersiveEngineering:metalDecoration:1>]], <liquid:steel.molten> * 72, 40);
-mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:1>*6, [[<ore:plateSteel>, <ore:plateSteel>,<ore:plateSteel>],
-                                                                       [null, <ImmersiveEngineering:metalDecoration:1>, null], 
-                                                                       [<ImmersiveEngineering:metalDecoration:1>, null, <ImmersiveEngineering:metalDecoration:1>]], <liquid:steel.molten> * 72, 50);
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:metalDecoration:1> * 6, [[<ore:plateSteel>, <ore:plateSteel>,<ore:plateSteel>],
+                                                                                 [null, <ImmersiveEngineering:metalDecoration>, null], 
+                                                                                 [<ImmersiveEngineering:metalDecoration>, null, <ImmersiveEngineering:metalDecoration>]], <liquid:steel.molten> * 72, 50);
 recipes.remove(<ImmersiveEngineering:metalDecoration:12>);
 recipes.remove(<ImmersiveEngineering:metalDecoration:13>);
 recipes.remove(<ImmersiveEngineering:metalDecoration:15>);
