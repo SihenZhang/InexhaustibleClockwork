@@ -22,7 +22,7 @@ recipes.removeShapeless(<minecraft:book>, [<minecraft:paper>, <minecraft:paper>,
 
 #balance some materials
 mods.tconstruct.ToolStats.setHarvestLevel("Netherrack", 0);
-mods.tconstruct.ToolStats.setHarvestLevel("Steel", 3);
+mods.tconstruct.ToolStats.setHarvestLevel("Bronze", 3);
 
 #seared brick
 furnace.remove(<TConstruct:materials:2>);
