@@ -11,7 +11,9 @@ mods.immersiveengineering.MetalPress.addRecipe(<Creator:gearVibrant>, <Creator:i
 
 #capacitor
 recipes.remove(<Redstonic:capacitor>);
-mods.extraUtils.QED.addShapedRecipe(<Redstonic:capacitor>, [[null, <ore:ingotRedAlloy>], [<ore:ingotRedAlloy>, <ore:ingotCopper>, <ore:ingotRedAlloy>], [<ore:ingotGold>, <ore:ingotRedAlloy>, <ore:ingotGold>]]);
+mods.forestry.Carpenter.addRecipe(<Redstonic:capacitor>, [[null, <ore:ingotRedAlloy>],
+                                                          [<ore:ingotRedAlloy>, <ore:ingotCopper>, <ore:ingotRedAlloy>],
+														  [<ore:ingotGold>, <ore:ingotRedAlloy>, <ore:ingotGold>]], 300);
 
 #battery
 recipes.remove(<Redstonic:basicBattery>);

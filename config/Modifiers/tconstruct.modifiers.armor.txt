@@ -4,8 +4,8 @@ Interfaces:
 Constructors: 
 	public tconstruct.modifiers.armor.TravelModDoubleJump(java.util.EnumSet armorTypes, net.minecraft.item.ItemStack[] stacks)
 Modifiers using this: 
-	class tconstruct.modifiers.armor.TravelModDoubleJump [key=Double-Jump, stacks=[1xitem.ghastTear@0, 1xtile.slime.gel@0, 1xtile.pistonBase@0], effectIndex=0, random=java.util.Random@4863fa4, ]
-	class tconstruct.modifiers.armor.TravelModDoubleJump [key=Double-Jump, stacks=[1xitem.ghastTear@0, 1xtile.slime.gel@1, 1xtile.pistonBase@0], effectIndex=0, random=java.util.Random@4863fa4, ]
+	class tconstruct.modifiers.armor.TravelModDoubleJump [key=Double-Jump, stacks=[1xitem.ghastTear@0, 1xtile.slime.gel@0, 1xtile.pistonBase@0], effectIndex=0, random=java.util.Random@16397c20, ]
+	class tconstruct.modifiers.armor.TravelModDoubleJump [key=Double-Jump, stacks=[1xitem.ghastTear@0, 1xtile.slime.gel@1, 1xtile.pistonBase@0], effectIndex=0, random=java.util.Random@16397c20, ]
 ********************************
 ********************************
 Class: tconstruct.modifiers.armor.AModInteger
@@ -14,11 +14,11 @@ Constructors:
 	public tconstruct.modifiers.armor.AModInteger(int effectIndex, java.lang.String key, java.util.EnumSet armorTypes, net.minecraft.item.ItemStack[] stacks, int initialIncrease, java.lang.String color, java.lang.String tooltipName)
 	public tconstruct.modifiers.armor.AModInteger(int effectIndex, java.lang.String key, java.util.EnumSet armorTypes, net.minecraft.item.ItemStack[] stacks, int initialIncrease, int secondaryIncrease, java.lang.String color, java.lang.String tooltipName)
 Modifiers using this: 
-	class tconstruct.modifiers.armor.AModInteger [key=Moss, stacks=[1xitem.tconstruct.Materials@6], effectIndex=4, random=java.util.Random@4863fa4, ]
-	class tconstruct.modifiers.armor.AModInteger [key=Perfect Dodge, stacks=[1xitem.eyeOfEnder@0, 1xitem.enderPearl@0, 1xitem.sugar@0], effectIndex=0, random=java.util.Random@4863fa4, ]
-	class tconstruct.modifiers.armor.AModInteger [key=Feather Fall, stacks=[1xtile.slime.gel@0, 1xitem.enderPearl@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0], effectIndex=1, random=java.util.Random@4863fa4, ]
-	class tconstruct.modifiers.armor.AModInteger [key=Feather Fall, stacks=[1xtile.slime.gel@1, 1xitem.enderPearl@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0], effectIndex=1, random=java.util.Random@4863fa4, ]
-	class tconstruct.modifiers.armor.AModInteger [key=Slimy Soles, stacks=[1xtile.slime.pad@0, 1xtile.slime.pad@0], effectIndex=3, random=java.util.Random@4863fa4, ]
+	class tconstruct.modifiers.armor.AModInteger [key=Moss, stacks=[1xitem.tconstruct.Materials@6], effectIndex=4, random=java.util.Random@16397c20, ]
+	class tconstruct.modifiers.armor.AModInteger [key=Perfect Dodge, stacks=[1xitem.eyeOfEnder@0, 1xitem.enderPearl@0, 1xitem.sugar@0], effectIndex=0, random=java.util.Random@16397c20, ]
+	class tconstruct.modifiers.armor.AModInteger [key=Feather Fall, stacks=[1xtile.slime.gel@0, 1xitem.enderPearl@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0], effectIndex=1, random=java.util.Random@16397c20, ]
+	class tconstruct.modifiers.armor.AModInteger [key=Feather Fall, stacks=[1xtile.slime.gel@1, 1xitem.enderPearl@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0, 1xitem.feather@0], effectIndex=1, random=java.util.Random@16397c20, ]
+	class tconstruct.modifiers.armor.AModInteger [key=Slimy Soles, stacks=[1xtile.slime.pad@0, 1xtile.slime.pad@0], effectIndex=3, random=java.util.Random@16397c20, ]
 ********************************
 ********************************
 Class: tconstruct.modifiers.armor.TravelModRepair
@@ -26,7 +26,7 @@ Interfaces:
 Constructors: 
 	public tconstruct.modifiers.armor.TravelModRepair()
 Modifiers using this: 
-	class tconstruct.modifiers.armor.TravelModRepair [key=, stacks=[], effectIndex=0, random=java.util.Random@4863fa4, ]
+	class tconstruct.modifiers.armor.TravelModRepair [key=, stacks=[], effectIndex=0, random=java.util.Random@16397c20, ]
 ********************************
 ********************************
 Class: tconstruct.modifiers.armor.AModBoolean
@@ -34,9 +34,9 @@ Interfaces:
 Constructors: 
 	public tconstruct.modifiers.armor.AModBoolean(int effectIndex, java.lang.String key, java.util.EnumSet armorTypes, net.minecraft.item.ItemStack[] stacks, java.lang.String color, java.lang.String tooltipName)
 Modifiers using this: 
-	class tconstruct.modifiers.armor.AModBoolean [key=Night Vision, stacks=[1xitem.flintAndSteel@0, 1xitem.potion@8198, 1xitem.carrotGolden@0], effectIndex=0, random=java.util.Random@4863fa4, ]
-	class tconstruct.modifiers.armor.AModBoolean [key=Stealth, stacks=[1xitem.fermentedSpiderEye@0, 1xitem.eyeOfEnder@0, 1xitem.potion@8206, 1xitem.carrotGolden@0], effectIndex=1, random=java.util.Random@4863fa4, ]
-	class tconstruct.modifiers.armor.AModBoolean [key=WaterWalk, stacks=[1xtile.waterlily@0, 1xtile.waterlily@0], effectIndex=1, random=java.util.Random@4863fa4, ]
+	class tconstruct.modifiers.armor.AModBoolean [key=Night Vision, stacks=[1xitem.flintAndSteel@0, 1xitem.potion@8198, 1xitem.carrotGolden@0], effectIndex=0, random=java.util.Random@16397c20, ]
+	class tconstruct.modifiers.armor.AModBoolean [key=Stealth, stacks=[1xitem.fermentedSpiderEye@0, 1xitem.eyeOfEnder@0, 1xitem.potion@8206, 1xitem.carrotGolden@0], effectIndex=1, random=java.util.Random@16397c20, ]
+	class tconstruct.modifiers.armor.AModBoolean [key=WaterWalk, stacks=[1xtile.waterlily@0, 1xtile.waterlily@0], effectIndex=1, random=java.util.Random@16397c20, ]
 ********************************
 ********************************
 Class: tconstruct.modifiers.armor.AModLeadBoots
@@ -44,7 +44,7 @@ Interfaces:
 Constructors: 
 	public tconstruct.modifiers.armor.AModLeadBoots(net.minecraft.item.ItemStack[] stacks)
 Modifiers using this: 
-	class tconstruct.modifiers.armor.AModLeadBoots [key=LeadBoots, stacks=[1xtile.blockIron@0], effectIndex=2, random=java.util.Random@4863fa4, ]
+	class tconstruct.modifiers.armor.AModLeadBoots [key=LeadBoots, stacks=[1xtile.blockIron@0], effectIndex=2, random=java.util.Random@16397c20, ]
 ********************************
 ********************************
 Class: tconstruct.modifiers.armor.AModThaumicVision
@@ -52,5 +52,5 @@ Interfaces:
 Constructors: 
 	public tconstruct.modifiers.armor.AModThaumicVision(net.minecraft.item.ItemStack stacks)
 Modifiers using this: 
-	class tconstruct.modifiers.armor.AModThaumicVision [key=, stacks=[1xitem.ItemThaumometer@0], effectIndex=-1, random=java.util.Random@4863fa4, ]
+	class tconstruct.modifiers.armor.AModThaumicVision [key=, stacks=[1xitem.ItemThaumometer@0], effectIndex=-1, random=java.util.Random@16397c20, ]
 ********************************

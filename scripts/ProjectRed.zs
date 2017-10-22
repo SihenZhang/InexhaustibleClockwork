@@ -33,7 +33,7 @@ mods.thermalexpansion.Furnace.addRecipe(1600, <PracticalLogistics:StonePlate>, <
 #Silicon
 furnace.remove(<ProjRed|Core:projectred.core.part:11>);
 mods.thermalexpansion.Furnace.removeRecipe(<ProjRed|Core:projectred.core.part:41>);
-mods.railcraft.CokeOven.addRecipe(<ProjRed|Core:projectred.core.part:11>, null, <ProjRed|Core:projectred.core.part:41>, 400); 
+mods.railcraft.CokeOven.addRecipe(<ProjRed|Core:projectred.core.part:11>, <liquid:creosote> * 250, <ProjRed|Core:projectred.core.part:41>, 400); 
 
 #Glowing Silicon Compound
 recipes.remove(<ProjRed|Core:projectred.core.part:43>);

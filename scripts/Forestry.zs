@@ -53,7 +53,7 @@ recipes.addShaped(<Forestry:factory:1>, [[<ore:plateBronze>, <Forestry:thermioni
 
 #therm fab
 recipes.remove(<Forestry:factory2>);
-recipes.addShaped(<Forestry:factory2>, [[<ore:ingotBronze>, <ore:blockGlassColorless>, <ore:ingotBronze>], [<ore:blockGlassColorless>, <Forestry:sturdyMachine>, <ore:blockGlassColorless>], [<ore:ingotBronze>, <EnhancedInventories:improvedChest:2>.withTag({frameName: "frame.ore.bronze"}), <ore:ingotBronze>]]);
+recipes.addShaped(<Forestry:factory2>, [[<ore:ingotBronze>, <ore:blockGlassColorless>, <ore:ingotBronze>], [<ore:blockGlassColorless>, <Forestry:sturdyMachine>, <ore:blockGlassColorless>], [<ore:ingotBronze>, <EnhancedInventories:improvedChest:1>.withTag({frameName: "frame.ore.bronze"}), <ore:ingotBronze>]]);
 
 #squeezer
 recipes.remove(<Forestry:factory:5>);
