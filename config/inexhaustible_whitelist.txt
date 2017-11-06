@@ -1,0 +1,15 @@
+beebetteratbees
+BrandonsCore
+craftingtweaks
+DraconicEvolution
+FastCraft
+InGameInfoXML
+inpure|core
+InputFix
+inventorytweaks
+journeymap
+LunatriusCore
+Morpheus
+MouseTweaks
+UnicodeFontExtension
+UnicodeFontExtensionCore
