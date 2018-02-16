@@ -84,6 +84,7 @@ FTBU
 gendustry
 hardcorewither
 HardcoreQuesting
+Hats
 iChunUtil
 immersiveintegration
 inexhaustible_tweaks

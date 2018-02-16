@@ -11,5 +11,7 @@ journeymap
 LunatriusCore
 Morpheus
 MouseTweaks
+OmniOcular
+OmniOcularCore
 UnicodeFontExtension
 UnicodeFontExtensionCore
