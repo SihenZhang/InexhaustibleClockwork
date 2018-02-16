@@ -1,7 +1,7 @@
 // This defines the output rate, with unit of RF/t. Must be float-point number, i.e. has decimals.
 var gen_level = 60000.0;
 // This defines the "burning time", with unit of tick. Must be float point number, i.e. has decimals.
-var gen_time = 20.0;
+var gen_time = 100.0;
 
 var Opcodes = org.objectweb.asm.Opcodes;
 
