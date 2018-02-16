@@ -24,6 +24,6 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 16, <liquid:fu
 mods.immersiveengineering.DieselGeneratorFuel.remove(<liquid:fuel>);
 mods.immersiveengineering.DieselGeneratorFuel.add(<liquid:fuel>, 125);
 mods.immersiveengineering.DieselGeneratorFuel.remove(<liquid:biodiesel>);
-mods.immersiveengineering.DieselGeneratorFuel.add(<liquid:biodiesel>, 500);
+mods.immersiveengineering.DieselGeneratorFuel.add(<liquid:biodiesel>, 650);
 
 print("Initialized 'OilRefining.zs'");

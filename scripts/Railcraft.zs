@@ -1,7 +1,7 @@
 #Name: Railcraft.zs
 #Author: Si_hen
 
-import mods.MTUtils;
+import mods.MTUtils.Utils;
 
 print("Initializing 'Railcraft.zs'...");
 
@@ -25,7 +25,7 @@ recipes.addShaped(<Railcraft:part.plate:2>, [[<Creator:IronHammer>.anyDamage().t
 recipes.addShaped(<Railcraft:part.plate:4>, [[<Creator:IronHammer>.anyDamage().transformDamage()], [<ore:ingotLead>], [<ore:ingotLead>]]);
 
 #CokeOven
-MTUtils.setHarvestLevel(<Railcraft:machine.alpha:7>, null, 0);
+Utils.setHarvestLevel(<Railcraft:machine.alpha:7>, null, 0);
 recipes.remove(<Railcraft:machine.alpha:7>);
 recipes.addShaped(<Railcraft:machine.alpha:7> * 2, [[<TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>], [<TConstruct:CraftedSoil:1>, <Railcraft:brick.sandy>, <TConstruct:CraftedSoil:1>], [<TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>]]);
 recipes.removeShaped(<Railcraft:brick.sandy:2>, [[<minecraft:brick>, <ore:sand>], [<ore:sand>, <minecraft:brick>]]);
@@ -54,7 +54,7 @@ mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <
 mods.railcraft.CokeOven.addRecipe(<minecraft:coal:1>, <liquid:creosote> * 125, <Thaumcraft:blockMagicalLog:*>, 600);
 
 #BlastFurnace
-MTUtils.setHarvestLevel(<Railcraft:machine.alpha:12>, null, 0);
+Utils.setHarvestLevel(<Railcraft:machine.alpha:12>, null, 0);
 recipes.remove(<Railcraft:machine.alpha:12>);
 recipes.addShaped(<Railcraft:machine.alpha:12> * 2, [[null, <TConstruct:materials:2>], [<TConstruct:materials:2>, <Railcraft:machine.alpha:7>, <TConstruct:materials:2>], [null, <TConstruct:materials:2>]]);
 mods.railcraft.RockCrusher.removeRecipe(<Railcraft:machine.alpha:12>);
@@ -69,7 +69,7 @@ mods.railcraft.BlastFurnace.removeRecipe(<ore:nuggetSteel>);
 mods.railcraft.BlastFurnace.removeRecipe(<ore:blockSteel>);
 
 #rock crusher
-MTUtils.setHarvestLevel(<Railcraft:machine.alpha:15>, null, 0);
+Utils.setHarvestLevel(<Railcraft:machine.alpha:15>, null, 0);
 recipes.remove(<Railcraft:machine.alpha:15>);
 recipes.remove(<Railcraft:borehead.iron>);
 recipes.addShaped(<Railcraft:borehead.iron> * 2, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_block>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
@@ -84,7 +84,7 @@ mods.forestry.Carpenter.addRecipe(<Railcraft:machine.beta:7>, [[<ore:nuggetGold>
 															   [<ore:ingotAluminiumBrass>, <BuildCraft|Core:engineBlock:1>, <ore:ingotAluminiumBrass>]], <liquid:aluminumbrass.molten> * 576, 40);
 
 #rolling machine
-MTUtils.setHarvestLevel(<Railcraft:machine.alpha:8>, null, 0);
+Utils.setHarvestLevel(<Railcraft:machine.alpha:8>, null, 0);
 recipes.remove(<Railcraft:machine.alpha:8>);
 recipes.addShaped(<Railcraft:machine.alpha:8>, [[<Creator:IronHammer>, <ore:gearIron>, <Creator:IronHammer>], [<ore:gearIron>, <BuildCraft|Factory:autoWorkbenchBlock>, <ore:gearIron>], [<Creator:IronHammer>, <ore:gearIron>, <Creator:IronHammer>]]);
 
