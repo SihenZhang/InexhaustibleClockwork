@@ -4,14 +4,11 @@ craftingtweaks
 DraconicEvolution
 FastCraft
 InGameInfoXML
-inpure|core
-InputFix
 inventorytweaks
 journeymap
 LunatriusCore
 Morpheus
 MouseTweaks
-OmniOcular
-OmniOcularCore
+packguard
 UnicodeFontExtension
 UnicodeFontExtensionCore

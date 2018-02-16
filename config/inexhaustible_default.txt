@@ -3,7 +3,9 @@ FML
 Forge
 appliedenergistics2-core
 CodeChickenCore
+InputFix
 NotEnoughItems
+OmniOcularCore
 OpenComputers|Core
 ThE-core
 WitchingGadgetsCore
@@ -87,6 +89,7 @@ HardcoreQuesting
 Hats
 iChunUtil
 immersiveintegration
+inpure|core
 inexhaustible_tweaks
 lootbags
 Magneticraft
@@ -105,8 +108,10 @@ NEIAddons|Botany
 NEIAddons|Forestry
 NEIAddons|CraftingTables
 NEIAddons|ExNihilo
+neieasysearch
 neiintegration
 neresources
+OmniOcular
 OpenMods
 OpenBlocks
 ProjRed|Transmission
