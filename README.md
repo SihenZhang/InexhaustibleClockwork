@@ -20,11 +20,11 @@
 | Accidentally Circumstantial Events(ACE) | 1.12.11 | Zavviasso | https://minecraft.curseforge.com/projects/accidentally-circumstantial-events-ace |
 | AgriCraft | 1.5.0 | InfinityRaider | https://minecraft.curseforge.com/projects/agricraft |
 | AOBD  | 2.9.2  | ganymedes01 | https://minecraft.curseforge.com/projects/another-one-bites-the-dust |
-| AppleCore | 1.3.9 | squeek502 | https://minecraft.curseforge.com/projects/applecore |
+| AppleCore | 3.1.0 | squeek502 | https://minecraft.curseforge.com/projects/applecore |
 | Applied Energistics2 | rv3-beta-6 | AlgorithmX2 | https://minecraft.curseforge.com/projects/applied-energistics-2 |
 | Artifacts | 1.1.3 | Draco18s | http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291999-unique-artifacts-powerful-randomly-generated-items |
 | Automagy | 0.28.2 | Tuhljin | https://minecraft.curseforge.com/projects/automagy |
-| Avaritia | 1.11 | SpitefulFox | https://minecraft.curseforge.com/projects/avaritia |
+| Avaritia | 1.13 | SpitefulFox | https://minecraft.curseforge.com/projects/avaritia |
 | Baubles | 1.0.1.10 | azanor |  https://minecraft.curseforge.com/projects/baubles |
 | Baublelicious | 1.2.2 | DenBukki | https://minecraft.curseforge.com/projects/baublelicious |
 | bdlib | 1.9.4.109 | bdew | https://minecraft.curseforge.com/projects/bdlib |
@@ -32,9 +32,9 @@
 | BiblioCraft | v1.11.7 | Nuchaz | https://minecraft.curseforge.com/projects/bibliocraft |
 | Big Reactors | 0.4.3A | ErogenousBeef | https://minecraft.curseforge.com/projects/big-reactors |
 | Binnie's Mods | 2.0.22.7 | Binnie567 | https://minecraft.curseforge.com/projects/binnies-mods |
-| Biomes O' Plenty | 2.1.0.2027 | Team Glitchfiend | https://minecraft.curseforge.com/projects/biomes-o-plenty |
-| BuildCraft | 7.1.22 | Team BuildCraft | http://mod-buildcraft.com |
-| BuildCraftCompat | 7.1.6 | Team BuildCraft | http://www.mod-buildcraft.com/pages/download.html |
+| Biomes O' Plenty | 2.1.0.2308 | Team Glitchfiend | https://minecraft.curseforge.com/projects/biomes-o-plenty |
+| BuildCraft | 7.1.23 | Team BuildCraft | http://mod-buildcraft.com |
+| BuildCraftCompat | 7.1.7 | Team BuildCraft | http://www.mod-buildcraft.com/pages/download.html |
 | Carpenter's Blocks | v3.3.8.1 | Syntaxial | https://minecraft.curseforge.com/projects/carpenters-blocks |
 | Chisel | 2.9.5.11 | tterrag1098 | https://minecraft.curseforge.com/projects/chisel |
 | CodeChickenCore | 1.0.7.47 | ChickenBones | http://chickenbones.net/Pages/links.html |
@@ -48,18 +48,18 @@
 | Custom Stuff 3 | 0.7.10 | CubeX2 | https://minecraft.curseforge.com/projects/custom-stuff-3 |
 | Default World Generator | 0.1-b13 | fireball1725 | https://minecraft.curseforge.com/projects/default-world-generator |
 | Dense Ores | 1.6.2 | RWTema | https://minecraft.curseforge.com/projects/dense-ores |
-| EnderClay | 1.0.6 | SeraphJACK | https://github.com/SeraphJACK/Ender-Clay |
+| EnderClay | 1.0.9 | SeraphJACK | https://github.com/SeraphJACK/Ender-Clay |
 | EnderCore | 0.2.0.39_beta | Team SleepyTrousers | https://minecraft.curseforge.com/projects/endercore |
-| EnderStorage | 1.4.7.37 | ChickenBones | http://chickenbones.net/Pages/links.html |
+| EnderStorage | 1.4.7.38 | ChickenBones | http://chickenbones.net/Pages/links.html |
 | EnderTech | 0.3.2.405 | CarrotCodes | https://minecraft.curseforge.com/projects/endertech |
 | Enhanced Inventories | 1.1.11 | ANIMENIAC7 | https://minecraft.curseforge.com/projects/enhanced-inventories |
 | Epic Siege Mod | 10.0.148 | Funwayguy | https://minecraft.curseforge.com/projects/epic-siege-mod |
 | Eternal Singularity | 1.0.4 | KingWealthyturtle | https://minecraft.curseforge.com/projects/eternal-singularity |
-| ExtraCells2 | 2.3.14b200 | DrummerMC | https://minecraft.curseforge.com/projects/extracells2 |
+| ExtraCells2 | 2.3.14b200 | Destroyer7128 | https://minecraft.curseforge.com/projects/extracells2 |
 | ExtraTiC | 1.4.6 | JeanGlassmaker | https://minecraft.curseforge.com/projects/extratic |
 | Extra Utilities | 1.2.12 | RWTema | https://minecraft.curseforge.com/projects/extra-utilities |
-| Factorization | 0.8.108 | neptunepink | http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1284592-factorization-0-8-108 |
-| FastCraft | 1.23 | Player | https://minecraft.curseforge.com/projects/fastcraft |
+| Factorization | 0.8.109 | neptunepink | http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1284592-factorization-0-8-108 |
+| FastCraft | 1.25 | Player | https://minecraft.curseforge.com/projects/fastcraft |
 | Forestry | 4.2.16.64 | Team Forestry | https://forestryforminecraft.info/main:downloads |
 | FTBLib | 1.0.18.3 | FTB_ModpackTeam | https://minecraft.curseforge.com/projects/ftblib |
 | FTB Utilities | 1.0.18.3 | FTB_ModpackTeam | https://minecraft.curseforge.com/projects/ftb-utilities |
@@ -67,6 +67,7 @@
 | Gendustry | 1.6.4.135 | bdew | https://minecraft.curseforge.com/projects/gendustry |
 | Hardcore Wither | 1.1.3 | thor12022 | https://minecraft.curseforge.com/projects/hardcore-wither |
 | Hardcore Questing Mode | 4.4.4 | lorddusk | https://minecraft.curseforge.com/projects/hardcore-questing-mode |
+| Hats | 4.0.1 | iChun | https://minecraft.curseforge.com/projects/hats |
 | Hunger Overhaul | 1.0.0.jenkins104 | progwml6 | https://minecraft.curseforge.com/projects/hunger-overhaul |
 | iChunUtil | 4.2.3 | iChun | https://minecraft.curseforge.com/projects/ichunutil |
 | Iguanas Tinker Tweaks | 2.1.6 | boni | https://minecraft.curseforge.com/projects/iguanas-tinker-tweaks |
@@ -90,15 +91,17 @@
 | Morpheus | 1.6.21 | Quetzi | https://minecraft.curseforge.com/projects/morpheus |
 | Mouse Tweaks | 2.4.4 | YaLTeR | https://minecraft.curseforge.com/projects/mouse-tweaks |
 | MrTJPCore | 1.1.0.33 | Mr_TJP | https://minecraft.curseforge.com/projects/mrtjpcore |
-| MTUtils | 1.4.2 | LionZXY | https://minecraft.curseforge.com/projects/mtutils |
+| MTUtils | 1.6 | LionZXY | https://minecraft.curseforge.com/projects/mtutils |
 | Natura | 2.2.1a2 | mDiyo | https://minecraft.curseforge.com/projects/natura |
 | NEI Addons | 1.12.15.41 | bdew | https://minecraft.curseforge.com/projects/nei-addons |
+| NEI Easy Search | 0.8.11 | pdos_95 | http://www.mcbbs.net/thread-614246-1-1.html |
 | NEI Integration | 1.1.2 | Tonius | https://minecraft.curseforge.com/projects/nei-integration |
 | NotEnoughItems | 1.0.5.120 | ChickenBones | http://chickenbones.net/Pages/links.html |
 | NotEnoughResources | 0.1.0-128 | Way2muchnoise | https://minecraft.curseforge.com/projects/notenoughresources |
 | Numina | 0.4.1.105 | MachineMuse | https://minecraft.curseforge.com/projects/numina |
+| Omni Ocular | 1.0build107 | exzhawk | https://blog.exz.me/omni-ocular |
 | OpenBlocks | 1.5.1 | Team OpenMods | https://minecraft.curseforge.com/projects/openblocks |
-| OpenComputers | 1.7.0.1085 | Sangar | https://minecraft.curseforge.com/projects/opencomputers |
+| OpenComputers | 1.7.1.1127 | Sangar | https://minecraft.curseforge.com/projects/opencomputers |
 | OpenModsLib | 0.9.1 | Team OpenMods | https://minecraft.curseforge.com/projects/openmodslib |
 | OpenModularTurrets | 2.2.11-238 | Poenjabiesous | https://minecraft.curseforge.com/projects/openmodularturrets |
 | p455w0rd's Library | 1.0.4 | TheRealp455w0rd | https://minecraft.curseforge.com/projects/p455w0rds-library |
@@ -110,7 +113,7 @@
 | Project Red - Integration | 4.7.0pre12.95 | Mr_TJP | http://projectredwiki.com/wiki/Main_Page |
 | Project Red - Lighting | 4.7.0pre12.95 | Mr_TJP | http://projectredwiki.com/wiki/Main_Page |
 | Project Red - World | 4.7.0pre12.95 | Mr_TJP | http://projectredwiki.com/wiki/Main_Page |
-| Railcraft | 9.12.2.0 | CovertJaguar | https://minecraft.curseforge.com/projects/railcraft |
+| Railcraft | 9.12.2.1 | CovertJaguar | https://minecraft.curseforge.com/projects/railcraft |
 | Random Things | 2.2.4 | Lumien | https://minecraft.curseforge.com/projects/random-things |
 | Redstone Arsenal | 1.1.3-97 | Team CoFH | http://teamcofh.com/downloads |
 | Redstonic | 1.4.11 | Raizunne | https://minecraft.curseforge.com/projects/redstonic |
@@ -137,7 +140,7 @@
 | Tinkers' Modifiers | 1.2.2 | UnderMybrella | https://minecraft.curseforge.com/projects/tinkers-modifiers |
 | Translocator | 1.1.2.16 | ChickenBones | http://chickenbones.net/Pages/links.html |
 | Traveller's Gear | 1.16.6 | BluSunrize | https://minecraft.curseforge.com/projects/travellers-gear |
-| Unicode Font Extension | 2.4 | bre2el | https://minecraft.curseforge.com/projects/unicode-font-extension |
+| Unicode Font Extension | 2.7 | bre2el | https://minecraft.curseforge.com/projects/unicode-font-extension |
 | UniDict | 2.9.2 | WanionCane | https://minecraft.curseforge.com/projects/unidict |
 | Universal Singularities | Version 8 | KingWealthyturtle | https://minecraft.curseforge.com/projects/universal-singularities |
 | Waila | 1.5.10 | ProfMobius | https://minecraft.curseforge.com/projects/waila |
@@ -149,5 +152,5 @@
 | Wireless Crafting Terminal | rv3-1.8.7.9b | TheRealp455w0rd | https://minecraft.curseforge.com/projects/wireless-crafting-terminal |
 | Witching Gadgets | 1.1.10 | BluSunrize | https://minecraft.curseforge.com/projects/witching-gadgets |
 | YuutoLib | 1.0.3 | ANIMENIAC7 | https://minecraft.curseforge.com/projects/yuutolib |
-| ZettaIndustries | 1.1-120 | bymarcin | https://zi.bymarcin.com/ |
+| ZettaIndustries | 1.1-120 | marcin212 | https://minecraft.curseforge.com/projects/zetta-industries |
 | Ztones | 2.2.1 | riciJak | https://minecraft.curseforge.com/projects/ztones |
