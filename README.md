@@ -104,6 +104,7 @@
 | OpenComputers | 1.7.1.1127 | Sangar | https://minecraft.curseforge.com/projects/opencomputers |
 | OpenModsLib | 0.9.1 | Team OpenMods | https://minecraft.curseforge.com/projects/openmodslib |
 | OpenModularTurrets | 2.2.11-238 | Poenjabiesous | https://minecraft.curseforge.com/projects/openmodularturrets |
+| OptiFine | 1.7.10_HD_U_E3 | sp614x | http://www.optifine.net/home |
 | p455w0rd's Library | 1.0.4 | TheRealp455w0rd | https://minecraft.curseforge.com/projects/p455w0rds-library |
 | Pam's HarvestCraft | 1.7.10Lb | MatrexsVigil | https://minecraft.curseforge.com/projects/pams-harvestcraft |
 | Portal Gun | 4.0.0-beta-6-fix-1 | iChun | https://minecraft.curseforge.com/projects/portal-gun |
@@ -119,6 +120,7 @@
 | Redstonic | 1.4.11 | Raizunne | https://minecraft.curseforge.com/projects/redstonic |
 | Reliquary | 1.2.1.483 | P3pp3rF1y | https://minecraft.curseforge.com/projects/reliquary-v1-3 |
 | Resource Loader | 1.3 | Lumien | https://minecraft.curseforge.com/projects/resource-loader |
+| ShadersModCore | 2.3.31-mc1.7.10-f | Shaders Mod | http://shadersmods.com/shaders-mod |
 | Simply Jetpacks | 1.5.3 | Tonius | https://minecraft.curseforge.com/projects/simply-jetpacks |
 | Solar Expansion | 1.6a | Shad0wB1ade | https://minecraft.curseforge.com/projects/solar-expansion |
 | Sonar Core | 1.1.3 | Ollie_Lansdell | https://minecraft.curseforge.com/projects/sonar-core |
