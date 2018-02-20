@@ -24,7 +24,7 @@ b13更新内容：
 23. 产量升级的最大数量由8调整至16，产量倍率由1.2倍调整至1.5倍，能耗倍率由1.2倍调整至1.8倍。
 
 b12更新内容：
-1. 修复了一个bug，该bug可导致焦煤混合物放入焦炉后游戏崩溃且无法恢复；
+1. §c修复了一个bug，该bug可导致焦煤混合物放入焦炉后游戏崩溃且无法恢复§r；
 2. AppleCore版本更新，由1.3.2更新至1.3.9；
 3. BiblioCraft版本更新，由1.11.5更新至1.11.7；
 4. Binnie's Mods版本更新，由2.0.21更新至2.0.22.7；
@@ -61,7 +61,7 @@ b11更新内容：
 12. 修改了任务书（Hardcore Questing Mode）的材质，使用由CyanideX制作的Unity材质包中的材质。
 
 b10更新内容：
-1. 修复了一个严重的bug，该bug可导致有关于Immersive Engineering的配方修改全部失效；
+1. §c修复了一个严重的bug，该bug可导致有关于Immersive Engineering的配方修改全部失效§r；
 2. 修复了一个bug，该bug可导致多种金属块无法合成金属锭；
 3. 修复了一个bug，该bug可导致战利品袋（LootBags）可以开出钢锭；
 4. 修复了一个bug，该bug可导致金币（Thaumcraft）可以换成金粒或金锭以跳科技线；
@@ -73,7 +73,7 @@ b10更新内容：
 10. 对Railcraft的机器挖掘等级进行调整，由2修改至0。
 
 b9更新内容：
-1. 新增模组InexhaustibleTweaks，感谢3TUSK为整合包制作本模组以解决我的一些整合需求；
+1. §9新增模组InexhaustibleTweaks，感谢3TUSK为整合包制作本模组以解决我的一些整合需求§r；
 2. Binnie's Mods版本更新，由2.0.19更新至2.0.20；
 3. 任务（Hardcore Questing Mode）优化，布局调整，封面更换；
 4. 调整了Extra Utilities中的部分发电机的发电量；
@@ -136,7 +136,7 @@ b4更新内容：
 10. 试验性调整，ImmersiveEngineering的铜制线缆最大长度由16调整至8，铜制线缆、琥珀金制线缆与高压线缆每16格线损百分比由0.05、0.025、0.025调整至0.4、0.2、0.1，该调整旨于鼓励玩家使用更高级线缆及Mekanism线缆，但可能会对游戏早期造成影响，希望玩家积极反馈，便于我们做出调整。
 
 b3更新内容：
-1. 修复了一个bug，该bug可导致所有金属锭无法制作；
+1. §c修复了一个bug，该bug可导致所有金属锭无法制作§r；
 2. 修复了一个bug，该bug可导致无法通过粉碎机（Railcraft）制作粉碎锡矿石（AOBD）；
 3. 修复了一个bug，该bug可导致村民交易会得到矿莓（Tinkers Constrct）；
 4. 调整了Special AI与Biomes O' Plenty的congfig；
@@ -151,7 +151,7 @@ b3更新内容：
 13. 修复了一个bug，该bug可导致在铁砧中可以得到创造能量单元与创造RF电容（感谢3TUSK）；
 
 b2更新内容：
-1. **修复了一个bug，该bug可导致绝大多数金属锭无法制作**；
+1. §c修复了一个bug，该bug可导致绝大多数金属锭无法制作§r；
 2. 修复了一个bug，该bug可导致装配台（BuildCraft）无法制作；
 3. 修复了一个bug，该bug可导致末影储罐（EnderStorage）无法制作；
 4. 修复了一个bug，该bug可导致石墨块（ZettaIndustries）可直接由木炭块（ZettaIndustries）烧制而成；
