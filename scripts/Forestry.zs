@@ -1,15 +1,17 @@
 #Name: Forestry.zs
 #Author: Si_hen
 
+import mods.forestry.Carpenter;
+
 print("Initializing 'Forestry.zs'...");
 
 #casing
 recipes.remove(<Forestry:sturdyMachine>);
 recipes.addShaped(<Forestry:sturdyMachine>, [[<ore:plateBronze>, <ore:thermalexpansion:machineBronze>, <ore:plateBronze>], [<ore:thermalexpansion:machineBronze>, <Creator:IronWrench>.anyDamage().transformDamage(), <ore:thermalexpansion:machineBronze>], [<ore:plateBronze>, <ore:thermalexpansion:machineBronze>, <ore:plateBronze>]]);
-mods.forestry.Carpenter.addRecipe(<Forestry:sturdyMachine>, [[null, <ore:plateBronze>, null],
+Carpenter.addRecipe(<Forestry:sturdyMachine>, [[null, <ore:plateBronze>, null],
                                                             [<ore:plateBronze>, null, <ore:plateBronze>], 
                                                             [null, <ore:plateBronze>, null]], <liquid:bronze.molten> * 576, 20);
-mods.forestry.Carpenter.addRecipe(<Forestry:impregnatedCasing>, [[<ore:logWood>, <ore:logWood>, <ore:logWood>],
+Carpenter.addRecipe(<Forestry:impregnatedCasing>, [[<ore:logWood>, <ore:logWood>, <ore:logWood>],
                                                                  [<ore:logWood>, null, <ore:logWood>], 
                                                                  [<ore:logWood>, <ore:logWood>, <ore:logWood>]], <liquid:plantoil> * 250, 200);
 
@@ -26,8 +28,8 @@ recipes.remove(<Forestry:bronzeShovel>);
 recipes.remove(<Forestry:bronzePickaxe>);
 recipes.remove(<Forestry:kitShovel>);
 recipes.remove(<Forestry:kitPickaxe>);
-mods.forestry.Carpenter.removeRecipe(<Forestry:kitShovel>);
-mods.forestry.Carpenter.removeRecipe(<Forestry:kitPickaxe>);
+Carpenter.removeRecipe(<Forestry:kitShovel>);
+Carpenter.removeRecipe(<Forestry:kitPickaxe>);
 <Forestry:brokenBronzePickaxe>.addTooltip(format.red("Can NOT Get This Item Now!"));
 <Forestry:brokenBronzePickaxe>.addTooltip(format.red("你现在不能获得这个物品了！"));
 <Forestry:brokenBronzeShovel>.addTooltip(format.red("Can NOT Get This Item Now!"));
@@ -42,8 +44,8 @@ mods.forestry.Carpenter.removeRecipe(<Forestry:kitPickaxe>);
 <Forestry:kitPickaxe>.addTooltip(format.red("你现在不能合成这个物品了！"));
 
 #scented paneling
-mods.forestry.Carpenter.removeRecipe(<Forestry:craftingMaterial:6>);
-mods.forestry.Carpenter.addRecipe(<Forestry:craftingMaterial:6>, [[null, <Forestry:royalJelly>, null],
+Carpenter.removeRecipe(<Forestry:craftingMaterial:6>);
+Carpenter.addRecipe(<Forestry:craftingMaterial:6>, [[null, <Forestry:royalJelly>, null],
                                                                   [<Forestry:impregnatedCasing>, <Forestry:impregnatedCasing>, <Forestry:impregnatedCasing>], 
                                                                   [<Forestry:beeswax>, <Forestry:pollen>, <Forestry:beeswax>]], <liquid:for.honey> * 500, 200);
 
@@ -57,25 +59,25 @@ recipes.addShaped(<Forestry:factory2>, [[<ore:ingotBronze>, <ore:blockGlassColor
 
 #squeezer
 recipes.remove(<Forestry:factory:5>);
-mods.forestry.Carpenter.addRecipe(<Forestry:factory:5>, [[<ore:plateTin>, <Forestry:thermionicTubes:1>, <ore:plateTin>],
+Carpenter.addRecipe(<Forestry:factory:5>, [[<ore:plateTin>, <Forestry:thermionicTubes:1>, <ore:plateTin>],
                                                          [<ore:plateTin>, <Forestry:sturdyMachine>, <ore:plateTin>],
 														 [<ore:plateTin>, <Forestry:thermionicTubes:1>, <ore:plateTin>]], <liquid:tin.molten> * 288, 100);
 
 #fermenter
 recipes.remove(<Forestry:factory:3>);
-mods.forestry.Carpenter.addRecipe(<Forestry:factory:3>, [[<ore:gearBronze>, <ore:blockGlass>, <ore:gearBronze>],
+Carpenter.addRecipe(<Forestry:factory:3>, [[<ore:gearBronze>, <ore:blockGlass>, <ore:gearBronze>],
                                                          [<ore:blockGlass>, <Forestry:sturdyMachine>, <ore:blockGlass>], 
                                                          [<ore:gearBronze>, <ore:blockGlass>, <ore:gearBronze>]], <liquid:bronze.molten> * 288, 100);
 
 #still
 recipes.remove(<Forestry:factory:6>);
-mods.forestry.Carpenter.addRecipe(<Forestry:factory:6>, [[<ore:ingotRedAlloy>, <ore:blockGlass>, <ore:ingotRedAlloy>],
+Carpenter.addRecipe(<Forestry:factory:6>, [[<ore:ingotRedAlloy>, <ore:blockGlass>, <ore:ingotRedAlloy>],
                                                          [<ore:blockGlass>, <Forestry:sturdyMachine>, <ore:blockGlass>], 
                                                          [<ore:ingotRedAlloy>, <ore:blockGlass>, <ore:ingotRedAlloy>]], null, 100);
 
 #centrifuge
 recipes.remove(<Forestry:factory:2>);
-mods.forestry.Carpenter.addRecipe(<Forestry:factory:2>, [[<ore:plateGold>, <Forestry:thermionicTubes:4>, <ore:plateGold>],
+Carpenter.addRecipe(<Forestry:factory:2>, [[<ore:plateGold>, <Forestry:thermionicTubes:4>, <ore:plateGold>],
                                                          [<ore:plateGold>, <Forestry:sturdyMachine>, <ore:plateGold>],
 														 [<ore:plateGold>, <Forestry:thermionicTubes:4>, <ore:plateGold>]], <liquid:gold.molten> * 144, 100);
 

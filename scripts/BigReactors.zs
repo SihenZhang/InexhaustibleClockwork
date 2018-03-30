@@ -1,6 +1,8 @@
 #Name: BigReactors.zs
 #Author: Si_hen
 
+import mods.thermalexpansion.Smelter;
+
 print("Initializing 'BigReactors.zs'...");
 
 #remove craft Ludicrite Block with Enderium Block(enderium becomes cheap)
@@ -10,14 +12,14 @@ recipes.addShaped(<BigReactors:BRMetalBlock:4>, [[<ore:ingotBlutonium>, <ore:blo
 #Graphite
 furnace.remove(<BigReactors:BRIngot:2>);
 mods.thermalexpansion.Furnace.removeRecipe(<BigReactors:BRIngot:6>);
-mods.thermalexpansion.Smelter.removeRecipe(<*>, <BigReactors:BRIngot:6>);
+Smelter.removeRecipe(<*>, <BigReactors:BRIngot:6>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<BigReactors:BRIngot:2>);
 mods.mekanism.Compressor.addRecipe(<ImmersiveEngineering:metal:20> * 9, <gas:liquidOsmium>, <BigReactors:BRMetalBlock:2>);
 
 #Cyanite
 recipes.removeShapeless(<BigReactors:BRIngot:1>, [<BigReactors:BRIngot>, <minecraft:sand>]);
 furnace.remove(<BigReactors:BRIngot:1>);
-mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <BigReactors:BRIngot:5>);
+Smelter.removeRecipe(<minecraft:sand>, <BigReactors:BRIngot:5>);
 
 #cyanite reprogressor
 recipes.remove(<BigReactors:BRDevice>);

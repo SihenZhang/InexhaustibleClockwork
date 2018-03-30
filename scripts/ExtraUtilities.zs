@@ -1,6 +1,9 @@
 #Name: ExtraUtilities.zs
 #Author: Si_hen
 
+import mods.extraUtils.QED;
+import mods.thermalexpansion.Transposer;
+
 print("Initializing 'ExtraUtilities.zs'...");
 
 #remove some generators
@@ -43,55 +46,55 @@ recipes.remove(<ExtraUtilities:generator:11>);
 recipes.addShaped(<ExtraUtilities:generator:11>, [[<minecraft:nether_star>, <minecraft:nether_star>, <minecraft:nether_star>], [<minecraft:skull:1>, <ExtraUtilities:decorativeBlock1:5>, <minecraft:skull:1>], [<StevesCarts:BlockMetalStorage:2>, <ExtraUtilities:generator:5>, <StevesCarts:BlockMetalStorage:2>]]);
 
 recipes.remove(<ExtraUtilities:generator.8>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8>, [[<ExtraUtilities:generator>, <ExtraUtilities:generator>, <ExtraUtilities:generator>], [<ExtraUtilities:generator>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator>], [<ExtraUtilities:generator>, <ExtraUtilities:generator>, <ExtraUtilities:generator>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.8>, [[<ExtraUtilities:generator>, <ExtraUtilities:generator>, <ExtraUtilities:generator>], [<ExtraUtilities:generator>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator>], [<ExtraUtilities:generator>, <ExtraUtilities:generator>, <ExtraUtilities:generator>]]);
 recipes.remove(<ExtraUtilities:generator.8:1>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:1>, [[<ExtraUtilities:generator:1>, <ExtraUtilities:generator:1>, <ExtraUtilities:generator:1>], [<ExtraUtilities:generator:1>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:1>], [<ExtraUtilities:generator:1>, <ExtraUtilities:generator:1>, <ExtraUtilities:generator:1>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.8:1>, [[<ExtraUtilities:generator:1>, <ExtraUtilities:generator:1>, <ExtraUtilities:generator:1>], [<ExtraUtilities:generator:1>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:1>], [<ExtraUtilities:generator:1>, <ExtraUtilities:generator:1>, <ExtraUtilities:generator:1>]]);
 recipes.remove(<ExtraUtilities:generator.8:2>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:2>, [[<ExtraUtilities:generator:2>, <ExtraUtilities:generator:2>, <ExtraUtilities:generator:2>], [<ExtraUtilities:generator:2>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:2>], [<ExtraUtilities:generator:2>, <ExtraUtilities:generator:2>, <ExtraUtilities:generator:2>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.8:2>, [[<ExtraUtilities:generator:2>, <ExtraUtilities:generator:2>, <ExtraUtilities:generator:2>], [<ExtraUtilities:generator:2>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:2>], [<ExtraUtilities:generator:2>, <ExtraUtilities:generator:2>, <ExtraUtilities:generator:2>]]);
 recipes.remove(<ExtraUtilities:generator.8:3>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:3>, [[<ExtraUtilities:generator:3>, <ExtraUtilities:generator:3>, <ExtraUtilities:generator:3>], [<ExtraUtilities:generator:3>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:3>], [<ExtraUtilities:generator:3>, <ExtraUtilities:generator:3>, <ExtraUtilities:generator:3>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.8:3>, [[<ExtraUtilities:generator:3>, <ExtraUtilities:generator:3>, <ExtraUtilities:generator:3>], [<ExtraUtilities:generator:3>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:3>], [<ExtraUtilities:generator:3>, <ExtraUtilities:generator:3>, <ExtraUtilities:generator:3>]]);
 recipes.remove(<ExtraUtilities:generator.8:5>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:5>, [[<ExtraUtilities:generator:5>, <ExtraUtilities:generator:5>, <ExtraUtilities:generator:5>], [<ExtraUtilities:generator:5>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:5>], [<ExtraUtilities:generator:5>, <ExtraUtilities:generator:5>, <ExtraUtilities:generator:5>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.8:5>, [[<ExtraUtilities:generator:5>, <ExtraUtilities:generator:5>, <ExtraUtilities:generator:5>], [<ExtraUtilities:generator:5>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:5>], [<ExtraUtilities:generator:5>, <ExtraUtilities:generator:5>, <ExtraUtilities:generator:5>]]);
 recipes.remove(<ExtraUtilities:generator.8:7>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:7>, [[<ExtraUtilities:generator:7>, <ExtraUtilities:generator:7>, <ExtraUtilities:generator:7>], [<ExtraUtilities:generator:7>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:7>], [<ExtraUtilities:generator:7>, <ExtraUtilities:generator:7>, <ExtraUtilities:generator:7>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.8:7>, [[<ExtraUtilities:generator:7>, <ExtraUtilities:generator:7>, <ExtraUtilities:generator:7>], [<ExtraUtilities:generator:7>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:7>], [<ExtraUtilities:generator:7>, <ExtraUtilities:generator:7>, <ExtraUtilities:generator:7>]]);
 recipes.remove(<ExtraUtilities:generator.8:8>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:8>, [[<ExtraUtilities:generator:8>, <ExtraUtilities:generator:8>, <ExtraUtilities:generator:8>], [<ExtraUtilities:generator:8>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:8>], [<ExtraUtilities:generator:8>, <ExtraUtilities:generator:8>, <ExtraUtilities:generator:8>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.8:8>, [[<ExtraUtilities:generator:8>, <ExtraUtilities:generator:8>, <ExtraUtilities:generator:8>], [<ExtraUtilities:generator:8>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:8>], [<ExtraUtilities:generator:8>, <ExtraUtilities:generator:8>, <ExtraUtilities:generator:8>]]);
 recipes.remove(<ExtraUtilities:generator.8:9>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:9>, [[<ExtraUtilities:generator:9>, <ExtraUtilities:generator:9>, <ExtraUtilities:generator:9>], [<ExtraUtilities:generator:9>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:9>], [<ExtraUtilities:generator:9>, <ExtraUtilities:generator:9>, <ExtraUtilities:generator:9>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.8:9>, [[<ExtraUtilities:generator:9>, <ExtraUtilities:generator:9>, <ExtraUtilities:generator:9>], [<ExtraUtilities:generator:9>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:9>], [<ExtraUtilities:generator:9>, <ExtraUtilities:generator:9>, <ExtraUtilities:generator:9>]]);
 recipes.remove(<ExtraUtilities:generator.8:10>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:10>, [[<ExtraUtilities:generator:10>, <ExtraUtilities:generator:10>, <ExtraUtilities:generator:10>], [<ExtraUtilities:generator:10>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:10>], [<ExtraUtilities:generator:10>, <ExtraUtilities:generator:10>, <ExtraUtilities:generator:10>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.8:10>, [[<ExtraUtilities:generator:10>, <ExtraUtilities:generator:10>, <ExtraUtilities:generator:10>], [<ExtraUtilities:generator:10>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:10>], [<ExtraUtilities:generator:10>, <ExtraUtilities:generator:10>, <ExtraUtilities:generator:10>]]);
 recipes.remove(<ExtraUtilities:generator.8:11>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.8:11>, [[<ExtraUtilities:generator:11>, <ExtraUtilities:generator:11>, <ExtraUtilities:generator:11>], [<ExtraUtilities:generator:11>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:11>], [<ExtraUtilities:generator:11>, <ExtraUtilities:generator:11>, <ExtraUtilities:generator:11>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.8:11>, [[<ExtraUtilities:generator:11>, <ExtraUtilities:generator:11>, <ExtraUtilities:generator:11>], [<ExtraUtilities:generator:11>, <ThermalExpansion:Frame:7>, <ExtraUtilities:generator:11>], [<ExtraUtilities:generator:11>, <ExtraUtilities:generator:11>, <ExtraUtilities:generator:11>]]);
 
 recipes.remove(<ExtraUtilities:generator.64>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64>, [[<ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>], [<ExtraUtilities:generator.8>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8>], [<ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.64>, [[<ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>], [<ExtraUtilities:generator.8>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8>], [<ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>]]);
 recipes.remove(<ExtraUtilities:generator.64:1>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:1>, [[<ExtraUtilities:generator.8:1>, <ExtraUtilities:generator.8:1>, <ExtraUtilities:generator.8:1>], [<ExtraUtilities:generator.8:1>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:1>], [<ExtraUtilities:generator.8:1>, <ExtraUtilities:generator.8:1>, <ExtraUtilities:generator.8:1>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.64:1>, [[<ExtraUtilities:generator.8:1>, <ExtraUtilities:generator.8:1>, <ExtraUtilities:generator.8:1>], [<ExtraUtilities:generator.8:1>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:1>], [<ExtraUtilities:generator.8:1>, <ExtraUtilities:generator.8:1>, <ExtraUtilities:generator.8:1>]]);
 recipes.remove(<ExtraUtilities:generator.64:2>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:2>, [[<ExtraUtilities:generator.8:2>, <ExtraUtilities:generator.8:2>, <ExtraUtilities:generator.8:2>], [<ExtraUtilities:generator.8:2>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:2>], [<ExtraUtilities:generator.8:2>, <ExtraUtilities:generator.8:2>, <ExtraUtilities:generator.8:2>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.64:2>, [[<ExtraUtilities:generator.8:2>, <ExtraUtilities:generator.8:2>, <ExtraUtilities:generator.8:2>], [<ExtraUtilities:generator.8:2>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:2>], [<ExtraUtilities:generator.8:2>, <ExtraUtilities:generator.8:2>, <ExtraUtilities:generator.8:2>]]);
 recipes.remove(<ExtraUtilities:generator.64:3>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:3>, [[<ExtraUtilities:generator.8:3>, <ExtraUtilities:generator.8:3>, <ExtraUtilities:generator.8:3>], [<ExtraUtilities:generator.8:3>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:3>], [<ExtraUtilities:generator.8:3>, <ExtraUtilities:generator.8:3>, <ExtraUtilities:generator.8:3>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.64:3>, [[<ExtraUtilities:generator.8:3>, <ExtraUtilities:generator.8:3>, <ExtraUtilities:generator.8:3>], [<ExtraUtilities:generator.8:3>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:3>], [<ExtraUtilities:generator.8:3>, <ExtraUtilities:generator.8:3>, <ExtraUtilities:generator.8:3>]]);
 recipes.remove(<ExtraUtilities:generator.64:5>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:5>, [[<ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>], [<ExtraUtilities:generator.8:5>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:5>], [<ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.64:5>, [[<ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>], [<ExtraUtilities:generator.8:5>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:5>], [<ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>]]);
 recipes.remove(<ExtraUtilities:generator.64:7>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:7>, [[<ExtraUtilities:generator.8:7>, <ExtraUtilities:generator.8:7>, <ExtraUtilities:generator.8:7>], [<ExtraUtilities:generator.8:7>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:7>], [<ExtraUtilities:generator.8:7>, <ExtraUtilities:generator.8:7>, <ExtraUtilities:generator.8:7>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.64:7>, [[<ExtraUtilities:generator.8:7>, <ExtraUtilities:generator.8:7>, <ExtraUtilities:generator.8:7>], [<ExtraUtilities:generator.8:7>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:7>], [<ExtraUtilities:generator.8:7>, <ExtraUtilities:generator.8:7>, <ExtraUtilities:generator.8:7>]]);
 recipes.remove(<ExtraUtilities:generator.64:8>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:8>, [[<ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>], [<ExtraUtilities:generator.8:8>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:8>], [<ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.64:8>, [[<ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>], [<ExtraUtilities:generator.8:8>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:8>], [<ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>]]);
 recipes.remove(<ExtraUtilities:generator.64:9>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:9>, [[<ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>], [<ExtraUtilities:generator.8:9>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:9>], [<ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.64:9>, [[<ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>], [<ExtraUtilities:generator.8:9>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:9>], [<ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>]]);
 recipes.remove(<ExtraUtilities:generator.64:10>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:10>, [[<ExtraUtilities:generator.8:10>, <ExtraUtilities:generator.8:10>, <ExtraUtilities:generator.8:10>], [<ExtraUtilities:generator.8:10>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:10>], [<ExtraUtilities:generator.8:10>, <ExtraUtilities:generator.8:10>, <ExtraUtilities:generator.8:10>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.64:10>, [[<ExtraUtilities:generator.8:10>, <ExtraUtilities:generator.8:10>, <ExtraUtilities:generator.8:10>], [<ExtraUtilities:generator.8:10>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:10>], [<ExtraUtilities:generator.8:10>, <ExtraUtilities:generator.8:10>, <ExtraUtilities:generator.8:10>]]);
 recipes.remove(<ExtraUtilities:generator.64:11>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:11>, [[<ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>], [<ExtraUtilities:generator.8:11>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:11>], [<ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>]]);
+QED.addShapedRecipe(<ExtraUtilities:generator.64:11>, [[<ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>], [<ExtraUtilities:generator.8:11>, <ThermalExpansion:Frame:9>, <ExtraUtilities:generator.8:11>], [<ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>]]);
 
 #deep dark portal
 recipes.remove(<ExtraUtilities:dark_portal>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:dark_portal>, [[<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:cobblestone_compressed:7>, <ExtraUtilities:bedrockiumIngot>], [<ExtraUtilities:cobblestone_compressed:7>, <minecraft:bedrock>, <ExtraUtilities:cobblestone_compressed:7>], [<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:cobblestone_compressed:7>, <ExtraUtilities:bedrockiumIngot>]]);
+QED.addShapedRecipe(<ExtraUtilities:dark_portal>, [[<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:cobblestone_compressed:7>, <ExtraUtilities:bedrockiumIngot>], [<ExtraUtilities:cobblestone_compressed:7>, <minecraft:bedrock>, <ExtraUtilities:cobblestone_compressed:7>], [<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:cobblestone_compressed:7>, <ExtraUtilities:bedrockiumIngot>]]);
 
 #remove transfer node(energy)
-mods.extraUtils.QED.removeRecipe(<ExtraUtilities:extractor_base:12>);
+QED.removeRecipe(<ExtraUtilities:extractor_base:12>);
 <ExtraUtilities:extractor_base:12>.addTooltip(format.red("You can't use this to transfer RF!"));
-mods.extraUtils.QED.removeRecipe(<ExtraUtilities:extractor_base:13>);
+QED.removeRecipe(<ExtraUtilities:extractor_base:13>);
 <ExtraUtilities:extractor_base:13>.addTooltip(format.red("You can't use this to transfer RF!"));
 
 #curtain
@@ -100,12 +103,12 @@ mods.logistics.hammer.addRecipe(<minecraft:wool:*>, <ExtraUtilities:curtains> * 
 
 #magicwood
 recipes.remove(<ExtraUtilities:decorativeBlock1:8>);
-mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:bookshelf>, <liquid:xpjuice>);
+Transposer.removeFillRecipe(<minecraft:bookshelf>, <liquid:xpjuice>);
 recipes.addShaped(<ExtraUtilities:decorativeBlock1:8>, [[<ore:ingotAtlarus>, <minecraft:enchanted_book>, <ore:ingotAtlarus>], [<minecraft:enchanted_book>, <Automagy:blockBookshelfEnchanted:1>, <minecraft:enchanted_book>], [<ore:ingotAtlarus>, <minecraft:enchanted_book>, <ore:ingotAtlarus>]]);
 
 #ender obsidian
 recipes.remove(<ExtraUtilities:decorativeBlock1:1>);
-mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:obsidian>, <liquid:ender>);
+Transposer.removeFillRecipe(<minecraft:obsidian>, <liquid:ender>);
 recipes.addShaped(<ExtraUtilities:decorativeBlock1:1>, [[<enderclay:enderclayblock>, <minecraft:obsidian>, <enderclay:enderclayblock>], [<minecraft:obsidian>, <minecraft:ender_pearl>, <minecraft:obsidian>], [<enderclay:enderclayblock>, <minecraft:obsidian>, <enderclay:enderclayblock>]]);
 
 #drum
@@ -136,9 +139,9 @@ recipes.remove(<ExtraUtilities:spike_base_diamond>);
 recipes.remove(<ExtraUtilities:spike_base>);
 recipes.remove(<ExtraUtilities:spike_base_wood>);
 recipes.addShaped(<ExtraUtilities:spike_base_wood>, [[null, <ExtraUtilities:decorativeBlock1:8>, null], [<ExtraUtilities:decorativeBlock1:8>, <ExtraUtilities:ethericsword>, <ExtraUtilities:decorativeBlock1:8>]]);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:spike_base_diamond>, [[null, <minecraft:diamond_sword>, null], [<minecraft:diamond_sword>, <minecraft:diamond_block>, <minecraft:diamond_sword>], [<minecraft:diamond_block>, <ExtraUtilities:spike_base>, <minecraft:diamond_block>]]);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:spike_base_gold>, [[null, <minecraft:golden_sword>, null], [<minecraft:golden_sword>, <ore:blockGold>, <minecraft:golden_sword>], [<ore:blockGold>, <ExtraUtilities:spike_base_wood>, <ore:blockGold>]]);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:spike_base>, [[null, <minecraft:iron_sword>, null], [<minecraft:iron_sword>, <minecraft:iron_block>, <minecraft:iron_sword>], [<minecraft:iron_block>, <ExtraUtilities:spike_base_gold>, <minecraft:iron_block>]]);
+QED.addShapedRecipe(<ExtraUtilities:spike_base_diamond>, [[null, <minecraft:diamond_sword>, null], [<minecraft:diamond_sword>, <minecraft:diamond_block>, <minecraft:diamond_sword>], [<minecraft:diamond_block>, <ExtraUtilities:spike_base>, <minecraft:diamond_block>]]);
+QED.addShapedRecipe(<ExtraUtilities:spike_base_gold>, [[null, <minecraft:golden_sword>, null], [<minecraft:golden_sword>, <ore:blockGold>, <minecraft:golden_sword>], [<ore:blockGold>, <ExtraUtilities:spike_base_wood>, <ore:blockGold>]]);
+QED.addShapedRecipe(<ExtraUtilities:spike_base>, [[null, <minecraft:iron_sword>, null], [<minecraft:iron_sword>, <minecraft:iron_block>, <minecraft:iron_sword>], [<minecraft:iron_block>, <ExtraUtilities:spike_base_gold>, <minecraft:iron_block>]]);
 
 #bedrockium
 recipes.remove(<ExtraUtilities:bedrockiumIngot>);
@@ -147,14 +150,14 @@ recipes.addShaped(<minecraft:bedrock>, [[<ExtraUtilities:block_bedrockium>, <Ext
 
 #node
 recipes.remove(<ExtraUtilities:extractor_base>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:extractor_base>, [[null, <ExtraUtilities:pipes:*>], [<ore:ingotRedAlloy>, <Avaritia:Resource>, <ore:ingotRedAlloy>], [<RandomThings:ingredient:6>, <minecraft:chest>, <RandomThings:ingredient:6>]]);
+QED.addShapedRecipe(<ExtraUtilities:extractor_base>, [[null, <ExtraUtilities:pipes:*>], [<ore:ingotRedAlloy>, <Avaritia:Resource>, <ore:ingotRedAlloy>], [<RandomThings:ingredient:6>, <minecraft:chest>, <RandomThings:ingredient:6>]]);
 recipes.remove(<ExtraUtilities:extractor_base:6>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:extractor_base:6>, [[null, <ExtraUtilities:pipes:*>], [<ProjRed|Core:projectred.core.part:55>, <Avaritia:Resource>, <ProjRed|Core:projectred.core.part:55>], [<RandomThings:ingredient:6>, <BuildCraft|Factory:tankBlock>, <RandomThings:ingredient:6>]]);
+QED.addShapedRecipe(<ExtraUtilities:extractor_base:6>, [[null, <ExtraUtilities:pipes:*>], [<ProjRed|Core:projectred.core.part:55>, <Avaritia:Resource>, <ProjRed|Core:projectred.core.part:55>], [<RandomThings:ingredient:6>, <BuildCraft|Factory:tankBlock>, <RandomThings:ingredient:6>]]);
 
 #pipes
 recipes.remove(<ExtraUtilities:pipes>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:pipes>, [[<ore:blockGlass>, <minecraft:redstone_torch>, <ore:blockGlass>], [<BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsdiamond>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsgold>], [<minecraft:stone_slab>, <ore:gearGold>, <minecraft:stone_slab>]]);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:pipes>, [[<ore:blockGlass>, <minecraft:redstone_torch>, <ore:blockGlass>], [<BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsdiamond>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsgold>], [<minecraft:stone_slab>, <ore:chipsetGold>, <minecraft:stone_slab>]]);
+QED.addShapedRecipe(<ExtraUtilities:pipes>, [[<ore:blockGlass>, <minecraft:redstone_torch>, <ore:blockGlass>], [<BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsdiamond>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsgold>], [<minecraft:stone_slab>, <ore:gearGold>, <minecraft:stone_slab>]]);
+QED.addShapedRecipe(<ExtraUtilities:pipes>, [[<ore:blockGlass>, <minecraft:redstone_torch>, <ore:blockGlass>], [<BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsdiamond>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsgold>], [<minecraft:stone_slab>, <ore:chipsetGold>, <minecraft:stone_slab>]]);
 recipes.remove(<ExtraUtilities:pipes:8>);
 recipes.addShaped(<ExtraUtilities:pipes:8> * 2, [[<BuildCraft|Transport:item.buildcraftPipe.pipeitemsclay>, <ore:ingotGold>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsclay>], [<ExtraUtilities:pipes>, <ore:ingotGold>, <ExtraUtilities:pipes>], [<BuildCraft|Transport:item.buildcraftPipe.pipeitemsclay>, <ore:ingotGold>, <BuildCraft|Transport:item.buildcraftPipe.pipeitemsclay>]]);
 recipes.remove(<ExtraUtilities:pipes:10>);
@@ -179,8 +182,8 @@ recipes.remove(<ExtraUtilities:endConstructor>);
 recipes.addShaped(<ExtraUtilities:endConstructor>, [[<ore:blockEnderObsidian>, <ore:pearlEnderEye>, <ore:blockEnderObsidian>], [<Forestry:thermionicTubes:12>, <ExtraUtilities:decorativeBlock1:12>, <Forestry:thermionicTubes:12>], [<ore:blockEnderObsidian>, <ore:chipsetPulsating>, <ore:blockEnderObsidian>]]);
 
 #magnum torch
-mods.extraUtils.QED.removeRecipe(<ExtraUtilities:magnumTorch>);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:magnumTorch>, [[<minecraft:potion:8229>, <ExtraUtilities:chandelier>, <minecraft:potion:8225>], [<ExtraUtilities:chandelier>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:chandelier>], [<ExtraUtilities:chandelier>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:chandelier>]]);
-mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:magnumTorch>, [[<minecraft:potion:8225>, <ExtraUtilities:chandelier>, <minecraft:potion:8229>], [<ExtraUtilities:chandelier>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:chandelier>], [<ExtraUtilities:chandelier>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:chandelier>]]);
+QED.removeRecipe(<ExtraUtilities:magnumTorch>);
+QED.addShapedRecipe(<ExtraUtilities:magnumTorch>, [[<minecraft:potion:8229>, <ExtraUtilities:chandelier>, <minecraft:potion:8225>], [<ExtraUtilities:chandelier>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:chandelier>], [<ExtraUtilities:chandelier>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:chandelier>]]);
+QED.addShapedRecipe(<ExtraUtilities:magnumTorch>, [[<minecraft:potion:8225>, <ExtraUtilities:chandelier>, <minecraft:potion:8229>], [<ExtraUtilities:chandelier>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:chandelier>], [<ExtraUtilities:chandelier>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:chandelier>]]);
 
 print("Initialized 'ExtraUtilities.zs'");

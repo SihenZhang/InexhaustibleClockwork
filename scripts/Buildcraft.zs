@@ -1,6 +1,8 @@
 #Name: Buildcraft.zs
 #Author: Si_hen
 
+import mods.buildcraft.AssemblyTable;
+import mods.extraUtils.QED;
 import mods.nei.NEI;
 
 print("Initializing 'Buildcraft.zs'...");
@@ -32,34 +34,34 @@ recipes.remove(<BuildCraft|Builders:fillerBlock>);
 recipes.remove(<BuildCraft|Factory:floodGateBlock>);
 recipes.remove(<BuildCraft|Factory:pumpBlock>);
 recipes.remove(<BuildCraft|Builders:builderBlock>);
-mods.extraUtils.QED.addShapedRecipe(<BuildCraft|Factory:miningWellBlock>, [[<Creator:compactSteelPlate>, <ore:chipsetDiamond>, <Creator:compactSteelPlate>], [<Creator:gearEnergized>, <OpenComputers:case3>, <Creator:gearEnergized>], [<Creator:compactSteelPlate>, <StevesCarts:CartModule:9>, <Creator:compactSteelPlate>]]);
-mods.extraUtils.QED.addShapedRecipe(<BuildCraft|Builders:fillerBlock>, [[<BuildCraft|Core:markerBlock>, <Creator:compactElectricalSteelPlate>, <BuildCraft|Core:markerBlock>], [<Creator:compactElectricalSteelPlate>, <BuildCraft|Builders:builderBlock>, <Creator:compactElectricalSteelPlate>], [<Creator:gearVibrant>, <Creator:compactElectricalSteelPlate>, <Creator:gearVibrant>]]);
-mods.extraUtils.QED.addShapedRecipe(<BuildCraft|Factory:floodGateBlock>, [[<ore:ingotIron>, <ore:gearIron>, <ore:ingotIron>], [<ore:gearIron>, <BuildCraft|Factory:pumpBlock>, <ore:gearIron>], [<ore:ingotIron>, <ore:gearIron>, <ore:ingotIron>]]);
+QED.addShapedRecipe(<BuildCraft|Factory:miningWellBlock>, [[<Creator:compactSteelPlate>, <ore:chipsetDiamond>, <Creator:compactSteelPlate>], [<Creator:gearEnergized>, <OpenComputers:case3>, <Creator:gearEnergized>], [<Creator:compactSteelPlate>, <StevesCarts:CartModule:9>, <Creator:compactSteelPlate>]]);
+QED.addShapedRecipe(<BuildCraft|Builders:fillerBlock>, [[<BuildCraft|Core:markerBlock>, <Creator:compactElectricalSteelPlate>, <BuildCraft|Core:markerBlock>], [<Creator:compactElectricalSteelPlate>, <BuildCraft|Builders:builderBlock>, <Creator:compactElectricalSteelPlate>], [<Creator:gearVibrant>, <Creator:compactElectricalSteelPlate>, <Creator:gearVibrant>]]);
+QED.addShapedRecipe(<BuildCraft|Factory:floodGateBlock>, [[<ore:ingotIron>, <ore:gearIron>, <ore:ingotIron>], [<ore:gearIron>, <BuildCraft|Factory:pumpBlock>, <ore:gearIron>], [<ore:ingotIron>, <ore:gearIron>, <ore:ingotIron>]]);
 recipes.addShaped(<BuildCraft|Core:markerBlock>, [[<Forestry:thermionicTubes:11>], [<minecraft:redstone_torch>]]);
-mods.extraUtils.QED.addShapedRecipe(<BuildCraft|Factory:pumpBlock>, [[<BuildCraft|Factory:tankBlock>, <OpenComputers:case1>, <BuildCraft|Factory:tankBlock>], [<ore:gearIron>, <ImmersiveEngineering:metalDevice2:6>, <ore:gearIron>], [null, <Magneticraft:item.iron_pipe>, null]]);
-mods.extraUtils.QED.addShapedRecipe(<BuildCraft|Builders:builderBlock>, [[<ore:dyeBlack>, <BuildCraft|Core:markerBlock>, <ore:dyeBlack>], [<ore:dyeYellow>, <BuildCraft|Factory:miningWellBlock>, <ore:dyeYellow>], [<ore:gearDiamond>, <EnhancedInventories:improvedChest:1>.withTag({frameName: "frame.mc.iron"}), <ore:gearDiamond>]]);
+QED.addShapedRecipe(<BuildCraft|Factory:pumpBlock>, [[<BuildCraft|Factory:tankBlock>, <OpenComputers:case1>, <BuildCraft|Factory:tankBlock>], [<ore:gearIron>, <ImmersiveEngineering:metalDevice2:6>, <ore:gearIron>], [null, <Magneticraft:item.iron_pipe>, null]]);
+QED.addShapedRecipe(<BuildCraft|Builders:builderBlock>, [[<ore:dyeBlack>, <BuildCraft|Core:markerBlock>, <ore:dyeBlack>], [<ore:dyeYellow>, <BuildCraft|Factory:miningWellBlock>, <ore:dyeYellow>], [<ore:gearDiamond>, <EnhancedInventories:improvedChest:1>.withTag({frameName: "frame.mc.iron"}), <ore:gearDiamond>]]);
 
 #quarry
 recipes.remove(<BuildCraft|Builders:machineBlock>);
-mods.extraUtils.QED.addShapedRecipe(<BuildCraft|Builders:machineBlock>, [[<ore:chipsetDiamond>, <Mekanism:AtomicAlloy>, <Creator:itemCrystal:2>], [<ThermalExpansion:Frame:11>, <BuildCraft|Builders:fillerBlock>, <ThermalExpansion:Cell:4>], [<Mekanism:ControlCircuit:3>, <BuildCraft|Factory:miningWellBlock>, <Mekanism:ControlCircuit:3>]]);
+QED.addShapedRecipe(<BuildCraft|Builders:machineBlock>, [[<ore:chipsetDiamond>, <Mekanism:AtomicAlloy>, <Creator:itemCrystal:2>], [<ThermalExpansion:Frame:11>, <BuildCraft|Builders:fillerBlock>, <ThermalExpansion:Cell:4>], [<Mekanism:ControlCircuit:3>, <BuildCraft|Factory:miningWellBlock>, <Mekanism:ControlCircuit:3>]]);
 
 #chipset
-mods.buildcraft.AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset>);
-mods.buildcraft.AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset>, 100000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>]);
-mods.buildcraft.AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset:1>);
-mods.buildcraft.AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset:1>, 200000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>, <minecraft:iron_ingot>]);
-mods.buildcraft.AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset:2>);
-mods.buildcraft.AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset:2>, 400000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>, <minecraft:gold_ingot>]);
-mods.buildcraft.AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset:3>);
-mods.buildcraft.AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset:3>, 800000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>, <minecraft:diamond>]);
-mods.buildcraft.AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset:4>);
-mods.buildcraft.AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset:4>, 400000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>, <minecraft:ender_pearl>]);
-mods.buildcraft.AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset:5>);
-mods.buildcraft.AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset:5>, 600000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>, <minecraft:quartz>]);
-mods.buildcraft.AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset:6>);
-mods.buildcraft.AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset:6>, 600000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>, <minecraft:comparator>]);
-mods.buildcraft.AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset:7>);
-mods.buildcraft.AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset:7>, 1200000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>, <minecraft:emerald>]);
+AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset>);
+AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset>, 100000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>]);
+AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset:1>);
+AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset:1>, 200000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>, <minecraft:iron_ingot>]);
+AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset:2>);
+AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset:2>, 400000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>, <minecraft:gold_ingot>]);
+AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset:3>);
+AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset:3>, 800000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>, <minecraft:diamond>]);
+AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset:4>);
+AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset:4>, 400000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>, <minecraft:ender_pearl>]);
+AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset:5>);
+AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset:5>, 600000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>, <minecraft:quartz>]);
+AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset:6>);
+AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset:6>, 600000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>, <minecraft:comparator>]);
+AssemblyTable.remove(<BuildCraft|Silicon:redstoneChipset:7>);
+AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset:7>, 1200000, [<ProjRed|Core:projectred.core.part:10>, <ProjRed|Core:projectred.core.part:13>, <minecraft:emerald>]);
 
 #pipes
 recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipepowerwood>);
