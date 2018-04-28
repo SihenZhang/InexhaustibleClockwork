@@ -65,24 +65,16 @@ Excavator.getMineral("Uranium").addOre("TElead",0.3);
 Excavator.getMineral("Uranium").removeOre("oreUranium");
 Excavator.getMineral("Uranium").addOre("oreYellorite",0.5);
 
-#turn Coal vein into "ERROR" vein
-Excavator.getMineral("Coal").addOre("oreInfusedAir",0.1);
-Excavator.getMineral("Coal").addOre("oreInfusedWater",0.1);
-Excavator.getMineral("Coal").addOre("oreInfusedFire",0.1);
-Excavator.getMineral("Coal").addOre("oreInfusedOrder",0.1);
-Excavator.getMineral("Coal").addOre("oreInfusedEarth",0.1);
-Excavator.getMineral("Coal").addOre("oreInfusedEntropy",0.1);
-Excavator.getMineral("Coal").addOre("ironWandCap",0.1);
-Excavator.getMineral("Coal").addOre("oreAmber",0.1);
-Excavator.getMineral("Coal").addOre("oreCinnabar",0.1);
-
-Excavator.getMineral("Coal").removeOre("oreCoal");
-Excavator.getMineral("Coal").removeOre("oreDiamond");
-Excavator.getMineral("Coal").removeOre("oreEmerald");
-Excavator.getMineral("Coal").removeOre("denseoreCoal");
-Excavator.getMineral("Coal").addOre("stone",0.9);
+#add "ERROR" vein
+mods.immersiveengineering.Excavator.addMineral("ERROR",30,0.15,["oreInfusedAir","oreInfusedWater",oreInfusedFire","oreInfusedOrder","oreInfusedEarth","oreInfusedEntropy","ironWandCap","oreAmber","oreCinnabar"],[0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1],[0],false);
 
 #fuck all the veins, i wanna have some stone
+Excavator.getMineral("Coal").addOre("stone",1.8);
+Excavator.getMineral("Coal").addOre("stoneGranite",1.8);
+Excavator.getMineral("Coal").addOre("stoneDiorite",1.8);
+Excavator.getMineral("Coal").addOre("stoneAndesite",1.8);
+Excavator.getMineral("Coal").addOre("limestone",1.8);
+
 Excavator.getMineral("Bauxite").addOre("stone",1.8);
 Excavator.getMineral("Bauxite").addOre("stoneGranite",1.8);
 Excavator.getMineral("Bauxite").addOre("stoneDiorite",1.8);
