@@ -167,4 +167,7 @@ Excavator.getMineral("Uranium").addOre("stoneDiorite",1.1);
 Excavator.getMineral("Uranium").addOre("stoneAndesite",1.1);
 Excavator.getMineral("Uranium").addOre("limestone",1.1);
 
+#add "ERROR" vein
+mods.immersiveengineering.Excavator.addMineral("ERROR",30,0.15,["oreInfusedAir","oreInfusedWater",oreInfusedFire","oreInfusedOrder","oreInfusedEarth","oreInfusedEntropy","ironWandCap","oreAmber","oreCinnabar"],[0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1],[0],false);
+
 print("Initialized 'ExcavatorMinerals.zs'");
